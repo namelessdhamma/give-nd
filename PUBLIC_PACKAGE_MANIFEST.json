@@ -2,7 +2,7 @@
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v3",
   "source_repo": "namelessdhamma/nameless-dhamma-vault",
   "source_branch": "transfer/ksyusha-frozen-nd-20261003",
-  "source_head": "f776eeb8112007bdd2c024f410ba0aecf5023647",
+  "source_head": "ef60a7726273dc308e0e467d0380250f8b6bcc71",
   "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
   "target_repo": "namelessdhamma/nd-ksyusha-transfer",
   "visibility": "PUBLIC",
@@ -14,7 +14,7 @@
     "plugin_bundles": 22,
     "entry_files": 1
   },
-  "total_bytes": 996876,
+  "total_bytes": 997307,
   "target_overrides": {
     "README.md": "PUBLIC_README.md",
     "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
@@ -134,8 +134,8 @@
       "source_path": "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_6_0_BEHAVIORAL_HOOK_KERNEL.json",
       "target_path": "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_6_0_BEHAVIORAL_HOOK_KERNEL.json",
       "category": "canonical",
-      "blob_sha": "9f2460bafc67e5887cc06e49e6be18cc27bdf3e5",
-      "size_bytes": 3528
+      "blob_sha": "cf26604a94689d8524caa4bd851b8a1822e418ec",
+      "size_bytes": 3529
     },
     {
       "source_path": "canonical-artifacts/components/BOOKS_CREATOR/ND_Books_Creator_v3_1_3_CANONICAL_SKILL.md",
@@ -596,8 +596,8 @@
       "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "category": "control",
-      "blob_sha": "e4760575619c5f4599b29bbbb2033eb775d4e9c7",
-      "size_bytes": 2386
+      "blob_sha": "451cc1c024a5a5e83ebb37d8e82d481ac907dd51",
+      "size_bytes": 2816
     },
     {
       "source_path": "QUALIFICATION.md",
