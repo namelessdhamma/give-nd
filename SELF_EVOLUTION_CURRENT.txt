@@ -1,0 +1,1 @@
+CURRENT self-evolution contour: A1 / NAM-619 / research-first under FREEZE. Old NAM-167, NAM-129, NAM-130 are predecessor provenance only. Target must create its own A1 workspace/notebook/scheduler bindings.

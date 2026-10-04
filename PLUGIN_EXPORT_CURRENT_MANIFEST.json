@@ -1,0 +1,150 @@
+{
+  "schema": "ND_PLUGIN_EXPORT_CURRENT_MANIFEST_v2",
+  "authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
+  "unique_plugin_count": 22,
+  "expected_unique_plugin_count": 22,
+  "launcher_count": 22,
+  "verdict": "PASS",
+  "missing": [],
+  "extra": [],
+  "files": [
+    {
+      "name": "nd-anti-hang.json",
+      "blob_sha": "3f7cdf4a4a0b2c111d7d97e89e42c6bede6b11cb",
+      "source_version": "1.2.0",
+      "source_release": "pluginrel_6ac1c89034e08191809b955f208fae84"
+    },
+    {
+      "name": "nd-automation-agent.json",
+      "blob_sha": "786737575655bcca95026b659ec4c7883fa86389",
+      "source_version": "1.7.3",
+      "source_release": "pluginrel_6ac1e3a0d86881918b711b5e8f561376"
+    },
+    {
+      "name": "nd-books-creator.json",
+      "blob_sha": "2d2de40e6374f5b163e536054f466c772afb2d85",
+      "source_version": "1.1.3",
+      "source_release": "pluginrel_6abf0def26308191b2bb9745c5c30cfa"
+    },
+    {
+      "name": "nd-dae.json",
+      "blob_sha": "cbdebde44c864445e30488f4740b34688cec8550",
+      "source_version": "1.1.4",
+      "source_release": "pluginrel_6abf0b947ecc81918022f0eaf9e31ce3"
+    },
+    {
+      "name": "nd-developer-critic.json",
+      "blob_sha": "6b30bc3eff42c268d11829ad33f91c759664fda1",
+      "source_version": "1.0.1",
+      "source_release": "pluginrel_6ac0f2cb52688191ab1e4b2ec26193f1"
+    },
+    {
+      "name": "nd-external-connecting.json",
+      "blob_sha": "349caceb9cafd0d5c91907d3945409617830748c",
+      "source_version": "1.2.2",
+      "source_release": "pluginrel_6ac0f52f96c08191a414e9599b05923d",
+      "role": "RECOVERY_SKILL"
+    },
+    {
+      "name": "nd-generation.json",
+      "blob_sha": "5f0323cf4511f8620086d0ece06cf836abe6f585",
+      "source_version": "1.1.5",
+      "source_release": "pluginrel_6ac0f522d1f48191aba2e33f2f633172"
+    },
+    {
+      "name": "nd-inquisitor.json",
+      "blob_sha": "7bb52a7f0689adee123c0a773af4332afbf4fbed",
+      "source_version": "0.1.1",
+      "source_release": "pluginrel_6abb3826fc588191b779a76cc3a66f77"
+    },
+    {
+      "name": "nd-literary-critic.json",
+      "blob_sha": "927d8154c68bf1e7a21f9aa1d2fb62f64bc3f9b2",
+      "source_version": "1.1.4",
+      "source_release": "pluginrel_6ac0f2e0d70c819183042f3d576d2ffd"
+    },
+    {
+      "name": "nd-pae.json",
+      "blob_sha": "a60a51f97f994e2632e8365f791a03d862d30817",
+      "source_version": "1.1.4",
+      "source_release": "pluginrel_6abf0b871d808191bac41e15895c7a62"
+    },
+    {
+      "name": "nd-pcpa.json",
+      "blob_sha": "7f4cb8cc9629b3a5efe4dd8cca162c1a56f460a5",
+      "source_version": "1.1.4",
+      "source_release": "pluginrel_6abf0ba142d081919bf6b4518dcafb64"
+    },
+    {
+      "name": "nd-research-critic.json",
+      "blob_sha": "93f95a83eaf0767d8a40e1c07d81bc3cafce6f67",
+      "source_version": "1.0.1",
+      "source_release": "pluginrel_6ac0f2baca288191bd4b82a22e9e9bc3"
+    },
+    {
+      "name": "nd-story-architect.json",
+      "blob_sha": "513d8b0dac9a076d61a2a65a71c761d582e862f3",
+      "source_version": "1.1.3",
+      "source_release": "pluginrel_6abf0b610b948191bd4fbca4ed70a010"
+    },
+    {
+      "name": "nd-technical-writer.json",
+      "blob_sha": "c979424302da940abad448e5feb47375e9bb4681",
+      "source_version": "1.1.3",
+      "source_release": "pluginrel_6abf0b7a41388191954b1c8725ef81c2"
+    },
+    {
+      "name": "nd-true-developer.json",
+      "blob_sha": "d7300f1ded177381f370bb856dd30780cef68f09",
+      "source_version": "1.2.6",
+      "source_release": "pluginrel_6ac0f4ab6abc81919811ec360818486f"
+    },
+    {
+      "name": "nd-true-doctor.json",
+      "blob_sha": "59ccdb4615601085f1db4bf1db99c123b5597833",
+      "source_version": "1.2.3",
+      "source_release": "pluginrel_6ac0f162f02c8191a0c73af90fe574ce"
+    },
+    {
+      "name": "nd-true-memory.json",
+      "blob_sha": "5a15062e36238e4761fc3bd31c71d0e5505c5934",
+      "source_version": "1.3.3",
+      "source_release": "pluginrel_6ac0f4263c4c8191a7c3bb4018fe9776"
+    },
+    {
+      "name": "nd-true-research.json",
+      "blob_sha": "e406f2cfd043cd44c8399c7af7d4cbadae6fcfef",
+      "source_version": "1.3.3",
+      "source_release": "pluginrel_6ac0f11ebe748191a925b4067b5b616d"
+    },
+    {
+      "name": "nd-true-smm.json",
+      "blob_sha": "ba42822b14838c9e9c575793ab2eae48a82a25d3",
+      "source_version": "1.1.1",
+      "source_release": "pluginrel_6ab7c18a4d488191a702539e87c1a8a9"
+    },
+    {
+      "name": "nd-true-visual.json",
+      "blob_sha": "3d8c740117f36966c25e0c5190d3116deb470733",
+      "source_version": "1.2.3",
+      "source_release": "pluginrel_6ac0f152b0308191b4e28e7a9b8846c2"
+    },
+    {
+      "name": "nd-true-writer.json",
+      "blob_sha": "dee4e4400ee85b387ecc601ee9364c71d63a67e6",
+      "source_version": "1.2.3",
+      "source_release": "pluginrel_6ac0f141b06c8191a7fb02fd395663b1"
+    },
+    {
+      "name": "nd-visual-creator.json",
+      "blob_sha": "3189df8b7021f2116e0114a21e399a8142e393ec",
+      "source_version": "1.1.3",
+      "source_release": "pluginrel_6abf0b5482d48191adb2eda547a44f64"
+    }
+  ],
+  "rule": "Target recreates target-owned private plugins from these functional source bundles. 21 plugins back the 22-launcher graph; nd-external-connecting is the separate CURRENT recovery-skill plugin. Source plugin IDs/releases are provenance only. Generated binary caches are excluded as nonfunctional/regenerable artifacts.",
+  "launcher_plugin_count": 21,
+  "recovery_skill_plugin_count": 1,
+  "recovery_skill_count": 1
+}

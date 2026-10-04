@@ -1,0 +1,9 @@
+CURRENT system semantic workspaces (source instance; target must recreate/rebind, not reuse source IDs):
+CORE cbb71f68-48e3-439b-acb0-b52a655481ba — 4 ready sources
+TRUE_MEMORY 057221db-3890-4875-bd19-19c2991771a1 — 4 ready sources
+TRUE_RESEARCH 429bc77a-1cb4-4106-89d0-70e6bd0309be — 4 ready sources
+GPT_SKILLS 27333614-d532-46cb-9723-2832f66ba616 — 3 ready sources
+A1_SELF_EVOLUTION 6adc74f4-b8ef-4c1e-806c-1ffad71c5067 — CURRENT A1 workspace plus predecessor A1/A2/A3 provenance sources
+NotebookLM is NONAUTHORITATIVE. Source IDs are navigation/provenance only; target gets target-owned notebooks.
+Excluded project notebooks are not part of the Ksyusha target payload.
+GRC/Nibbana project content must not become a Ksyusha ACTIVE_PROJECT/task-memory root; any structurally-required compatibility reference remains non-project provenance only.

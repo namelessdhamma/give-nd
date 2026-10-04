@@ -1,0 +1,34 @@
+{
+  "schema": "ND_KSYUSHA_PUBLIC_PACKAGE_QUALIFICATION_v1",
+  "date": "2026-10-04",
+  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "package_scope": "MINIMUM_SELF_CONTAINED_CURRENT_INSTALLATION_SET",
+  "verdict": "PASS",
+  "checks": {
+    "staged_installation": "PASS_8_STAGES",
+    "statehead_last": "PASS",
+    "notebooklm_after_external_connecting": "PASS",
+    "launcher_graph": "PASS_22_OF_22",
+    "external_connecting_recovery_skill": "PASS_SEPARATE_CURRENT_SKILL",
+    "plugin_exports": "PASS_22_TRANSFERRED_PRIVATE_PLUGINS",
+    "anti_hang_canonical_artifact": "PASS_EXACT_1_6_0",
+    "target_plugin_builder": "PASS_CURRENT_SCHEMA_AND_STAGED_PARTIAL_BINDINGS",
+    "source_runtime_dependency": "NONE_REQUIRED_BY_PUBLIC_BOOTSTRAP",
+    "public_secret_scan": "PASS_88_OF_88_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS",
+    "public_email_literal_scan": "PASS_ZERO_EMAIL_LITERALS",
+    "source_vault_isolation": "PASS_MINIMAL_FILESET_ONLY",
+    "optional_provider_placeholders": "MUST_CONVERGE_TO_TARGET_READBACK_OR_EXPLICIT_NOT_REQUIRED_BEFORE_STAGE_07"
+  },
+  "final_critic": {
+    "verdict": "PASS",
+    "repaired": [
+      "Added exact CURRENT Anti-Hang 1.6.0 canonical artifact to transfer source.",
+      "Repaired build_target_plugin.py for ND_PLUGIN_SOURCE_BUNDLE_v1.",
+      "Made plugin builder staged/plugin-local instead of requiring the entire future binding map.",
+      "Bound Research and Writing/Visual stages to the qualified plugin builder.",
+      "Made optional target provider bindings explicit before publication.",
+      "Removed public bootstrap dependency on private runtime-source/plugin-current surfaces."
+    ],
+    "unresolved_material_findings": 0
+  }
+}

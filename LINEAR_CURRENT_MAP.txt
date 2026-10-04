@@ -1,0 +1,18 @@
+CURRENT source system navigators (provider-read at transfer rebase):
+NAM-143 StateHead / sole currentness root
+NAM-262 Automation Agent
+NAM-397 Anti-Hang
+NAM-266 True Memory
+NAM-352 Inquisitor
+NAM-122 GPT Skills
+NAM-142 Generation / External Integration
+NAM-115 True Research
+NAM-137 True Developer
+NAM-91 True Doctor
+NAM-140 True Writer
+NAM-141 True Visual
+NAM-164 True SMM (NOT ADOPTED unless Registry says otherwise)
+NAM-619 A1 ND Self-Evolution (sole current self-evolution contour)
+NAM-571 New Project Bootstrap qualification
+Old transfer/linear snapshots and NAM-167/NAM-129/NAM-130 are provenance only when stale.
+Always resolve exact CURRENT through NAM-143 -> bound Registry 1.64.2.

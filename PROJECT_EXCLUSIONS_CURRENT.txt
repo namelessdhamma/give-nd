@@ -1,0 +1,1 @@
+CURRENT exclusions: Blue Sea active payload; Geny Gieny active payload; Nibbana-conditions research-project payload; other Savva personal/product project state unless separately authorized. Architecture/fault-tolerance references may remain provenance only.

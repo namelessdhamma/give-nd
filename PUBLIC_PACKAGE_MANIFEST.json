@@ -1,0 +1,652 @@
+{
+  "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v3",
+  "source_repo": "namelessdhamma/nameless-dhamma-vault",
+  "source_branch": "transfer/ksyusha-frozen-nd-20261003",
+  "source_head": "ace60138c7b13b3cbb95087a929d164bdd9ca048",
+  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "target_repo": "namelessdhamma/nd-ksyusha-transfer",
+  "visibility": "PUBLIC",
+  "policy": "MINIMUM_SELF_CONTAINED_CURRENT_INSTALLATION_SET_ONLY",
+  "counts": {
+    "total_files": 88,
+    "stage_files": 9,
+    "canonical_files": 35,
+    "plugin_bundles": 22,
+    "entry_files": 1
+  },
+  "total_bytes": 995959,
+  "target_overrides": {
+    "README.md": "PUBLIC_README.md",
+    "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
+    "SELECTABLE_SET_CURRENT.json": "PUBLIC_SELECTABLE_SET_CURRENT.json"
+  },
+  "qualification": "PUBLIC_PACKAGE_QUALIFICATION.json",
+  "exclusions": [
+    "all predecessor registries",
+    "validation-a1/a2/a3",
+    "predecessor-provenance",
+    "historical qualification corpus not required by installer",
+    "active personal/project payload",
+    "credentials/secrets",
+    "obsolete monolithic bootstrap prompts",
+    "private vault control/runtime surfaces outside this fileset"
+  ],
+  "files": [
+    {
+      "source_path": "01_FOUNDATION_DRIVE_LINEAR.md",
+      "target_path": "01_FOUNDATION_DRIVE_LINEAR.md",
+      "category": "stage",
+      "blob_sha": "1552d9b2800f6bbf24b17e9097e012a5826ca1b3",
+      "size_bytes": 3342
+    },
+    {
+      "source_path": "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
+      "target_path": "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
+      "category": "stage",
+      "blob_sha": "59213656a1e1ce3014732ac793bd7dee9f9faec1",
+      "size_bytes": 4519
+    },
+    {
+      "source_path": "03_NOTEBOOKLM_SEMANTIC_MEMORY.md",
+      "target_path": "03_NOTEBOOKLM_SEMANTIC_MEMORY.md",
+      "category": "stage",
+      "blob_sha": "35796aa9cd277246c2f451d48abf21ad90fcd037",
+      "size_bytes": 2633
+    },
+    {
+      "source_path": "04_RESEARCH_STACK.md",
+      "target_path": "04_RESEARCH_STACK.md",
+      "category": "stage",
+      "blob_sha": "94e28d62848fa7ac32c10ddbb6edbea113f20cb2",
+      "size_bytes": 2542
+    },
+    {
+      "source_path": "05_WRITING_VISUAL_STACK.md",
+      "target_path": "05_WRITING_VISUAL_STACK.md",
+      "category": "stage",
+      "blob_sha": "cea7fccc41d69cbe29e4f62bc30ae40e4b1b9525",
+      "size_bytes": 2478
+    },
+    {
+      "source_path": "06_REGISTRY_PREPUBLICATION.md",
+      "target_path": "06_REGISTRY_PREPUBLICATION.md",
+      "category": "stage",
+      "blob_sha": "c9a319957f0e76aba25d5d1d6d2187312469db9c",
+      "size_bytes": 3631
+    },
+    {
+      "source_path": "07_STATEHEAD_PUBLICATION.md",
+      "target_path": "07_STATEHEAD_PUBLICATION.md",
+      "category": "stage",
+      "blob_sha": "162a8ca0645d7fe35a11534aabb7e810c5aaf5be",
+      "size_bytes": 2030
+    },
+    {
+      "source_path": "08_COLD_QUALIFICATION.md",
+      "target_path": "08_COLD_QUALIFICATION.md",
+      "category": "stage",
+      "blob_sha": "45300761c9c43a8265086f75c7b9b63e5171cbde",
+      "size_bytes": 2785
+    },
+    {
+      "source_path": "ALLOWED_DIFFERENCES.json",
+      "target_path": "ALLOWED_DIFFERENCES.json",
+      "category": "control",
+      "blob_sha": "514afd1fef321ab9a115a2ca0c762ba1f07c6e17",
+      "size_bytes": 2636
+    },
+    {
+      "source_path": "BINDING_MAP_TEMPLATE.json",
+      "target_path": "BINDING_MAP_TEMPLATE.json",
+      "category": "control",
+      "blob_sha": "87d8f81d2e0917ee9eebd1019c1b7c90d3ca575a",
+      "size_bytes": 9597
+    },
+    {
+      "source_path": "PUBLIC_BOOTSTRAP_CURRENT.txt",
+      "target_path": "BOOTSTRAP_CURRENT.txt",
+      "category": "control",
+      "blob_sha": "ca4c50da525d8bc09b4d86e552c18c6c86889e20",
+      "size_bytes": 1019
+    },
+    {
+      "source_path": "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
+      "target_path": "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
+      "category": "control",
+      "blob_sha": "6e20e7a3f7ac241bff44b6eba3a819dc35082e6b",
+      "size_bytes": 1859
+    },
+    {
+      "source_path": "build_target_plugin.py",
+      "target_path": "build_target_plugin.py",
+      "category": "control",
+      "blob_sha": "6da3b4b42534d4936bcbf837f2f5e788a5e7b3e0",
+      "size_bytes": 7008
+    },
+    {
+      "source_path": "canonical-artifacts/COMPONENT_INVENTORY.json",
+      "target_path": "canonical-artifacts/COMPONENT_INVENTORY.json",
+      "category": "canonical",
+      "blob_sha": "1687b0026432d1f031bbc68247e7388d72a86cc8",
+      "size_bytes": 9914
+    },
+    {
+      "source_path": "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_6_0_BEHAVIORAL_HOOK_KERNEL.json",
+      "target_path": "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_6_0_BEHAVIORAL_HOOK_KERNEL.json",
+      "category": "canonical",
+      "blob_sha": "9f2460bafc67e5887cc06e49e6be18cc27bdf3e5",
+      "size_bytes": 3528
+    },
+    {
+      "source_path": "canonical-artifacts/components/BOOKS_CREATOR/ND_Books_Creator_v3_1_3_CANONICAL_SKILL.md",
+      "target_path": "canonical-artifacts/components/BOOKS_CREATOR/ND_Books_Creator_v3_1_3_CANONICAL_SKILL.md",
+      "category": "canonical",
+      "blob_sha": "c0974ddf0d9c9f3b707f8ca4496459b7bad9085a",
+      "size_bytes": 8750
+    },
+    {
+      "source_path": "canonical-artifacts/components/CONTEXT_TOKEN_BUDGET_POLICY/ND_CONTEXT_COMPACTION_CURRENT_AUTHORITY_REBASE_POLICY_v1_4_0_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/CONTEXT_TOKEN_BUDGET_POLICY/ND_CONTEXT_COMPACTION_CURRENT_AUTHORITY_REBASE_POLICY_v1_4_0_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "393797634a1b97ca31cae21b6b3bdb1586860dad",
+      "size_bytes": 8805
+    },
+    {
+      "source_path": "canonical-artifacts/components/DEVELOPER_CRITIC/ND_Developer_Critic_v0_2_1_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/DEVELOPER_CRITIC/ND_Developer_Critic_v0_2_1_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "23ab15b393567ef9bc5dd5e18991694677d19d75",
+      "size_bytes": 2624
+    },
+    {
+      "source_path": "canonical-artifacts/components/DEVELOPER_EXECUTOR/ND_Developer_Executor_v0_1_0_CANONICAL.md",
+      "target_path": "canonical-artifacts/components/DEVELOPER_EXECUTOR/ND_Developer_Executor_v0_1_0_CANONICAL.md",
+      "category": "canonical",
+      "blob_sha": "93161d51d681c025bccdf9ff81e52d33ca1eace0",
+      "size_bytes": 3407
+    },
+    {
+      "source_path": "canonical-artifacts/components/DHAMMA_ANALYSIS_ENGINE/ND_DAE_v1_1_7_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/DHAMMA_ANALYSIS_ENGINE/ND_DAE_v1_1_7_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "eda91ec9ffcbf90e9fd1880062284fe4679ba585",
+      "size_bytes": 12701
+    },
+    {
+      "source_path": "canonical-artifacts/components/DURABLE_STATE_SCHEMA_BUNDLE/ND_DURABLE_STATE_SCHEMA_BUNDLE_v1_7_0_ADOPTION_READY_r2.json",
+      "target_path": "canonical-artifacts/components/DURABLE_STATE_SCHEMA_BUNDLE/ND_DURABLE_STATE_SCHEMA_BUNDLE_v1_7_0_ADOPTION_READY_r2.json",
+      "category": "canonical",
+      "blob_sha": "0c74384d4e2ee0dd93d36e8c80453f354e6ea2d0",
+      "size_bytes": 71455
+    },
+    {
+      "source_path": "canonical-artifacts/components/EMBEDDED_PLM/ND_PLM_v1_3_4.md",
+      "target_path": "canonical-artifacts/components/EMBEDDED_PLM/ND_PLM_v1_3_4.md",
+      "category": "canonical",
+      "blob_sha": "aaa0b1ec5b70db8657ce3003231c1bdf1a848ca3",
+      "size_bytes": 5560
+    },
+    {
+      "source_path": "canonical-artifacts/components/GENERATION/ND_GENERATION_v15_2_MANDATORY_RECOVERY_FRONTIER.md",
+      "target_path": "canonical-artifacts/components/GENERATION/ND_GENERATION_v15_2_MANDATORY_RECOVERY_FRONTIER.md",
+      "category": "canonical",
+      "blob_sha": "0fee47182e523c16f9ae986404b23490488fd385",
+      "size_bytes": 11945
+    },
+    {
+      "source_path": "canonical-artifacts/components/GOVERNING_RESEARCH_CORE/NAMELESS_DHAMMA_GOVERNING_RESEARCH_CORE_v1_0.md",
+      "target_path": "canonical-artifacts/components/GOVERNING_RESEARCH_CORE/NAMELESS_DHAMMA_GOVERNING_RESEARCH_CORE_v1_0.md",
+      "category": "canonical",
+      "blob_sha": "4e38f4c137fb6c8031e979cfb899df8ecdecaf35",
+      "size_bytes": 8166
+    },
+    {
+      "source_path": "canonical-artifacts/components/INQUISITOR/ND_Inquisitor_v0_1_2_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/INQUISITOR/ND_Inquisitor_v0_1_2_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "4898f5c50a522547eb464970a66dc1fe85968c3b",
+      "size_bytes": 8118
+    },
+    {
+      "source_path": "canonical-artifacts/components/LITERARY_CRITIC/ND_Literary_Critic_v0_2_4_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/LITERARY_CRITIC/ND_Literary_Critic_v0_2_4_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "b971bff203fce13faab346f2ba063669718be596",
+      "size_bytes": 8087
+    },
+    {
+      "source_path": "canonical-artifacts/components/PAE/ND_PAE_v4_2_6_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/PAE/ND_PAE_v4_2_6_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "8c73c701508fc659abf101306108c75bfa39ad2e",
+      "size_bytes": 12160
+    },
+    {
+      "source_path": "canonical-artifacts/components/PCPA/ND_PCPA_v1_3_6_NAM354_ADOPTION_READY_R2.md",
+      "target_path": "canonical-artifacts/components/PCPA/ND_PCPA_v1_3_6_NAM354_ADOPTION_READY_R2.md",
+      "category": "canonical",
+      "blob_sha": "6ba12a89e8102454362e7cda8b05d48e2a7607d8",
+      "size_bytes": 12804
+    },
+    {
+      "source_path": "canonical-artifacts/components/RESEARCH_CRITIC/ND RESEARCH CRITIC — 0.2.0 — CANONICAL",
+      "target_path": "canonical-artifacts/components/RESEARCH_CRITIC/ND RESEARCH CRITIC — 0.2.0 — CANONICAL",
+      "category": "canonical",
+      "blob_sha": "ff1a21b3f7509c15a0e49afef53abc2f72bb4fe5",
+      "size_bytes": 2252
+    },
+    {
+      "source_path": "canonical-artifacts/components/RESEARCH_INTEROP/ND_RESEARCH_INTEROPERABILITY_CONTRACT_v1_5_3_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/RESEARCH_INTEROP/ND_RESEARCH_INTEROPERABILITY_CONTRACT_v1_5_3_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "a8562071cc6a7a6a1fcaa45f987c9a55888ecd8b",
+      "size_bytes": 10760
+    },
+    {
+      "source_path": "canonical-artifacts/components/SEMANTIC_CORE_RUNTIME/ND_SEMANTIC_CORE_RUNTIME_v1_1_2_RECURSIVE_AGENTIC_PARITY.md",
+      "target_path": "canonical-artifacts/components/SEMANTIC_CORE_RUNTIME/ND_SEMANTIC_CORE_RUNTIME_v1_1_2_RECURSIVE_AGENTIC_PARITY.md",
+      "category": "canonical",
+      "blob_sha": "d685a66494106dd23f776c8b022642bb81a8f0ac",
+      "size_bytes": 13383
+    },
+    {
+      "source_path": "canonical-artifacts/components/STORAGE_AUTHORITY_POLICY/ND_STORAGE_AUTHORITY_POLICY_v1_7_0_POST_T4_LINEAR_STATEHEAD.md",
+      "target_path": "canonical-artifacts/components/STORAGE_AUTHORITY_POLICY/ND_STORAGE_AUTHORITY_POLICY_v1_7_0_POST_T4_LINEAR_STATEHEAD.md",
+      "category": "canonical",
+      "blob_sha": "5d3f78dacb0c0dcbe8c7a1a65b9b76bbb5ff6c5f",
+      "size_bytes": 9186
+    },
+    {
+      "source_path": "canonical-artifacts/components/STORY_ARCHITECT/ND_Story_Architect_v0_2_3_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/STORY_ARCHITECT/ND_Story_Architect_v0_2_3_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "85cdcc1cd351d8b09091442528dd431776a61606",
+      "size_bytes": 6756
+    },
+    {
+      "source_path": "canonical-artifacts/components/TECHNICAL_WRITER/ND_Technical_Writer_v0_2_4_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/TECHNICAL_WRITER/ND_Technical_Writer_v0_2_4_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "eee3eda1634ac151851576c5a90079ac0ad5ce4b",
+      "size_bytes": 9536
+    },
+    {
+      "source_path": "canonical-artifacts/components/TRUE_DEVELOPER/ND_True_Developer_v0_4_2_MANDATORY_HOOKS.md",
+      "target_path": "canonical-artifacts/components/TRUE_DEVELOPER/ND_True_Developer_v0_4_2_MANDATORY_HOOKS.md",
+      "category": "canonical",
+      "blob_sha": "f2709ea506a44f751e5dbccca5dda4407f3adf36",
+      "size_bytes": 16090
+    },
+    {
+      "source_path": "canonical-artifacts/components/TRUE_DOCTOR/ND_TRUE_DOCTOR_OPERATIONAL_CONTRACT_v0_4_2_MANDATORY_HOOKS.txt",
+      "target_path": "canonical-artifacts/components/TRUE_DOCTOR/ND_TRUE_DOCTOR_OPERATIONAL_CONTRACT_v0_4_2_MANDATORY_HOOKS.txt",
+      "category": "canonical",
+      "blob_sha": "5fe66804bd09f6a017f0324b17aea6333affe5c1",
+      "size_bytes": 23448
+    },
+    {
+      "source_path": "canonical-artifacts/components/TRUE_MEMORY/ND_TRUE_MEMORY_v0_4_2_MANDATORY_TASK_MEMORY.json",
+      "target_path": "canonical-artifacts/components/TRUE_MEMORY/ND_TRUE_MEMORY_v0_4_2_MANDATORY_TASK_MEMORY.json",
+      "category": "canonical",
+      "blob_sha": "2069ad8233c0b09795c692fc2b071d352b0e1ea9",
+      "size_bytes": 14580
+    },
+    {
+      "source_path": "canonical-artifacts/components/TRUE_RESEARCH/TRUE_RESEARCH_1_8_2_MANDATORY_HOOKS.md",
+      "target_path": "canonical-artifacts/components/TRUE_RESEARCH/TRUE_RESEARCH_1_8_2_MANDATORY_HOOKS.md",
+      "category": "canonical",
+      "blob_sha": "f6645c73e4299eb79d5378c46df78a297981fbe9",
+      "size_bytes": 58739
+    },
+    {
+      "source_path": "canonical-artifacts/components/TRUE_VISUAL/ND_True_Visual_v0_2_2_MANDATORY_HOOKS.json",
+      "target_path": "canonical-artifacts/components/TRUE_VISUAL/ND_True_Visual_v0_2_2_MANDATORY_HOOKS.json",
+      "category": "canonical",
+      "blob_sha": "b13b17ec32fe99952893346ea52589fbcd1f4416",
+      "size_bytes": 7190
+    },
+    {
+      "source_path": "canonical-artifacts/components/TRUE_WRITER/ND_True_Writer_v0_9_2_MANDATORY_HOOKS.md",
+      "target_path": "canonical-artifacts/components/TRUE_WRITER/ND_True_Writer_v0_9_2_MANDATORY_HOOKS.md",
+      "category": "canonical",
+      "blob_sha": "0145e82e739b2b86826a59f54697df490faea757",
+      "size_bytes": 21468
+    },
+    {
+      "source_path": "canonical-artifacts/components/URA/ND_UNIFIED_RESEARCH_ARCHITECTURE_v1_4_2_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/URA/ND_UNIFIED_RESEARCH_ARCHITECTURE_v1_4_2_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "5248bbc75eaa56fc74b408041f9adae67a63ae3a",
+      "size_bytes": 5575
+    },
+    {
+      "source_path": "canonical-artifacts/components/UWA/ND_UNIFIED_WORKING_ARCHITECTURE_v1_2_3_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/UWA/ND_UNIFIED_WORKING_ARCHITECTURE_v1_2_3_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "dc2dface5675f47ebbbd97891542ee89243f0e58",
+      "size_bytes": 17944
+    },
+    {
+      "source_path": "canonical-artifacts/components/VISUAL_CANON/Nameless Dhamma — Visual Canon and Image Generation Protocol v1.5.1.md",
+      "target_path": "canonical-artifacts/components/VISUAL_CANON/Nameless Dhamma — Visual Canon and Image Generation Protocol v1.5.1.md",
+      "category": "canonical",
+      "blob_sha": "3e094006d6becde6348b5f0b24a02c47b0723b71",
+      "size_bytes": 51153
+    },
+    {
+      "source_path": "canonical-artifacts/components/VISUAL_CREATOR/ND_Visual_Creator_v1_0_5_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/VISUAL_CREATOR/ND_Visual_Creator_v1_0_5_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "8ebe9544131c9456ff3eddb76e426d3700111979",
+      "size_bytes": 18444
+    },
+    {
+      "source_path": "canonical-artifacts/components/WRITER_ORCHESTRA_RUNTIME/ND_Writer_Orchestra_Runtime_v1_0_5_NAM354_ADOPTION_READY.md",
+      "target_path": "canonical-artifacts/components/WRITER_ORCHESTRA_RUNTIME/ND_Writer_Orchestra_Runtime_v1_0_5_NAM354_ADOPTION_READY.md",
+      "category": "canonical",
+      "blob_sha": "0110179e800b251be90463a06658b2f889ea07fc",
+      "size_bytes": 13654
+    },
+    {
+      "source_path": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json",
+      "target_path": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json",
+      "category": "canonical",
+      "blob_sha": "ccd79529721ff99176a04f30f1901035a757587c",
+      "size_bytes": 169553
+    },
+    {
+      "source_path": "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_2_TAIL_HARDENED_ROOT.md",
+      "target_path": "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_2_TAIL_HARDENED_ROOT.md",
+      "category": "canonical",
+      "blob_sha": "11353ed2c49b91e53afb934d425f07c4c20a3389",
+      "size_bytes": 5466
+    },
+    {
+      "source_path": "canonical-artifacts/system/ND_NORTH_STAR_FINAL_CANON_v1_0_0.md",
+      "target_path": "canonical-artifacts/system/ND_NORTH_STAR_FINAL_CANON_v1_0_0.md",
+      "category": "canonical",
+      "blob_sha": "a3d89571a2a7e417d0c33672da2556caee59c037",
+      "size_bytes": 6238
+    },
+    {
+      "source_path": "CURRENT_POINTER.txt",
+      "target_path": "CURRENT_POINTER.txt",
+      "category": "control",
+      "blob_sha": "0c9156ba1a0ad8ea6a4b9f9359ff9211b5f936fb",
+      "size_bytes": 801
+    },
+    {
+      "source_path": "CURRENT_TRANSFER_BASELINE.json",
+      "target_path": "CURRENT_TRANSFER_BASELINE.json",
+      "category": "control",
+      "blob_sha": "06d75762c8f0b6a84aec96258f887bfb28b350f4",
+      "size_bytes": 1543
+    },
+    {
+      "source_path": "EXTERNAL_CAPABILITY_MAP.json",
+      "target_path": "EXTERNAL_CAPABILITY_MAP.json",
+      "category": "control",
+      "blob_sha": "c0cdb84d9d5c8c5bebffb27681d41e593fe11a7c",
+      "size_bytes": 6229
+    },
+    {
+      "source_path": "HANDOFF_CURRENT.md",
+      "target_path": "HANDOFF_CURRENT.md",
+      "category": "control",
+      "blob_sha": "b2a05be08c78fbf1a460485759eed2a6dcc3202a",
+      "size_bytes": 2997
+    },
+    {
+      "source_path": "INSTALLATION_INDEX.md",
+      "target_path": "INSTALLATION_INDEX.md",
+      "category": "stage",
+      "blob_sha": "0a2171abf94f4c082f8e4ace3c3dba1f4b24c556",
+      "size_bytes": 3386
+    },
+    {
+      "source_path": "LAUNCHER_GRAPH_CURRENT.txt",
+      "target_path": "LAUNCHER_GRAPH_CURRENT.txt",
+      "category": "control",
+      "blob_sha": "4d0b9a59ebcd4801629271b4f2164432ede7b9b7",
+      "size_bytes": 6344
+    },
+    {
+      "source_path": "LINEAR_CURRENT_MAP.txt",
+      "target_path": "LINEAR_CURRENT_MAP.txt",
+      "category": "control",
+      "blob_sha": "34798fc0aef15503b8d84c6f0622b5f018f4a025",
+      "size_bytes": 692
+    },
+    {
+      "source_path": "PLUGIN_CURRENT_DELTA_INDEX.txt",
+      "target_path": "PLUGIN_CURRENT_DELTA_INDEX.txt",
+      "category": "control",
+      "blob_sha": "213c91362134dec061e17805211750dac83123da",
+      "size_bytes": 2631
+    },
+    {
+      "source_path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
+      "target_path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
+      "category": "control",
+      "blob_sha": "b32d529c56f74dcd4629710ef3ac76f3a2fc5ff3",
+      "size_bytes": 5522
+    },
+    {
+      "source_path": "plugin-export-current/nd-anti-hang.json",
+      "target_path": "plugin-export-current/nd-anti-hang.json",
+      "category": "plugin",
+      "blob_sha": "3f7cdf4a4a0b2c111d7d97e89e42c6bede6b11cb",
+      "size_bytes": 19951
+    },
+    {
+      "source_path": "plugin-export-current/nd-automation-agent.json",
+      "target_path": "plugin-export-current/nd-automation-agent.json",
+      "category": "plugin",
+      "blob_sha": "786737575655bcca95026b659ec4c7883fa86389",
+      "size_bytes": 22468
+    },
+    {
+      "source_path": "plugin-export-current/nd-books-creator.json",
+      "target_path": "plugin-export-current/nd-books-creator.json",
+      "category": "plugin",
+      "blob_sha": "2d2de40e6374f5b163e536054f466c772afb2d85",
+      "size_bytes": 12466
+    },
+    {
+      "source_path": "plugin-export-current/nd-dae.json",
+      "target_path": "plugin-export-current/nd-dae.json",
+      "category": "plugin",
+      "blob_sha": "cbdebde44c864445e30488f4740b34688cec8550",
+      "size_bytes": 9745
+    },
+    {
+      "source_path": "plugin-export-current/nd-developer-critic.json",
+      "target_path": "plugin-export-current/nd-developer-critic.json",
+      "category": "plugin",
+      "blob_sha": "6b30bc3eff42c268d11829ad33f91c759664fda1",
+      "size_bytes": 4675
+    },
+    {
+      "source_path": "plugin-export-current/nd-external-connecting.json",
+      "target_path": "plugin-export-current/nd-external-connecting.json",
+      "category": "plugin",
+      "blob_sha": "349caceb9cafd0d5c91907d3945409617830748c",
+      "size_bytes": 5721
+    },
+    {
+      "source_path": "plugin-export-current/nd-generation.json",
+      "target_path": "plugin-export-current/nd-generation.json",
+      "category": "plugin",
+      "blob_sha": "5f0323cf4511f8620086d0ece06cf836abe6f585",
+      "size_bytes": 11220
+    },
+    {
+      "source_path": "plugin-export-current/nd-inquisitor.json",
+      "target_path": "plugin-export-current/nd-inquisitor.json",
+      "category": "plugin",
+      "blob_sha": "7bb52a7f0689adee123c0a773af4332afbf4fbed",
+      "size_bytes": 6320
+    },
+    {
+      "source_path": "plugin-export-current/nd-literary-critic.json",
+      "target_path": "plugin-export-current/nd-literary-critic.json",
+      "category": "plugin",
+      "blob_sha": "927d8154c68bf1e7a21f9aa1d2fb62f64bc3f9b2",
+      "size_bytes": 7716
+    },
+    {
+      "source_path": "plugin-export-current/nd-pae.json",
+      "target_path": "plugin-export-current/nd-pae.json",
+      "category": "plugin",
+      "blob_sha": "a60a51f97f994e2632e8365f791a03d862d30817",
+      "size_bytes": 9630
+    },
+    {
+      "source_path": "plugin-export-current/nd-pcpa.json",
+      "target_path": "plugin-export-current/nd-pcpa.json",
+      "category": "plugin",
+      "blob_sha": "7f4cb8cc9629b3a5efe4dd8cca162c1a56f460a5",
+      "size_bytes": 9722
+    },
+    {
+      "source_path": "plugin-export-current/nd-research-critic.json",
+      "target_path": "plugin-export-current/nd-research-critic.json",
+      "category": "plugin",
+      "blob_sha": "93f95a83eaf0767d8a40e1c07d81bc3cafce6f67",
+      "size_bytes": 4571
+    },
+    {
+      "source_path": "plugin-export-current/nd-story-architect.json",
+      "target_path": "plugin-export-current/nd-story-architect.json",
+      "category": "plugin",
+      "blob_sha": "513d8b0dac9a076d61a2a65a71c761d582e862f3",
+      "size_bytes": 10017
+    },
+    {
+      "source_path": "plugin-export-current/nd-technical-writer.json",
+      "target_path": "plugin-export-current/nd-technical-writer.json",
+      "category": "plugin",
+      "blob_sha": "c979424302da940abad448e5feb47375e9bb4681",
+      "size_bytes": 10230
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-developer.json",
+      "target_path": "plugin-export-current/nd-true-developer.json",
+      "category": "plugin",
+      "blob_sha": "d7300f1ded177381f370bb856dd30780cef68f09",
+      "size_bytes": 11598
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-doctor.json",
+      "target_path": "plugin-export-current/nd-true-doctor.json",
+      "category": "plugin",
+      "blob_sha": "59ccdb4615601085f1db4bf1db99c123b5597833",
+      "size_bytes": 8129
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-memory.json",
+      "target_path": "plugin-export-current/nd-true-memory.json",
+      "category": "plugin",
+      "blob_sha": "5a15062e36238e4761fc3bd31c71d0e5505c5934",
+      "size_bytes": 13216
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-research.json",
+      "target_path": "plugin-export-current/nd-true-research.json",
+      "category": "plugin",
+      "blob_sha": "e406f2cfd043cd44c8399c7af7d4cbadae6fcfef",
+      "size_bytes": 9469
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-smm.json",
+      "target_path": "plugin-export-current/nd-true-smm.json",
+      "category": "plugin",
+      "blob_sha": "ba42822b14838c9e9c575793ab2eae48a82a25d3",
+      "size_bytes": 12980
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-visual.json",
+      "target_path": "plugin-export-current/nd-true-visual.json",
+      "category": "plugin",
+      "blob_sha": "3d8c740117f36966c25e0c5190d3116deb470733",
+      "size_bytes": 7873
+    },
+    {
+      "source_path": "plugin-export-current/nd-true-writer.json",
+      "target_path": "plugin-export-current/nd-true-writer.json",
+      "category": "plugin",
+      "blob_sha": "dee4e4400ee85b387ecc601ee9364c71d63a67e6",
+      "size_bytes": 8725
+    },
+    {
+      "source_path": "plugin-export-current/nd-visual-creator.json",
+      "target_path": "plugin-export-current/nd-visual-creator.json",
+      "category": "plugin",
+      "blob_sha": "3189df8b7021f2116e0114a21e399a8142e393ec",
+      "size_bytes": 9934
+    },
+    {
+      "source_path": "PROJECT_EXCLUSIONS_CURRENT.txt",
+      "target_path": "PROJECT_EXCLUSIONS_CURRENT.txt",
+      "category": "control",
+      "blob_sha": "758762a49e2c83ba3ea45b23079f7634ddb20004",
+      "size_bytes": 258
+    },
+    {
+      "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
+      "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
+      "category": "control",
+      "blob_sha": "e1f68701d080b24c1c314acb1ece8845ffcdbc70",
+      "size_bytes": 1708
+    },
+    {
+      "source_path": "QUALIFICATION.md",
+      "target_path": "QUALIFICATION.md",
+      "category": "control",
+      "blob_sha": "991e6ee6fe07f1655b269b2cd914328576f69f84",
+      "size_bytes": 8506
+    },
+    {
+      "source_path": "PUBLIC_README.md",
+      "target_path": "README.md",
+      "category": "entry",
+      "blob_sha": "d13998356af34939172916b30be022baa32df00c",
+      "size_bytes": 3175
+    },
+    {
+      "source_path": "PUBLIC_SELECTABLE_SET_CURRENT.json",
+      "target_path": "SELECTABLE_SET_CURRENT.json",
+      "category": "control",
+      "blob_sha": "20d1cc633b7711354abd99f419d10ab365c54bcc",
+      "size_bytes": 2065
+    },
+    {
+      "source_path": "SELF_EVOLUTION_CURRENT.txt",
+      "target_path": "SELF_EVOLUTION_CURRENT.txt",
+      "category": "control",
+      "blob_sha": "54c7983298c67fb4745962e8971899bbefb7739d",
+      "size_bytes": 208
+    },
+    {
+      "source_path": "SEMANTIC_WORKSPACES_CURRENT.txt",
+      "target_path": "SEMANTIC_WORKSPACES_CURRENT.txt",
+      "category": "control",
+      "blob_sha": "8cc6e606ec8657dae1a1ca31f4bca194e1d841d8",
+      "size_bytes": 856
+    },
+    {
+      "source_path": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
+      "target_path": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
+      "category": "control",
+      "blob_sha": "466ebe98963aa37e7d3bea99351eaaffd5335031",
+      "size_bytes": 2189
+    },
+    {
+      "source_path": "TRANSFER_MANIFEST.json",
+      "target_path": "TRANSFER_MANIFEST.json",
+      "category": "control",
+      "blob_sha": "bec3e8fff5db1b6c35c3cf69f493f3873850596b",
+      "size_bytes": 4955
+    }
+  ]
+}

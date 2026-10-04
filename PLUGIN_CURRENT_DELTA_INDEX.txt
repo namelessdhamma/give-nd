@@ -1,0 +1,21 @@
+AUTHORITY: NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2
+CURRENT private plugin source provider: Plugin Creator current release; source-account plugin IDs are provenance/transfer-source identifiers and must not be reused as target account ownership.
+
+nd-automation-agent | 1.7.3 | exact bundle already refreshed | changed_paths=0
+nd-anti-hang | 1.2.0 | pluginrel_6ac1c89034e08191809b955f208fae84 | exact functional CURRENT source exported in plugin-export-current/nd-anti-hang.json; source Plugin Creator ID/release retained as provenance only
+nd-true-memory | 1.3.3 | pluginrel_6ac0f4263c4c8191a7c3bb4018fe9776 | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md,PRODUCTION_MEMORY.md
+nd-true-research | 1.3.3 | pluginrel_6ac0f11ebe748191a925b4067b5b616d | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md
+nd-true-developer | 1.2.6 | pluginrel_6ac0f4ab6abc81919811ec360818486f | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md
+nd-true-writer | 1.2.3 | pluginrel_6ac0f141b06c8191a7fb02fd395663b1 | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md
+nd-true-visual | 1.2.3 | pluginrel_6ac0f152b0308191b4e28e7a9b8846c2 | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md
+nd-true-doctor | 1.2.3 | pluginrel_6ac0f162f02c8191a0c73af90fe574ce | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md
+nd-generation | 1.1.5 | pluginrel_6ac0f522d1f48191aba2e33f2f633172 | changed=.codex-plugin/plugin.json,plugin.json,SKILL.md
+
+nd-external-connecting | 1.2.2 | pluginrel_6ac0f52f96c08191a414e9599b05923d | separate CURRENT recovery-skill plugin; exact functional source exported in plugin-export-current/nd-external-connecting.json
+
+RULE: plugin-current/* + this delta index + Plugin Creator CURRENT release override stale plugin-source/source-bundle.json metadata. Stale bundles are NONSELECTABLE until rebuilt in the target account.
+
+SELF-CONTAINED TARGET HANDOFF — 2026-10-04
+Exact functional source for all 22 transferred CURRENT private plugins is exported under plugin-export-current/*.json: 21 plugins back the 22-launcher graph and nd-external-connecting is the separate CURRENT recovery-skill plugin.
+These bundles contain current-release text source/manifests/skills/scripts and exact source version/release provenance. Generated binary caches (for example __pycache__/*.pyc) are excluded as nonfunctional/regenerable artifacts.
+TARGET RULE: rebuild target-owned private plugins from plugin-export-current/*.json. Source plugin IDs/releases are provenance only and MUST NOT become target ownership. Ksyusha does not require access to Savva's Plugin Creator account to reconstruct the launcher/plugin layer.
