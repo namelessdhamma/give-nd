@@ -14,10 +14,15 @@
     "anti_hang_canonical_artifact": "PASS_EXACT_1_6_0",
     "target_plugin_builder": "PASS_CURRENT_SCHEMA_AND_STAGED_PARTIAL_BINDINGS",
     "source_runtime_dependency": "NONE_REQUIRED_BY_PUBLIC_BOOTSTRAP",
-    "public_secret_scan": "PASS_88_OF_88_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS",
-    "public_email_literal_scan": "PASS_ZERO_EMAIL_LITERALS",
+    "public_secret_scan": "PASS_89_OF_89_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS",
+    "public_email_literal_scan": "PASS_89_OF_89_ZERO_EMAIL_LITERALS",
     "source_vault_isolation": "PASS_MINIMAL_FILESET_ONLY",
-    "optional_provider_placeholders": "MUST_CONVERGE_TO_TARGET_READBACK_OR_EXPLICIT_NOT_REQUIRED_BEFORE_STAGE_07"
+    "optional_provider_placeholders": "MUST_CONVERGE_TO_TARGET_READBACK_OR_EXPLICIT_NOT_REQUIRED_BEFORE_STAGE_07",
+    "internal_reference_integrity": "PASS_AFTER_RECEIPT_REFERENCE_REPAIR",
+    "public_access_unauthenticated": "PASS_HTTP_200_LOGGED_OUT_BROWSER",
+    "registry_sha256": "PASS_MATCHES_NAM_143_BOUND_DRIVE_3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
+    "canonical_component_coverage": "PASS_31_OF_31",
+    "public_file_set": "PASS_89_OF_89_EXACT_MANIFEST_SET_AT_REAUDIT"
   },
   "final_critic": {
     "verdict": "PASS",
@@ -27,7 +32,9 @@
       "Made plugin builder staged/plugin-local instead of requiring the entire future binding map.",
       "Bound Research and Writing/Visual stages to the qualified plugin builder.",
       "Made optional target provider bindings explicit before publication.",
-      "Removed public bootstrap dependency on private runtime-source/plugin-current surfaces."
+      "Removed public bootstrap dependency on private runtime-source/plugin-current surfaces.",
+      "Repaired public TRANSFER_MANIFEST receipt reference so every active public qualification reference resolves inside the repository.",
+      "Added PUBLIC_PACKAGE_QUALIFICATION.json to the public selectable control set and refreshed package-wide scan count to 89/89."
     ],
     "unresolved_material_findings": 0
   }
