@@ -1,0 +1,37 @@
+{
+  "schema": "ND_PLUGIN_SOURCE_BUNDLE_v1",
+  "source_plugin_id": "plugins_6abb2844050c81918f47b8c892912fc7",
+  "name": "nd-inquisitor",
+  "version": "0.1.1",
+  "current_release_id": "pluginrel_6abb3826fc588191b779a76cc3a66f77",
+  "text_files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "size_bytes": 962
+    },
+    {
+      "path": "plugin.json",
+      "size_bytes": 1077
+    },
+    {
+      "path": "skills/nd-launch-inquisitor/SKILL.md",
+      "size_bytes": 2516
+    },
+    {
+      "path": "skills/nd-launch-inquisitor/agents/openai.yaml",
+      "size_bytes": 166
+    },
+    {
+      "path": "skills/nd-launch-inquisitor/references/INQUISITOR.md",
+      "size_bytes": 364
+    }
+  ],
+  "excluded_binary_files": [],
+  "contents": {
+    ".codex-plugin/plugin.json": "{\n  \"interface\": {\n    \"displayName\": \"ND Inquisitor\",\n    \"shortDescription\": \"Launcher to the current Inquisitor module\",\n    \"longDescription\": \"Thin launcher for CURRENT ND Inquisitor. Resolves stable Linear navigator NAM-352 and reads the exact StateHead-bound Drive module body before execution.\",\n    \"developerName\": \"Nameless Dhamma\",\n    \"category\": \"Productivity\",\n    \"defaultPrompt\": [\n      \"Use CURRENT ND Inquisitor through its Linear and Drive binding.\"\n    ],\n    \"capabilities\": []\n  },\n  \"name\": \"nd-inquisitor\",\n  \"version\": \"0.1.1\",\n  \"description\": \"Thin launcher for the CURRENT ND Inquisitor child under True Memory; resolves Linear NAM-352 to the authoritative Drive module.\",\n  \"author\": {\n    \"name\": \"Nameless Dhamma\"\n  },\n  \"keywords\": [\n    \"nameless-dhamma\",\n    \"launcher\",\n    \"memory\",\n    \"forgetting\",\n    \"currentness\"\n  ],\n  \"repository\": \"https://github.com/namelessdhamma/nameless-dhamma-vault\",\n  \"skills\": \"./skills\"\n}\n",
+    "plugin.json": "{\n  \"$schema\": \"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json\",\n  \"name\": \"nd-inquisitor\",\n  \"version\": \"0.1.1\",\n  \"description\": \"Thin launcher for the CURRENT ND Inquisitor child under True Memory; resolves Linear NAM-352 to the authoritative Drive module.\",\n  \"author\": {\n    \"name\": \"Nameless Dhamma\"\n  },\n  \"repository\": \"https://github.com/namelessdhamma/nameless-dhamma-vault\",\n  \"keywords\": [\n    \"nameless-dhamma\",\n    \"launcher\",\n    \"memory\",\n    \"forgetting\",\n    \"currentness\"\n  ],\n  \"extensions\": {\n    \"com.openai\": {\n      \"interface\": {\n        \"displayName\": \"ND Inquisitor\",\n        \"shortDescription\": \"Launcher to the current Inquisitor module\",\n        \"longDescription\": \"Thin launcher for CURRENT ND Inquisitor. Resolves stable Linear navigator NAM-352 and reads the exact StateHead-bound Drive module body before execution.\",\n        \"developerName\": \"Nameless Dhamma\",\n        \"category\": \"Productivity\",\n        \"defaultPrompt\": [\n          \"Use CURRENT ND Inquisitor through its Linear and Drive binding.\"\n        ]\n      }\n    }\n  }\n}\n",
+    "skills/nd-launch-inquisitor/SKILL.md": "---\nname: nd-launch-inquisitor\ndescription: |\n  Thin launcher for the CURRENT ND Inquisitor CHILD under True Memory. Resolves the stable Linear navigator and exact StateHead-bound Drive module body; carries no duplicate forgetting policy.\nmetadata:\n  launcher-contract: ND-LAUNCHER-CONTRACT-v6\n  status: CURRENT\n---\n\n# Inquisitor — Launcher Skill\n\nThin native doorway only. The resolved Drive module is behavioral authority; this launcher carries no duplicate forgetting policy, workflow, provider choreography, or durable state.\n\n## BINDING\n\nROOT_STATEHEAD = https://linear.app/namelessdhamma/issue/NAM-143\nKERNEL = https://linear.app/namelessdhamma/issue/NAM-352\nCOMPONENT = Inquisitor / ND-SKILL-INQUISITOR-1\nROLE = CHILD\nSLOT = CHILD\nIMPLICIT_POLICY = DENY\nLAUNCHER_URI = skills://plugins/nd-inquisitor/nd-launch-inquisitor\nMANUAL_ALIAS = @ND Inquisitor\nSTRUCTURAL_PARENT_URI = skills://plugins/nd-true-memory/nd-launch-true-memory\nROOT_LAUNCHER_URI = skills://plugins/nd-automation-agent/nd-launch-automation-agent\n\n## CURRENT RESOLUTION\n\nResolve CURRENT only as:\n\nNAM-143 -> exact StateHead-bound Registry -> NAM-352 -> exact Drive module pointer -> direct provider readback -> execute resolved module.\n\nNAM-352 is the stable Inquisitor operational navigator. Read its exact StateHead-bound Drive artifact before substantive execution. The Drive module body, not this package and not GitHub history, is behavioral authority.\n\nRe-resolve after a material authority/module mutation, a currentness conflict, or recovery. Never select Inquisitor behavior from remembered versions, timestamps, filenames, Git branches, bundled references, or cached provider/search state.\n\nIf NAM-352 is not CURRENT in the StateHead-bound Registry, has no verified Drive pointer, or the Drive body cannot be read/verified, fail closed and return the exact blocker to True Memory or the caller. Do not fall back to a bundled behavior body.\n\n## RUNTIME OWNERSHIP\n\nInquisitor executes as a CHILD under True Memory. True Memory remains logically live and retains memory/currentness ownership while the child performs the bounded forgetting operation.\n\nUSER_DIRECT or explicit @ND Inquisitor invocation may enter this launcher but does not expand authority. Normal production work is routed by True Memory for materially complex forgetting/cleanup.\n\nReturn the bounded typed result to the already-live parent/caller. Do not publish Registry/StateHead currentness, acquire parent ownership, or re-invoke a live parent merely to report.\n",
+    "skills/nd-launch-inquisitor/agents/openai.yaml": "interface:\n  display_name: \"Inquisitor Launcher\"\n  short_description: \"Current child for ND forgetting\"\npolicy:\n  products: [CHAT]\n  allow_implicit_invocation: false\n",
+    "skills/nd-launch-inquisitor/references/INQUISITOR.md": "# BUNDLED BODY TOMBSTONE — DO NOT EXECUTE\n\nThe Inquisitor behavioral module is intentionally NOT bundled in the GPT-skill.\n\nResolve CURRENT through:\nNAM-143 -> StateHead-bound Registry -> NAM-352 -> exact Drive module pointer -> direct provider readback.\n\nThis file is only a tombstone preventing package contents from becoming a competing behavioral authority.\n"
+  }
+}

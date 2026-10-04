@@ -1,0 +1,32 @@
+{
+  "schema": "ND_PLUGIN_SOURCE_BUNDLE_v1",
+  "source_plugin_id": "plugins_6ab948ae733c819182154af387434d05",
+  "name": "nd-research-critic",
+  "version": "1.0.1",
+  "current_release_id": "pluginrel_6ac0f2baca288191bd4b82a22e9e9bc3",
+  "text_files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "size_bytes": 769
+    },
+    {
+      "path": "plugin.json",
+      "size_bytes": 884
+    },
+    {
+      "path": "skills/nd-launch-research-critic/SKILL.md",
+      "size_bytes": 1689
+    },
+    {
+      "path": "skills/nd-launch-research-critic/agents/openai.yaml",
+      "size_bytes": 176
+    }
+  ],
+  "excluded_binary_files": [],
+  "contents": {
+    ".codex-plugin/plugin.json": "{\n  \"interface\": {\n    \"displayName\": \"ND Research Critic\",\n    \"shortDescription\": \"Mandatory closure Child through True Research\",\n    \"longDescription\": \"Mandatory final adversarial review Child for substantive True Research results.\",\n    \"developerName\": \"Nameless Dhamma\",\n    \"category\": \"Productivity\",\n    \"defaultPrompt\": [\n      \"Use ND Research Critic for this task.\"\n    ],\n    \"capabilities\": []\n  },\n  \"name\": \"nd-research-critic\",\n  \"version\": \"1.0.1\",\n  \"description\": \"Nameless Dhamma Research Critic launcher.\",\n  \"author\": {\n    \"name\": \"Nameless Dhamma\"\n  },\n  \"keywords\": [\n    \"nameless-dhamma\",\n    \"launcher\",\n    \"research\",\n    \"critic\"\n  ],\n  \"repository\": \"https://github.com/namelessdhamma/nameless-dhamma-vault\",\n  \"skills\": \"./skills\"\n}\n",
+    "plugin.json": "{\n  \"$schema\": \"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json\",\n  \"name\": \"nd-research-critic\",\n  \"version\": \"1.0.1\",\n  \"description\": \"Nameless Dhamma Research Critic launcher.\",\n  \"author\": {\n    \"name\": \"Nameless Dhamma\"\n  },\n  \"repository\": \"https://github.com/namelessdhamma/nameless-dhamma-vault\",\n  \"keywords\": [\n    \"nameless-dhamma\",\n    \"launcher\",\n    \"research\",\n    \"critic\"\n  ],\n  \"extensions\": {\n    \"com.openai\": {\n      \"interface\": {\n        \"displayName\": \"ND Research Critic\",\n        \"shortDescription\": \"Mandatory closure Child through True Research\",\n        \"longDescription\": \"Mandatory final adversarial review Child for substantive True Research results.\",\n        \"developerName\": \"Nameless Dhamma\",\n        \"category\": \"Productivity\",\n        \"defaultPrompt\": [\n          \"Use ND Research Critic for this task.\"\n        ]\n      }\n    }\n  }\n}\n",
+    "skills/nd-launch-research-critic/SKILL.md": "---\nname: nd-launch-research-critic\ndescription: |\n  Child-only Research Critic under True Research for mandatory adversarial review of every substantive research result before return. Direct intent routes owner-first.\nmetadata:\n  launcher-contract: ND-LAUNCHER-CONTRACT-v6\n---\n# Research Critic — Launcher Skill\nKERNEL = https://linear.app/namelessdhamma/issue/NAM-115\nCOMPONENT = Research Critic / ND-SKILL-RESEARCH-CRITIC-1\nROLE = CHILD\nSTRUCTURAL_PARENT_URI = skills://plugins/nd-true-research/nd-launch-true-research\nLAUNCHER_URI = skills://plugins/nd-research-critic/nd-launch-research-critic\nROOT_LAUNCHER_URI = skills://plugins/nd-automation-agent/nd-launch-automation-agent\nIMPLICIT_POLICY = DENY\n\nResolve CURRENT through NAM-143 -> bound CURRENT Registry -> True Research/Research Critic binding. This Child executes only beneath True Research; True Research remains live owner.\n\n## MANDATORY CLOSURE HOOK\nEVERY substantive research result proposed for return MUST invoke Research Critic. Task simplicity, apparent certainty, arithmetic simplicity, prior familiarity, or one successful helper return are not exemptions. True Research may not replace this call with same-context self-review.\n\nRETURN delivers bounded adversarial diagnosis to the already-live True Research parent. A material finding invalidates closure and requires the owned research/helper path to reopen, followed by targeted Research Critic recheck. The Child never acquires task ownership or rewrites the parent synthesis.\n\nUSER_DIRECT routes owner-first through Automation Agent -> True Research. External route/currentness failure preserves the assignment and returns the exact blocker to True Research.\n",
+    "skills/nd-launch-research-critic/agents/openai.yaml": "interface:\n  display_name: \"Research Critic Launcher\"\n  short_description: \"Child launcher through True Research\"\npolicy:\n  products: [CHAT]\n  allow_implicit_invocation: false\n"
+  }
+}
