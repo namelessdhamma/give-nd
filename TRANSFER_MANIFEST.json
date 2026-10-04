@@ -1,0 +1,109 @@
+{
+  "schema": "ND_TRANSFER_MANIFEST_v3",
+  "transfer_id": "ND-KSYUSHA-CURRENT-CLONE",
+  "status": "SOURCE_STAGED_HANDOFF_COMPLETE_TARGET_AUTH_REQUIRED",
+  "authority": {
+    "rule": "NAM-143 -> bound CURRENT Registry -> exact component/launcher",
+    "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
+    "registry_version": "1.64.2",
+    "registry_drive_id": "1_EeblDc_mYey8DM19yMtpGXmFoeEjenn",
+    "registry_sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
+    "exact_registry_snapshot": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json"
+  },
+  "scope": {
+    "mode": "ISOMORPHIC_CURRENT_ND_CLONE",
+    "preserve": [
+      "ND names",
+      "topology",
+      "parent/Child/Supervisor relationships",
+      "contracts",
+      "skills:// identities",
+      "behavioral invariants",
+      "currentness/recovery model",
+      "Anti-Hang",
+      "memory lifecycle",
+      "Critic/acceptance gates",
+      "autonomy semantics"
+    ],
+    "rebind_only": [
+      "Drive",
+      "Linear",
+      "NotebookLM",
+      "GitHub",
+      "Supabase",
+      "OAuth",
+      "external routes",
+      "credentials",
+      "scheduler/provider object IDs"
+    ],
+    "exclude": [
+      "Savva personal secrets",
+      "Blue Sea active project payload",
+      "Gena Gieny active project payload",
+      "Nibbana-conditions research-project payload"
+    ]
+  },
+  "current_deltas": {
+    "launcher_count": 22,
+    "anti_hang": "1.6.0 / explicit launcher skills://plugins/nd-anti-hang/nd-launch-anti-hang / plugin 1.2.0",
+    "automation_agent": "canonical 1.3.2 / plugin 1.7.3 / SILENT_CONTINUE default / ordered action-paired hook trace",
+    "true_memory": "0.4.2 / TASK_MEMORY_GATE + TEMP_TASK lifecycle + Inquisitor cleanup",
+    "true_research": "1.8.2 / mandatory Child + Research Critic receipts",
+    "true_developer": "0.4.2 / mandatory Developer Executor + Developer Critic / no direct implementation fallback",
+    "true_writer": "0.9.2 / mandatory Writer Child + Literary Critic",
+    "true_visual": "0.2.2 / mandatory Visual Creator + acceptance",
+    "true_doctor": "0.4.2 / mandatory helper-peer receipt",
+    "generation": "15.2 / mandatory recovery frontier"
+  },
+  "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
+  "completion_rule": "Do not begin Ksyusha target bootstrap until source package currentness, launcher/plugin completeness, auxiliary runtime, memory/system instructions, exclusions, secret scan and behavioral qualification all PASS.",
+  "source_qualification": {
+    "receipt": "SOURCE_REBASE_QUALIFICATION_RECEIPT.json",
+    "verdict": "PASS",
+    "canonical_readback": "8/8 exact",
+    "launcher_graph": "22/22",
+    "stale_selector_scan": "PASS",
+    "secret_scan": "PASS",
+    "developer_critic_consistency_audit": "PASS",
+    "plugin_functional_source_export": "PASS_22_TRANSFERRED_PLUGINS_21_LAUNCHER_PLUGINS_PLUS_EXTERNAL_CONNECTING",
+    "plugin_export_secret_scan": "PASS_22_OF_22_HIGH_CONFIDENCE_CREDENTIAL_PATTERNS_ZERO_FINDINGS",
+    "final_developer_critic": "PASS_AFTER_STALE_ANTI_HANG_HANDOFF_WORDING_REPAIR"
+  },
+  "current_entrypoints": {
+    "handoff": "HANDOFF_CURRENT.md",
+    "installation_index": "INSTALLATION_INDEX.md",
+    "stages": [
+      "01_FOUNDATION_DRIVE_LINEAR.md",
+      "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
+      "03_NOTEBOOKLM_SEMANTIC_MEMORY.md",
+      "04_RESEARCH_STACK.md",
+      "05_WRITING_VISUAL_STACK.md",
+      "06_REGISTRY_PREPUBLICATION.md",
+      "07_STATEHEAD_PUBLICATION.md",
+      "08_COLD_QUALIFICATION.md"
+    ],
+    "binding_map": "BINDING_MAP_TEMPLATE.json",
+    "launcher_graph": "LAUNCHER_GRAPH_CURRENT.txt",
+    "plugin_export_manifest": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
+    "plugin_functional_source": "plugin-export-current/*.json",
+    "selectable_set": "SELECTABLE_SET_CURRENT.json",
+    "qualification": "QUALIFICATION.md"
+  },
+  "target_boundary": {
+    "verdict": "TRUE_GATE_TARGET_AUTHORITY",
+    "reason": "No authenticated Ksyusha target-owned Linear/Drive/NotebookLM/Supabase/GitHub/plugin-publication context is connected in this execution environment.",
+    "rule": "Do not create target authority inside source-account providers.",
+    "next_action": "Ksyusha authorizes target-owned Drive/Linear/Plugin Creator as required, executes staged installation 01-07, connects NotebookLM in Stage 03 through installed External Connecting, then runs Stage 08 in a fresh chat."
+  },
+  "target_qualification": "NOT_RUN_NOT_CLAIMED",
+  "source_handoff_closure": {
+    "receipt": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
+    "verdict": "PASS",
+    "source_side_runnable_frontier": "NONE",
+    "transferred_private_plugins": 22,
+    "launcher_plugins": 21,
+    "launcher_graph": 22,
+    "recovery_skill_plugins": 1,
+    "recovery_skill": "skills://plugins/nd-external-connecting/connecting-external-capabilities"
+  }
+}

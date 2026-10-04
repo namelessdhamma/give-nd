@@ -1,0 +1,92 @@
+{
+  "semantic_id": "ND-RUNTIME-ANTI-HANG-1",
+  "version": "1.6.0",
+  "status": "ADOPTION_READY / ALWAYS_ON_BEHAVIORAL_HOOK_KERNEL / CURRENT ONLY WHEN NAM-143-BOUND",
+  "role": "CROSS_CUTTING_RUNTIME",
+  "owner": "Hook-level effect/replay safety, execution liveness and global-return gating only.",
+  "source": {
+    "github_merge": "2a5804c1eac045451a634920b5bd048e4ec1e2b8",
+    "executable_path": "true-memory/runtime/anti_hang_kernel.py",
+    "qualification": "ND-ANTI-HANG-HISTORICAL-BEHAVIORAL-HOOK-KERNEL-20261004"
+  },
+  "plugin": {
+    "id": "plugins_6ac1a94c1a1c8191acc305042d60d639",
+    "version": "1.2.0",
+    "release": "pluginrel_6ac1c89034e08191809b955f208fae84",
+    "launcher": "skills://plugins/nd-anti-hang/nd-launch-anti-hang"
+  },
+  "preferred_interface": "hook(event, state)",
+  "hook_events": [
+    "TASK_ENTRY",
+    "BEFORE_ACTION",
+    "AFTER_ACTION",
+    "AFTER_MATERIAL_RETURN",
+    "PRESSURE",
+    "BEFORE_USER_RETURN",
+    "USER_STOP"
+  ],
+  "core_inputs": [
+    "EFFECT_STATE",
+    "FRONTIER_SNAPSHOT",
+    "WAKE_STATE",
+    "RETURN_INTENT",
+    "PRESSURE_STATE",
+    "ACTION_SHAPE",
+    "STOP_STATE"
+  ],
+  "core_primitives": [
+    "replay_gate",
+    "before_action_gate",
+    "effect_transition",
+    "runnable_scan",
+    "reconcile_eligibility",
+    "pressure_policy",
+    "return_gate"
+  ],
+  "behavioral_invariants": [
+    "EVERY_USER_TASK -> TASK_ENTRY",
+    "EXTERNAL_ACTION -> BEFORE_ACTION + AFTER_ACTION",
+    "MATERIAL_RETURN -> AFTER_MATERIAL_RETURN -> ROOT_REENTRY",
+    "EXPLICIT_USER_STOP -> USER_STOP -> NO_NEW_OPERATIONS; REMOTE_CANCEL_NOT_ASSUMED",
+    "AMBIGUOUS_CONSEQUENTIAL_EFFECT -> RECONCILE_BEFORE_REPLAY",
+    "OPAQUE_COMPOSITE_PREPARE_WRITE_READBACK -> ISOLATE_EFFECT",
+    "MULTIPLE_NONATOMIC_CONSEQUENTIAL_EFFECTS -> ISOLATE_EFFECT",
+    "NONTERMINAL_EFFECT_BLOCKS_ONLY_DEPENDENT_FRONTIER",
+    "UNCHANGED_STATUS_POLL_WITHOUT_MATERIAL_WAKE -> PARK_EFFECT_NO_POLL",
+    "RUNNABLE_SAFE_MATERIAL_WORK -> AUTO_CONTINUE",
+    "MATERIAL_OR_ACTION_RETURN -> ROOT_REENTRY",
+    "PRESSURE -> NARROW_COMPACT + SAFE_CYCLE_ROTATE + AUTO_CONTINUE; NEVER_GLOBAL_STOP",
+    "BEFORE_USER_RETURN is the only whole-task return hook",
+    "GLOBAL_WAIT_EXTERNAL_REQUIRES_CURRENT_COMPLETE_SCAN + ZERO_RUNNABLE + ZERO_RECONCILE_DUE + ZERO_SAFE_RECOVERY + NO_AVAILABLE_WAKE",
+    "MISSING_SCAN_EVIDENCE -> AUTO_CONTINUE_REASSESS_FRONTS",
+    "NO_TIME_CALL_CYCLE_PHASE_CONTEXT_THRESHOLD_CREATES_ROUTINE_GO"
+  ],
+  "global_return_states": [
+    "RETURN_COMPLETED",
+    "RETURN_USER_STOP",
+    "RETURN_TRUE_GATE",
+    "GLOBAL_WAIT_EXTERNAL"
+  ],
+  "non_ownership": [
+    "task decomposition",
+    "frontier value ranking",
+    "domain owner selection",
+    "True Memory lifecycle",
+    "Supervisor/Child/Critic topology",
+    "provider-route strategy",
+    "committed/visible message rendering",
+    "canonical currentness"
+  ],
+  "platform_boundary": "Does not claim platform-level liveness, client interruptibility, fresh outer-turn reset or guaranteed message persistence.",
+  "qualification": {
+    "historical_core_regression": "25/25 PASS",
+    "adversarial_non_overblocking": "16/16 PASS",
+    "no_false_global_wait_stress": "20000/20000 PASS",
+    "stop_precedence_stress": "10000/10000 PASS",
+    "return_gate_oracle": "50000/50000 PASS",
+    "a7_exact": "PASS: P1 RUNNING leaves P1 blocked and selects P2",
+    "source_ownership_leak": "0",
+    "plugin_readback": "PASS"
+  },
+  "supersedes": "ND-RUNTIME-ANTI-HANG-1 v1.5.0; behavior retained where qualified, hook coverage restored."
+}

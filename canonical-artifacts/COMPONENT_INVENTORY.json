@@ -1,0 +1,225 @@
+{
+  "schema": "ND_TRANSFER_COMPONENT_INVENTORY_v2",
+  "registry_version": "1.64.2",
+  "registry_sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
+  "component_count": 31,
+  "launcher_count": 22,
+  "components": [
+    {
+      "key": "GOVERNING_RESEARCH_CORE",
+      "version": "1.0.0",
+      "artifact_id": "1RUeMgQZzwWAzO2bUAEjXG92InSpVp0TnUJjFYVRTovw",
+      "sha256": "1077de524f3b8d78bf0e108b11ef5d34b23d9c55739eb1938b80107010997f17",
+      "status": "CANONICAL"
+    },
+    {
+      "key": "TRUE_RESEARCH",
+      "version": "1.8.2",
+      "artifact_id": "1t9Muz-X0jxYarIjJoXRZJcKMmPEaQTVf",
+      "sha256": "2a1af1f513466ae833e07c423fe9f1f50bf0fb6f6cb73383af0da87801c30e63",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "RESEARCH_CRITIC",
+      "version": "0.2.0",
+      "artifact_id": "1W6NOvg5-UqsH1mGmHNWm9GevdftRA_Fb",
+      "sha256": "6be2b09ff74bf72c069d4bccf62bf45252b695032119b60574b3e7b2ca59bc5e",
+      "status": "CANONICAL — CURRENT RESEARCH ADVERSARIAL DIAGNOSTIC CHILD — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "EMBEDDED_PLM",
+      "version": "1.3.4",
+      "artifact_id": "1-MgH586hDpH5QVzyqxyAwzsegkAqIzr3",
+      "sha256": "2e51bb34f5db168dabcdbfe36341459ae6701301b2fad6d74af42c7794308aba",
+      "status": "CANONICAL — ACTIVE EMBEDDED UNIVERSAL LEVERAGE REDUCTION MODE"
+    },
+    {
+      "key": "PCPA",
+      "version": "1.3.6",
+      "artifact_id": "15_xNfrGN4szrqFTFl_yQI0yldP12d1gU",
+      "sha256": "80d92682046ae70303d2474bdc86cd08a432788f676ebc60a7f5bd9d83ee56cb",
+      "status": "CANONICAL — ACTIVE UNIVERSAL SEMANTIC/SOURCE/PHILOLOGY SPECIALIST — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "DHAMMA_ANALYSIS_ENGINE",
+      "version": "1.1.7",
+      "artifact_id": "1unE6iw4ydtavarki8TjDDliq_drVv0b5",
+      "sha256": "efdbf87297187f3e93ff66a080ccbe1b10adf6b146ea075161a3d8193e213032",
+      "status": "CANONICAL — ACTIVE UNIVERSAL OBJECT/CONSTITUTION SPECIALIST — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "PAE",
+      "version": "4.2.6",
+      "artifact_id": "1uxvHtD2p4rXv8SIu0zeB365L0ykM2NIx",
+      "sha256": "4539cecc0b419b2188b1884bccafd7a6ce44a44b7e4c9cf5e9448b5030b1a17d",
+      "status": "CANONICAL — ACTIVE UNIVERSAL RELATION/SYSTEM SPECIALIST — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "RESEARCH_INTEROP",
+      "version": "1.5.3",
+      "artifact_id": "1UufRoa7ND-jRGmlV4fX4GD-st0myvWrI",
+      "sha256": "ea38c0ac304bce53d5c75d006818d52b5ee41dd77e47394f855a8b64667f99a4",
+      "status": "ADOPTION_READY — UNIVERSAL BOUNDED-RESEARCH INTEROPERABILITY — SERIALIZED AUTONOMOUS RESEARCH — TRUE_MEMORY DURABLE PERSISTENCE"
+    },
+    {
+      "key": "URA",
+      "version": "1.4.2",
+      "artifact_id": "1a7dKUFsVJoCsaIOQHEJwq0eOlem0h81m",
+      "sha256": "8c996143611858134e5fe235fdfff96b21c9706f2e346d0cf919f16b7403eb18",
+      "status": "CANONICAL — ACTIVE RESEARCH ARCHITECTURE — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "UWA",
+      "version": "1.2.3",
+      "artifact_id": "1Gob-ocQW7YQTspqSfAdl4eWvDmHVcEbm",
+      "sha256": "59a68d34065fd715bc9e30328a67e46c250972f22cb1cb2a53553c92b4c5a242",
+      "status": "ADOPTION_READY — ACTIVE CROSS-DOMAIN ARCHITECTURE — SERIALIZED SUPERVISOR/CHILD EXECUTION — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "BOOKS_CREATOR",
+      "version": "3.1.3",
+      "artifact_id": "1cbr6-a_R4KttGrcTygaTeVpDxPFQlf_d",
+      "sha256": "8cb07bd6f8fd96e52e9d5918efb4729c34a691f52146789a590578d6eb661884",
+      "status": "CANONICAL — SOLE CURRENT LITERARY PROSE EXECUTOR — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "VISUAL_CREATOR",
+      "version": "1.0.5",
+      "artifact_id": "1A5ZLO2zsr0QfQT4ggZTdJBlDenY6B7xD",
+      "sha256": "3ea668d734be42c2af16c3f41d43ea3cf4f5431f97e564b4b5629e317d5a9998",
+      "status": "CANONICAL — ACTIVE WORKING VISUAL SKILL — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "VISUAL_CANON",
+      "version": "1.5.1",
+      "artifact_id": "1P03elpA0wNtWuJdp04MvFTEWGwZ9p2yR7t8gnisPhoA",
+      "sha256": "f8a05ff2bebedbb8b634dc0770fb7876f9052972881632d988ad6a0b27507047",
+      "status": "canonical project standard — source revision 4 terminology reconciliation — CURRENT ONLY WHEN STATEHEAD_BOUND"
+    },
+    {
+      "key": "STORAGE_AUTHORITY_POLICY",
+      "version": "1.7.0",
+      "artifact_id": "1FmbJVXPHgG0Gf-ocqS_kQPxiWV5TdfMs",
+      "sha256": "fa4d0f5e8eb7426da6e6c70724c9e961c419c31354bc512e0ce1bc6326a3f831",
+      "status": "ADOPTION_READY — POST-T4 LINEAR STATEHEAD STORAGE AUTHORITY POLICY — CURRENT ONLY WHEN NAM-143-BOUND"
+    },
+    {
+      "key": "CONTEXT_TOKEN_BUDGET_POLICY",
+      "version": "1.4.0",
+      "artifact_id": "1CBavDL55dsIUqBp_updFXwdqycgJa5dJ",
+      "sha256": "4ff2a47daf339239dfcd8060bcf27f248ec680305c40e1d5705b63f1a50d54cd",
+      "status": "ADOPTION_READY — CONTEXT COMPACTION / CURRENT-AUTHORITY REBASE — NO COGNITIVE RESOURCE BUDGET — EXACT BINDING V6"
+    },
+    {
+      "key": "DURABLE_STATE_SCHEMA_BUNDLE",
+      "version": "1.7.0",
+      "artifact_id": "1QXxAudtSwFT-STsHcQNgIGHbQQI2lBpS",
+      "sha256": "f9d65388ebe8e58fd01c4a3760160cf88d8d2e417949ba09bcded8689e861140",
+      "status": "CURRENT PRE-T4 LINEAGE/RECOVERY VALIDATOR — NONSELECTABLE FOR POST-T4 NAM-143 PUBLICATION"
+    },
+    {
+      "key": "TRUE_WRITER",
+      "version": "0.9.2",
+      "artifact_id": "1eWePl0sabKQiLs-xgKzffxh8U5N_eZo1",
+      "sha256": "1086604c481edbd8b0d35971c668577b8bafda63274071ed19109bd70030efa6",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "LITERARY_CRITIC",
+      "version": "0.2.4",
+      "artifact_id": "1M1N74J_UUuaSm7B9ub8gdt3q8GOmvz2Y",
+      "sha256": "51f82351053e32ca2c2a02f6716426a6dca88da3807a2c29f1326540483f6d76",
+      "status": "CANONICAL — SOLE CURRENT LITERARY DIAGNOSTIC SPECIALIST — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "STORY_ARCHITECT",
+      "version": "0.2.3",
+      "artifact_id": "1YD4iht7VeSxHZDg3ZQ9bWdmZ5-nWWywT",
+      "sha256": "a2a74b8a22b275fd77ec7d55bb22a329af125c51ef1255e444be0bbe7ede6327",
+      "status": "CANONICAL — SOLE CURRENT NON-LOCAL STRUCTURAL SPECIALIST — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "TECHNICAL_WRITER",
+      "version": "0.2.4",
+      "artifact_id": "1u52MN46Qe__5NtvVWeYW26-96_WPItRS",
+      "sha256": "70dc35959914eaa4d85dbb4bb23b0ae2bdcb75955f49d535f77a303b1234c75b",
+      "status": "CANONICAL — SOLE CURRENT TECHNICAL REPORTING SKILL — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "WRITER_ORCHESTRA_RUNTIME",
+      "version": "1.0.5",
+      "artifact_id": "1tFQmjnVFvHQPo42YVD9dOBmdriZCIctt",
+      "sha256": "ba7dd8936f7d5eae74e89dea8dfb1f6724f0a444f68c3e82c21272fda6501830",
+      "status": "CANONICAL — SOLE CURRENT WRITER-ORCHESTRA RUNTIME PROTOCOL — NAM-143/NAM-140 RECOVERY — EXACT URI ENVELOPES"
+    },
+    {
+      "key": "TRUE_MEMORY",
+      "version": "0.4.2",
+      "artifact_id": "1Jef0UoObTwUu7LJg4RQAIaj1kjTSRQ3n",
+      "sha256": "3d826717168efd004fe35300a3e64bbe87de7e867cc846d04b08774789ba47c5",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "INQUISITOR",
+      "version": "0.1.2",
+      "artifact_id": "1AkYfcxy8pan7wpUQsVxq9af0J5xiUh0v",
+      "sha256": "c0665a4f70577b8859a3737cc0b82971bdf59132052fe468c4f93d1c5e1f32dc",
+      "status": "CANONICAL — CURRENT TRUE MEMORY SUBTRACTIVE-MEMORY CHILD — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "TRUE_VISUAL",
+      "version": "0.2.2",
+      "artifact_id": "1veQc0tIl1dNTlA7vPMb746v6QrP1mJb4",
+      "sha256": "732fa5270cccaa1755692b0bd5b8a59d3c417bd6f2d25d444c5c75aaa07a0300",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "TRUE_DEVELOPER",
+      "version": "0.4.2",
+      "artifact_id": "13izqcR_OiponFKiIldqvn78kXAwZo0Qg",
+      "sha256": "9563a7d1b2ed32216be0685e63edf09ac185c4fd821ce7d33ff4c2a2c3641fd2",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "DEVELOPER_CRITIC",
+      "version": "0.2.1",
+      "artifact_id": "1ZXHs0Z-zqrGzJrAIKaN5M-dr8tWwvI-y",
+      "sha256": "12bbe95737818698688d326e3deef47df28501af94196eb601792d786d46c4aa",
+      "status": "CANONICAL — CURRENT ENGINEERING ADVERSARIAL TEST CHILD — EXACT LAUNCHER BINDING V6"
+    },
+    {
+      "key": "TRUE_DOCTOR",
+      "version": "0.4.2",
+      "artifact_id": "1b1KSkym-cWlzLvNaNPDLDBj095RAKLyn",
+      "sha256": "ec622328ca261f7865f57ac76b191b271a76c2aba88fd11c7b60fece77b0a2fe",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "GENERATION",
+      "version": "15.2",
+      "artifact_id": "1rqkSaMZUzHx4rskT6kp-11groFzytbhT",
+      "sha256": "999cb5aeda9795391406a7aa7d2e9457cb6dd70bc43d6faa8a44a4d2ae671efe",
+      "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
+    },
+    {
+      "key": "ANTI_HANG_RUNTIME",
+      "version": "1.6.0",
+      "artifact_id": "1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB",
+      "sha256": "61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15"
+    },
+    {
+      "key": "SEMANTIC_CORE_RUNTIME",
+      "version": "1.1.2",
+      "artifact_id": "1zuE9mT9NbdG6XBjdpASI8KeOTPDq7Xq-",
+      "sha256": "f5b9a373dda8ec2472a8fbbfd408e809b73588380756d26db9c2fdc39f429a37",
+      "status": "CANONICAL WHEN NAM-143-BOUND — NORTH STAR AUTONOMY MIGRATION"
+    },
+    {
+      "key": "DEVELOPER_EXECUTOR",
+      "version": "0.1.0",
+      "artifact_id": "1Q-nqGy66w4Cc-BuQNkHZYhQpWgBsVu49",
+      "sha256": "0cb63d07c53ca38da8b5d427320d747dd46e97223a0848522e31a1e089d277b5",
+      "status": "CANONICAL WHEN NAM-143-BOUND — ENGINEERING IMPLEMENTATION CHILD — FRESH_SESSION SKILL-CATALOG ACTIVATION QUALIFICATION PENDING"
+    }
+  ]
+}
