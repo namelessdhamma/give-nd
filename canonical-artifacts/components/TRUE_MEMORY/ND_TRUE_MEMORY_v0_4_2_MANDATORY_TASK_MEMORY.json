@@ -1,0 +1,199 @@
+{
+  "a1_relationship": "A1/NAM-167 is permanent Authority & Memory Validation: research/validation and read-only against production ND by default. It validates production True Memory but is not production authority and its findings do not themselves authorize mutation.",
+  "adoption_gate": [
+    "successor artifact exact Drive readback + SHA-256 PASS",
+    "launcher/projection release exact readback PASS",
+    "Registry successor validates exact TRUE_MEMORY binding and preserves stable launcher URI",
+    "NAM-143 authoritative Linear StateHead publication under SERIALIZED_SINGLE_WRITER exact-old-anchor/token contract + provider readback PASS",
+    "cold recovery through @ND True Memory without supplying True Memory or Generation numeric versions PASS",
+    "active currentness residue classified/cleaned or explicitly retained as structurally NONSELECTABLE provenance",
+    "NAM-143 authority commit after canonical Drive convergence; derived Linear/NotebookLM/GitHub projections reconciled after authority readback"
+  ],
+  "artifact_type": "ND_COMPONENT",
+  "boundaries": [
+    "TRUE_MEMORY != GLOBAL_WORK_AGENT",
+    "TRUE_MEMORY != A1",
+    "TRUE_MEMORY != DOMAIN_SEMANTIC_OWNER",
+    "TRUE_MEMORY != STATIC_ROUTE_TABLE",
+    "ACTUAL_VERSION remains subordinate implementation contour",
+    "RETRIEVED != CURRENT",
+    "PROVIDER_SUCCESS != COMPLETION",
+    "PROJECTION != AUTHORITY",
+    "NUMERIC_VERSION_LITERAL != CURRENTNESS_SELECTOR",
+    "STABLE_LAUNCHER_OR_LOGICAL_COMPONENT_KEY -> STATEHEAD_BOUND_REGISTRY -> EXACT_CURRENT_ARTIFACT",
+    "HISTORICAL_VERSION_LITERAL = PROVENANCE_ONLY_WHEN_NONSELECTABLE"
+  ],
+  "component_key": "TRUE_MEMORY",
+  "context_policy": "current authority -> compact hot projection -> exact IDs -> bounded decision-sufficient packet -> exact fragment -> full source as materially needed; context compaction never limits cognitive depth",
+  "exact_status": "CANDIDATE / COMPACT CONTINUATION AND CANONICAL CONSUMER GATE / NONSELECTABLE UNTIL NAM-143-BOUND",
+  "implementation_evidence": {
+    "launcher_uri": "skills://plugins/nd-true-memory/nd-launch-true-memory",
+    "plugin_id": "plugins_6ab73897614881919133e97e70ae8d84",
+    "production_module": "skills/nd-launch-true-memory/references/PRODUCTION_MEMORY.md",
+    "recovery_module": "skills/nd-launch-true-memory/references/RECOVERY.md",
+    "generation_currentness_contract": "stable launcher/logical key only; exact CURRENT artifact resolved by NAM-143 authoritative Linear StateHead -> bound CURRENT Registry",
+    "candidate_plugin_version": "1.2.0",
+    "predecessor_plugin_provenance": {
+      "installed_plugin_version": "1.1.11",
+      "installed_plugin_release": "pluginrel_6abf54dcb45c8191badc66fbf76a207c",
+      "plugin_release_family": "1.1.x",
+      "status": "IMMUTABLE_NONSELECTABLE_PROVENANCE"
+    },
+    "candidate_plugin_release": "pluginrel_6abfb0380af08191aec652c25d70f0a6"
+  },
+  "lineage_policy": {
+    "development_frontier": "NAM-267 explicit recovery-boundary semantics are governance-approved for the named boundary only; ordinary lineage remains strict.",
+    "preserve": "Do not invent missing history or substitute receipts for source artifacts when CURRENT policy requires exact sources.",
+    "scope": "A required lineage gap may block the affected PERSIST/publication path; it must not automatically block unrelated READ/RECOVER work."
+  },
+  "modes": {
+    "MAINTENANCE": {
+      "rule": "Evidence-driven; not an ordinary recall ritual. A1 is validation/research only and read-only against production by default; production maintenance requires separate governing/user authorization. Active stale-version/currentness residue is BLOCKING only when selectable/authority-relevant; nonauthoritative literals are SyncDebt and immutable history is preserved.",
+      "scope": [
+        "compaction",
+        "forgetting",
+        "stale/duplicate repair",
+        "projection refresh",
+        "SyncDebt",
+        "checkpoint repair",
+        "active currentness residue cleanup",
+        "version-pin removal from nonauthoritative projections",
+        "projection convergence verification",
+        "non-resurrection proof for superseded currentness selectors"
+      ],
+      "trigger": "Material memory-system maintenance need"
+    },
+    "PERSIST": {
+      "invariants": [
+        "semantic-owner status preserved",
+        "ONE_ACTIVE_DURABLE_WRITER where required",
+        "stable operation/idempotency identity for consequential writes",
+        "fresh authority/currentness at material write boundary",
+        "provider CAS/concurrency safety where applicable",
+        "exact consequential readback",
+        "NO_BLIND_RETRY_AFTER_AMBIGUOUS_WRITE",
+        "DURABLE_ANCHOR_BEFORE_DERIVED_FANOUT",
+        "CURRENT schema/policy lineage requirements",
+        "LINEAR_LAST where applicable",
+        "AUTHORITATIVE_CURRENTNESS_BEFORE_DERIVED_FANOUT",
+        "ACTIVE_PROJECTIONS_VERSION_AGNOSTIC_WHEN_STABLE_IDENTITY_EXISTS",
+        "PROJECTION_FAILURE_CREATES_SYNCDEBT_NOT_AUTHORITY_ROLLBACK"
+      ],
+      "trigger": "Authorized durable mutation"
+    },
+    "READ_RECOVER": {
+      "default": true,
+      "rule": "Compact decision-sufficient hot context; expand retrieval whenever additional current context can materially change the caller decision. Context compaction is not a cognitive-depth limit. Do not load persistence transaction machinery unless an authorized mutation is actually required.",
+      "scope": [
+        "context discovery",
+        "currentness/provenance reconciliation",
+        "bounded recall",
+        "fresh-chat recovery",
+        "ContextPacket construction",
+        "semantic-owner location"
+      ]
+    }
+  },
+  "nam267_recovery_boundary": "ND-NAM267-RECOVERY-BOUNDARY-35AF-20260927",
+  "predecessor": {
+    "version": "0.3.4",
+    "canonical_artifact_id": "1U2NXvr3Chfj4_XpxIZtImKaZhBWQaIWI",
+    "canonical_hash": "d7ea9ad033fd249814274fd400607ce2ff9a25154f319209fe7d5fc91ad0b3c8"
+  },
+  "prework_qualification": {
+    "evidence": [
+      "Drive candidate replace used expected_drive_version CAS",
+      "Google Docs A1 Workspace mutation used revision CAS",
+      "both require exact readback before acceptance"
+    ],
+    "limitation": "Historical bounded pre-T4 CAS evidence only. Current authoritative publication is governed by the post-T4 NAM-143 SERIALIZED_SINGLE_WRITER exact-anchor/token contract; this prework does not override it.",
+    "operation_id": "TM-PREWORK-SPLIT-QUAL-2026-09-27",
+    "status": "PASS_BOUNDED_NONCURRENT"
+  },
+  "role": "Production memory/currentness supervisor and sole durable persistence executor for authorized deltas. Separate from A1 Authority & Memory Validation.",
+  "semantic_id": "ND-SKILL-TM-1",
+  "version": "0.4.2",
+  "currentness_policy": {
+    "authority_root": "NAM-143 (authoritative Linear StateHead) -> bound CURRENT Capability Registry",
+    "active_reference_rule": "When a CURRENT component exposes a stable launcher/logical component identity, active consumers and projections MUST reference that stable identity and MUST NOT select CURRENT by numeric version, timestamp, filename, branch, checkpoint, remembered artifact ID/hash, or copied prose.",
+    "generation": {
+      "launcher_uri": "skills://plugins/nd-generation/nd-launch-generation",
+      "component_key": "GENERATION",
+      "resolution": "NAM-143 -> bound CURRENT Registry -> GENERATION -> exact canonical artifact",
+      "numeric_versions": "Internal canonical-artifact/provenance metadata only; NONSELECTABLE outside the authoritative Registry binding.",
+      "navigator_rule": "NAM-142 and all other Linear/GitHub projections are navigation/evidence only and never override NAM-143 or its bound CURRENT Registry."
+    },
+    "classification": {
+      "SELECTABLE_STALE_REFERENCE": "BLOCKING_CURRENTNESS_DEFECT — repair before consequential publication/routing that could depend on it.",
+      "NONAUTHORITATIVE_ACTIVE_STALE_LITERAL": "SYNCDEBT_MAINTENANCE — repair opportunistically/through Inquisitor; it cannot override CURRENT.",
+      "IMMUTABLE_HISTORICAL_LITERAL": "PROVENANCE_OK — preserve when structurally NONSELECTABLE."
+    },
+    "projection_convergence": "Create/read back authorized canonical Drive successors first; commit currentness through NAM-143 under SERIALIZED_SINGLE_WRITER exact-anchor/token semantics; then refresh derived projections. Projection failure creates SyncDebt and never rolls authority backward.",
+    "no_second_root": "True Memory must never create a Generation-local or projection-local currentness root."
+  },
+  "legacy_entry_rule": "Legacy/native entry text that routes production True Memory through NAM-106 or inserts a provider/Google-Docs StateHead between NAM-143 and the Registry is OBSOLETE_NONROUTABLE. Recover CURRENT only via NAM-143 -> bound CURRENT Registry -> NAM-266 -> exact True Memory launcher URI.",
+  "m1_currentness_convergence": "Semantic-preserving maintenance correction: removes obsolete A1 self-development authority wording and marks legacy NAM-106/native v5 routes nonroutable; no change to True Memory ownership or persistence semantics.",
+  "post_t4_currentness_convergence": {
+    "cutover_token": "ND-LINEAR-STATEHEAD-CUTOVER-1",
+    "authority_path": "NAM-143 -> bound CURRENT Registry -> exact component/launcher binding",
+    "former_google_docs_statehead": "NONSELECTABLE_PROVENANCE_ONLY",
+    "publication_contract": "SERIALIZED_SINGLE_WRITER / TRUE_MEMORY / EXACT_OLD_ANCHOR_OR_TOKEN / PROVIDER_READBACK / RECONCILE_OUTCOME_UNKNOWN_BEFORE_RETRY",
+    "semantic_change": "CURRENTNESS_AND_PUBLICATION_ROUTE_ONLY",
+    "ownership_change": false
+  },
+  "execution_continuation_delta": {
+    "semantic_owner": "Automation Agent/substantive owner supplies authorized delta and owns execution; True Memory validates/persists/recovers it without taking task ownership.",
+    "maps_to": [
+      "DURABLE_CHECKPOINT",
+      "RECOVERY_POINTER"
+    ],
+    "fields": "objective; substantive_owner; phase/verified_milestone; accepted_effect_refs; ambiguous_effect_refs; exact provider/job/effect identities where needed; route/profile; blocker_fingerprint; wake_condition including material observed inputs; blocked_since; parked/active state; continuation_ref; exact_next_action; next_owner; next_independent_front if needed; supersession_identity only for material late-result races",
+    "required_when_material": "Store only decision-sufficient state for genuine interruption/recovery/ambiguity; no per-call StateHead update. Durable checkpoint content and pointer exact provider readback must precede accepted persistence.",
+    "excluded": [
+      "private chain-of-thought",
+      "raw transcript",
+      "full tool diary",
+      "universal call graph",
+      "global workflow machine"
+    ],
+    "cold_resume": "Recover CURRENT via NAM-143, then exact authorized continuation. Reconcile ambiguous effects before replacement and never replay provider-confirmed accepted effects. Stable unchanged blockers remain PARKED_BLOCKED; owner chooses independent work."
+  },
+  "authority_cutover_canonical_consumer_gate": {
+    "stage": "BEFORE_SEMANTIC_PROJECTION_ADMISSION_OR_CLEANUP_AND_CUTOVER_CLOSURE",
+    "scope": "All ACTIVE/SELECTABLE canonical and runtime consumers, including production contracts/plugins, runtime guards, resolver/bootstrap/profile surfaces, current manifests/rebuild plans and current projects. Do not global-rewrite immutable history.",
+    "classification": {
+      "SELECTABLE_PREDECESSOR_AUTHORITY_ROUTE": "BLOCKING_CURRENTNESS_DEFECT / CUTOVER_ADOPTION_FAIL",
+      "ACTIVE_NONAUTHORITATIVE_STALE_LITERAL": "SyncDebt",
+      "IMMUTABLE_STRUCTURALLY_NONSELECTABLE_HISTORY": "PROVENANCE_OK"
+    },
+    "correct_route": "NAM-143 -> bound CURRENT Registry -> exact component/launcher binding",
+    "rule": "Changing StateHead/Registry alone cannot close an authority-topology cutover. Scan/repair selectable predecessor routing before projection admission; use stable launcher/logical identities instead of numeric version selectors. NotebookLM accurately repeating a stale CURRENT canonical source is a stale-source currentness defect, not hallucination."
+  },
+  "status": "ADOPTION_READY — MANDATORY TASK MEMORY / CLEANUP HOOKS — CURRENT ONLY WHEN NAM-143-BOUND",
+  "north_star_child_ownership": {
+    "rule": "For MATERIAL subtractive-memory/residue/non-resurrection cleanup owned by Inquisitor, True Memory MUST delegate the bounded operation to CURRENT Inquisitor and adjudicate RETURN. Direct True Memory cleanup is reserved for trivial exact cleanup where Child execution has no reasonable expected material value.",
+    "reentry": "After every material Inquisitor/peer/provider RETURN, reassess the memory frontier; the same Child remains eligible repeatedly. RETURN closes one bounded call, not the Child.",
+    "ownership": "True Memory retains memory/currentness/lifecycle/persistence authority; Inquisitor never becomes a second memory Supervisor."
+  },
+  "recursive_semantic_context": {
+    "agent_to_supervisor_to_child": "Supervisor receives the Agent bounded semantic packet and passes a decision-sufficient packet to each Child; Child inherits context without authority transfer.",
+    "refresh_trigger": "After a MATERIAL Child/peer return or domain-state change, refresh/rebind the relevant semantic workspace only when the prior packet may be stale enough to change the next decision.",
+    "lifecycle": "Children may query the same relevant notebook but never create competing persistent roots; True Memory remains lifecycle/currentness owner."
+  },
+  "predecessor_mandatory_hook_enforcement": {
+    "version": "0.4.1",
+    "artifact": "ND_TRUE_MEMORY_v0_4_1_NORTH_STAR_PARITY.json"
+  },
+  "mandatory_hook_enforcement_20261003": {
+    "source_merge": "411066b5b9f3c8335558054a3245a48323c5e359",
+    "qualification": "ND-MANDATORY-HOOK-ENFORCEMENT-HARDENING-20261003",
+    "publication_target": "ND-MANDATORY-HOOK-ENFORCEMENT-20261003-1",
+    "topology_change": false,
+    "task_memory_gate": "EVERY_SUBSTANTIVE_USER_TASK_MUST_INVOKE_TRUE_MEMORY",
+    "no_temp_workspace_only_if": "GENUINELY_BOUNDED_SINGLE_STEP_NO_CONSEQUENTIAL_MUTATION_MULTI_SOURCE_RESUMPTION_MULTIDOMAIN_OR_MULTIPLE_MATERIAL_SAFE_CYCLES",
+    "long_task_workspace": "CURRENT_GEMINI_NOTEBOOKLM_TEMP_TASK_REQUIRED",
+    "workspace_route_failure": "RECOVER_CAPABILITY_NO_SILENT_NO_WORKSPACE_FALLBACK",
+    "temp_task_completion": "INQUISITOR_MANDATORY_THEN_DELETE_RETIRE_VERIFY_CLEANUP",
+    "recovery": "QUALIFIED_RESERVES_THEN_GENERATION_THEN_EXTERNAL_CONNECTING_IF_NEEDED"
+  }
+}

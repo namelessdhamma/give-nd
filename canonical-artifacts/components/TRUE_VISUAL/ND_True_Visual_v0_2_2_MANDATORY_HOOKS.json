@@ -1,0 +1,122 @@
+{
+  "artifact_type": "ND_CANONICAL_COMPONENT",
+  "component_key": "TRUE_VISUAL",
+  "semantic_id": "ND-SKILL-TVIS-1",
+  "semantic_id_status": "DECLARED",
+  "version": "0.2.2",
+  "exact_status": "ADOPTION_READY / MANDATORY VISUAL CHILD + ACCEPTANCE / CURRENT ONLY WHEN NAM-143-BOUND",
+  "adopted_at": "2026-09-26T12:10:00Z",
+  "authority": {
+    "authorization": "Savva explicit instruction 2026-09-26: migrate ND executable cognitive routing to exact launcher bindings and adopt Launcher Contract v6 plus the StateHead-bound Registry binding model.",
+    "adoption_scope": "TRUE_VISUAL v0.1.3 exact-runtime-binding successor; preserves True Visual visual-domain authority, Visual Creator child role, Visual Canon external governance, and True Memory currentness/persistence role."
+  },
+  "qualification": {
+    "verdict": "PASS",
+    "development_conclusion": "TRUE_VISUAL_CONTRACT_DEVELOPMENT = STABLE_ENOUGH",
+    "static_predecessor_evidence": "v0.1.0 28/28 common-standard PASS + 10/10 adversarial protocol PASS",
+    "field_predecessor_evidence": "Two materially different live Figma field cases PASS; provider reconciliation, semantic redirect, production repair, rollback and adaptive stopping PASS.",
+    "successor_delta_verification": "v0.1.1 F1–F6 governance/boundary corrections verified; clean-context recovery and resume passed after chat loss; no material contract defect found.",
+    "adoption_readiness": "RECOVERED / DEVELOPMENT_CLOSED / TECHNICALLY_QUALIFIED / ADOPTION_READY"
+  },
+  "role": "Autonomous closed-loop visual-domain Supervisor and adjudicator. Owns representation strategy, art direction, evaluation, acceptance/repair/redirect/rollback/reopen/close decisions; delegates MATERIAL visual production/execution to Visual Creator and repeatedly re-invokes it as needed.",
+  "invariants": [
+    "SUPERVISOR != ROUTER",
+    "FIRST_PLAUSIBLE_ARTIFACT != COMPLETION",
+    "VISUAL_CANON_EXTERNAL_GOVERNANCE_NOT_OWNED_WORKER",
+    "PROVIDER_SUCCESS != ACCEPTANCE",
+    "CHECKPOINT_IS_CONTINUITY_NOT_AUTHORITY",
+    "FRESH_MUTABLE_BINDINGS_VERIFY_AT_USE",
+    "EXECUTABLE_COGNITIVE_EDGE_REQUIRES_EXACT_LAUNCHER_URI",
+    "MATERIAL_VISUAL_EXECUTION_REQUIRES_VISUAL_CREATOR",
+    "RETURN_CLOSES_ONE_BOUNDED_CALL_NOT_CHILD_ELIGIBILITY",
+    "LOCAL_COGNITIVE_REENTRY_AFTER_MATERIAL_RETURN"
+  ],
+  "interfaces": {
+    "consumes": [
+      "HUMAN_OR_AGENT_AUTHORIZED_VISUAL_OBJECTIVE",
+      "STATUS_PRESERVED_SOURCE_MEANING",
+      "CURRENT_VISUAL_CANON",
+      "TRUE_MEMORY_CONTEXT_PACKET?",
+      "VISUAL_ARTIFACT_STATE?"
+    ],
+    "produces": [
+      "VISUAL_TASK_UNITS",
+      "VISUAL_EXECUTION_PLAN",
+      "VISUAL_ACCEPTANCE_CRITERIA",
+      "VISUAL_DECISION_STABILITY_STATE",
+      "ACCEPT_REPAIR_REDIRECT_ROLLBACK_REOPEN_CLOSE_DECISION",
+      "RESUMABLE_VISUAL_CHECKPOINT"
+    ]
+  },
+  "dependencies": [
+    "VISUAL_CREATOR",
+    "VISUAL_CANON",
+    "TRUE_MEMORY"
+  ],
+  "owner": "Visual-domain supervision and semantic visual outcome control within authorized scope.",
+  "read_permissions": [
+    "STATUS_PRESERVED_SOURCE_CONTENT",
+    "CURRENT_VISUAL_CANON",
+    "TRUE_MEMORY_CONTEXT",
+    "VISUAL_ARTIFACTS",
+    "QUALIFICATION_EVIDENCE"
+  ],
+  "write_permissions": [
+    "AUTHORIZED_VISUAL_ARTIFACTS",
+    "WORK_LOCAL_VISUAL_STATE",
+    "NONCANONICAL_QUALIFICATION_EVIDENCE",
+    "REUSABLE_LEARNING_ONLY_THROUGH_TRUE_MEMORY",
+    "NO_VISUAL_CANON_REGISTRY_STATEHEAD_OR_PUBLICATION_AUTHORITY"
+  ],
+  "source_provenance": {
+    "development_candidate": {
+      "repository": "namelessdhamma/nameless-dhamma-vault",
+      "commit": "0c7b1fe5cf7d87d5d6dbb6550ee36d3a12ed628d",
+      "path": "ND Interface/_Capabilities/True Visual v0.1.1 — Final Development Candidate.md",
+      "git_blob_sha": "e1a25796f54241e388243c1bdc012162437494a0"
+    },
+    "final_development_audit": {
+      "commit": "46c9a656e5203259739ba66b8faa76efbf069086",
+      "path": "ND Interface/_Audit/True Visual v0.1.1 — Final Development Audit 2026-09-17.md"
+    },
+    "development_closed_by": "66ace829d62aa58c9a9ee589aa77e811404a2a18",
+    "recovery_evidence": [
+      "3382b68fb051f0dd0055b86d84696fe4ec9a4e0e",
+      "35a9a42040f0abe5815bd2af048e990d5a9aa120",
+      "3b0275938a5c4c0234f42b8cb01a922c54aa4741",
+      "7c50f6a633abd8aed56faa0f510f842e05d03fe7"
+    ]
+  },
+  "predecessor_disposition": "TRUE_VISUAL v0.1.3 remains immutable predecessor provenance and is noncurrent after adoption of v0.2.0.",
+  "compatibility": {
+    "mode": "TRUE_VISUAL_V0_2_0_NORTH_STAR_CHILD_OWNERSHIP",
+    "notes": "Preserves all v0.1.3 authority/runtime invariants. Material visual production is delegated to Visual Creator; True Visual retains visual judgment/adjudication and may repeatedly call the same Child after each typed RETURN. Peers remain bounded services; no ritual fan-out."
+  },
+  "runtime_binding": {
+    "contract": "ND-LAUNCHER-CONTRACT-v6",
+    "self_launcher_uri": "skills://plugins/nd-true-visual/nd-launch-true-visual",
+    "root_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent",
+    "visual_creator_child_uri": "skills://plugins/nd-visual-creator/nd-launch-visual-creator",
+    "true_developer_peer_uri": "skills://plugins/nd-true-developer/nd-launch-true-developer",
+    "true_research_peer_uri": "skills://plugins/nd-true-research/nd-launch-true-research",
+    "generation_support_uri": "skills://plugins/nd-generation/nd-launch-generation",
+    "executable_edge_rule": "Exact CURRENT skills:// launcher URI required for CHILD / PEER_SERVICE / SUPPORT calls. Human names, semantic IDs, Kernels, bare launcher IDs, and @ aliases are non-executable metadata.",
+    "return_rule": "Use exact return_to_launcher_uri to address the already-live caller; do not re-invoke a live caller. Re-entry is allowed only when caller/parent is absent and CURRENT task/call/correlation/runtime-generation identity still matches.",
+    "material_child_ownership_rule": "When visual production/edit/generation is MATERIAL, True Visual MUST call CURRENT Visual Creator rather than perform same-context production. True Visual-direct work is visual judgment, art direction, adjudication, integration and trivial exact operations.",
+    "local_reentry_rule": "After every MATERIAL Child/PEER_SERVICE/tool RETURN, reassess same Visual Creator AGAIN, peer service, verification/integration, or closure. RETURN never exhausts Visual Creator; continue while another bounded call has reasonable expected material value."
+  },
+  "predecessor_mandatory_hook_enforcement": {
+    "version": "0.2.0",
+    "artifact": "ND_True_Visual_v0_2_0_NORTH_STAR.json"
+  },
+  "mandatory_hook_enforcement_20261003": {
+    "source_merge": "411066b5b9f3c8335558054a3245a48323c5e359",
+    "qualification": "ND-MANDATORY-HOOK-ENFORCEMENT-HARDENING-20261003",
+    "publication_target": "ND-MANDATORY-HOOK-ENFORCEMENT-20261003-1",
+    "topology_change": false,
+    "substantive_visual_task": "VISUAL_CREATOR_MUST_BE_INVOKED_AT_LEAST_ONCE",
+    "material_visual_production": "VISUAL_CREATOR_REQUIRED_NO_SUPERVISOR_IMITATION",
+    "acceptance": "TRUE_VISUAL_REVIEW_AND_EXPLICIT_ACCEPTANCE_REQUIRED_BEFORE_RETURN",
+    "reentry": "EVERY_MATERIAL_RETURN_REENTER_UNTIL_FRONTIER_CLOSED"
+  }
+}
