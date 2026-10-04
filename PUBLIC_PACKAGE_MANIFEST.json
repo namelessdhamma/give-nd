@@ -2,7 +2,7 @@
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v3",
   "source_repo": "namelessdhamma/nameless-dhamma-vault",
   "source_branch": "transfer/ksyusha-frozen-nd-20261003",
-  "source_head": "ace60138c7b13b3cbb95087a929d164bdd9ca048",
+  "source_head": "f776eeb8112007bdd2c024f410ba0aecf5023647",
   "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
   "target_repo": "namelessdhamma/nd-ksyusha-transfer",
   "visibility": "PUBLIC",
@@ -14,7 +14,7 @@
     "plugin_bundles": 22,
     "entry_files": 1
   },
-  "total_bytes": 995959,
+  "total_bytes": 996876,
   "target_overrides": {
     "README.md": "PUBLIC_README.md",
     "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
@@ -596,8 +596,8 @@
       "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "category": "control",
-      "blob_sha": "e1f68701d080b24c1c314acb1ece8845ffcdbc70",
-      "size_bytes": 1708
+      "blob_sha": "e4760575619c5f4599b29bbbb2033eb775d4e9c7",
+      "size_bytes": 2386
     },
     {
       "source_path": "QUALIFICATION.md",
@@ -617,8 +617,8 @@
       "source_path": "PUBLIC_SELECTABLE_SET_CURRENT.json",
       "target_path": "SELECTABLE_SET_CURRENT.json",
       "category": "control",
-      "blob_sha": "20d1cc633b7711354abd99f419d10ab365c54bcc",
-      "size_bytes": 2065
+      "blob_sha": "4a9ae2483cc2f40099cdf4823508d2782911c1be",
+      "size_bytes": 2106
     },
     {
       "source_path": "SELF_EVOLUTION_CURRENT.txt",
@@ -645,8 +645,8 @@
       "source_path": "TRANSFER_MANIFEST.json",
       "target_path": "TRANSFER_MANIFEST.json",
       "category": "control",
-      "blob_sha": "bec3e8fff5db1b6c35c3cf69f493f3873850596b",
-      "size_bytes": 4955
+      "blob_sha": "03bbde537aaf141ff53301601b988c4c48e55e71",
+      "size_bytes": 5153
     }
   ]
 }
