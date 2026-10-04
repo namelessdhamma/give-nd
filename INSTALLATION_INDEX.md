@@ -14,9 +14,9 @@ Before final StateHead publication, the target instance is BOOTSTRAP / NONAUTHOR
 
 ## How Ksyusha uses these files
 
-Initial connections required: **Google Drive + Linear + Plugin Creator**. GitHub account connection is not required to read this public installer. Gemini NotebookLM is intentionally connected later in Stage 03.
+Human entrypoint: **`START_HERE.md`**.
 
-Execute exactly one file at a time, in order:
+Ksyusha normally sends one installation request and does **not** manually invoke numbered stage files. The installer executes these bounded stages internally and automatically continues after each PASS:
 
 1. `01_FOUNDATION_DRIVE_LINEAR.md`
 2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
@@ -27,11 +27,11 @@ Execute exactly one file at a time, in order:
 7. `07_STATEHEAD_PUBLICATION.md`
 8. In a NEW clean chat: `08_COLD_QUALIFICATION.md`
 
-A stage may be run in a fresh chat. Give that chat the public repository URL plus the exact stage filename. The executor must recover state from target provider readbacks and the durable install checkpoint, not from previous chat memory.
+Google Drive, Linear and Plugin Creator may already be connected, but this is not required choreography: if a required target-owned service is absent, the installer checkpoints first and requests only the exact authorization action. GitHub account connection is not required to read this public installer. Gemini NotebookLM is intentionally connected later in Stage 03.
 
-If a required service asks Ksyusha to authorize/connect it, request only that authorization. After authorization she can say: `Continue this stage from the last verified checkpoint.`
+If a fresh chat is required before Stage 07, the executor recovers from target provider readbacks and `TARGET_INSTALL_STATE.json`, not previous chat memory.
 
-Do not proceed to the next stage until the current stage reaches PASS or reports one exact irreducible authorization/provider gate.
+When `START_HERE.md` orchestration is active, stage-level “stop and run the next file” wording is standalone fallback only; PASS automatically advances to the next stage.
 
 ## Durable checkpoint contract
 
