@@ -14,7 +14,7 @@
     "plugin_bundles": 22,
     "entry_files": 1
   },
-  "total_bytes": 997307,
+  "total_bytes": 1002563,
   "target_overrides": {
     "README.md": "PUBLIC_README.md",
     "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
@@ -103,11 +103,11 @@
       "size_bytes": 9597
     },
     {
-      "source_path": "PUBLIC_BOOTSTRAP_CURRENT.txt",
+      "source_path": "BOOTSTRAP_CURRENT.txt",
       "target_path": "BOOTSTRAP_CURRENT.txt",
       "category": "control",
-      "blob_sha": "ca4c50da525d8bc09b4d86e552c18c6c86889e20",
-      "size_bytes": 1019
+      "blob_sha": "6423f9f23d7cd75597b31ea7f8ab246b0ed21ba0",
+      "size_bytes": 1126
     },
     {
       "source_path": "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
@@ -393,15 +393,15 @@
       "source_path": "HANDOFF_CURRENT.md",
       "target_path": "HANDOFF_CURRENT.md",
       "category": "control",
-      "blob_sha": "b2a05be08c78fbf1a460485759eed2a6dcc3202a",
-      "size_bytes": 2997
+      "blob_sha": "fc93ad99c63e5e863bc4f87954a76fa838e2b95c",
+      "size_bytes": 3180
     },
     {
       "source_path": "INSTALLATION_INDEX.md",
       "target_path": "INSTALLATION_INDEX.md",
       "category": "stage",
-      "blob_sha": "0a2171abf94f4c082f8e4ace3c3dba1f4b24c556",
-      "size_bytes": 3386
+      "blob_sha": "6867cd6b1d61a5101143d64eac13eef4013ffc5b",
+      "size_bytes": 3500
     },
     {
       "source_path": "LAUNCHER_GRAPH_CURRENT.txt",
@@ -596,8 +596,8 @@
       "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "category": "control",
-      "blob_sha": "451cc1c024a5a5e83ebb37d8e82d481ac907dd51",
-      "size_bytes": 2816
+      "blob_sha": "72052521b5aea259e6dd5c593b0b4648810de3da",
+      "size_bytes": 3088
     },
     {
       "source_path": "QUALIFICATION.md",
@@ -610,15 +610,15 @@
       "source_path": "PUBLIC_README.md",
       "target_path": "README.md",
       "category": "entry",
-      "blob_sha": "d13998356af34939172916b30be022baa32df00c",
-      "size_bytes": 3175
+      "blob_sha": "ee766e96e3d9987287f3a2941d415f1d438f63d9",
+      "size_bytes": 3603
     },
     {
       "source_path": "PUBLIC_SELECTABLE_SET_CURRENT.json",
       "target_path": "SELECTABLE_SET_CURRENT.json",
       "category": "control",
-      "blob_sha": "4a9ae2483cc2f40099cdf4823508d2782911c1be",
-      "size_bytes": 2106
+      "blob_sha": "f07b510fe2fce529c113361e2953e156ad65f9d5",
+      "size_bytes": 2196
     },
     {
       "source_path": "SELF_EVOLUTION_CURRENT.txt",
@@ -642,11 +642,19 @@
       "size_bytes": 2189
     },
     {
+      "source_path": "START_HERE.md",
+      "target_path": "START_HERE.md",
+      "category": "entry",
+      "blob_sha": "f6b0f2ce70b665f7ece885823f75aa26df3f7458",
+      "size_bytes": 4001
+    },
+    {
       "source_path": "TRANSFER_MANIFEST.json",
       "target_path": "TRANSFER_MANIFEST.json",
       "category": "control",
-      "blob_sha": "03bbde537aaf141ff53301601b988c4c48e55e71",
-      "size_bytes": 5153
+      "blob_sha": "c457e881b447ccb3cf78b84efbfbbec6f7b99c3b",
+      "size_bytes": 5214
     }
-  ]
+  ],
+  "total_files": 89
 }
