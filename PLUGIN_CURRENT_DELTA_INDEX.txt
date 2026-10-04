@@ -13,7 +13,7 @@ nd-generation | 1.1.5 | pluginrel_6ac0f522d1f48191aba2e33f2f633172 | changed=.co
 
 nd-external-connecting | 1.2.2 | pluginrel_6ac0f52f96c08191a414e9599b05923d | separate CURRENT recovery-skill plugin; exact functional source exported in plugin-export-current/nd-external-connecting.json
 
-RULE: plugin-current/* + this delta index + Plugin Creator CURRENT release override stale plugin-source/source-bundle.json metadata. Stale bundles are NONSELECTABLE until rebuilt in the target account.
+RULE: PLUGIN_EXPORT_CURRENT_MANIFEST.json + plugin-export-current/*.json + this delta index define the self-contained transferable plugin source. Source-account Plugin Creator release IDs are provenance/verification only; stale historical bundles are NONSELECTABLE.
 
 SELF-CONTAINED TARGET HANDOFF — 2026-10-04
 Exact functional source for all 22 transferred CURRENT private plugins is exported under plugin-export-current/*.json: 21 plugins back the 22-launcher graph and nd-external-connecting is the separate CURRENT recovery-skill plugin.
