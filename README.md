@@ -10,29 +10,27 @@ Source baseline:
 
 The source ND remains separate and is not modified by this installer.
 
-## Simplest installation
+## Самая простая установка
 
-Before starting, Ksyusha connects these apps to her ChatGPT:
+Ксюше не нужно вручную проходить восемь файлов.
 
-- **Google Drive**
-- **Linear**
-- **Plugin Creator**
+Открыть обычный новый чат ChatGPT и отправить одно сообщение:
 
-That is enough to begin.
+> Установи мне Nameless Dhamma из https://github.com/namelessdhamma/give-nd . Открой `START_HERE.md` и выполни установку автономно до конца. Не проси меня вручную запускать stage-файлы и не задавай рутинных вопросов. Останавливайся только если мне действительно нужно подключить приложение/дать доступ или когда потребуется новый чистый чат для финальной проверки.
 
-**GitHub account connection is not required** to read this installer because the repository is public.
+Дальше ChatGPT сам выполняет Stages 01–07. Если ему действительно нужен доступ к сервису, Ксюша нажимает Connect / Allow / Authorize и отвечает `Продолжай.`
 
-**Gemini NotebookLM is not required yet.** It is connected later, during Stage 03, after External Connecting is installed.
+После Stage 07 ChatGPT сам даст одну готовую строку для нового чистого чата с финальной проверкой.
 
-### First message in Ksyusha's ChatGPT
+**GitHub account connection is not required.** The repository is public.
 
-Give ChatGPT this repository URL and say:
+**Gemini NotebookLM is not required before starting.** It is connected later through the installed External Connecting capability.
 
-> Read `INSTALLATION_INDEX.md` from this repository and execute `01_FOUNDATION_DRIVE_LINEAR.md` autonomously. Treat the repository files as the installation source. Do not redesign ND.
-
-After a stage reaches PASS, run the next numbered MD file. A new chat may be used for every stage.
+Human entrypoint: **`START_HERE.md`**.
 
 ## Installation stages
+
+The numbered files remain bounded/resumable implementation transactions and are normally executed automatically by the installer:
 
 1. `01_FOUNDATION_DRIVE_LINEAR.md`
 2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
@@ -49,6 +47,7 @@ The target StateHead stays **BOOTSTRAP / NONAUTHORITATIVE** until Stage 07. It b
 
 This public repository contains only the minimum CURRENT installation set:
 
+- one-message human orchestration in `START_HERE.md`;
 - staged installation instructions;
 - exact CURRENT Capability Registry snapshot;
 - exact CURRENT canonical component/system artifacts needed for the clone;
