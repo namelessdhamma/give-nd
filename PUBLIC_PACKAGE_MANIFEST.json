@@ -2,19 +2,21 @@
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v3",
   "source_repo": "namelessdhamma/nameless-dhamma-vault",
   "source_branch": "transfer/ksyusha-frozen-nd-20261003",
-  "source_head": "1c50b1ab47e36397d2352b419136cbe57a9097ec",
+  "source_head": "b07319dc9732e9bb50f8aacc00caf36ae611be1d",
   "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
   "target_repo": "namelessdhamma/give-nd",
   "visibility": "PUBLIC",
   "policy": "MINIMUM_SELF_CONTAINED_CURRENT_INSTALLATION_SET_ONLY",
   "counts": {
-    "total_files": 89,
+    "total_files": 90,
     "stage_files": 9,
     "canonical_files": 35,
     "plugin_bundles": 22,
-    "entry_files": 2
+    "entry_files": 2,
+    "payload_files": 89,
+    "self_manifest_files": 1
   },
-  "total_bytes": 1003258,
+  "total_bytes": 1003894,
   "target_overrides": {
     "README.md": "PUBLIC_README.md",
     "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
@@ -372,8 +374,8 @@
       "source_path": "CURRENT_POINTER.txt",
       "target_path": "CURRENT_POINTER.txt",
       "category": "control",
-      "blob_sha": "0c9156ba1a0ad8ea6a4b9f9359ff9211b5f936fb",
-      "size_bytes": 801
+      "blob_sha": "3f2b8fc47235a16a725488275af9ef83984d902c",
+      "size_bytes": 802
     },
     {
       "source_path": "CURRENT_TRANSFER_BASELINE.json",
@@ -421,8 +423,8 @@
       "source_path": "PLUGIN_CURRENT_DELTA_INDEX.txt",
       "target_path": "PLUGIN_CURRENT_DELTA_INDEX.txt",
       "category": "control",
-      "blob_sha": "213c91362134dec061e17805211750dac83123da",
-      "size_bytes": 2631
+      "blob_sha": "7c60edcdf35c9f9e026eb97fe07dbf09eab75402",
+      "size_bytes": 2693
     },
     {
       "source_path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
@@ -596,8 +598,8 @@
       "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "category": "control",
-      "blob_sha": "ba313b3dc03102a641312773d5a26c40507cadef",
-      "size_bytes": 3758
+      "blob_sha": "7b910e5064a031c88e732d44abeb2df64b25b070",
+      "size_bytes": 4223
     },
     {
       "source_path": "QUALIFICATION.md",
@@ -638,8 +640,8 @@
       "source_path": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
       "target_path": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
       "category": "control",
-      "blob_sha": "466ebe98963aa37e7d3bea99351eaaffd5335031",
-      "size_bytes": 2189
+      "blob_sha": "99232893429f322eae18b88e583cbc85f125c263",
+      "size_bytes": 2297
     },
     {
       "source_path": "START_HERE.md",
@@ -656,5 +658,7 @@
       "size_bytes": 5214
     }
   ],
-  "total_files": 89
+  "total_files": 90,
+  "payload_files": 89,
+  "source_head_semantics": "FILESET_CAPTURE_HEAD_BEFORE_THIS_MANIFEST_SELF_WRITE"
 }
