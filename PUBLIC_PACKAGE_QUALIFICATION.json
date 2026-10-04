@@ -28,7 +28,8 @@
     "human_choreography": "PASS_ONE_INITIAL_MESSAGE_PLUS_REAL_AUTH_GATES_PLUS_ONE_FINAL_CLEAN_CHAT",
     "simple_install_entrypoint": "PASS_START_HERE_PUBLIC_AND_SELECTABLE",
     "public_manifest_consistency": "PASS_COUNTS_89_PAYLOAD_PLUS_MANIFEST_SELF_90_REPO_FILES_TARGET_REPO_GIVE_ND",
-    "public_bootstrap_self_contained": "PASS_NO_RUNTIME_SOURCE_OR_PRIVATE_PLUGIN_CURRENT_DEPENDENCY"
+    "public_bootstrap_self_contained": "PASS_NO_RUNTIME_SOURCE_OR_PRIVATE_PLUGIN_CURRENT_DEPENDENCY",
+    "active_control_consistency": "PASS_START_HERE_POINTERS_AND_SELF_CONTAINED_PLUGIN_SOURCE"
   },
   "final_critic": {
     "verdict": "PASS",
@@ -44,7 +45,10 @@
       "Repaired Anti-Hang canonical byte drift: restored the required final LF so the public/source artifact SHA-256 exactly matches Registry 1.64.2.",
       "Added START_HERE.md orchestration so Ksyusha no longer has to manually launch Stages 01-07; bounded stage receipts and StateHead-last semantics remain unchanged.",
       "Repaired stale public manifest counts/target repo metadata after START_HERE addition.",
-      "Restored PUBLIC_BOOTSTRAP_CURRENT as the published bootstrap so no private runtime-source/plugin-current paths are required."
+      "Restored PUBLIC_BOOTSTRAP_CURRENT as the published bootstrap so no private runtime-source/plugin-current paths are required.",
+      "Aligned CURRENT_POINTER.txt with START_HERE.md as the human entrypoint.",
+      "Aligned SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json with single-message installation choreography.",
+      "Removed stale plugin-current/* dependency wording from PLUGIN_CURRENT_DELTA_INDEX.txt; public plugin source is fully self-contained under plugin-export-current/*.json."
     ],
     "unresolved_material_findings": 0
   }
