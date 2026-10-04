@@ -4,6 +4,7 @@
   "role": "FROZEN_PUBLIC_INSTALLATION_SOURCE_ONLY",
   "current_control": [
     "README.md",
+    "START_HERE.md",
     "INSTALLATION_INDEX.md",
     "01_FOUNDATION_DRIVE_LINEAR.md",
     "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
@@ -44,5 +45,5 @@
     "plugin-export-current/*.json"
   ],
   "nonselectable_provenance": [],
-  "resolution_rule": "This public repository is a frozen installation source, never target authority. During bootstrap follow README.md -> INSTALLATION_INDEX.md -> exact numbered stage. After Stage 07, target CURRENT resolves only through Ksyusha target Linear StateHead -> bound target Registry. Source NAM-143/source provider IDs remain provenance only."
+  "resolution_rule": "This public repository is a frozen installation source, never target authority. Human bootstrap follows README.md -> START_HERE.md -> INSTALLATION_INDEX.md; the installer executes exact numbered stages automatically after each PASS. After Stage 07, target CURRENT resolves only through Ksyusha target Linear StateHead -> bound target Registry. Source NAM-143/source provider IDs remain provenance only."
 }
