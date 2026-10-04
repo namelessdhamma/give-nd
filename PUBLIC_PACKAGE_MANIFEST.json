@@ -2,19 +2,19 @@
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v3",
   "source_repo": "namelessdhamma/nameless-dhamma-vault",
   "source_branch": "transfer/ksyusha-frozen-nd-20261003",
-  "source_head": "ef60a7726273dc308e0e467d0380250f8b6bcc71",
+  "source_head": "1c50b1ab47e36397d2352b419136cbe57a9097ec",
   "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
-  "target_repo": "namelessdhamma/nd-ksyusha-transfer",
+  "target_repo": "namelessdhamma/give-nd",
   "visibility": "PUBLIC",
   "policy": "MINIMUM_SELF_CONTAINED_CURRENT_INSTALLATION_SET_ONLY",
   "counts": {
-    "total_files": 88,
+    "total_files": 89,
     "stage_files": 9,
     "canonical_files": 35,
     "plugin_bundles": 22,
-    "entry_files": 1
+    "entry_files": 2
   },
-  "total_bytes": 1002788,
+  "total_bytes": 1003258,
   "target_overrides": {
     "README.md": "PUBLIC_README.md",
     "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
@@ -103,11 +103,11 @@
       "size_bytes": 9597
     },
     {
-      "source_path": "BOOTSTRAP_CURRENT.txt",
+      "source_path": "PUBLIC_BOOTSTRAP_CURRENT.txt",
       "target_path": "BOOTSTRAP_CURRENT.txt",
       "category": "control",
-      "blob_sha": "6423f9f23d7cd75597b31ea7f8ab246b0ed21ba0",
-      "size_bytes": 1126
+      "blob_sha": "b3a539f75c448d32e2b831ce47008af0dc7363bf",
+      "size_bytes": 1151
     },
     {
       "source_path": "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
@@ -596,8 +596,8 @@
       "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "category": "control",
-      "blob_sha": "4eb07ab46e4c96304e61ab83211651601e957f32",
-      "size_bytes": 3313
+      "blob_sha": "ba313b3dc03102a641312773d5a26c40507cadef",
+      "size_bytes": 3758
     },
     {
       "source_path": "QUALIFICATION.md",
