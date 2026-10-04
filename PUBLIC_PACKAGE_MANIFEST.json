@@ -14,7 +14,7 @@
     "plugin_bundles": 22,
     "entry_files": 1
   },
-  "total_bytes": 1002563,
+  "total_bytes": 1002788,
   "target_overrides": {
     "README.md": "PUBLIC_README.md",
     "BOOTSTRAP_CURRENT.txt": "PUBLIC_BOOTSTRAP_CURRENT.txt",
@@ -596,8 +596,8 @@
       "source_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "target_path": "PUBLIC_PACKAGE_QUALIFICATION.json",
       "category": "control",
-      "blob_sha": "72052521b5aea259e6dd5c593b0b4648810de3da",
-      "size_bytes": 3088
+      "blob_sha": "4eb07ab46e4c96304e61ab83211651601e957f32",
+      "size_bytes": 3313
     },
     {
       "source_path": "QUALIFICATION.md",
