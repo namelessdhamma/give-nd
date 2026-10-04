@@ -4,9 +4,9 @@ STATUS: SOURCE HANDOFF COMPLETE / STAGED TARGET INSTALLATION REQUIRED
 
 ## Current target installation path
 
-Use `INSTALLATION_INDEX.md` as the human entrypoint.
+Use `START_HERE.md` as the human entrypoint. `INSTALLATION_INDEX.md` is the staged executor index.
 
-Ksyusha installs ND in bounded stages, one MD file at a time:
+The installer executes ND in bounded stages. Ksyusha normally does not invoke them manually:
 
 1. `01_FOUNDATION_DRIVE_LINEAR.md`
 2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
@@ -17,7 +17,7 @@ Ksyusha installs ND in bounded stages, one MD file at a time:
 7. `07_STATEHEAD_PUBLICATION.md`
 8. NEW clean chat: `08_COLD_QUALIFICATION.md`
 
-Each stage can run in a fresh chat and recovers from target Drive/Linear/provider readbacks rather than chat memory.
+Under `START_HERE.md`, PASS automatically advances to the next stage in the same chat. If authorization or context handoff is required, durable target readbacks/checkpoints are used; Stage 08 always runs in a fresh clean chat.
 
 ## Source baseline
 
