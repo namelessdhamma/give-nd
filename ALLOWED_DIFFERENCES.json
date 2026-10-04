@@ -1,0 +1,66 @@
+{
+  "transfer_id": "ND-KSYUSHA-CURRENT-CLONE",
+  "source_authority": "NAM-143 -> Registry 1.64.2",
+  "rule": "Any source/target difference not listed here is a migration defect until explicitly classified.",
+  "allowed": [
+    [
+      "LINEAR_PROVIDER_IDS",
+      "Target-owned issue/workspace/team IDs; semantic navigator roles preserved."
+    ],
+    [
+      "GOOGLE_DRIVE_IDS",
+      "Target-owned file/folder/revision IDs; transferred system content/role preserved where in scope."
+    ],
+    [
+      "NOTEBOOKLM_IDS",
+      "Target-owned notebook/source/conversation IDs; lifecycle class and curated system semantics preserved."
+    ],
+    [
+      "SUPABASE_INSTANCE",
+      "Target-owned project/database/auth objects; schema/runtime role preserved; no source rows/credentials copied."
+    ],
+    [
+      "GITHUB_INSTANCE_COORDINATES",
+      "Target repo/installation IDs may differ; architecture semantics and release provenance preserved."
+    ],
+    [
+      "CLOUD_RUNTIME_ENDPOINTS",
+      "Target-owned Railway/Render/Vercel/etc. deployment coordinates may differ; logical capability/recovery semantics preserved."
+    ],
+    [
+      "OAUTH_AND_CREDENTIALS",
+      "Never copied; target grants/creates its own credentials."
+    ],
+    [
+      "USER_PROFILE_AND_PERSONAL_MEMORY",
+      "Source personal data excluded; target starts with target-specific user memory."
+    ],
+    [
+      "ACTIVE_PROJECT_STATE",
+      "Source personal/product projects excluded; target projects created later through CURRENT bootstrap."
+    ],
+    [
+      "SCHEDULER_OBJECT_IDS",
+      "Only CURRENT A1 self-evolution contract may be recreated; scheduler object ID is target-owned."
+    ],
+    [
+      "EXCLUDED_DHAMMA_PROJECT_PAYLOAD",
+      "Nibbana-conditions/GRC project question content is not activated for Ksyusha; structurally required references may remain nonselectable provenance."
+    ]
+  ],
+  "forbidden": [
+    "ND role/module names and semantic identities",
+    "CURRENT skills:// launcher identities except unavoidable platform namespace remap with proven semantic equivalence",
+    "22-launcher Supervisor/Child/Critic topology",
+    "Launcher Contract v6 semantics",
+    "Automation Agent root ownership",
+    "Anti-Hang 1.6.0 hook/effect/liveness/return semantics",
+    "True Memory TASK_MEMORY_GATE and TEMP_TASK lifecycle",
+    "mandatory Child/helper and Critic/acceptance gates",
+    "Generation SUPPORT-only and recovery-frontier role",
+    "External Connecting route-creation/qualification role",
+    "FAILED_ROUTE != FAILED_CAPABILITY",
+    "SILENT_CONTINUE default",
+    "A1/NAM-619 sole self-evolution topology"
+  ]
+}

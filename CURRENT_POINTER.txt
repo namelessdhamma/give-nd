@@ -1,0 +1,9 @@
+SOURCE CURRENT: NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2
+Publication: ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1
+Registry snapshot: canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json
+Human handoff entrypoint: HANDOFF_CURRENT.md
+Staged installation index: INSTALLATION_INDEX.md
+Stages: 01_FOUNDATION_DRIVE_LINEAR.md -> 02_CORE_RUNTIME_EXTERNAL_CONNECTING.md -> 03_NOTEBOOKLM_SEMANTIC_MEMORY.md -> 04_RESEARCH_STACK.md -> 05_WRITING_VISUAL_STACK.md -> 06_REGISTRY_PREPUBLICATION.md -> 07_STATEHEAD_PUBLICATION.md
+Fresh-chat qualification: 08_COLD_QUALIFICATION.md
+Plugin functional source: plugin-export-current/*.json (22 unique transferred plugins: 21 launcher plugins + 1 External Connecting recovery-skill plugin)
+Plugin manifest: PLUGIN_EXPORT_CURRENT_MANIFEST.json

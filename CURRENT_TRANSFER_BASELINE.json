@@ -1,0 +1,32 @@
+{
+  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-CURRENT-20261004",
+  "status": "CURRENT_SOURCE_REBASED",
+  "authority": "NAM-143 -> bound CURRENT Registry -> exact component/launcher",
+  "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
+  "registry": {
+    "version": "1.64.2",
+    "drive_id": "1_EeblDc_mYey8DM19yMtpGXmFoeEjenn",
+    "sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
+    "snapshot": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json"
+  },
+  "automation_agent": {
+    "canonical": "1.3.2",
+    "plugin": "1.7.3",
+    "release": "pluginrel_6ac1e3a0d86881918b711b5e8f561376"
+  },
+  "anti_hang": {
+    "version": "1.6.0",
+    "drive_id": "1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB",
+    "sha256": "61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
+    "launcher": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
+    "plugin": "1.2.0",
+    "release": "pluginrel_6ac1c89034e08191809b955f208fae84"
+  },
+  "counts": {
+    "components": 31,
+    "launchers": 22,
+    "recovery_skills": 1
+  },
+  "source_reuse_rule": "Unchanged Registry bindings are exact-reused. Changed bindings are replaced by their Registry 1.64.2 successors. Predecessors are provenance only.",
+  "blocked_duplication_note": "If platform safety blocks duplicating an exact executable/canonical file into the transfer branch, its CURRENT authoritative provider object plus exact hash/blob/release is retained as the transfer source; this is not a degraded semantic substitute."
+}

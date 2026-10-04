@@ -1,0 +1,223 @@
+{
+  "schema": "ND_TARGET_BINDING_MAP_v3",
+  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "rule": "Populate target fields only from target-provider creation/readback. No credential values belong in this file.",
+  "navigator_rebind": {
+    "NAM-143": {
+      "target_identifier": "${TARGET_STATEHEAD_IDENTIFIER}",
+      "target_url": "${TARGET_STATEHEAD_URL}"
+    },
+    "NAM-262": {
+      "target_identifier": "${TARGET_AUTOMATION_AGENT_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_AUTOMATION_AGENT_NAV_URL}"
+    },
+    "NAM-397": {
+      "target_identifier": "${TARGET_ANTI_HANG_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_ANTI_HANG_NAV_URL}"
+    },
+    "NAM-266": {
+      "target_identifier": "${TARGET_TRUE_MEMORY_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_MEMORY_NAV_URL}"
+    },
+    "NAM-352": {
+      "target_identifier": "${TARGET_INQUISITOR_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_INQUISITOR_NAV_URL}"
+    },
+    "NAM-122": {
+      "target_identifier": "${TARGET_GPT_SKILLS_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_GPT_SKILLS_NAV_URL}"
+    },
+    "NAM-142": {
+      "target_identifier": "${TARGET_EXTERNAL_INTEGRATION_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_EXTERNAL_INTEGRATION_NAV_URL}"
+    },
+    "NAM-115": {
+      "target_identifier": "${TARGET_TRUE_RESEARCH_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_RESEARCH_NAV_URL}"
+    },
+    "NAM-137": {
+      "target_identifier": "${TARGET_TRUE_DEVELOPER_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_DEVELOPER_NAV_URL}"
+    },
+    "NAM-140": {
+      "target_identifier": "${TARGET_TRUE_WRITER_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_WRITER_NAV_URL}"
+    },
+    "NAM-141": {
+      "target_identifier": "${TARGET_TRUE_VISUAL_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_VISUAL_NAV_URL}"
+    },
+    "NAM-91": {
+      "target_identifier": "${TARGET_TRUE_DOCTOR_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_DOCTOR_NAV_URL}"
+    },
+    "NAM-164": {
+      "target_identifier": "${TARGET_TRUE_SMM_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_TRUE_SMM_NAV_URL}"
+    },
+    "NAM-619": {
+      "target_identifier": "${TARGET_A1_SELF_EVOLUTION_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_A1_SELF_EVOLUTION_NAV_URL}"
+    },
+    "NAM-571": {
+      "target_identifier": "${TARGET_NEW_PROJECT_BOOTSTRAP_NAV_IDENTIFIER}",
+      "target_url": "${TARGET_NEW_PROJECT_BOOTSTRAP_NAV_URL}"
+    }
+  },
+  "semantic_workspaces": {
+    "core": {
+      "source": "cbb71f68-48e3-439b-acb0-b52a655481ba",
+      "target": "${TARGET_SEMANTIC_CORE_NOTEBOOK_ID}"
+    },
+    "true_memory": {
+      "source": "057221db-3890-4875-bd19-19c2991771a1",
+      "target": "${TARGET_TRUE_MEMORY_NOTEBOOK_ID}"
+    },
+    "true_research": {
+      "source": "429bc77a-1cb4-4106-89d0-70e6bd0309be",
+      "target": "${TARGET_TRUE_RESEARCH_NOTEBOOK_ID}"
+    },
+    "gpt_skills": {
+      "source": "27333614-d532-46cb-9723-2832f66ba616",
+      "target": "${TARGET_GPT_SKILLS_NOTEBOOK_ID}"
+    },
+    "a1": {
+      "source": "6adc74f4-b8ef-4c1e-806c-1ffad71c5067",
+      "target": "${TARGET_A1_NOTEBOOK_ID}"
+    }
+  },
+  "literal_replacements": [],
+  "provider_bindings": {
+    "target_drive_system_root": "${TARGET_DRIVE_SYSTEM_ROOT_ID}",
+    "target_registry_file": "${TARGET_REGISTRY_DRIVE_ID}",
+    "target_supabase_project": "${TARGET_SUPABASE_PROJECT_REF}",
+    "target_github_repo": "${TARGET_GITHUB_RUNTIME_REPO}"
+  },
+  "launcher_invariants": {
+    "count": 22,
+    "anti_hang": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
+    "developer_executor": "skills://plugins/nd-true-developer/nd-launch-developer-executor"
+  },
+  "predecessor_navigators_nonselectable": [
+    "NAM-167",
+    "NAM-129",
+    "NAM-130"
+  ],
+  "plugin_bindings": {
+    "nd-automation-agent": {
+      "source_bundle": "plugin-export-current/nd-automation-agent.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_AUTOMATION_AGENT}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_AUTOMATION_AGENT}"
+    },
+    "nd-anti-hang": {
+      "source_bundle": "plugin-export-current/nd-anti-hang.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_ANTI_HANG}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_ANTI_HANG}"
+    },
+    "nd-true-memory": {
+      "source_bundle": "plugin-export-current/nd-true-memory.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_MEMORY}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_MEMORY}"
+    },
+    "nd-inquisitor": {
+      "source_bundle": "plugin-export-current/nd-inquisitor.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_INQUISITOR}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_INQUISITOR}"
+    },
+    "nd-true-developer": {
+      "source_bundle": "plugin-export-current/nd-true-developer.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_DEVELOPER}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_DEVELOPER}"
+    },
+    "nd-developer-critic": {
+      "source_bundle": "plugin-export-current/nd-developer-critic.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_DEVELOPER_CRITIC}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_DEVELOPER_CRITIC}"
+    },
+    "nd-true-doctor": {
+      "source_bundle": "plugin-export-current/nd-true-doctor.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_DOCTOR}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_DOCTOR}"
+    },
+    "nd-generation": {
+      "source_bundle": "plugin-export-current/nd-generation.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_GENERATION}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_GENERATION}"
+    },
+    "nd-external-connecting": {
+      "source_bundle": "plugin-export-current/nd-external-connecting.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_EXTERNAL_CONNECTING}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_EXTERNAL_CONNECTING}"
+    },
+    "nd-true-research": {
+      "source_bundle": "plugin-export-current/nd-true-research.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_RESEARCH}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_RESEARCH}"
+    },
+    "nd-research-critic": {
+      "source_bundle": "plugin-export-current/nd-research-critic.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_RESEARCH_CRITIC}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_RESEARCH_CRITIC}"
+    },
+    "nd-pcpa": {
+      "source_bundle": "plugin-export-current/nd-pcpa.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_PCPA}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_PCPA}"
+    },
+    "nd-dae": {
+      "source_bundle": "plugin-export-current/nd-dae.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_DAE}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_DAE}"
+    },
+    "nd-pae": {
+      "source_bundle": "plugin-export-current/nd-pae.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_PAE}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_PAE}"
+    },
+    "nd-true-writer": {
+      "source_bundle": "plugin-export-current/nd-true-writer.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_WRITER}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_WRITER}"
+    },
+    "nd-technical-writer": {
+      "source_bundle": "plugin-export-current/nd-technical-writer.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TECHNICAL_WRITER}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TECHNICAL_WRITER}"
+    },
+    "nd-books-creator": {
+      "source_bundle": "plugin-export-current/nd-books-creator.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_BOOKS_CREATOR}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_BOOKS_CREATOR}"
+    },
+    "nd-literary-critic": {
+      "source_bundle": "plugin-export-current/nd-literary-critic.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_LITERARY_CRITIC}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_LITERARY_CRITIC}"
+    },
+    "nd-story-architect": {
+      "source_bundle": "plugin-export-current/nd-story-architect.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_STORY_ARCHITECT}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_STORY_ARCHITECT}"
+    },
+    "nd-true-visual": {
+      "source_bundle": "plugin-export-current/nd-true-visual.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_VISUAL}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_VISUAL}"
+    },
+    "nd-visual-creator": {
+      "source_bundle": "plugin-export-current/nd-visual-creator.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_VISUAL_CREATOR}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_VISUAL_CREATOR}"
+    },
+    "nd-true-smm": {
+      "source_bundle": "plugin-export-current/nd-true-smm.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_SMM}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_SMM}"
+    }
+  },
+  "canonical_artifact_rebind": {
+    "rule": "Populate only after target-owned canonical artifacts are created/read back in Stage 06. Source canonical IDs remain frozen source provenance.",
+    "target_components": "${TARGET_CANONICAL_COMPONENT_BINDINGS}"
+  },
+  "literal_replacements_rule": "Populate exact source-provider literal -> target-provider literal pairs only after the target object exists and has provider readback. Allowed provider-bound replacements include Linear navigator URLs/IDs, target Drive artifact IDs, NotebookLM IDs, GitHub/runtime coordinates and other fields explicitly allowed by ALLOWED_DIFFERENCES.json. Do not alter ND semantic identities, topology, role names, stable skill identities or behavioral contracts."
+}

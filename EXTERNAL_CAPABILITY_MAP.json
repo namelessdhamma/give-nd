@@ -1,0 +1,229 @@
+{
+  "transfer_id": "ND-KSYUSHA-FROZEN-FORK-20261003",
+  "source_rule": "Derived from CURRENT browser-resolver/integration-route-registry plus North Star cold qualification; target live health/quotas are VERIFY_AT_USE.",
+  "public_plugins_install_and_authorize": [
+    [
+      "Google Drive",
+      "plugin_connector_1p_ab21a553bfbc81919ea8fd1858e3ffa7",
+      "core durable artifact/provider surface"
+    ],
+    [
+      "Gmail",
+      "plugin_connector_1p_95d39881713c8191931482a62d6edff9",
+      "current qualified connector limb"
+    ],
+    [
+      "Google Calendar",
+      "plugin_connector_1p_f8509de903288191b14a160c6c5d20b0",
+      "current qualified connector limb"
+    ],
+    [
+      "Google Contacts",
+      "plugin_connector_1p_c97194162860819190a6f840a61b9889",
+      "current qualified connector limb"
+    ],
+    [
+      "Linear",
+      "plugin_asdk_app_69a089a326dc8191b32a3f2553f5be2c",
+      "sole StateHead/currentness provider surface"
+    ],
+    [
+      "GitHub",
+      "plugin_connector_1p_1a69035c238881919c4190932b2df699",
+      "repository/technical/recovery surface"
+    ],
+    [
+      "Railway",
+      "plugin_asdk_app_6a502589384081919c5decf93496c9d1",
+      "runtime/reserve infrastructure"
+    ],
+    [
+      "Render",
+      "plugin_asdk_app_6a624c56bfe081918f7544f7d58f6faf",
+      "runtime/reserve infrastructure"
+    ],
+    [
+      "Vercel",
+      "plugin_connector_690a90ec05c881918afb6a55dc9bbaa1",
+      "official provider surface + reserve infrastructure"
+    ],
+    [
+      "Supabase",
+      "plugin_asdk_app_69d3e5ee6a708191baa733f7b8931995",
+      "True Memory operational/backend storage capability"
+    ],
+    [
+      "Firecrawl",
+      "plugin_asdk_app_6a314a73f8ac819195b0d55e36b9c609",
+      "structured web retrieval/crawl alternative"
+    ],
+    [
+      "Exa",
+      "plugin_asdk_app_69ea4ed2cf7c8191b742ef3622479ddd",
+      "web retrieval reserve"
+    ],
+    [
+      "Tavily",
+      "plugin_asdk_app_69f271663a288191ac98f46bed7cb032",
+      "web retrieval reserve"
+    ],
+    [
+      "Parallel Search",
+      "plugin_asdk_app_69fb9378663481919a68e8a2109644e5",
+      "web retrieval reserve"
+    ],
+    [
+      "Opera Browser Connector",
+      "plugin_asdk_app_69d669e1d5c88191957786fbcd38b411",
+      "session-bound browser reserve; selectable only when browser connection is live"
+    ],
+    [
+      "TinyFish",
+      "plugin_asdk_app_695325bae7348191b58ae9349a963d22",
+      "browser-agent provider; cost/quota VERIFY_AT_USE and no automatic paid overage"
+    ],
+    [
+      "Scite",
+      "plugin_asdk_app_6952b3a3f1e881918951582d59483c78",
+      "scientific literature/citation capability"
+    ],
+    [
+      "Hugging Face",
+      "plugin_asdk_app_6939e86417648191b7bda087d872685b",
+      "models/datasets/Spaces capability"
+    ],
+    [
+      "Figma",
+      "plugin_connector_68df038e0ba48191908c8434991bbac2",
+      "visual/design capability"
+    ],
+    [
+      "Replit",
+      "plugin_asdk_app_6934801c799081918131791660f02890",
+      "additional implementation/deployment executor"
+    ]
+  ],
+  "current_routes_to_recreate_or_reconnect_if_not_publicly_installable": [
+    [
+      "Gemini Notebook LM",
+      "system semantic working layer; clone/re-authorize unified Railway/Render/Vercel-backed capability"
+    ],
+    [
+      "Browserless",
+      "browser.execution provider"
+    ],
+    [
+      "Lightpanda",
+      "browser.execution provider; preserve current BOUNDED_SYNC_NOT_PROVEN field state until fresh qualification"
+    ],
+    [
+      "Cloudflare Browser Run",
+      "browser.execution provider"
+    ],
+    [
+      "Apify",
+      "browser/extraction actor provider"
+    ],
+    [
+      "Kernel",
+      "cloud browser/computer-use provider"
+    ],
+    [
+      "Docs AI",
+      "Google Docs structural editing limb"
+    ],
+    [
+      "Soluvery",
+      "Drive ACL/sharing audit limb"
+    ],
+    [
+      "Obsidian",
+      "technical/human knowledge projection surface"
+    ],
+    [
+      "Make",
+      "connected automation execution routes; not cognitive authority"
+    ],
+    [
+      "SciSpace",
+      "research capability if current target exposure exists"
+    ],
+    [
+      "Undermind",
+      "deep scientific literature capability if target exposure exists"
+    ],
+    [
+      "Wiley Scholar Gateway",
+      "peer-reviewed Wiley literature capability if target exposure exists"
+    ],
+    [
+      "alphaXiv",
+      "academic paper/repository capability if target exposure exists"
+    ],
+    [
+      "Academic Writing Toolkit",
+      "academic-writing/citation audit capability if target exposure exists"
+    ],
+    [
+      "RewriteLy Humanizer",
+      "text-style transformation capability if target exposure exists"
+    ],
+    [
+      "ND GitHub Direct",
+      "direct bounded GitHub reserve/read-write route"
+    ],
+    [
+      "ND Google Drive Reserve",
+      "single GPT-facing Drive reserve; target-owned auth"
+    ],
+    [
+      "ND Linear Reserve",
+      "single GPT-facing Linear reserve; target-owned auth"
+    ],
+    [
+      "ND Vercel Reserve",
+      "single GPT-facing Vercel reserve; target-owned auth"
+    ],
+    [
+      "ND Kaggle LTX",
+      "FREE_ONLY unified first/last-frame video capability"
+    ],
+    [
+      "ND Yandex Drive",
+      "provider capability; authorize only if target uses Yandex"
+    ],
+    [
+      "ND Telegram Publisher",
+      "provider capability; authorize only if target uses Telegram"
+    ]
+  ],
+  "browser_provider_family": [
+    "browserless",
+    "lightpanda",
+    "cloudflare_browser_run",
+    "apify",
+    "kernel",
+    "tinyfish",
+    "opera_browser_connector"
+  ],
+  "non_browser_web_retrieval": [
+    "native_web",
+    "firecrawl",
+    "exa",
+    "tavily",
+    "parallel_search"
+  ],
+  "invariant": "Missing catalog visibility is an exposure/route issue, not removal of the logical capability. FAILED_ROUTE != FAILED_CAPABILITY.",
+  "target_specific_nonblocking_extensions": [
+    [
+      "Wolfram",
+      "plugin_asdk_app_69fe0bf66c8481919c513d799406436e",
+      "useful for Ksyusha mathematics; not required to prove frozen ND parity"
+    ],
+    [
+      "Consensus",
+      "plugin_asdk_app_6943e6f4a928819195962de16fb9ffe4",
+      "optional academic extension; not required to prove frozen ND parity"
+    ]
+  ]
+}

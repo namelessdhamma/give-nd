@@ -1,0 +1,44 @@
+{
+  "schema": "ND_TARGET_PLUGIN_BUILDER_QUALIFICATION_v1",
+  "date": "2026-10-04",
+  "authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "target": "build_target_plugin.py",
+  "verdict": "PASS",
+  "findings_repaired": [
+    "Builder expected obsolete plugin bundle schema with nested plugin object.",
+    "Builder rejected staged installation because it required the entire binding map to be resolved before any single plugin build."
+  ],
+  "qualification": [
+    {
+      "case": "CURRENT bundle schema + unrelated future placeholders",
+      "expected": "PASS",
+      "observed": "PASS",
+      "evidence": "ND_PLUGIN_SOURCE_BUNDLE_v1 accepted; required NAM-143 binding applied; unrelated future placeholders did not block."
+    },
+    {
+      "case": "Required plugin-local binding unresolved",
+      "expected": "FAIL_CLOSED",
+      "observed": "PASS",
+      "evidence": "Builder rejected unresolved required target_url before target package output."
+    },
+    {
+      "case": "Historical nested plugin bundle compatibility",
+      "expected": "PASS",
+      "observed": "PASS",
+      "evidence": "Backward-compatible historical read path retained."
+    },
+    {
+      "case": "skills:// identity preservation",
+      "expected": "UNCHANGED",
+      "observed": "PASS",
+      "evidence": "Representative test preserved exact skills:// URI set."
+    },
+    {
+      "case": "CURRENT 22 plugin bundle provider-literal scan",
+      "expected": "NO_UNMAPPED_DRIVE_OR_NOTEBOOK_BINDINGS",
+      "observed": "PASS",
+      "evidence": "22/22 bundles contained no source Google Drive URLs and none of the five source NotebookLM workspace IDs; provider-bound runtime literals were confined to Linear navigator URLs where present."
+    }
+  ],
+  "note": "Unrelated Python spreadsheet-runtime warmup warnings did not affect builder process exit codes or outputs."
+}

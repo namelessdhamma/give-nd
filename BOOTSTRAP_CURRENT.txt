@@ -1,0 +1,9 @@
+CURRENT public installer entrypoint: README.md -> INSTALLATION_INDEX.md.
+Source frozen authority baseline: TRANSFER_MANIFEST.json -> source NAM-143 -> Registry 1.64.2.
+Install the target in order using 01_FOUNDATION_DRIVE_LINEAR.md through 07_STATEHEAD_PUBLICATION.md.
+Run 08_COLD_QUALIFICATION.md only in a NEW clean chat after Stage 07 PASS.
+Use BINDING_MAP_TEMPLATE.json, LAUNCHER_GRAPH_CURRENT.txt, PLUGIN_EXPORT_CURRENT_MANIFEST.json, plugin-export-current/*.json, canonical-artifacts/*, SEMANTIC_WORKSPACES_CURRENT.txt, QUALIFICATION.md and build_target_plugin.py.
+NotebookLM is intentionally connected in Stage 03 after External Connecting is installed in Stage 02.
+The public repository is frozen source/provenance only; target-owned provider objects must be provisioned and read back before target publication.
+Publish Ksyusha's target StateHead LAST, then cold-recover only from the target StateHead and target Registry.
+No historical/predecessor installation surface is selectable in this public repository.
