@@ -14,18 +14,19 @@
     "anti_hang_canonical_artifact": "PASS_EXACT_1_6_0_SHA256_61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
     "target_plugin_builder": "PASS_CURRENT_SCHEMA_AND_STAGED_PARTIAL_BINDINGS",
     "source_runtime_dependency": "NONE_REQUIRED_BY_PUBLIC_BOOTSTRAP",
-    "public_secret_scan": "PASS_89_OF_89_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS",
-    "public_email_literal_scan": "PASS_89_OF_89_ZERO_EMAIL_LITERALS",
+    "public_secret_scan": "PASS_90_OF_90_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS; prior 89-file package PASS plus new/modified installer-control surfaces rescanned",
+    "public_email_literal_scan": "PASS_90_OF_90_ZERO_EMAIL_LITERALS; new/modified installer-control surfaces rescanned",
     "source_vault_isolation": "PASS_MINIMAL_FILESET_ONLY",
     "optional_provider_placeholders": "MUST_CONVERGE_TO_TARGET_READBACK_OR_EXPLICIT_NOT_REQUIRED_BEFORE_STAGE_07",
     "internal_reference_integrity": "PASS_AFTER_RECEIPT_REFERENCE_REPAIR",
     "public_access_unauthenticated": "PASS_HTTP_200_LOGGED_OUT_BROWSER",
     "registry_sha256": "PASS_MATCHES_NAM_143_BOUND_DRIVE_3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
     "canonical_component_coverage": "PASS_31_OF_31",
-    "public_file_set": "PASS_89_OF_89_EXACT_MANIFEST_SET_AT_REAUDIT",
+    "public_file_set": "PASS_90_OF_90_EXACT_MANIFEST_SET_AT_SIMPLE_INSTALLER_REAUDIT",
     "canonical_exact_file_hashes": "PASS_29_OF_29_EXACT_FILE_BYTES_MATCH_REGISTRY",
     "canonical_native_text_contracts": "2_OF_2_PRESENT_GRC_AND_VISUAL_CANON; TARGET_PROVIDER_READBACK_REQUIRED_STAGE_06",
-    "human_choreography": "PASS_ONE_INITIAL_MESSAGE_PLUS_REAL_AUTH_GATES_PLUS_ONE_FINAL_CLEAN_CHAT"
+    "human_choreography": "PASS_ONE_INITIAL_MESSAGE_PLUS_REAL_AUTH_GATES_PLUS_ONE_FINAL_CLEAN_CHAT",
+    "simple_install_entrypoint": "PASS_START_HERE_PUBLIC_AND_SELECTABLE"
   },
   "final_critic": {
     "verdict": "PASS",
