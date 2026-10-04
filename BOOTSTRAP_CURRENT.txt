@@ -1,9 +1,8 @@
-CURRENT public installer entrypoint: README.md -> INSTALLATION_INDEX.md.
-Source frozen authority baseline: TRANSFER_MANIFEST.json -> source NAM-143 -> Registry 1.64.2.
-Install the target in order using 01_FOUNDATION_DRIVE_LINEAR.md through 07_STATEHEAD_PUBLICATION.md.
+CURRENT human entrypoint: START_HERE.md -> INSTALLATION_INDEX.md. HANDOFF_CURRENT.md remains the technical handoff summary.
+Source authority: TRANSFER_MANIFEST.json -> NAM-143 -> Registry 1.64.2.
+Install target ND in order using 01_FOUNDATION_DRIVE_LINEAR.md through 07_STATEHEAD_PUBLICATION.md. When launched through START_HERE.md, automatically advance after each PASS; do not require manual stage invocation.
 Run 08_COLD_QUALIFICATION.md only in a NEW clean chat after Stage 07 PASS.
-Use BINDING_MAP_TEMPLATE.json, LAUNCHER_GRAPH_CURRENT.txt, PLUGIN_EXPORT_CURRENT_MANIFEST.json, plugin-export-current/*.json, canonical-artifacts/*, SEMANTIC_WORKSPACES_CURRENT.txt, QUALIFICATION.md and build_target_plugin.py.
+Use BINDING_MAP_TEMPLATE.json, LAUNCHER_GRAPH_CURRENT.txt, PLUGIN_EXPORT_CURRENT_MANIFEST.json, plugin-export-current/*.json, SEMANTIC_WORKSPACES_CURRENT.txt, runtime-source/CURRENT_MAIN_BLOBS.txt, runtime-source/BOOTSTRAP_CURRENT_MAIN_BLOBS.txt and QUALIFICATION.md.
 NotebookLM is intentionally connected in Stage 03 after External Connecting is installed in Stage 02.
-The public repository is frozen source/provenance only; target-owned provider objects must be provisioned and read back before target publication.
-Publish Ksyusha's target StateHead LAST, then cold-recover only from the target StateHead and target Registry.
-No historical/predecessor installation surface is selectable in this public repository.
+Provision/read back target-owned provider objects first; publish Ksyusha StateHead LAST; then cold-recover from target StateHead and qualify.
+Historical TARGET_BOOTSTRAP.md and monolithic bootstrap prompts are predecessor provenance and must not select target CURRENT.
