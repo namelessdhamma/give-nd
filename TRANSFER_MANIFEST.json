@@ -58,7 +58,7 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Do not begin Ksyusha target bootstrap until source package currentness, launcher/plugin completeness, auxiliary runtime, memory/system instructions, exclusions, secret scan and behavioral qualification all PASS.",
   "source_qualification": {
-    "receipt": "SOURCE_REBASE_QUALIFICATION_RECEIPT.json",
+    "receipt": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
     "verdict": "PASS",
     "canonical_readback": "8/8 exact",
     "launcher_graph": "22/22",
@@ -67,7 +67,9 @@
     "developer_critic_consistency_audit": "PASS",
     "plugin_functional_source_export": "PASS_22_TRANSFERRED_PLUGINS_21_LAUNCHER_PLUGINS_PLUS_EXTERNAL_CONNECTING",
     "plugin_export_secret_scan": "PASS_22_OF_22_HIGH_CONFIDENCE_CREDENTIAL_PATTERNS_ZERO_FINDINGS",
-    "final_developer_critic": "PASS_AFTER_STALE_ANTI_HANG_HANDOFF_WORDING_REPAIR"
+    "final_developer_critic": "PASS_AFTER_STALE_ANTI_HANG_HANDOFF_WORDING_REPAIR",
+    "public_package_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json",
+    "historical_source_rebase_receipt": "NOT_SHIPPED_PUBLICLY_SUPERSEDED_BY_STAGED_CLOSURE_AND_PUBLIC_QUALIFICATION"
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
