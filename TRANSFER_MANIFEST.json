@@ -89,13 +89,14 @@
     "plugin_export_manifest": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
     "plugin_functional_source": "plugin-export-current/*.json",
     "selectable_set": "SELECTABLE_SET_CURRENT.json",
-    "qualification": "QUALIFICATION.md"
+    "qualification": "QUALIFICATION.md",
+    "start_here": "START_HERE.md"
   },
   "target_boundary": {
     "verdict": "TRUE_GATE_TARGET_AUTHORITY",
     "reason": "No authenticated Ksyusha target-owned Linear/Drive/NotebookLM/Supabase/GitHub/plugin-publication context is connected in this execution environment.",
     "rule": "Do not create target authority inside source-account providers.",
-    "next_action": "Ksyusha authorizes target-owned Drive/Linear/Plugin Creator as required, executes staged installation 01-07, connects NotebookLM in Stage 03 through installed External Connecting, then runs Stage 08 in a fresh chat."
+    "next_action": "Ksyusha sends the single START_HERE.md installation request from her ChatGPT account, authorizes target-owned services only when requested, lets the installer execute Stages 01-07 automatically, then runs Stage 08 in the required fresh chat."
   },
   "target_qualification": "NOT_RUN_NOT_CLAIMED",
   "source_handoff_closure": {
