@@ -7,7 +7,7 @@
     "registry": "ND_CAPABILITY_REGISTRY 1.64.2",
     "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1"
   },
-  "current_entry": "HANDOFF_CURRENT.md -> INSTALLATION_INDEX.md",
+  "current_entry": "START_HERE.md -> INSTALLATION_INDEX.md",
   "stages": [
     "01_FOUNDATION_DRIVE_LINEAR.md",
     "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
@@ -48,7 +48,7 @@
   ],
   "remaining_gate": {
     "type": "TRUE_GATE_TARGET_AUTHORITY",
-    "action": "Ksyusha executes staged files and authorizes only her target-owned provider connections when requested.",
+    "action": "Ksyusha sends the single START_HERE.md installation request and authorizes only her target-owned provider connections when requested; installer executes Stages 01-07 automatically, then Stage 08 runs in a fresh chat.",
     "source_side_runnable_frontier": "NONE"
   }
 }
