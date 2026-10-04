@@ -32,6 +32,7 @@
     "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
     "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
     "PUBLIC_PACKAGE_MANIFEST.json",
+    "PUBLIC_PACKAGE_QUALIFICATION.json",
     "build_target_plugin.py"
   ],
   "current_source": [
