@@ -11,7 +11,7 @@
     "launcher_graph": "PASS_22_OF_22",
     "external_connecting_recovery_skill": "PASS_SEPARATE_CURRENT_SKILL",
     "plugin_exports": "PASS_22_TRANSFERRED_PRIVATE_PLUGINS",
-    "anti_hang_canonical_artifact": "PASS_EXACT_1_6_0",
+    "anti_hang_canonical_artifact": "PASS_EXACT_1_6_0_SHA256_61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
     "target_plugin_builder": "PASS_CURRENT_SCHEMA_AND_STAGED_PARTIAL_BINDINGS",
     "source_runtime_dependency": "NONE_REQUIRED_BY_PUBLIC_BOOTSTRAP",
     "public_secret_scan": "PASS_89_OF_89_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS",
@@ -22,7 +22,9 @@
     "public_access_unauthenticated": "PASS_HTTP_200_LOGGED_OUT_BROWSER",
     "registry_sha256": "PASS_MATCHES_NAM_143_BOUND_DRIVE_3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
     "canonical_component_coverage": "PASS_31_OF_31",
-    "public_file_set": "PASS_89_OF_89_EXACT_MANIFEST_SET_AT_REAUDIT"
+    "public_file_set": "PASS_89_OF_89_EXACT_MANIFEST_SET_AT_REAUDIT",
+    "canonical_exact_file_hashes": "PASS_29_OF_29_EXACT_FILE_BYTES_MATCH_REGISTRY",
+    "canonical_native_text_contracts": "2_OF_2_PRESENT_GRC_AND_VISUAL_CANON; TARGET_PROVIDER_READBACK_REQUIRED_STAGE_06"
   },
   "final_critic": {
     "verdict": "PASS",
@@ -34,7 +36,8 @@
       "Made optional target provider bindings explicit before publication.",
       "Removed public bootstrap dependency on private runtime-source/plugin-current surfaces.",
       "Repaired public TRANSFER_MANIFEST receipt reference so every active public qualification reference resolves inside the repository.",
-      "Added PUBLIC_PACKAGE_QUALIFICATION.json to the public selectable control set and refreshed package-wide scan count to 89/89."
+      "Added PUBLIC_PACKAGE_QUALIFICATION.json to the public selectable control set and refreshed package-wide scan count to 89/89.",
+      "Repaired Anti-Hang canonical byte drift: restored the required final LF so the public/source artifact SHA-256 exactly matches Registry 1.64.2."
     ],
     "unresolved_material_findings": 0
   }
