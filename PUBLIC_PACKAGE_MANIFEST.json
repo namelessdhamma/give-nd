@@ -1,6 +1,6 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v4",
-  "status": "FINAL_SOURCE_QUALIFICATION_PENDING_CI; TARGET_NOT_RUN",
+  "status": "SOURCE_STATIC_AND_23_BUNDLE_BUILD_VERIFIED_PASS; TARGET_STAGE06_STAGE08_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.0",
   "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
   "target_repo": "namelessdhamma/give-nd",
@@ -612,6 +612,6 @@
       "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
-  "source_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json (NOT FULL PASS YET)",
+  "source_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json: SOURCE_VERIFIED_PASS_TARGET_NOT_RUN; GitHub Actions 38132059956 253 checks",
   "target_qualification": "NOT_RUN"
 }
