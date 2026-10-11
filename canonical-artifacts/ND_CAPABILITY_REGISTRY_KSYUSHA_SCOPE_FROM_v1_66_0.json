@@ -1,0 +1,2262 @@
+{
+  "schema": "ND_KSYUSHA_SCOPED_SOURCE_PROJECTION_v1",
+  "status": "BOOTSTRAP_CANDIDATE_NONAUTHORITATIVE_NOT_TARGET_CURRENT",
+  "source_authority": "NAM-143 -> bound Registry 1.66.0",
+  "source_registry_drive_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
+  "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+  "source_registry_count": {
+    "components": 35,
+    "launchers": 26
+  },
+  "projected_count": {
+    "components": 32,
+    "launchers": 23
+  },
+  "excluded_components": [
+    "TRUE_SOUND",
+    "STUDIO_EXECUTOR",
+    "SOUND_CRITIC"
+  ],
+  "excluded_project_payloads": [
+    "ND Music Studio",
+    "Blue Sea",
+    "Geny Gieny",
+    "Nibbana-conditions research",
+    "Savva personal memory, files, credentials, secrets"
+  ],
+  "source_snapshot_semantics": "SOURCE_PROJECTION_ONLY_TARGET_MUST_REBIND_TO_OWNED_CANONICAL_ARTIFACTS_FROM_PROVIDER_READBACK",
+  "source_runtime_version": "1.66.0",
+  "components": [
+    {
+      "canonical_artifact_id": "1RUeMgQZzwWAzO2bUAEjXG92InSpVp0TnUJjFYVRTovw",
+      "canonical_artifact_name": "NAMELESS_DHAMMA_GOVERNING_RESEARCH_CORE_v1_0.md",
+      "canonical_artifact_url": "https://docs.google.com/document/d/1RUeMgQZzwWAzO2bUAEjXG92InSpVp0TnUJjFYVRTovw/edit",
+      "canonical_hash": "1077de524f3b8d78bf0e108b11ef5d34b23d9c55739eb1938b80107010997f17",
+      "compatibility": {
+        "mode": "EXACT",
+        "notes": "Central question mandatory; auxiliary mapping optional and evidence-dependent."
+      },
+      "component_key": "GOVERNING_RESEARCH_CORE",
+      "dependencies": [],
+      "exact_status": "CANONICAL",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "NATIVE_PARAGRAPH_TEXT_JOINED_WITH_LF_PLUS_FINAL_LF"
+      },
+      "interfaces": {
+        "consumes": [],
+        "produces": [
+          "GOVERNING_CORE_BINDING"
+        ]
+      },
+      "owner": "Savva",
+      "read_permissions": [
+        "ALL_ARCHITECTURE_COMPONENTS"
+      ],
+      "semantic_id": "ND-GRC-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.0.0",
+      "write_permissions": [
+        "GOVERNING_PURPOSE_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1t9Muz-X0jxYarIjJoXRZJcKMmPEaQTVf",
+      "canonical_artifact_name": "TRUE_RESEARCH_1_8_2_MANDATORY_HOOKS.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1t9Muz-X0jxYarIjJoXRZJcKMmPEaQTVf/view",
+      "canonical_hash": "2a1af1f513466ae833e07c423fe9f1f50bf0fb6f6cb73383af0da87801c30e63",
+      "compatibility": {
+        "mode": "TRUE_RESEARCH_1_8_2_ALWAYS_CHILD_PLUS_CRITIC",
+        "notes": "Preserves existing topology/domain authority while hardening required task-entry, ownership/delegation, helper/Critic, re-entry, memory lifecycle, completion and recovery transitions. No new cognitive actor/controller."
+      },
+      "component_key": "TRUE_RESEARCH",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE?",
+        "RESEARCH_INTEROP",
+        "EMBEDDED_PLM?",
+        "PCPA?",
+        "DHAMMA_ANALYSIS_ENGINE?",
+        "PAE?",
+        "RESEARCH_CRITIC?",
+        "TRUE_MEMORY?",
+        "SEMANTIC_CORE_RUNTIME"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "CHAT_REQUEST",
+          "RESEARCH_REQUEST",
+          "TRUE_MEMORY_CONTEXT?"
+        ],
+        "produces": [
+          "DELEGATION_PACKET",
+          "RESEARCH_PACKET",
+          "UNIFIED_RESEARCH_PACKET",
+          "PRACTICE_POINTER",
+          "RESEARCH_DURABLE_DELTA",
+          "MANDATORY_CHILD_INVOCATION_RECEIPT",
+          "MANDATORY_RESEARCH_CRITIC_VERDICT"
+        ]
+      },
+      "owner": "Universal bounded research conductor: method, materially needed capability/specialist routing, evidence comparison, serialized long-running orchestration, uncertainty control, synthesis, completion-condition stopping, and return of non-mutating results.",
+      "read_permissions": [
+        "CANONICAL_RESEARCH_INPUTS",
+        "AUTHORIZED_DURABLE_RESEARCH_CONTEXT"
+      ],
+      "semantic_id": "ND-SKILL-TR-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "TRUE_RESEARCH 1.7.2 / 1ZXXr3n75LxuXX5IX0wFsrqawOIyCPI0O / d18774a228cd992730bce6abbf52422b56761b512ec9b01b9d293b31c644a9c7",
+        "TRUE_RESEARCH 1.8.0 / 1xAzXT8p3hTkFBYdCNJNgzrvTNEA8VoK8 / a7a0b9ec4d91208b1b30397539ff020a1da676f0984d29d94b548cb3af6c5d94"
+      ],
+      "version": "1.8.2",
+      "write_permissions": [
+        "TRANSIENT_RESEARCH_PACKETS"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1W6NOvg5-UqsH1mGmHNWm9GevdftRA_Fb",
+      "canonical_artifact_name": "ND RESEARCH CRITIC — 0.2.0 — CANONICAL",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1W6NOvg5-UqsH1mGmHNWm9GevdftRA_Fb/view",
+      "canonical_hash": "6be2b09ff74bf72c069d4bccf62bf45252b695032119b60574b3e7b2ca59bc5e",
+      "compatibility": {
+        "mode": "ADVERSARIAL_RESEARCH_DIAGNOSTIC_CHILD",
+        "notes": "Independent bounded adversarial diagnosis; returns typed findings to True Research; never owns research truth, sibling routing, persistence, or promotion."
+      },
+      "component_key": "RESEARCH_CRITIC",
+      "dependencies": [
+        "TRUE_RESEARCH"
+      ],
+      "exact_status": "CANONICAL — CURRENT RESEARCH ADVERSARIAL DIAGNOSTIC CHILD — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_RESEARCH_CRITIQUE_ASSIGNMENT",
+          "FROZEN_RESEARCH_CANDIDATE",
+          "DECISIVE_EVIDENCE_REFS"
+        ],
+        "produces": [
+          "MATERIAL_FINDING",
+          "UNVERIFIED_RISK",
+          "NO_MATERIAL_DEFECT",
+          "BLOCKED_CONTEXT",
+          "NEEDS_SPECIALIST_EVIDENCE"
+        ]
+      },
+      "owner": "Bounded independent adversarial research diagnosis under True Research.",
+      "read_permissions": [
+        "BOUNDED_RESEARCH_CANDIDATE",
+        "DECISIVE_EVIDENCE_REFS",
+        "BOUNDED_COUNTEREVIDENCE_RETRIEVAL"
+      ],
+      "semantic_id": "ND-SKILL-RESEARCH-CRITIC-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.2.0",
+      "write_permissions": [
+        "DIAGNOSTIC_RETURN_ONLY",
+        "NO_RESEARCH_TRUTH_ADJUDICATION",
+        "NO_SIBLING_ROUTING",
+        "NO_DURABLE_PERSISTENCE"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1-MgH586hDpH5QVzyqxyAwzsegkAqIzr3",
+      "canonical_artifact_name": "ND_PLM_v1_3_4.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1-MgH586hDpH5QVzyqxyAwzsegkAqIzr3/view",
+      "canonical_hash": "2e51bb34f5db168dabcdbfe36341459ae6701301b2fad6d74af42c7794308aba",
+      "compatibility": {
+        "mode": "EMBEDDED_UNIVERSAL_LEVERAGE_V1_3",
+        "notes": "Not a sixth skill; Dhamma See→Do→Check is a JIT profile, not a universal output mandate."
+      },
+      "component_key": "EMBEDDED_PLM",
+      "dependencies": [
+        "TRUE_RESEARCH",
+        "PCPA?",
+        "DHAMMA_ANALYSIS_ENGINE?",
+        "PAE?"
+      ],
+      "exact_status": "CANONICAL — ACTIVE EMBEDDED UNIVERSAL LEVERAGE REDUCTION MODE",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "ALREADY_SUPPORTED_TEXTUAL_RESULT?",
+          "ALREADY_SUPPORTED_DHAMMA_ANALYSIS?",
+          "ALREADY_SUPPORTED_RELATION?",
+          "TRUE_RESEARCH_CONTEXT"
+        ],
+        "produces": [
+          "PRACTICE_POINTER"
+        ]
+      },
+      "owner": "Embedded status-preserving purpose/leverage reduction over already-supported results.",
+      "read_permissions": [
+        "SUPPORTED_RESEARCH_OUTPUTS"
+      ],
+      "semantic_id": "ND-TR-PLM-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.3.4",
+      "write_permissions": [
+        "TRANSIENT_PRACTICE_POINTERS"
+      ]
+    },
+    {
+      "canonical_artifact_id": "15_xNfrGN4szrqFTFl_yQI0yldP12d1gU",
+      "canonical_artifact_name": "ND_PCPA_v1_3_6_NAM354_ADOPTION_READY_R2.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/15_xNfrGN4szrqFTFl_yQI0yldP12d1gU/view",
+      "canonical_hash": "80d92682046ae70303d2474bdc86cd08a432788f676ebc60a7f5bd9d83ee56cb",
+      "compatibility": {
+        "mode": "UNIVERSAL_SEMANTIC_SOURCE_SPECIALIST_V1_3",
+        "notes": "Preserves existing philology packet compatibility; non-Dhamma bounded requests do not require GRC mapping."
+      },
+      "component_key": "PCPA",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE?",
+        "RESEARCH_INTEROP"
+      ],
+      "exact_status": "CANONICAL — ACTIVE UNIVERSAL SEMANTIC/SOURCE/PHILOLOGY SPECIALIST — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "DELEGATION_PACKET",
+          "LOCAL_PHILOLOGY_REQUEST"
+        ],
+        "produces": [
+          "PHILOLOGY_PACKET",
+          "DAE_READY_TEXTUAL_TARGET"
+        ]
+      },
+      "owner": "Semantic/source identity, attribution, translation, provenance, philology, and claim-support analysis; Pāli/Buddhist rigor is a JIT domain profile.",
+      "read_permissions": [
+        "SOURCE_MATERIAL",
+        "RESEARCH_PACKETS"
+      ],
+      "semantic_id": "ND-SKILL-PCPA-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.3.6",
+      "write_permissions": [
+        "TRANSIENT_PHILOLOGY_PACKETS"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1unE6iw4ydtavarki8TjDDliq_drVv0b5",
+      "canonical_artifact_name": "ND_DAE_v1_1_7_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1unE6iw4ydtavarki8TjDDliq_drVv0b5/view",
+      "canonical_hash": "efdbf87297187f3e93ff66a080ccbe1b10adf6b146ea075161a3d8193e213032",
+      "compatibility": {
+        "mode": "UNIVERSAL_OBJECT_CONSTITUTION_SPECIALIST_V1_1",
+        "notes": "Preserves existing Dhamma Analysis packet compatibility while allowing non-Dhamma object/constitution analysis without fabricated GRC linkage."
+      },
+      "component_key": "DHAMMA_ANALYSIS_ENGINE",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE?",
+        "RESEARCH_INTEROP",
+        "PCPA?"
+      ],
+      "exact_status": "CANONICAL — ACTIVE UNIVERSAL OBJECT/CONSTITUTION SPECIALIST — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "DELEGATION_PACKET",
+          "PHILOLOGY_PACKET?",
+          "LOCAL_DHAMMA_ANALYSIS_REQUEST",
+          "STATUS_PRESERVED_EVIDENCE"
+        ],
+        "produces": [
+          "DHAMMA_ANALYSIS_PACKET",
+          "PAE_READY_TARGET?"
+        ]
+      },
+      "owner": "Object identity, constitution, properties, decomposition, observability and discriminability; Dhamma/Abhidhamma ontology is a JIT domain profile.",
+      "read_permissions": [
+        "SUPPORTED_RESEARCH_INPUTS",
+        "SOURCE_REFERENCES",
+        "PHENOMENOLOGICAL_REPORTS"
+      ],
+      "semantic_id": "ND-SKILL-DAE-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.1.7",
+      "write_permissions": [
+        "TRANSIENT_DHAMMA_ANALYSIS_PACKETS"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1uxvHtD2p4rXv8SIu0zeB365L0ykM2NIx",
+      "canonical_artifact_name": "ND_PAE_v4_2_6_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1uxvHtD2p4rXv8SIu0zeB365L0ykM2NIx/view",
+      "canonical_hash": "4539cecc0b419b2188b1884bccafd7a6ce44a44b7e4c9cf5e9448b5030b1a17d",
+      "compatibility": {
+        "mode": "UNIVERSAL_RELATION_SYSTEM_SPECIALIST_V4_2",
+        "notes": "Preserves current Paccaya packet compatibility and Dhamma safeguards while avoiding universalization of Dhamma-specific ontology."
+      },
+      "component_key": "PAE",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE?",
+        "RESEARCH_INTEROP",
+        "PCPA?",
+        "DHAMMA_ANALYSIS_ENGINE?"
+      ],
+      "exact_status": "CANONICAL — ACTIVE UNIVERSAL RELATION/SYSTEM SPECIALIST — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "DELEGATION_PACKET",
+          "PHILOLOGY_PACKET?",
+          "DHAMMA_ANALYSIS_PACKET?",
+          "LOCAL_PACCAYA_REQUEST"
+        ],
+        "produces": [
+          "PACCAYA_PACKET"
+        ]
+      },
+      "owner": "Bounded relation/system/conditioning analysis with explicit scale, temporal geometry, maintenance, inhibition, termination, recurrence and counterfactual semantics; Dhamma conditional ontology is JIT profile.",
+      "read_permissions": [
+        "SUPPORTED_RESEARCH_INPUTS"
+      ],
+      "semantic_id": "ND-SKILL-PAE-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "4.2.6",
+      "write_permissions": [
+        "TRANSIENT_PACCAYA_PACKETS"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1UufRoa7ND-jRGmlV4fX4GD-st0myvWrI",
+      "canonical_artifact_name": "ND_RESEARCH_INTEROPERABILITY_CONTRACT_v1_5_3_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1UufRoa7ND-jRGmlV4fX4GD-st0myvWrI/view",
+      "canonical_hash": "ea38c0ac304bce53d5c75d006818d52b5ee41dd77e47394f855a8b64667f99a4",
+      "compatibility": {
+        "mode": "WIRE_1_4_0_UNIVERSAL_BOUNDED_RESEARCH_BACKWARD_COMPATIBLE_TRUE_MEMORY_AUTONOMY_PATCH",
+        "notes": "Serialized Dhamma wire remains contract_version=1.4.0. Preserves durable persistence/status semantics; removes fixed specialist/pass budget and binds sequential Child/peer calls."
+      },
+      "component_key": "RESEARCH_INTEROP",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE?",
+        "DURABLE_STATE_SCHEMA_BUNDLE?"
+      ],
+      "exact_status": "ADOPTION_READY — UNIVERSAL BOUNDED-RESEARCH INTEROPERABILITY — SERIALIZED AUTONOMOUS RESEARCH — TRUE_MEMORY DURABLE PERSISTENCE",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "CAPABILITY_RESOLUTION",
+          "CROSS_SKILL_REQUEST"
+        ],
+        "produces": [
+          "SHARED_PACKET_CONTRACT",
+          "FAILURE_CODES",
+          "ROUTING_BINDING"
+        ]
+      },
+      "owner": "Cross-capability bounded research invocation, packet/routing/trust boundary, evidence/status preservation, serialized autonomous continuation, and post-Genesis mode compatibility.",
+      "read_permissions": [
+        "ALL_ARCHITECTURE_COMPONENTS"
+      ],
+      "semantic_id": "ND-RESEARCH-INTEROP-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.5.3",
+      "write_permissions": [
+        "GOVERNANCE_ARTIFACT_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1a7dKUFsVJoCsaIOQHEJwq0eOlem0h81m",
+      "canonical_artifact_name": "ND_UNIFIED_RESEARCH_ARCHITECTURE_v1_4_2_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1a7dKUFsVJoCsaIOQHEJwq0eOlem0h81m/view",
+      "canonical_hash": "8c996143611858134e5fe235fdfff96b21c9706f2e346d0cf919f16b7403eb18",
+      "compatibility": {
+        "mode": "EXACT_LAUNCHER_RESEARCH_ARCHITECTURE",
+        "notes": "One True Research supervisor, PCPA/DAE/PAE Children, embedded PLM, and True Memory bounded persistence/currentness peer."
+      },
+      "component_key": "URA",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE",
+        "TRUE_RESEARCH",
+        "PCPA",
+        "DHAMMA_ANALYSIS_ENGINE",
+        "PAE"
+      ],
+      "exact_status": "CANONICAL — ACTIVE RESEARCH ARCHITECTURE — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "RESEARCH_CAPABILITY_CONTRACTS"
+        ],
+        "produces": [
+          "UNIFIED_RESEARCH_ARCHITECTURE"
+        ]
+      },
+      "owner": "Unified research architecture",
+      "read_permissions": [
+        "ALL_RESEARCH_COMPONENTS"
+      ],
+      "semantic_id": "ND-URA-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.4.2",
+      "write_permissions": [
+        "GOVERNANCE_ARTIFACT_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1Gob-ocQW7YQTspqSfAdl4eWvDmHVcEbm",
+      "canonical_artifact_name": "ND_UNIFIED_WORKING_ARCHITECTURE_v1_2_3_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1Gob-ocQW7YQTspqSfAdl4eWvDmHVcEbm/view",
+      "canonical_hash": "59a68d34065fd715bc9e30328a67e46c250972f22cb1cb2a53553c92b4c5a242",
+      "compatibility": {
+        "mode": "EXACT_LAUNCHER_CROSS_DOMAIN_ARCHITECTURE_MINIMAL_AUTONOMY_PATCH",
+        "notes": "Preserves bounded owners and exact current launcher bindings; removes minimum-first routing bias and forbids sibling substantive Supervisor/Child fan-out within one objective."
+      },
+      "component_key": "UWA",
+      "dependencies": [
+        "URA",
+        "RESEARCH_INTEROP",
+        "VISUAL_CANON"
+      ],
+      "exact_status": "ADOPTION_READY — ACTIVE CROSS-DOMAIN ARCHITECTURE — SERIALIZED SUPERVISOR/CHILD EXECUTION — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "URA",
+          "RESEARCH_INTEROP",
+          "DOWNSTREAM_CONSUMER_CONTRACTS"
+        ],
+        "produces": [
+          "UNIFIED_WORKING_ARCHITECTURE"
+        ]
+      },
+      "owner": "Cross-project working architecture with bounded owners, live ownership chain, and serialized substantive Supervisor/Child execution.",
+      "read_permissions": [
+        "ALL_ARCHITECTURE_COMPONENTS"
+      ],
+      "semantic_id": "ND-UWA-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.2.3",
+      "write_permissions": [
+        "GOVERNANCE_ARTIFACT_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1cbr6-a_R4KttGrcTygaTeVpDxPFQlf_d",
+      "canonical_artifact_name": "ND_Books_Creator_v3_1_3_CANONICAL_SKILL.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1cbr6-a_R4KttGrcTygaTeVpDxPFQlf_d/view",
+      "canonical_hash": "8cb07bd6f8fd96e52e9d5918efb4729c34a691f52146789a590578d6eb661884",
+      "compatibility": {
+        "mode": "TRUE_WRITER_0_8_BOUNDED_PROSE_EXECUTOR",
+        "notes": "Returns typed prose results to True Writer; does not route siblings or own final literary acceptance."
+      },
+      "component_key": "BOOKS_CREATOR",
+      "dependencies": [
+        "TRUE_WRITER",
+        "WRITER_ORCHESTRA_RUNTIME"
+      ],
+      "exact_status": "CANONICAL — SOLE CURRENT LITERARY PROSE EXECUTOR — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_WRITER_ASSIGNMENT",
+          "LITERARY_CONTEXT",
+          "AUTHORITATIVE_CONTEXT_REFS?"
+        ],
+        "produces": [
+          "PROSE_CANDIDATE",
+          "STRUCTURAL_DISCOVERY",
+          "PLAN_CONFLICT",
+          "BLOCKED_CONTEXT",
+          "NO_SAFE_DELTA"
+        ]
+      },
+      "owner": "Bounded literary prose execution under True Writer",
+      "read_permissions": [
+        "LITERARY_ARTIFACTS",
+        "BOUNDED_CURRENT_CONTEXT"
+      ],
+      "semantic_id": "ND-SKILL-BOOKS-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "3.1.3",
+      "write_permissions": [
+        "CANDIDATE_PROSE_RETURN_ONLY",
+        "NO_FINAL_ACCEPTANCE"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1A5ZLO2zsr0QfQT4ggZTdJBlDenY6B7xD",
+      "canonical_artifact_name": "ND_Visual_Creator_v1_0_5_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1A5ZLO2zsr0QfQT4ggZTdJBlDenY6B7xD/view",
+      "canonical_hash": "3ea668d734be42c2af16c3f41d43ea3cf4f5431f97e564b4b5629e317d5a9998",
+      "compatibility": {
+        "mode": "READ_ONLY_DAE_AWARE_RESEARCH_CONSUMER",
+        "notes": "May use mature DAE-derived identity/constitution for visual accuracy; never upgrades research status."
+      },
+      "component_key": "VISUAL_CREATOR",
+      "dependencies": [
+        "UWA",
+        "VISUAL_CANON",
+        "RESEARCH_INTEROP"
+      ],
+      "exact_status": "CANONICAL — ACTIVE WORKING VISUAL SKILL — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "STATUS_PRESERVED_RESEARCH_PACKETS",
+          "DHAMMA_ANALYSIS_PACKET?",
+          "VISUAL_CANON",
+          "REPRESENTATION_MODE"
+        ],
+        "produces": [
+          "VISUAL_ARTIFACTS"
+        ]
+      },
+      "owner": "Visual production and representation",
+      "read_permissions": [
+        "APPROVED_OR_STATUS_PRESERVED_RESEARCH_OUTPUTS"
+      ],
+      "semantic_id": "ND-SKILL-VIS-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.0.5",
+      "write_permissions": [
+        "VISUAL_ARTIFACTS"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1P03elpA0wNtWuJdp04MvFTEWGwZ9p2yR7t8gnisPhoA",
+      "canonical_artifact_name": "Nameless Dhamma — Visual Canon and Image Generation Protocol v1.5.1",
+      "canonical_artifact_url": "https://docs.google.com/document/d/1P03elpA0wNtWuJdp04MvFTEWGwZ9p2yR7t8gnisPhoA/edit",
+      "canonical_hash": "f8a05ff2bebedbb8b634dc0770fb7876f9052972881632d988ad6a0b27507047",
+      "compatibility": {
+        "mode": "DAE_CONSTITUTIVE_ANALYSIS_INTEGRATED_PROVIDER_EXIT_PATCH_NO_INVENTED_SEMANTIC_ID",
+        "notes": "Technical patch only: removes Notion from active Visual Canon maintenance routing, binds Visual Production Registry v1.5.1 to the GitHub → Obsidian non-authoritative projection path, and preserves DAE/PAE ownership, read-only research consumption, interfaces, and semantic-ID status."
+      },
+      "component_key": "VISUAL_CANON",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE",
+        "UWA",
+        "RESEARCH_INTEROP",
+        "DHAMMA_ANALYSIS_ENGINE?"
+      ],
+      "exact_status": "canonical project standard — source revision 4 terminology reconciliation — CURRENT ONLY WHEN STATEHEAD_BOUND",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "NATIVE_PARAGRAPH_TEXT_JOINED_WITH_LF_PLUS_FINAL_LF"
+      },
+      "interfaces": {
+        "consumes": [
+          "VISUAL_GOVERNANCE_DECISIONS",
+          "STATUS_PRESERVED_DHAMMA_ANALYSIS?"
+        ],
+        "produces": [
+          "VISUAL_STANDARD",
+          "CONSTITUTIVE_ANALYSIS_REPRESENTATION_MODE"
+        ]
+      },
+      "owner": "Savva / visual project governance",
+      "read_permissions": [
+        "VISUAL_CREATOR",
+        "DOWNSTREAM_CONSUMERS"
+      ],
+      "semantic_id": null,
+      "semantic_id_status": "NOT_DECLARED",
+      "supersedes": [],
+      "version": "1.5.1",
+      "write_permissions": [
+        "VISUAL_GOVERNANCE_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1FmbJVXPHgG0Gf-ocqS_kQPxiWV5TdfMs",
+      "canonical_artifact_name": "ND_STORAGE_AUTHORITY_POLICY_v1_7_0_POST_T4_LINEAR_STATEHEAD.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1FmbJVXPHgG0Gf-ocqS_kQPxiWV5TdfMs/view",
+      "canonical_hash": "fa4d0f5e8eb7426da6e6c70724c9e961c419c31354bc512e0ce1bc6326a3f831",
+      "compatibility": {
+        "mode": "POST_T4_LINEAR_STATEHEAD_SERIALIZED_SINGLE_WRITER",
+        "notes": "NAM-143 is the sole currentness root. Google Drive is the canonical durable artifact/memory store. The former Google Docs StateHead and Schema-1.7 immutable bundle lineage remain protected NONSELECTABLE pre-T4 recovery provenance. New currentness commits use True Memory serialized exact-anchor/token publication to NAM-143 after canonical Drive successor readback."
+      },
+      "component_key": "STORAGE_AUTHORITY_POLICY",
+      "dependencies": [
+        "RESEARCH_INTEROP",
+        "UWA",
+        "DURABLE_STATE_SCHEMA_BUNDLE",
+        "TRUE_MEMORY"
+      ],
+      "exact_status": "ADOPTION_READY — POST-T4 LINEAR STATEHEAD STORAGE AUTHORITY POLICY — CURRENT ONLY WHEN NAM-143-BOUND",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "CAPABILITY_RESOLUTION",
+          "STATEHEAD",
+          "DURABLE_RECORD_STORE_BINDING"
+        ],
+        "produces": [
+          "STORAGE_AUTHORITY_RULES",
+          "PROJECTION_BOUNDARY",
+          "COLD_RECOVERY_CONTRACT",
+          "CANONICAL_BYTE_GATE"
+        ]
+      },
+      "owner": "Post-Genesis storage authority, canonical-byte integrity, projection boundary, and recovery policy",
+      "read_permissions": [
+        "ALL_ARCHITECTURE_COMPONENTS"
+      ],
+      "semantic_id": "ND-PRECORE-STORAGE-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "ND-PRECORE-STORAGE-1 v1.5.2 / 1dmPQ1ly4yH1Zcyq8SjJkWzeC8-U0n10B / ce7654797f3af4b6884411491acee736cd37e507d7a1a1f7b62f463f97aea968",
+        "ND-PRECORE-STORAGE-1 v1.6.0 / 1t2zNksiMupJycZS6uClwHt0-XtwVQ3l3 / ee9d16d6780e85fcf4062cc2e4d7ff50713bfb83c78826bc6490b6ce07e4f3f6"
+      ],
+      "version": "1.7.0",
+      "write_permissions": [
+        "GOVERNANCE_ARTIFACT_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1CBavDL55dsIUqBp_updFXwdqycgJa5dJ",
+      "canonical_artifact_name": "ND_CONTEXT_COMPACTION_CURRENT_AUTHORITY_REBASE_POLICY_v1_4_0_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1CBavDL55dsIUqBp_updFXwdqycgJa5dJ/view",
+      "canonical_hash": "4ff2a47daf339239dfcd8060bcf27f248ec680305c40e1d5705b63f1a50d54cd",
+      "compatibility": {
+        "mode": "POSTGENESIS_CONTEXT_COMPACTION_UNIVERSAL_CHAT_REBASE",
+        "notes": "Stable semantic/component identity retained for compatibility. Former budget-shaped interface names remain compatibility handles only; policy no longer limits cognition by tokens, calls, passes, specialist counts, or fixed retrieval counts."
+      },
+      "component_key": "CONTEXT_TOKEN_BUDGET_POLICY",
+      "dependencies": [
+        "RESEARCH_INTEROP",
+        "STORAGE_AUTHORITY_POLICY"
+      ],
+      "exact_status": "ADOPTION_READY — CONTEXT COMPACTION / CURRENT-AUTHORITY REBASE — NO COGNITIVE RESOURCE BUDGET — EXACT BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "ROUTING_NEED",
+          "CONTEXT_STATE",
+          "CURRENT_STATEHEAD_BINDING",
+          "VERIFIED_CURRENT_AUTHORITY_HANDOFF?"
+        ],
+        "produces": [
+          "CONTEXT_BUDGET",
+          "RETRIEVAL_STOP_RULE",
+          "UNIVERSAL_CHAT_REBASE_PROTOCOL",
+          "REBASE_VERDICT"
+        ]
+      },
+      "owner": "Context compaction and current-authority rebase; preserves JIT retrieval/currentness while imposing no token, call, pass, specialist-count, or research-depth cognitive limits.",
+      "read_permissions": [
+        "ALL_ARCHITECTURE_COMPONENTS"
+      ],
+      "semantic_id": "ND-CONTEXT-BUDGET-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "1.4.0",
+      "write_permissions": [
+        "GOVERNANCE_ARTIFACT_BY_SAVVA_ONLY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1QXxAudtSwFT-STsHcQNgIGHbQQI2lBpS",
+      "canonical_artifact_name": "ND_DURABLE_STATE_SCHEMA_BUNDLE_v1_7_0_ADOPTION_READY_r2.json",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1QXxAudtSwFT-STsHcQNgIGHbQQI2lBpS/view",
+      "canonical_hash": "f9d65388ebe8e58fd01c4a3760160cf88d8d2e417949ba09bcded8689e861140",
+      "compatibility": {
+        "mode": "SCHEMA_1_7_PRE_T4_LINEAGE_VALIDATOR_WITH_NAM267_BOUNDARY",
+        "notes": "Exact artifact bytes are retained unchanged to validate/recover the pre-T4 immutable transaction lineage and NAM-267 boundary. It does not authorize or describe post-T4 NAM-143 publication. Any future transactional schema for Linear StateHead commits requires separate qualification/adoption."
+      },
+      "component_key": "DURABLE_STATE_SCHEMA_BUNDLE",
+      "dependencies": [
+        "GOVERNING_RESEARCH_CORE"
+      ],
+      "exact_status": "CURRENT PRE-T4 LINEAGE/RECOVERY VALIDATOR — NONSELECTABLE FOR POST-T4 NAM-143 PUBLICATION",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "DURABLE_OBJECT_CANDIDATE"
+        ],
+        "produces": [
+          "STRUCTURAL_VALIDATION_VERDICT",
+          "SET_LEVEL_CONSTRAINTS"
+        ]
+      },
+      "owner": "ND-SKILL-TM-1",
+      "read_permissions": [
+        "TRUE_MEMORY",
+        "VALIDATORS",
+        "AUDITORS"
+      ],
+      "semantic_id": "ND_DURABLE_STATE_SCHEMA_BUNDLE",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "ND_DURABLE_STATE_SCHEMA_BUNDLE 1.6.1 / 1uKQbBCWSgO9J5Z4ndSYJwdELPKxfUS7o / e836090d3a0f2b7ac59c707cede0e3f5f9723d049642c93a8fa9d8d08414b811"
+      ],
+      "version": "1.7.0",
+      "write_permissions": [
+        "STATE_SCHEMA_GOVERNANCE_WITH_SAVVA_APPROVAL"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1yTUJii-SuoRgzI2iQFcw1xuUlHuVnOUZ",
+      "canonical_artifact_name": "ND_True_Writer_v0_9_3_SONGWRITER_CHILD_CANONICAL.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1yTUJii-SuoRgzI2iQFcw1xuUlHuVnOUZ/view",
+      "canonical_hash": "6336ffef4964cabe1a6772d18860ab437e71e6e4dc3379ff87ad9a92bfc05f0c",
+      "compatibility": {
+        "mode": "TRUE_WRITER_0_9_3_ALWAYS_OWNED_CHILD_PLUS_LITERARY_CRITIC",
+        "notes": "Exact-reuses mandatory hooks; lyrics delegated to Songwriter under same Writer and Critic authority."
+      },
+      "component_key": "TRUE_WRITER",
+      "dependencies": [
+        "BOOKS_CREATOR",
+        "LITERARY_CRITIC",
+        "STORY_ARCHITECT",
+        "WRITER_ORCHESTRA_RUNTIME",
+        "TRUE_RESEARCH",
+        "TRUE_MEMORY",
+        "SEMANTIC_CORE_RUNTIME",
+        "SONGWRITER"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "HUMAN_LITERARY_REQUEST",
+          "LITERARY_SCOPE",
+          "TRUE_MEMORY_CONTEXT_PACKET?",
+          "STATUS_PRESERVED_RESEARCH_PACKETS?"
+        ],
+        "produces": [
+          "LITERARY_ORCHESTRATION_DECISION",
+          "ADJUDICATED_PROSE",
+          "LITERARY_ARTIFACTS",
+          "MANDATORY_WRITER_CHILD_RECEIPT",
+          "MANDATORY_LITERARY_CRITIC_VERDICT",
+          "ADJUDICATED_LYRICS"
+        ]
+      },
+      "owner": "Literary process orchestration and final literary adjudication",
+      "read_permissions": [
+        "LITERARY_ARTIFACTS",
+        "STATUS_PRESERVED_RESEARCH_OUTPUTS",
+        "BOUNDED_CURRENT_CONTEXT"
+      ],
+      "semantic_id": "ND-SKILL-TRUE-WRITER-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "TRUE_WRITER 0.8.7 / 1Z0L99GtWzVklvWh2SuazKJGrJ9LcrIJv / 926df8dade70c6d8a75c482521fb3bf3ff1425751dc26fd7d6c308c24df5f1bc",
+        "TRUE_WRITER 0.9.0 / 1IehvYnuoUDMatgfkTPX_2Prv76ty6vg0 / 9631855772c615ad747c77c1d8019c59fcf374378d27f1c9bd32df248789a8d9",
+        "TRUE_WRITER 0.9.2 / 1eWePl0sabKQiLs-xgKzffxh8U5N_eZo1 / 1086604c481edbd8b0d35971c668577b8bafda63274071ed19109bd70030efa6"
+      ],
+      "version": "0.9.3",
+      "write_permissions": [
+        "LITERARY_ARTIFACTS_WITHIN_AUTHORITY",
+        "NO_DURABLE_RESEARCH_STATE"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1M1N74J_UUuaSm7B9ub8gdt3q8GOmvz2Y",
+      "canonical_artifact_name": "ND_Literary_Critic_v0_2_4_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1M1N74J_UUuaSm7B9ub8gdt3q8GOmvz2Y/view",
+      "canonical_hash": "51f82351053e32ca2c2a02f6716426a6dca88da3807a2c29f1326540483f6d76",
+      "compatibility": {
+        "mode": "ADVISORY_DIAGNOSTIC_CHILD",
+        "notes": "Returns diagnosis to True Writer; never owns final acceptance."
+      },
+      "component_key": "LITERARY_CRITIC",
+      "dependencies": [
+        "TRUE_WRITER",
+        "WRITER_ORCHESTRA_RUNTIME"
+      ],
+      "exact_status": "CANONICAL — SOLE CURRENT LITERARY DIAGNOSTIC SPECIALIST — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_WRITER_CRITIQUE_ASSIGNMENT",
+          "BOUNDED_TEXT",
+          "INTENDED_EFFECT"
+        ],
+        "produces": [
+          "DIAGNOSIS",
+          "NEEDS_TRUE_RESEARCH",
+          "BLOCKED_CONTEXT"
+        ]
+      },
+      "owner": "Bounded literary diagnosis",
+      "read_permissions": [
+        "BOUNDED_LITERARY_TEXT",
+        "ASSIGNMENT_CONTEXT"
+      ],
+      "semantic_id": "ND-SKILL-LITERARY-CRITIC-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.2.4",
+      "write_permissions": [
+        "DIAGNOSTIC_RETURN_ONLY",
+        "NO_PROSE_REWRITE",
+        "NO_ACCEPT_REJECT_AUTHORITY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1YD4iht7VeSxHZDg3ZQ9bWdmZ5-nWWywT",
+      "canonical_artifact_name": "ND_Story_Architect_v0_2_3_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1YD4iht7VeSxHZDg3ZQ9bWdmZ5-nWWywT/view",
+      "canonical_hash": "a2a74b8a22b275fd77ec7d55bb22a329af125c51ef1255e444be0bbe7ede6327",
+      "compatibility": {
+        "mode": "ADVISORY_STRUCTURE_CHILD",
+        "notes": "Returns non-binding structure hypotheses to True Writer."
+      },
+      "component_key": "STORY_ARCHITECT",
+      "dependencies": [
+        "TRUE_WRITER",
+        "WRITER_ORCHESTRA_RUNTIME"
+      ],
+      "exact_status": "CANONICAL — SOLE CURRENT NON-LOCAL STRUCTURAL SPECIALIST — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_WRITER_STRUCTURE_ASSIGNMENT",
+          "BOUNDED_STORY_STATE"
+        ],
+        "produces": [
+          "STRUCTURAL_HYPOTHESIS",
+          "BLOCKED_CONTEXT"
+        ]
+      },
+      "owner": "Non-local literary structure hypothesis generation",
+      "read_permissions": [
+        "BOUNDED_LITERARY_STRUCTURE",
+        "ASSIGNMENT_CONTEXT"
+      ],
+      "semantic_id": "ND-SKILL-STORY-ARCHITECT-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.2.3",
+      "write_permissions": [
+        "STRUCTURAL_HYPOTHESIS_RETURN_ONLY",
+        "NO_FINAL_PROSE"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1u52MN46Qe__5NtvVWeYW26-96_WPItRS",
+      "canonical_artifact_name": "ND_Technical_Writer_v0_2_4_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1u52MN46Qe__5NtvVWeYW26-96_WPItRS/view",
+      "canonical_hash": "70dc35959914eaa4d85dbb4bb23b0ae2bdcb75955f49d535f77a303b1234c75b",
+      "compatibility": {
+        "mode": "TECHNICAL_REPORTING_CHILD",
+        "notes": "Separate from literary acceptance loop; preserves provenance/currentness/ownership."
+      },
+      "component_key": "TECHNICAL_WRITER",
+      "dependencies": [
+        "WRITER_ORCHESTRA_RUNTIME"
+      ],
+      "exact_status": "CANONICAL — SOLE CURRENT TECHNICAL REPORTING SKILL — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "BOUNDED_TECHNICAL_REPORT_ASSIGNMENT",
+          "VERIFIED_OR_LABELED_EVIDENCE"
+        ],
+        "produces": [
+          "TECHNICAL_REPORT",
+          "STATUS_REPORT",
+          "HANDOFF",
+          "INCIDENT_REPORT",
+          "DECISION_SUPPORT"
+        ]
+      },
+      "owner": "Bounded technical and operational reporting",
+      "read_permissions": [
+        "AUTHORIZED_OPERATIONAL_EVIDENCE",
+        "CURRENTNESS_POINTERS"
+      ],
+      "semantic_id": "ND-SKILL-TECH-WRITER-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.2.4",
+      "write_permissions": [
+        "REPORT_OUTPUT_ONLY",
+        "NO_DOMAIN_TRUTH_MUTATION"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1_NPl0BFgqSZn0LvVcTDskVIgRYUyzf6b",
+      "canonical_artifact_name": "ND_Writer_Orchestra_Runtime_v1_0_6_SONGWRITER.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1_NPl0BFgqSZn0LvVcTDskVIgRYUyzf6b/view",
+      "canonical_hash": "a21c0c0f6f5f3cfc16d2c2f3bba51472c16bf217187625a83141e7d453f79ea2",
+      "compatibility": {
+        "mode": "SAME_CONTEXT_COOPERATIVE",
+        "notes": "Exactly one Writer cognitive actor owns control at a time; external systems never host Writer identities."
+      },
+      "component_key": "WRITER_ORCHESTRA_RUNTIME",
+      "dependencies": [],
+      "exact_status": "CANONICAL — SOLE CURRENT WRITER-ORCHESTRA RUNTIME PROTOCOL — NAM-143/NAM-140 RECOVERY — EXACT URI ENVELOPES",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "PARENT_ASSIGNMENT",
+          "RESUME_CHECKPOINT?"
+        ],
+        "produces": [
+          "TYPED_CORRELATED_RETURN",
+          "RESUME_CHECKPOINT"
+        ]
+      },
+      "owner": "Writer-domain internal ChatGPT cooperative handoff and continuation protocol",
+      "read_permissions": [
+        "WRITER_ASSIGNMENT_ENVELOPES",
+        "CURRENTNESS_POINTERS"
+      ],
+      "semantic_id": "ND-WRITER-ORCHESTRA-RUNTIME-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "ND-WRITER-ORCHESTRA-RUNTIME-1 v1.0.3",
+        "ND-WRITER-ORCHESTRA-RUNTIME-1 v1.0.5 / 1tFQmjnVFvHQPo42YVD9dOBmdriZCIctt / ba7dd8936f7d5eae74e89dea8dfb1f6724f0a444f68c3e82c21272fda6501830"
+      ],
+      "version": "1.0.6",
+      "write_permissions": [
+        "OBSERVABLE_CONTINUATION_STATE_ONLY",
+        "NO_PRIVATE_CHAIN_OF_THOUGHT"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1Jef0UoObTwUu7LJg4RQAIaj1kjTSRQ3n",
+      "canonical_artifact_name": "ND_TRUE_MEMORY_v0_4_2_MANDATORY_TASK_MEMORY.json",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1Jef0UoObTwUu7LJg4RQAIaj1kjTSRQ3n/view",
+      "canonical_hash": "3d826717168efd004fe35300a3e64bbe87de7e867cc846d04b08774789ba47c5",
+      "compatibility": {
+        "mode": "TRUE_MEMORY_0_4_2_MANDATORY_TASK_MEMORY_AND_INQUISITOR_CLEANUP",
+        "notes": "Preserves existing topology/domain authority while hardening required task-entry, ownership/delegation, helper/Critic, re-entry, memory lifecycle, completion and recovery transitions. No new cognitive actor/controller."
+      },
+      "component_key": "TRUE_MEMORY",
+      "dependencies": [
+        "STORAGE_AUTHORITY_POLICY",
+        "CONTEXT_TOKEN_BUDGET_POLICY",
+        "DURABLE_STATE_SCHEMA_BUNDLE",
+        "SEMANTIC_CORE_RUNTIME"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "CHAT_REQUEST",
+          "MATERIAL_CONTEXT_NEED",
+          "CANONICAL_AUTHORITY_POINTERS",
+          "DOMAIN_OWNER_OUTPUTS",
+          "EXTERNAL_OPERATION_RESULTS?",
+          "AUTHORIZED_SEMANTIC_DELTA",
+          "RESEARCH_DURABLE_DELTA?",
+          "MAINTENANCE_TRANSITION?",
+          "EXECUTION_CONTINUATION_DELTA?"
+        ],
+        "produces": [
+          "CONTEXT_PACKET",
+          "CURRENTNESS_VERDICT",
+          "MEMORY_CONVERGENCE_STATE",
+          "PERSISTENCE_TRANSACTION",
+          "SYNCDEBT_STATE",
+          "DURABLE_CHECKPOINT",
+          "RECOVERY_POINTER",
+          "DURABLE_PERSISTENCE_VERDICT",
+          "DURABLE_STATE_TRANSACTION",
+          "STATEHEAD_PUBLICATION_RECEIPT",
+          "TASK_MEMORY_GATE",
+          "TEMP_TASK_LIFECYCLE_VERDICT",
+          "INQUISITOR_CLEANUP_VERDICT"
+        ]
+      },
+      "owner": "Closed-loop memory/currentness and sole durable persistence execution for authorized semantic deltas while preserving class-specific semantic ownership and reserved adoption decisions.",
+      "read_permissions": [
+        "CANONICAL_AUTHORITY_POINTERS",
+        "DOMAIN_MEMORY_SOURCES",
+        "DERIVED_MEMORY_PROVIDERS",
+        "PROJECTION_SURFACES",
+        "QUALIFICATION_EVIDENCE"
+      ],
+      "semantic_id": "ND-SKILL-TM-1",
+      "semantic_id_status": "DECLARED",
+      "subordinate_extensions": {
+        "MNEMONIC_SKILL": {
+          "authority": "NO_INDEPENDENT_CURRENTNESS_CANONICAL_PERSISTENCE_OR_ADOPTION_AUTHORITY",
+          "relationship": "SUBORDINATE_TO_TRUE_MEMORY",
+          "status": "PENDING_CANDIDATE_NOT_ADOPTED"
+        }
+      },
+      "supersedes": [
+        "ND-SKILL-TM-1 v0.2.2 / 158Smuu875Y4QVpy89C500Y_JpIrJK5pT / f6077c0f9558e45b1041fb8a7e6a7bbbdda65ec8332ef64f70fd24896ce4c4e4",
+        "ND-SKILL-TM-1 v0.3.1 / 1cqrR9c6yD3fWNgKrE60lwo_Y1V4NxEw5 / 6ca554eafee3a3b3c20759618eb9a1c8ab0954387e517ac9a4fcf8938be4481b",
+        "ND-SKILL-TM-1 v0.3.2 / 1fQznOscvJhppUj1nuF0FFgt7v82WoeF4 / 601e7b0c62a84bc6e666c5c774336925148dc59bfabdd68e12ba5348f612b8b2",
+        "ND-SKILL-TM-1 v0.3.3 / 1acq67P3Zid2nJJIohGh6fw4cvW90X5FH / 421696d64deb6787eed8620d5b48305d4c49ad6a8e00f85e919aab3069dc1499",
+        "ND-SKILL-TM-1 v0.3.4 / 1U2NXvr3Chfj4_XpxIZtImKaZhBWQaIWI / d7ea9ad033fd249814274fd400607ce2ff9a25154f319209fe7d5fc91ad0b3c8",
+        "TRUE_MEMORY 0.4.0 / 1nBGa5pLE7GhrIq8j60fnKCovHxaWi35U / 2d815a43a130be1eefb23e27cb8b0e13485d65b365d2a7426f5476e6426ada1e",
+        "TRUE_MEMORY 0.4.1 / 1hxOYLWFHYAqw1pBB2ELqhf4W6HgDg3WY / c5c571926d1666df90504f9223b4f5723886815f07f0711a67f955be0771b70d"
+      ],
+      "version": "0.4.2",
+      "write_permissions": [
+        "AUTHORIZED_MEMORY_DELTAS",
+        "AUTHORIZED_DURABLE_STATE_TRANSACTIONS",
+        "STATEHEAD_PUBLICATION_UNDER_SERIALIZED_SINGLE_WRITER_EXACT_ANCHOR_OR_TOKEN",
+        "AUTHORIZED_PROJECTIONS",
+        "SYNCDEBT_AND_RECOVERY_POINTERS",
+        "NONCANONICAL_QUALIFICATION_EVIDENCE"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1AkYfcxy8pan7wpUQsVxq9af0J5xiUh0v",
+      "canonical_artifact_name": "ND_Inquisitor_v0_1_2_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1AkYfcxy8pan7wpUQsVxq9af0J5xiUh0v/view",
+      "canonical_hash": "c0665a4f70577b8859a3737cc0b82971bdf59132052fe468c4f93d1c5e1f32dc",
+      "compatibility": {
+        "mode": "TRUE_MEMORY_BOUNDED_SUBTRACTIVE_MEMORY_CHILD",
+        "notes": "True Memory retains memory/currentness supervision and durable publication authority; Inquisitor owns only bounded subtractive-memory discovery, adjudication, purge orchestration, residual reconciliation, and non-resurrection proof."
+      },
+      "component_key": "INQUISITOR",
+      "dependencies": [
+        "TRUE_MEMORY"
+      ],
+      "exact_status": "CANONICAL — CURRENT TRUE MEMORY SUBTRACTIVE-MEMORY CHILD — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_MEMORY_FORGETTING_ASSIGNMENT",
+          "TARGET_IDENTITY_SEED",
+          "CURRENT_OR_SUCCESSOR_ANCHOR?",
+          "AUTHORIZED_SCOPE",
+          "PROTECTED_SCOPE?",
+          "FORGETTING_INTENT",
+          "DONE_WHEN"
+        ],
+        "produces": [
+          "FORGETTING_VERDICT",
+          "REMOVED_OR_NEUTRALIZED_SET",
+          "RETAINED_WITH_REASON",
+          "RESIDUAL_SET",
+          "VERIFICATION_EVIDENCE",
+          "BEHAVIORAL_NON_RESURRECTION_VERDICT",
+          "MATERIAL_FOLLOWUP?"
+        ]
+      },
+      "owner": "Bounded subtractive-memory operations under True Memory MAINTENANCE: resurrection-path discovery, stale/superseded active-memory purge, ambiguous-effect reconciliation, residual convergence, and structural plus behavioral forgetting proof.",
+      "read_permissions": [
+        "AUTHORIZED_MEMORY_SCOPE",
+        "CURRENTNESS_AUTHORITY_POINTERS",
+        "RELEVANT_PROVIDER_INVENTORIES",
+        "SEMANTIC_PROJECTIONS_FOR_DISCOVERY",
+        "QUALIFICATION_AND_PROVENANCE_WHEN_MATERIAL"
+      ],
+      "semantic_id": "ND-SKILL-INQUISITOR-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.1.2",
+      "write_permissions": [
+        "AUTHORIZED_BOUNDED_SUBTRACTIVE_MEMORY_MUTATIONS",
+        "EPHEMERAL_CAMPAIGN_STATE_WHEN_RESUMABILITY_REQUIRES",
+        "NO_STATEHEAD_OR_REGISTRY_PUBLICATION",
+        "NO_SEMANTIC_SUCCESSOR_SELECTION",
+        "NO_UNAUTHORIZED_DEEP_ERASURE"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1veQc0tIl1dNTlA7vPMb746v6QrP1mJb4",
+      "canonical_artifact_name": "ND_True_Visual_v0_2_2_MANDATORY_HOOKS.json",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1veQc0tIl1dNTlA7vPMb746v6QrP1mJb4/view",
+      "canonical_hash": "732fa5270cccaa1755692b0bd5b8a59d3c417bd6f2d25d444c5c75aaa07a0300",
+      "compatibility": {
+        "mode": "TRUE_VISUAL_0_2_2_ALWAYS_VISUAL_CREATOR_PLUS_ACCEPTANCE",
+        "notes": "Preserves existing topology/domain authority while hardening required task-entry, ownership/delegation, helper/Critic, re-entry, memory lifecycle, completion and recovery transitions. No new cognitive actor/controller."
+      },
+      "component_key": "TRUE_VISUAL",
+      "dependencies": [
+        "VISUAL_CREATOR",
+        "VISUAL_CANON",
+        "TRUE_MEMORY",
+        "SEMANTIC_CORE_RUNTIME"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "HUMAN_OR_AGENT_AUTHORIZED_VISUAL_OBJECTIVE",
+          "STATUS_PRESERVED_SOURCE_MEANING",
+          "CURRENT_VISUAL_CANON",
+          "TRUE_MEMORY_CONTEXT_PACKET?",
+          "VISUAL_ARTIFACT_STATE?"
+        ],
+        "produces": [
+          "VISUAL_TASK_UNITS",
+          "VISUAL_EXECUTION_PLAN",
+          "VISUAL_ACCEPTANCE_CRITERIA",
+          "VISUAL_DECISION_STABILITY_STATE",
+          "VISUAL_SUPERVISOR_DISPOSITION",
+          "RESUMABLE_VISUAL_CHECKPOINT",
+          "MANDATORY_VISUAL_CREATOR_RECEIPT",
+          "TRUE_VISUAL_ACCEPTANCE_VERDICT"
+        ]
+      },
+      "owner": "Visual-domain supervision and semantic visual outcome control within authorized scope.",
+      "read_permissions": [
+        "STATUS_PRESERVED_SOURCE_CONTENT",
+        "CURRENT_VISUAL_CANON",
+        "TRUE_MEMORY_CONTEXT",
+        "VISUAL_ARTIFACTS",
+        "QUALIFICATION_EVIDENCE"
+      ],
+      "semantic_id": "ND-SKILL-TVIS-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "TRUE_VISUAL 0.1.3 / 1fDhLgkz2f7wnSpiguQM1FxSnBQ06yXWj / 44e8dd668661d66f937f06c8aec1c55ec79ba1fd70f4693d1c519f723a5a2ac8",
+        "TRUE_VISUAL 0.2.0 / 1mg8rpxiHI9C29i7W8ITbUs8-i3ckn4Mv / c20741afe56bfd92d87027c1159b4c2ee5018beec58e0f7f6bc40ebdc711546e"
+      ],
+      "version": "0.2.2",
+      "write_permissions": [
+        "AUTHORIZED_VISUAL_ARTIFACTS",
+        "WORK_LOCAL_VISUAL_STATE",
+        "NONCANONICAL_QUALIFICATION_EVIDENCE",
+        "REUSABLE_LEARNING_ONLY_THROUGH_TRUE_MEMORY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "13izqcR_OiponFKiIldqvn78kXAwZo0Qg",
+      "canonical_artifact_name": "ND_True_Developer_v0_4_2_MANDATORY_HOOKS.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/13izqcR_OiponFKiIldqvn78kXAwZo0Qg/view",
+      "canonical_hash": "9563a7d1b2ed32216be0685e63edf09ac185c4fd821ce7d33ff4c2a2c3641fd2",
+      "compatibility": {
+        "mode": "TRUE_DEVELOPER_0_4_2_EXECUTOR_AND_CRITIC_NO_DIRECT_FALLBACK",
+        "notes": "Preserves existing topology/domain authority while hardening required task-entry, ownership/delegation, helper/Critic, re-entry, memory lifecycle, completion and recovery transitions. No new cognitive actor/controller."
+      },
+      "component_key": "TRUE_DEVELOPER",
+      "dependencies": [
+        "AUTOMATION_AGENT",
+        "TRUE_MEMORY?",
+        "GENERATION?",
+        "DEVELOPER_CRITIC?",
+        "SEMANTIC_CORE_RUNTIME",
+        "DEVELOPER_EXECUTOR?"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "BOUNDED_ENGINEERING_OBJECTIVE",
+          "CURRENT_AUTHORITY_CONTEXT",
+          "DOMAIN_CONSTRAINTS"
+        ],
+        "produces": [
+          "VERIFIED_ENGINEERING_RESULT",
+          "IMPLEMENTATION_EVIDENCE",
+          "RESUMABLE_ENGINEERING_STATE",
+          "MANDATORY_EXECUTOR_INVOCATION_RECEIPT",
+          "MANDATORY_DEVELOPER_CRITIC_VERDICT"
+        ]
+      },
+      "owner": "Engineering Supervisor: decomposition, engineering judgment, mutation-authority adjudication, Child/peer orchestration, verification integration, repair direction and handoff. Material implementation executes through Developer Executor when callable.",
+      "read_permissions": [
+        "AUTHORIZED_ENGINEERING_CONTEXT",
+        "CURRENT_PROVIDER_STATE",
+        "SOURCE_REPOSITORIES",
+        "EXECUTION_EVIDENCE"
+      ],
+      "semantic_id": "ND-TRUE-DEVELOPER",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "TRUE_DEVELOPER 0.3.2 / 142NdL5YvBK9pLKwbLTSQE1jRcw7V2v-E / b78af4f234f73abd8183df8f86c92db917120735800e7be53494ecd53d999458",
+        "TRUE_DEVELOPER 0.4.0 / 1gNqGA1RfPZVfzadnXbCG3876LMrTP9bv / af64554ccfd6ff346ee4854a28e34a6a1e79367edc2aa2f50cada58454968a80"
+      ],
+      "version": "0.4.2",
+      "write_permissions": [
+        "AUTHORIZED_ENGINEERING_ARTIFACTS",
+        "BOUNDED_DEPLOYMENT_AND_REPAIR",
+        "NO_SEMANTIC_AUTHORITY_TAKEOVER"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1ZXHs0Z-zqrGzJrAIKaN5M-dr8tWwvI-y",
+      "canonical_artifact_name": "ND_Developer_Critic_v0_2_1_NAM354_ADOPTION_READY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1ZXHs0Z-zqrGzJrAIKaN5M-dr8tWwvI-y/view",
+      "canonical_hash": "12bbe95737818698688d326e3deef47df28501af94196eb601792d786d46c4aa",
+      "compatibility": {
+        "mode": "ADVERSARIAL_ENGINEERING_TEST_CHILD",
+        "notes": "Independent bounded adversarial diagnosis and disposable test execution; returns typed findings to True Developer; never repairs or mutates canonical/production target state."
+      },
+      "component_key": "DEVELOPER_CRITIC",
+      "dependencies": [
+        "TRUE_DEVELOPER"
+      ],
+      "exact_status": "CANONICAL — CURRENT ENGINEERING ADVERSARIAL TEST CHILD — EXACT LAUNCHER BINDING V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_DEVELOPER_CRITIQUE_ASSIGNMENT",
+          "FROZEN_IMPLEMENTATION_CANDIDATE",
+          "IMPLEMENTATION_CONTRACT",
+          "EXISTING_VERIFICATION"
+        ],
+        "produces": [
+          "VERIFIED_DEFECT",
+          "UNVERIFIED_RISK",
+          "NO_MATERIAL_DEFECT",
+          "BLOCKED_CONTEXT",
+          "NEEDS_INCIDENT_DIAGNOSIS"
+        ]
+      },
+      "owner": "Bounded independent adversarial engineering diagnosis/testing under True Developer.",
+      "read_permissions": [
+        "BOUNDED_ENGINEERING_CANDIDATE",
+        "IMPLEMENTATION_CONTRACT",
+        "AUTHORIZED_TEST_ENVIRONMENT"
+      ],
+      "semantic_id": "ND-SKILL-DEVELOPER-CRITIC-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.2.1",
+      "write_permissions": [
+        "EPHEMERAL_TEST_STATE_ONLY",
+        "DIAGNOSTIC_RETURN_ONLY",
+        "NO_TARGET_REPAIR",
+        "NO_CANONICAL_OR_PRODUCTION_MUTATION"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1b1KSkym-cWlzLvNaNPDLDBj095RAKLyn",
+      "canonical_artifact_name": "ND_TRUE_DOCTOR_OPERATIONAL_CONTRACT_v0_4_2_MANDATORY_HOOKS.txt",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1b1KSkym-cWlzLvNaNPDLDBj095RAKLyn/view",
+      "canonical_hash": "ec622328ca261f7865f57ac76b191b271a76c2aba88fd11c7b60fece77b0a2fe",
+      "compatibility": {
+        "mode": "TRUE_DOCTOR_0_4_2_ALWAYS_HELPER_PEER_SERVICE",
+        "notes": "Preserves existing topology/domain authority while hardening required task-entry, ownership/delegation, helper/Critic, re-entry, memory lifecycle, completion and recovery transitions. No new cognitive actor/controller."
+      },
+      "component_key": "TRUE_DOCTOR",
+      "dependencies": [
+        "AUTOMATION_AGENT",
+        "TRUE_DEVELOPER?",
+        "GENERATION?",
+        "TRUE_RESEARCH?",
+        "SEMANTIC_CORE_RUNTIME"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "QUALIFYING_INCIDENT",
+          "RUNTIME_FAILURE_EVIDENCE",
+          "BOUNDED_DIAGNOSTIC_REQUEST"
+        ],
+        "produces": [
+          "DIAGNOSIS",
+          "CONTAINMENT_OR_REPAIR_RESULT",
+          "VERIFIED_INCIDENT_RETURN",
+          "MANDATORY_HELPER_PEER_SERVICE_RECEIPT"
+        ]
+      },
+      "owner": "Cross-cutting operational reliability, incident diagnosis/remediation and bounded recovery without taking global WorkItem authority.",
+      "read_permissions": [
+        "AUTHORIZED_INCIDENT_CONTEXT",
+        "RUNTIME_EVIDENCE",
+        "CURRENT_ROUTE_STATE"
+      ],
+      "semantic_id": null,
+      "semantic_id_status": "NOT_DECLARED",
+      "supersedes": [
+        "TRUE_DOCTOR 0.3.3 / 1t_uZEm02dVxjP3FIWSgjW1W8Hd28ZRO8 / d4bbda3bbd81177b406e43b12649c69f28e044d2b6b5c060f7f653f96fe273b4",
+        "TRUE_DOCTOR 0.4.0 / 1iEbDmYNeijK9ilflBEdOpoK3ZeybgUaz / af834a874c6ab1033b1b7a04a11e8ae74c3316b0024d1b059f5e22e2e4cf61cc"
+      ],
+      "version": "0.4.2",
+      "write_permissions": [
+        "BOUNDED_REPAIR_WITHIN_AUTHORITY",
+        "INCIDENT_EVIDENCE",
+        "NO_GLOBAL_PRIORITY_OR_SEMANTIC_AUTHORITY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1rqkSaMZUzHx4rskT6kp-11groFzytbhT",
+      "canonical_artifact_name": "ND_GENERATION_v15_2_MANDATORY_RECOVERY_FRONTIER.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1rqkSaMZUzHx4rskT6kp-11groFzytbhT/view",
+      "canonical_hash": "999cb5aeda9795391406a7aa7d2e9457cb6dd70bc43d6faa8a44a4d2ae671efe",
+      "compatibility": {
+        "mode": "GENERATION_15_2_MANDATORY_RECOVERY_FRONTIER",
+        "notes": "Preserves existing topology/domain authority while hardening required task-entry, ownership/delegation, helper/Critic, re-entry, memory lifecycle, completion and recovery transitions. No new cognitive actor/controller."
+      },
+      "component_key": "GENERATION",
+      "dependencies": [
+        "TRUE_MEMORY?",
+        "TRUE_DOCTOR?",
+        "EXTERNAL_CONNECTING?"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "FAILED_OR_UNSUITABLE_EXTERNAL_ROUTE",
+          "LOGICAL_CAPABILITY_REQUEST",
+          "CURRENT_PROVIDER_STATE"
+        ],
+        "produces": [
+          "QUALIFIED_ROUTE_SELECTION",
+          "VERIFIED_EXTERNAL_OPERATION",
+          "RETURN_TO_ORIGINAL_CALLER",
+          "MANDATORY_RECOVERY_FRONTIER",
+          "EXTERNAL_CONNECTING_ESCALATION_REQUIRED?"
+        ]
+      },
+      "owner": "External capability/route SUPPORT only; preserves substantive cognitive caller and task ownership.",
+      "read_permissions": [
+        "CURRENT_ROUTE_REGISTRY",
+        "PROVIDER_CAPABILITY_STATE",
+        "QUALIFICATION_EVIDENCE"
+      ],
+      "semantic_id": null,
+      "semantic_id_status": "NOT_DECLARED",
+      "supersedes": [
+        "GENERATION 15.0 / 198_Xfg9_urvkbw-8w1R45GbcZPed6fE2 / 709ec5c7d864db23054b03022678292e5f8d59153757709d4cd4a7443fd311a0",
+        "GENERATION 15.1 / 1j5Xf8mmdJETmSmT1KFd9tyVsBGtXlnYn / f128191efa08c2f6c8417b182147c5722be1451a4dcc4710ebe8fa5c9bae5e5a"
+      ],
+      "version": "15.2",
+      "write_permissions": [
+        "ROUTE_RESOLVER_STATE_WHEN_AUTHORIZED",
+        "GENERATION_SUCCESSOR_STATE",
+        "NO_COGNITIVE_TASK_OWNERSHIP"
+      ]
+    },
+    {
+      "canonical_artifact_id": "19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH",
+      "canonical_artifact_name": "ND_ANTI_HANG_RUNTIME_v1_7_0_SCOPED_OWNED_BOUNDARY.json",
+      "canonical_artifact_url": "https://drive.google.com/file/d/19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH/view",
+      "canonical_hash": "76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
+      "compatibility": {
+        "mode": "ANTI_HANG_1_7_0_SCOPED_ADMISSION_OBSERVATIONS_STOP",
+        "notes": "Seven hooks and ownership retained. Healthy HOST_CONTROLLED legacy calls remain usable without qualified host deadlines. Owned or actually qualified boundaries require enforced profiles; consumable observations and explicit/durable Stop are scoped. Unchanged owned adapter is now independently qualified in one actual healthy primary Vercel notebook_get caller I/O wait; ChatGPT transport remains unwired/unqualified."
+      },
+      "component_key": "ANTI_HANG_RUNTIME",
+      "dependencies": [],
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "HOOK_EVENT",
+          "EFFECT_STATE",
+          "FRONTIER_SNAPSHOT",
+          "WAKE_STATE",
+          "RETURN_INTENT",
+          "PRESSURE_STATE",
+          "ACTION_SHAPE",
+          "STOP_STATE",
+          "EXECUTION_PROFILE",
+          "EXECUTION_SCOPE"
+        ],
+        "produces": [
+          "AUTO_CONTINUE",
+          "REENTER_ROOT",
+          "ROTATE_SAFE_CYCLE_AUTO_CONTINUE",
+          "RECONCILE_EFFECT",
+          "ISOLATE_CONSEQUENTIAL_EFFECT",
+          "NARROW_ACTION",
+          "GLOBAL_WAIT_EXTERNAL",
+          "RETURN_TRUE_GATE",
+          "RETURN_COMPLETED",
+          "RETURN_USER_STOP",
+          "OUTCOME_UNKNOWN_RECONCILE",
+          "RECOVER_EXECUTION_ROUTE"
+        ]
+      },
+      "owner": "Cross-cutting always-on hook runtime for effect/replay safety, pre-action recoverability/composite admission, local-wait liveness, root re-entry/cycle rotation, pressure shaping and global-return gating only.",
+      "publication_id": "ND-ANTI-HANG-FIELD-DEFECT-REPAIR-20261009-1",
+      "qualification": "ND-ANTI-HANG-OWNED-BOUNDARY-20261009",
+      "read_permissions": [
+        "CURRENT_RUNTIME_BINDINGS",
+        "HOOK_EVENT",
+        "EFFECT_STATE",
+        "FRONTIER_STATE",
+        "WAKE_STATE",
+        "RETURN_INTENT",
+        "PRESSURE_STATE",
+        "ACTION_SHAPE",
+        "STOP_STATE",
+        "EXECUTION_PROFILE",
+        "EXECUTION_SCOPE"
+      ],
+      "semantic_id": "ND-RUNTIME-ANTI-HANG-1",
+      "semantic_id_status": "DECLARED",
+      "source_merge": "ba39abb117926158f3980468e50e65dc05bcd744",
+      "status": "CURRENT_ONLY_WHEN_NAM_143_BOUND / SCOPED_ADMISSION_OBSERVATION_STOP_REPAIRS_QUALIFIED",
+      "supersedes": [
+        "ND-RUNTIME-ANTI-HANG-1 v1.5.0 / 1r2i2WcRfjgqfTZk4UpW0n6D9CwmwKeYK / 1d613458724758117d4cd2e26c5ab207edf805eacc0581af279d8d3da7f2d7a3",
+        "ND-RUNTIME-ANTI-HANG-1 v1.6.0 / 1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB / 61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15"
+      ],
+      "version": "1.7.0",
+      "write_permissions": [
+        "WORK_LOCAL_EFFECT_STATE",
+        "NO_SEMANTIC_TRUTH_OR_TASK_OWNERSHIP",
+        "NO_INDEPENDENT_CANONICAL_PUBLICATION_AUTHORITY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1zuE9mT9NbdG6XBjdpASI8KeOTPDq7Xq-",
+      "canonical_artifact_name": "ND_SEMANTIC_CORE_RUNTIME_v1_1_2_RECURSIVE_AGENTIC_PARITY.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1zuE9mT9NbdG6XBjdpASI8KeOTPDq7Xq-/view",
+      "canonical_hash": "f5b9a373dda8ec2472a8fbbfd408e809b73588380756d26db9c2fdc39f429a37",
+      "compatibility": {
+        "mode": "SEMANTIC_CORE_RUNTIME_1_1_2_RECURSIVE_AGENTIC_PARITY",
+        "notes": "Preserves NEW memory topology and adds explicit Supervisor->Child semantic packet inheritance, material-return refresh/rebind and repeated-child continuity without competing memory roots."
+      },
+      "component_key": "SEMANTIC_CORE_RUNTIME",
+      "dependencies": [
+        "TRUE_MEMORY",
+        "GENERATION?",
+        "CONTEXT_TOKEN_BUDGET_POLICY?"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — NORTH STAR AUTONOMY MIGRATION",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "MATERIAL_ND_TASK",
+          "CURRENT_AUTHORITY_CONTEXT",
+          "RELEVANT_PROJECT_OR_CORPUS_CONTEXT",
+          "NEW_LONG_LIVED_PROJECT_REQUEST",
+          "PROJECT_ADOPTION_REQUEST"
+        ],
+        "produces": [
+          "SEMANTIC_ORIENTATION_PACKET",
+          "PROJECT_WORKSPACE_CONTEXT",
+          "NOTEBOOK_LIFECYCLE_ACTION",
+          "SEMANTIC_NONRESURRECTION_STATE",
+          "NEW_PROJECT_BOOTSTRAP_STATE",
+          "PROJECT_NAVIGATOR_POINTER",
+          "PROJECT_ACTIVE_SEMANTIC_WORKSPACE"
+        ]
+      },
+      "owner": "Cross-cutting semantic-working-context policy only. No cognitive task ownership and no currentness authority.",
+      "read_permissions": [
+        "NOTEBOOKLM_SEMANTIC_CORPUS",
+        "CANONICAL_CONTEXT_REFERENCES",
+        "PROJECT_WORKSPACE_CONTEXT"
+      ],
+      "semantic_id": "ND-SEMANTIC-CORE-RUNTIME-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "SEMANTIC_CORE_RUNTIME 1.0.0 / 1L2QA12ADMb7_vHdAWYAvKQSUGPGioPNt / 27f7169dadc25c96c14196bf95ada70174ffdc5436651b48f55ef5e5f57136cf",
+        "SEMANTIC_CORE_RUNTIME 1.1.1 / 1vKlYMtk8SFvhZJS1FGfL0z1vumWhyHHg / dc96a215851ffbb4e110ff90821943da1d91afbd70c1c236f753fc4ff552edc4"
+      ],
+      "version": "1.1.2",
+      "write_permissions": [
+        "AUTHORIZED_NOTEBOOKLM_WORKSPACE_MUTATIONS",
+        "TEMP_NOTEBOOK_CREATE_DELETE",
+        "NO_CURRENTNESS_PUBLICATION",
+        "NO_DOMAIN_SEMANTIC_AUTHORITY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1Q-nqGy66w4Cc-BuQNkHZYhQpWgBsVu49",
+      "canonical_artifact_name": "ND_Developer_Executor_v0_1_0_CANONICAL.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1Q-nqGy66w4Cc-BuQNkHZYhQpWgBsVu49/view",
+      "canonical_hash": "0cb63d07c53ca38da8b5d427320d747dd46e97223a0848522e31a1e089d277b5",
+      "compatibility": {
+        "mode": "BOUNDED_ENGINEERING_IMPLEMENTATION_CHILD",
+        "notes": "Single justified topology addition. Executes bounded code/config/build/deploy/test/repair assignments under live True Developer ownership. No engineering adjudication, architecture adoption or cross-domain semantic authority."
+      },
+      "component_key": "DEVELOPER_EXECUTOR",
+      "dependencies": [
+        "TRUE_DEVELOPER",
+        "SEMANTIC_CORE_RUNTIME",
+        "ANTI_HANG_RUNTIME"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — ENGINEERING IMPLEMENTATION CHILD — FRESH_SESSION SKILL-CATALOG ACTIVATION QUALIFICATION PENDING",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_DEVELOPER_IMPLEMENTATION_ASSIGNMENT",
+          "BOUNDED_SEMANTIC_PACKET",
+          "ENGINEERING_AUTHORITY_CONSTRAINTS"
+        ],
+        "produces": [
+          "IMPLEMENTATION_RESULT",
+          "NO_SAFE_DELTA",
+          "BLOCKED_CONTEXT",
+          "DISCOVERED_ENGINEERING_DEPENDENCY",
+          "OUTCOME_UNKNOWN"
+        ]
+      },
+      "owner": "Bounded implementation/execution under True Developer.",
+      "read_permissions": [
+        "AUTHORIZED_ENGINEERING_CONTEXT",
+        "SOURCE_REPOSITORIES",
+        "CURRENT_PROVIDER_STATE",
+        "AUTHORIZED_TEST_ENVIRONMENT"
+      ],
+      "semantic_id": "ND-SKILL-DEVELOPER-EXECUTOR-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [],
+      "version": "0.1.0",
+      "write_permissions": [
+        "AUTHORIZED_ENGINEERING_ARTIFACTS",
+        "BOUNDED_DEPLOYMENT_AND_REPAIR",
+        "EPHEMERAL_TEST_STATE",
+        "NO_ARCHITECTURE_ADOPTION",
+        "NO_CROSS_DOMAIN_SEMANTIC_AUTHORITY"
+      ]
+    },
+    {
+      "canonical_artifact_id": "1yGFk_lWh5bXtlZVPLUeDeGLMCx1IQ3IV",
+      "canonical_artifact_name": "ND_Songwriter_v0_2_3_CANONICAL_SKILL.md",
+      "canonical_artifact_url": "https://drive.google.com/file/d/1yGFk_lWh5bXtlZVPLUeDeGLMCx1IQ3IV/view",
+      "canonical_hash": "920ebc9daa21d754dffddad0eca28ee4c4c929c5fc794644e20e729ccdcda3ab",
+      "compatibility": {
+        "mode": "CHILD_OF_TRUE_WRITER_ALWAYS_FINAL_LITERARY_CRITIC",
+        "notes": "Song lyric craft, returns to live Writer, no music production or self-acceptance."
+      },
+      "component_key": "SONGWRITER",
+      "dependencies": [
+        "TRUE_WRITER",
+        "WRITER_ORCHESTRA_RUNTIME",
+        "LITERARY_CRITIC"
+      ],
+      "exact_status": "CANONICAL WHEN NAM-143-BOUND — SONG LYRIC CHILD — EXACT LAUNCHER URI V6",
+      "hash_contract": {
+        "algorithm": "SHA-256",
+        "encoding": "lowercase hexadecimal",
+        "input": "EXACT_FILE_BYTES"
+      },
+      "interfaces": {
+        "consumes": [
+          "TRUE_WRITER_LYRICS_ASSIGNMENT",
+          "AUTHORITATIVE_SOURCE_REF?",
+          "BOUNDED_LITERARY_CONTEXT",
+          "KEEP?"
+        ],
+        "produces": [
+          "LYRICS_CANDIDATE",
+          "LYRICS_DIAGNOSIS",
+          "NO_SAFE_DELTA",
+          "BLOCKED_CONTEXT"
+        ]
+      },
+      "owner": "Writer-domain song lyric draft/revise under True Writer; no final acceptance",
+      "read_permissions": [
+        "BOUNDED_LITERARY_CONTEXT",
+        "VERIFIED_SOURCE_ARTIFACTS",
+        "SONG_LYRICS"
+      ],
+      "semantic_id": "ND-SKILL-SONGWRITER-1",
+      "semantic_id_status": "DECLARED",
+      "supersedes": [
+        "Songwriter development v0.2.1 / pluginrel_6acb14a3b6348191a7e50f0576c3bb39 — NONSELECTABLE",
+        "SONGWRITER v0.2.2 / 1kN66M1VujblUXr3jo-z01nxGH1XS_jp8 / 822fc42f6f41b84f3675e68d8f2e6f6876708c16af7f638411f3b643d94cd9c1"
+      ],
+      "version": "0.2.3",
+      "write_permissions": [
+        "LYRICS_CANDIDATE_RETURN_ONLY",
+        "NO_FINAL_ACCEPTANCE",
+        "NO_AUDIO_PRODUCTION"
+      ]
+    }
+  ],
+  "runtime_invocation_bindings": {
+    "binding_rule": "EVERY_EXECUTABLE_ND_COGNITIVE_EDGE_MUST_RESOLVE_TO_EXACT_CALLABLE_LAUNCHER_URI",
+    "component_binding_rule": "When a launcher-backed component has a CURRENT Registry component entry, runtime resolution binds exact launcher_uri + stable Kernel/currentness + exact canonical component version/artifact/hash as one callable identity.",
+    "generation_boundary": "GENERATION_IS_EXTERNAL_CAPABILITY_ROUTE_SUPPORT_NOT_INTERNAL_COGNITIVE_IDENTITY_RESOLVER",
+    "human_name_rule": "HUMAN_NAMES_SEMANTIC_IDS_KERNELS_BARE_LAUNCHER_NAMES_AND_MANUAL_ALIASES_ARE_NON_EXECUTABLE_METADATA",
+    "launcher_contract": "ND-LAUNCHER-CONTRACT-v6",
+    "launcher_count": 23,
+    "launchers": [
+      {
+        "anti_hang_binding": "EMIT_REQUIRED_ALWAYS_ON_HOOK_EVENTS_AND_OBEY_CURRENT_ANTI_HANG_VERDICT",
+        "anti_hang_launcher_uri": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
+        "canonical_artifact_hash": "4c2255cfc41df28054b892e077b7b8edb0119d05459491290278801855529993",
+        "canonical_artifact_id": "1qYIxW6Zk-U4h94yz1dXw6oT1Nhk276qt",
+        "canonical_component_version": "1.3.5",
+        "committed_autonomous_cycle": "USER_SIGNIFICANT_ONLY_WHEN_ELIGIBLE_AND_AUTO_REENTRY_SURFACE_OBSERVED",
+        "component_key": "AUTOMATION_AGENT",
+        "kernel": "NAM-262",
+        "launcher_name": "nd-launch-automation-agent",
+        "launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent",
+        "lifecycle": "CURRENT / HOOK_DRIVEN_ROOT_ORCHESTRATION / AUTONOMOUS_MATERIAL_RETURN_CONSUMER / SILENT_CONTINUATION_DEFAULT",
+        "manual_alias": "@ND Automation Agent",
+        "material_return_consumer": "AGENT_OWNED continue_after_material_return -> CURRENT kernel policy -> execute concrete next_step in same authorized request; local closure/pressure/checkpoint never closes whole task",
+        "message_policy_adapter": "AGENT_OWNED_JIT / SILENT_CONTINUE_DEFAULT / NOT_ANTI_HANG_CORRECTNESS",
+        "plugin_id": "plugins_6ab731c8ad7481919f12b489273757fb",
+        "plugin_release_family": "1.7.x",
+        "qualified_plugin_release_id": "pluginrel_6aca3e797a808191a714ae48f0a657e3",
+        "qualified_plugin_version": "1.7.5",
+        "role": "ROOT",
+        "semantic_id": null,
+        "structural_parent_launcher_uri": null,
+        "visible_progress_yield": "EXCEPTIONAL_USER_SIGNIFICANT_EVENT_ONLY_NOT_INTERNAL_CYCLE_FALLBACK"
+      },
+      {
+        "canonical_artifact_hash": "3d826717168efd004fe35300a3e64bbe87de7e867cc846d04b08774789ba47c5",
+        "canonical_artifact_id": "1Jef0UoObTwUu7LJg4RQAIaj1kjTSRQ3n",
+        "canonical_component_version": "0.4.2",
+        "component_key": "TRUE_MEMORY",
+        "kernel": "NAM-266",
+        "launcher_name": "nd-launch-true-memory",
+        "launcher_uri": "skills://plugins/nd-true-memory/nd-launch-true-memory",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": "@ND True Memory",
+        "plugin_id": "plugins_6ab73897614881919133e97e70ae8d84",
+        "plugin_release_family": "1.3.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f4263c4c8191a7c3bb4018fe9776",
+        "qualified_plugin_version": "1.3.3",
+        "role": "SUPERVISOR",
+        "semantic_id": "ND-SKILL-TM-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "c0665a4f70577b8859a3737cc0b82971bdf59132052fe468c4f93d1c5e1f32dc",
+        "canonical_artifact_id": "1AkYfcxy8pan7wpUQsVxq9af0J5xiUh0v",
+        "canonical_component_version": "0.1.2",
+        "component_key": "INQUISITOR",
+        "kernel": "NAM-352",
+        "launcher_name": "nd-launch-inquisitor",
+        "launcher_uri": "skills://plugins/nd-inquisitor/nd-launch-inquisitor",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Inquisitor",
+        "plugin_id": "plugins_6abb2844050c81918f47b8c892912fc7",
+        "plugin_release_family": "0.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-INQUISITOR-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-memory/nd-launch-true-memory"
+      },
+      {
+        "canonical_artifact_hash": "9563a7d1b2ed32216be0685e63edf09ac185c4fd821ce7d33ff4c2a2c3641fd2",
+        "canonical_artifact_id": "13izqcR_OiponFKiIldqvn78kXAwZo0Qg",
+        "canonical_component_version": "0.4.2",
+        "component_key": "TRUE_DEVELOPER",
+        "kernel": "NAM-137",
+        "launcher_name": "nd-launch-true-developer",
+        "launcher_uri": "skills://plugins/nd-true-developer/nd-launch-true-developer",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": "@ND True Developer",
+        "plugin_id": "plugins_6ab738a9c8a08191a051720695bd94e9",
+        "plugin_release_family": "1.2.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f4ab6abc81919811ec360818486f",
+        "qualified_plugin_version": "1.2.6",
+        "role": "SUPERVISOR",
+        "semantic_id": "ND-TRUE-DEVELOPER",
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "12bbe95737818698688d326e3deef47df28501af94196eb601792d786d46c4aa",
+        "canonical_artifact_id": "1ZXHs0Z-zqrGzJrAIKaN5M-dr8tWwvI-y",
+        "canonical_component_version": "0.2.1",
+        "component_key": "DEVELOPER_CRITIC",
+        "kernel": "NAM-137",
+        "launcher_name": "nd-launch-developer-critic",
+        "launcher_uri": "skills://plugins/nd-developer-critic/nd-launch-developer-critic",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Developer Critic",
+        "plugin_id": "plugins_6ab948e95cf481918018a9b68399b6a3",
+        "plugin_release_family": "1.0.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-DEVELOPER-CRITIC-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-developer/nd-launch-true-developer"
+      },
+      {
+        "component_key": "TRUE_SMM",
+        "kernel": "NAM-164",
+        "launcher_name": "nd-launch-true-smm",
+        "launcher_uri": "skills://plugins/nd-true-smm/nd-launch-true-smm",
+        "lifecycle": "DEVELOPMENT_QUALIFIED_NON_ADOPTED_NO_CANONICAL_CURRENT",
+        "manual_alias": "@ND True SMM",
+        "plugin_id": "plugins_6ab738bc64988191a419625a0b58845f",
+        "plugin_release_family": "1.1.x",
+        "role": "SUPERVISOR",
+        "semantic_id": null,
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "ec622328ca261f7865f57ac76b191b271a76c2aba88fd11c7b60fece77b0a2fe",
+        "canonical_artifact_id": "1b1KSkym-cWlzLvNaNPDLDBj095RAKLyn",
+        "canonical_component_version": "0.4.2",
+        "component_key": "TRUE_DOCTOR",
+        "kernel": "NAM-91",
+        "launcher_name": "nd-launch-true-doctor",
+        "launcher_uri": "skills://plugins/nd-true-doctor/nd-launch-true-doctor",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": "@ND True Doctor",
+        "plugin_id": "plugins_6ab738cfaf98819190c933b9a5939621",
+        "plugin_release_family": "1.2.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f162f02c8191a0c73af90fe574ce",
+        "qualified_plugin_version": "1.2.3",
+        "role": "SUPERVISOR",
+        "semantic_id": null,
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "999cb5aeda9795391406a7aa7d2e9457cb6dd70bc43d6faa8a44a4d2ae671efe",
+        "canonical_artifact_id": "1rqkSaMZUzHx4rskT6kp-11groFzytbhT",
+        "canonical_component_version": "15.2",
+        "component_key": "GENERATION",
+        "kernel": "NAM-142",
+        "launcher_name": "nd-launch-generation",
+        "launcher_uri": "skills://plugins/nd-generation/nd-launch-generation",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": "@ND Generation",
+        "plugin_id": "plugins_6ab738e29e948191b8461ee295dd8262",
+        "plugin_release_family": "1.1.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f522d1f48191aba2e33f2f633172",
+        "qualified_plugin_version": "1.1.5",
+        "role": "SUPPORT",
+        "semantic_id": null,
+        "structural_parent_launcher_uri": null
+      },
+      {
+        "canonical_artifact_hash": "2a1af1f513466ae833e07c423fe9f1f50bf0fb6f6cb73383af0da87801c30e63",
+        "canonical_artifact_id": "1t9Muz-X0jxYarIjJoXRZJcKMmPEaQTVf",
+        "canonical_component_version": "1.8.2",
+        "component_key": "TRUE_RESEARCH",
+        "kernel": "NAM-115",
+        "launcher_name": "nd-launch-true-research",
+        "launcher_uri": "skills://plugins/nd-true-research/nd-launch-true-research",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": "@ND True Research",
+        "plugin_id": "plugins_6ab7392e92c881918144efcef0803ec7",
+        "plugin_release_family": "1.3.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f11ebe748191a925b4067b5b616d",
+        "qualified_plugin_version": "1.3.3",
+        "role": "SUPERVISOR",
+        "semantic_id": "ND-SKILL-TR-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "6be2b09ff74bf72c069d4bccf62bf45252b695032119b60574b3e7b2ca59bc5e",
+        "canonical_artifact_id": "1W6NOvg5-UqsH1mGmHNWm9GevdftRA_Fb",
+        "canonical_component_version": "0.2.0",
+        "component_key": "RESEARCH_CRITIC",
+        "kernel": "NAM-115",
+        "launcher_name": "nd-launch-research-critic",
+        "launcher_uri": "skills://plugins/nd-research-critic/nd-launch-research-critic",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Research Critic",
+        "plugin_id": "plugins_6ab948ae733c819182154af387434d05",
+        "plugin_release_family": "1.0.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-RESEARCH-CRITIC-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-research/nd-launch-true-research"
+      },
+      {
+        "canonical_artifact_hash": "80d92682046ae70303d2474bdc86cd08a432788f676ebc60a7f5bd9d83ee56cb",
+        "canonical_artifact_id": "15_xNfrGN4szrqFTFl_yQI0yldP12d1gU",
+        "canonical_component_version": "1.3.6",
+        "component_key": "PCPA",
+        "kernel": "NAM-115",
+        "launcher_name": "nd-launch-pcpa",
+        "launcher_uri": "skills://plugins/nd-pcpa/nd-launch-pcpa",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND PCPA",
+        "plugin_id": "plugins_6ab7394136f08191b9ffe1d0a76169ec",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-PCPA-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-research/nd-launch-true-research"
+      },
+      {
+        "canonical_artifact_hash": "efdbf87297187f3e93ff66a080ccbe1b10adf6b146ea075161a3d8193e213032",
+        "canonical_artifact_id": "1unE6iw4ydtavarki8TjDDliq_drVv0b5",
+        "canonical_component_version": "1.1.7",
+        "component_key": "DHAMMA_ANALYSIS_ENGINE",
+        "kernel": "NAM-115",
+        "launcher_name": "nd-launch-dae",
+        "launcher_uri": "skills://plugins/nd-dae/nd-launch-dae",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND DAE",
+        "plugin_id": "plugins_6ab7395470408191a8c43dde679b5881",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-DAE-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-research/nd-launch-true-research"
+      },
+      {
+        "canonical_artifact_hash": "4539cecc0b419b2188b1884bccafd7a6ce44a44b7e4c9cf5e9448b5030b1a17d",
+        "canonical_artifact_id": "1uxvHtD2p4rXv8SIu0zeB365L0ykM2NIx",
+        "canonical_component_version": "4.2.6",
+        "component_key": "PAE",
+        "kernel": "NAM-115",
+        "launcher_name": "nd-launch-pae",
+        "launcher_uri": "skills://plugins/nd-pae/nd-launch-pae",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND PAE",
+        "plugin_id": "plugins_6ab73967295c8191a222c9945a548774",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-PAE-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-research/nd-launch-true-research"
+      },
+      {
+        "canonical_artifact_hash": "6336ffef4964cabe1a6772d18860ab437e71e6e4dc3379ff87ad9a92bfc05f0c",
+        "canonical_artifact_id": "1yTUJii-SuoRgzI2iQFcw1xuUlHuVnOUZ",
+        "canonical_component_version": "0.9.3",
+        "component_key": "TRUE_WRITER",
+        "kernel": "NAM-140",
+        "launcher_name": "nd-launch-true-writer",
+        "launcher_uri": "skills://plugins/nd-true-writer/nd-launch-true-writer",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED / SONGWRITER_FOR_LYRICS",
+        "manual_alias": "@ND True Writer",
+        "plugin_id": "plugins_6ab739e0639081918fd508d21223adad",
+        "plugin_release_family": "1.2.x",
+        "qualified_plugin_release_id": "pluginrel_6acb1ee3301c8191bec0b558451ada24",
+        "qualified_plugin_version": "1.2.4",
+        "role": "SUPERVISOR",
+        "semantic_id": "ND-SKILL-TRUE-WRITER-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "70dc35959914eaa4d85dbb4bb23b0ae2bdcb75955f49d535f77a303b1234c75b",
+        "canonical_artifact_id": "1u52MN46Qe__5NtvVWeYW26-96_WPItRS",
+        "canonical_component_version": "0.2.4",
+        "component_key": "TECHNICAL_WRITER",
+        "kernel": "NAM-140",
+        "launcher_name": "nd-launch-technical-writer",
+        "launcher_uri": "skills://plugins/nd-technical-writer/nd-launch-technical-writer",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Technical Writer",
+        "plugin_id": "plugins_6ab739f2f92c819197fd0406556cef2a",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-TECH-WRITER-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-writer/nd-launch-true-writer"
+      },
+      {
+        "canonical_artifact_hash": "8cb07bd6f8fd96e52e9d5918efb4729c34a691f52146789a590578d6eb661884",
+        "canonical_artifact_id": "1cbr6-a_R4KttGrcTygaTeVpDxPFQlf_d",
+        "canonical_component_version": "3.1.3",
+        "component_key": "BOOKS_CREATOR",
+        "kernel": "NAM-140",
+        "launcher_name": "nd-launch-books-creator",
+        "launcher_uri": "skills://plugins/nd-books-creator/nd-launch-books-creator",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Books Creator",
+        "plugin_id": "plugins_6ab73a06ac548191af7f486337acbfdb",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-BOOKS-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-writer/nd-launch-true-writer"
+      },
+      {
+        "canonical_artifact_hash": "51f82351053e32ca2c2a02f6716426a6dca88da3807a2c29f1326540483f6d76",
+        "canonical_artifact_id": "1M1N74J_UUuaSm7B9ub8gdt3q8GOmvz2Y",
+        "canonical_component_version": "0.2.4",
+        "component_key": "LITERARY_CRITIC",
+        "kernel": "NAM-140",
+        "launcher_name": "nd-launch-literary-critic",
+        "launcher_uri": "skills://plugins/nd-literary-critic/nd-launch-literary-critic",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Literary Critic",
+        "plugin_id": "plugins_6ab73a19205c81918d571d6338f96981",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-LITERARY-CRITIC-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-writer/nd-launch-true-writer"
+      },
+      {
+        "canonical_artifact_hash": "a2a74b8a22b275fd77ec7d55bb22a329af125c51ef1255e444be0bbe7ede6327",
+        "canonical_artifact_id": "1YD4iht7VeSxHZDg3ZQ9bWdmZ5-nWWywT",
+        "canonical_component_version": "0.2.3",
+        "component_key": "STORY_ARCHITECT",
+        "kernel": "NAM-140",
+        "launcher_name": "nd-launch-story-architect",
+        "launcher_uri": "skills://plugins/nd-story-architect/nd-launch-story-architect",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Story Architect",
+        "plugin_id": "plugins_6ab73a2bc63081919f637c66c8251124",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-STORY-ARCHITECT-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-writer/nd-launch-true-writer"
+      },
+      {
+        "canonical_artifact_hash": "732fa5270cccaa1755692b0bd5b8a59d3c417bd6f2d25d444c5c75aaa07a0300",
+        "canonical_artifact_id": "1veQc0tIl1dNTlA7vPMb746v6QrP1mJb4",
+        "canonical_component_version": "0.2.2",
+        "component_key": "TRUE_VISUAL",
+        "kernel": "NAM-141",
+        "launcher_name": "nd-launch-true-visual",
+        "launcher_uri": "skills://plugins/nd-true-visual/nd-launch-true-visual",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": "@ND True Visual",
+        "plugin_id": "plugins_6ab73a400a74819180ce2d034c7f54b5",
+        "plugin_release_family": "1.2.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f152b0308191b4e28e7a9b8846c2",
+        "qualified_plugin_version": "1.2.3",
+        "role": "SUPERVISOR",
+        "semantic_id": "ND-SKILL-TVIS-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "3ea668d734be42c2af16c3f41d43ea3cf4f5431f97e564b4b5629e317d5a9998",
+        "canonical_artifact_id": "1A5ZLO2zsr0QfQT4ggZTdJBlDenY6B7xD",
+        "canonical_component_version": "1.0.5",
+        "component_key": "VISUAL_CREATOR",
+        "kernel": "NAM-141",
+        "launcher_name": "nd-launch-visual-creator",
+        "launcher_uri": "skills://plugins/nd-visual-creator/nd-launch-visual-creator",
+        "lifecycle": "CURRENT",
+        "manual_alias": "@ND Visual Creator",
+        "plugin_id": "plugins_6ab73a52b0e48191a317f1ba90e603e1",
+        "plugin_release_family": "1.1.x",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-VIS-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-visual/nd-launch-true-visual"
+      },
+      {
+        "canonical_artifact_hash": "0cb63d07c53ca38da8b5d427320d747dd46e97223a0848522e31a1e089d277b5",
+        "canonical_artifact_id": "1Q-nqGy66w4Cc-BuQNkHZYhQpWgBsVu49",
+        "canonical_component_version": "0.1.0",
+        "component_key": "DEVELOPER_EXECUTOR",
+        "kernel": "NAM-137",
+        "launcher_name": "nd-launch-developer-executor",
+        "launcher_uri": "skills://plugins/nd-true-developer/nd-launch-developer-executor",
+        "lifecycle": "CURRENT / MANDATORY_HOOK_QUALIFIED",
+        "manual_alias": null,
+        "plugin_id": "plugins_6ab738a9c8a08191a051720695bd94e9",
+        "plugin_release_family": "1.2.x",
+        "qualified_plugin_release_id": "pluginrel_6ac0f4ab6abc81919811ec360818486f",
+        "qualified_plugin_version": "1.2.6",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-DEVELOPER-EXECUTOR-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-developer/nd-launch-true-developer"
+      },
+      {
+        "canonical_artifact_hash": "76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
+        "canonical_artifact_id": "19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH",
+        "canonical_component_version": "1.7.0",
+        "catalog_staleness_fallback": "Resolve exact Registry-bound ANTI_HANG_RUNTIME directly; never skip runtime or stop task.",
+        "component_key": "ANTI_HANG_RUNTIME",
+        "kernel": "NAM-397",
+        "launcher_name": "nd-launch-anti-hang",
+        "launcher_uri": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
+        "lifecycle": "CURRENT / INSTALLED / SEVEN_HOOK_SCOPED_BOUNDARY_OBSERVATION_STOP_QUALIFIED",
+        "manual_alias": "@ND Anti-Hang",
+        "plugin_id": "plugins_6ac1a94c1a1c8191acc305042d60d639",
+        "plugin_release_family": "1.2.x",
+        "qualified_plugin_release_id": "pluginrel_6ac87d38fff481919a2403d7f536e08d",
+        "qualified_plugin_version": "1.2.1",
+        "role": "CROSS_CUTTING_RUNTIME",
+        "semantic_id": "ND-RUNTIME-ANTI-HANG-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent"
+      },
+      {
+        "canonical_artifact_hash": "920ebc9daa21d754dffddad0eca28ee4c4c929c5fc794644e20e729ccdcda3ab",
+        "canonical_artifact_id": "1yGFk_lWh5bXtlZVPLUeDeGLMCx1IQ3IV",
+        "canonical_component_version": "0.2.3",
+        "component_key": "SONGWRITER",
+        "kernel": "NAM-140",
+        "launcher_name": "nd-launch-songwriter",
+        "launcher_uri": "skills://plugins/nd-songwriter/nd-launch-songwriter",
+        "lifecycle": "CURRENT WHEN NAM-143-BOUND / LYRICS_CHILD / CRITIC_FINAL_GATE",
+        "manual_alias": "@ND Songwriter",
+        "plugin_id": "plugins_6acb107ce31081919b5fcafe92897811",
+        "plugin_release_family": "0.2.x",
+        "qualified_plugin_release_id": "pluginrel_6acb2c65fba08191be421d13a9032c78",
+        "qualified_plugin_version": "0.2.3",
+        "role": "CHILD",
+        "semantic_id": "ND-SKILL-SONGWRITER-1",
+        "structural_parent_launcher_uri": "skills://plugins/nd-true-writer/nd-launch-true-writer"
+      }
+    ],
+    "mismatch_rule": "REGISTRY_VS_LIVE_PLUGIN_CATALOG_MISMATCH_FAILS_CLOSED_NO_NAME_GUESSING; exact Registry-bound runtime fallback remains allowed only as explicit recovery for transient catalog SyncDebt.",
+    "recovery_skills": [
+      {
+        "launcher_uri": "skills://plugins/nd-external-connecting/connecting-external-capabilities",
+        "lifecycle": "CURRENT_RECOVERY_SKILL / MANDATORY_FRONTIER_QUALIFIED",
+        "manual_alias": "@ND External Connecting",
+        "name": "connecting-external-capabilities",
+        "navigator": "NAM-122",
+        "plugin_id": "plugins_6ab73e4004b48191a35229522b705fa9",
+        "qualified_plugin_release_id": "pluginrel_6ac0f52f96c08191a414e9599b05923d",
+        "qualified_plugin_version": "1.2.2",
+        "role": "RECOVERY_SKILL"
+      }
+    ],
+    "reentry_rule": "REENTER_EXACT_URI_ONLY_IF_EXPECTED_CALLER_PARENT_IS_ABSENT_AND_TASK_CALL_CORRELATION_RUNTIME_GENERATION_STILL_MATCH",
+    "resolver": "THIS_STATEHEAD_BOUND_REGISTRY",
+    "return_rule": "RETURN_ADDRESSES_ALREADY_LIVE_CALLER_BY_EXACT_URI_WITHOUT_REINVOKE",
+    "schema": "ND_RUNTIME_INVOCATION_BINDINGS_V1",
+    "shared_runtime_contracts": [
+      {
+        "canonical_artifact_hash": "76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
+        "canonical_artifact_id": "19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH",
+        "canonical_component_version": "1.7.0",
+        "component_key": "ANTI_HANG_RUNTIME",
+        "inheritance_rule": "Every user task enters CURRENT Anti-Hang. Automation Agent emits the applicable TASK_ENTRY | BEFORE_ACTION | AFTER_ACTION | AFTER_MATERIAL_RETURN | PRESSURE | BEFORE_USER_RETURN | USER_STOP event and obeys the bounded kernel verdict. Anti-Hang does not own cognitive hooks, task decomposition, memory lifecycle, route strategy or message rendering.",
+        "lifecycle": "CURRENT / SEVEN_HOOK_SCOPED_BOUNDARY_OBSERVATION_STOP_QUALIFIED",
+        "scope": "ALL_CURRENT_ND_ACTORS_AND_CHATGPT_VISIBLE_EXTERNAL_TOOL_ORCHESTRATION_INVOCATIONS",
+        "semantic_id": "ND-RUNTIME-ANTI-HANG-1"
+      }
+    ]
+  },
+  "cross_cutting_runtime_policies": {
+    "AGENT_MESSAGE_POLICY": {
+      "binding": "CURRENT StateHead-bound Automation Agent owns message policy; no duplicate cycle visibility mandate",
+      "component_key": "AUTOMATION_AGENT",
+      "continuation": "Useful authorized work continues without routine Go; a message is not an installed scheduler/wake receipt or a fresh outer-turn reset",
+      "default": "SILENT_CONTINUE",
+      "launcher_uri": "skills://plugins/nd-automation-agent/nd-launch-automation-agent",
+      "visible_event": "Only CURRENT Agent user-significant exceptions or explicitly requested reporting"
+    },
+    "MANDATORY_HOOK_CHAIN": {
+      "component_key": "AUTOMATION_AGENT",
+      "no_direct_fallback": "Missing owner/Child route is recovery, never permission for parent/Agent substantive imitation.",
+      "rule": "EVERY user task -> Anti-Hang. EVERY substantive task -> True Memory gate -> exact CURRENT Supervisor -> at least one owned Child/helper -> applicable Critic/acceptance -> owner re-entry -> TEMP_TASK cleanup if any -> completion gate.",
+      "simple_task_rule": "SIMPLE_TASK != NO_DELEGATION; knowledge/reasoning without narrower owner defaults to True Research.",
+      "source_contract": "ND-COGNITIVE-RUNTIME-1",
+      "source_merge": "411066b5b9f3c8335558054a3245a48323c5e359",
+      "topology_change": false
+    },
+    "RESERVE_FIRST_EXTERNAL_RECOVERY": {
+      "ambiguous_write": "READBACK/RECONCILE authoritative provider state before retry/failover; confirmed effect = zero replay",
+      "binding_rule": "Resolve CURRENT Anti-Hang through NAM-143 -> bound Registry. Applies to Automation Agent, CURRENT Supervisors/Children and external capability calls.",
+      "component_key": "AUTOMATION_AGENT",
+      "effect_replay_safety_component": "ANTI_HANG_RUNTIME",
+      "mandatory_frontier": "ONE_FAILED_ROUTE_NEVER_CAPABILITY_FAILURE_NO_EARLY_SURRENDER",
+      "no_failover_errors": [
+        "permission/authorization denial",
+        "stale revision/version",
+        "invalid payload/schema",
+        "semantic invariant/domain correction"
+      ],
+      "order": "RECONCILE ambiguous effects -> qualified same-capability RESERVE(s), serialized -> Generation MUST recover/inventory CURRENT plugin/provider routes -> External Connecting MUST create/qualify a route if no existing CURRENT route satisfies semantics -> only TRUE_GATE may block",
+      "ownership": "Recovery never transfers substantive task/domain ownership."
+    },
+    "SEMANTIC_CORE_RUNTIME": {
+      "applies_to": "AUTOMATION_AGENT + ALL CURRENT SUPERVISORS/CHILDREN FOR MATERIAL ND TASKS",
+      "binding_rule": "Resolve through NAM-143 -> bound CURRENT Registry. Material path: Linear map -> clean Semantic Core / relevant ACTIVE_PROJECT -> focused canonical verification -> Agent -> substantive Supervisor -> owned Child/peer. Children inherit bounded decision-sufficient context. Re-query/rebind after material Supervisor/Child/Critic/peer returns only when accepted state makes the packet decision-stale. NEW_PROJECT_BOOTSTRAP remains mandatory for long-lived new/adopted projects.",
+      "component_key": "SEMANTIC_CORE_RUNTIME",
+      "google_workspace_routing": "Drive owns file/folder lifecycle and durable artifact anchoring; native Docs/Sheets/Slides use their current specialized Google Workspace editing routes; Soluvery is ACL/sharing audit only; NotebookLM is semantic working context only; True Memory coordinates persistence/currentness/lifecycle while domain Supervisors own domain truth.",
+      "lifecycle_rule": "CORE persists; ACTIVE_PROJECT persists while active/useful; EVERY substantive task passes True Memory TASK_MEMORY_GATE; long/complex/multi-step task MUST bind/create CURRENT Gemini NotebookLM TEMP_TASK; every TEMP_TASK completion MUST invoke Inquisitor then delete/retire/verify task-specific temporary workspace/residues before completion.",
+      "new_project_bootstrap_rule": "LONG_LIVED_PROJECT -> resolve duplicates -> stable Linear Project Navigator -> canonical Google Drive project root/state anchor -> exactly one ACTIVE_PROJECT NotebookLM -> curated seed corpus -> navigator readback -> NAM-143 LAST -> cold Automation Agent recovery. Linear Project container remains optional and is created only when backlog/roadmap structure materially helps.",
+      "notebooklm_authority": "NONAUTHORITATIVE",
+      "primary_notebook_id": "cbb71f68-48e3-439b-acb0-b52a655481ba",
+      "primary_notebook_title": "ND — Semantic Core — CURRENT — CLEAN",
+      "recursive_agentic_context": "Agent invokes True Memory gate; Supervisor/Children share the bound semantic workspace. No competing persistent task notebook. TEMP_TASK route failure triggers recovery rather than silent no-workspace execution."
+    },
+    "WORK_CONSERVING_LIVENESS": {
+      "A7_regression": "GitHub Actions run 37166642250 / job 111330805452 RUNNING with P2-P7 runnable -> SWITCH_FRONTIER_AUTO_CONTINUE, not global wait.",
+      "flow": "NONTERMINAL_EFFECT -> EFFECT_WAIT + FRONTIER_BLOCKED -> GLOBAL_COGNITIVE_REENTRY -> WORK_CONSERVING_FRONTIER_SCAN -> [RUNNABLE_ELSEWHERE: SELECT_HIGHEST_VALUE_SAFE_FRONTIER -> AUTO_CONTINUE | NO_RUNNABLE: GLOBAL_QUIESCENCE_GATE]",
+      "global_state": "GLOBAL_WAIT_EXTERNAL",
+      "global_wait_requires": [
+        "PENDING_REQUIRED_EXTERNAL_DEPENDENCY",
+        "NO_SAFE_ACCELERATION_BYPASS_OR_RECOVERY",
+        "CURRENT_EXHAUSTIVE_RUNNABLE_SCAN_COMPLETE",
+        "ZERO_MATERIALLY_USEFUL_RUNNABLE_WORK",
+        "ZERO_PENDING_EFFECT_RECONCILE_DUE"
+      ],
+      "invariants": [
+        "REMOTE_RUNNING != GLOBAL_TASK_BLOCKED",
+        "EFFECT_WAIT != GLOBAL_WAIT_EXTERNAL",
+        "FRONTIER_BLOCKED != GLOBAL_WAIT_EXTERNAL",
+        "RUNNABLE_ELSEWHERE -> AUTO_CONTINUE",
+        "MISSING_OR_STALE_SCAN_EVIDENCE -> AUTO_CONTINUE_REASSESS_FRONTS",
+        "NO_FIXED_TIME_CALL_CYCLE_PHASE_CONTEXT_BUDGET_ESCALATES_LOCAL_WAIT",
+        "NO_GO_FOR_LOCAL_WAIT"
+      ],
+      "local_states": [
+        "EFFECT_WAIT",
+        "FRONTIER_BLOCKED",
+        "RUNNABLE_ELSEWHERE"
+      ],
+      "material_wake_inputs": [
+        "PROVIDER_COMPLETION_EVENT",
+        "SAME_EFFECT_MATERIAL_CHANGE",
+        "INDEPENDENT_MATERIAL_SAFE_CYCLE_COMPLETED",
+        "MATERIAL_FRONTIER_TRANSITION",
+        "NEW_ASSISTANT_SCHEDULER_WORK_REENTRY",
+        "STATUS_REQUIRES_IMMEDIATE_BOUNDED_FOLLOWUP"
+      ],
+      "status": "CURRENT / MANDATORY"
+    },
+    "anti_hang_current": "ANTI_HANG_RUNTIME 1.7.0 / SCOPED_OWNED_BOUNDARY_OBSERVATION_STOP_REPAIRS",
+    "anti_hang_required_hooks": [
+      "TASK_ENTRY",
+      "BEFORE_ACTION",
+      "AFTER_ACTION",
+      "AFTER_MATERIAL_RETURN",
+      "PRESSURE",
+      "BEFORE_USER_RETURN",
+      "USER_STOP"
+    ]
+  },
+  "autonomous_internal_continuation_20261010": {
+    "acceptance": "Independent Developer Critic NO_MATERIAL_DEFECT; root bounded engineering acceptance; R1 repaired without rewriting its immutable evidence.",
+    "accepted_agent": {
+      "drive_id": "1qYIxW6Zk-U4h94yz1dXw6oT1Nhk276qt",
+      "sha256": "4c2255cfc41df28054b892e077b7b8edb0119d05459491290278801855529993",
+      "version": "1.3.5"
+    },
+    "agent_plugin": {
+      "audience": "USER/PRIVATE",
+      "id": "plugins_6ab731c8ad7481919f12b489273757fb",
+      "readback": "all12exactfiles",
+      "release_id": "pluginrel_6aca3e797a808191a714ae48f0a657e3",
+      "version": "1.7.5"
+    },
+    "evidence_root": "https://github.com/namelessdhamma/nameless-dhamma-vault/tree/8b849292e427f01685f3d63b487d2df5b212c80a/true-memory/qualification/anti-hang-autonomous-continuation-2026-10-10",
+    "exact_reused_kernel_sha256": "2d6315a4e709b616e8fc2129651b8499194374bb638811bdf0a64aaa0a1cd00d",
+    "message_policy": "SILENT_CONTINUE_DEFAULT; existing user-significant progress exceptions; progress is never a scheduler or completion receipt.",
+    "native_current_remote_head": "4e5356369bbfff58f458175b3c0ae0b69413a98d",
+    "native_owned_commit": "30164b73c447ea261b8662a4dc44f4f382304e99",
+    "native_scope": "Accepted behavioral files and existing YAML exact; owned commit preserves asset. Later backend asset materialization is classified separately and is not overwritten.",
+    "nonclaims": [
+      "historical_host_termination_cause",
+      "ChatGPT_transport_deadline",
+      "host_wake_or_background_resume",
+      "new_outer_turn_reset",
+      "healing_dead_chat"
+    ],
+    "publication_id": "ND-ANTI-HANG-AUTONOMY-CONTINUATION-20261010-1",
+    "qualified_continuation": "Immediate concrete next frontier before local-completion/gate flags; missing scan reassesses; independent work survives pending effects; RUNNING+owner-verified readiness integrates before optional cleanup; current Stop and unknown effects dominate; available verified wake activates before global wait.",
+    "readiness_fix": "Use existing owner result_ref/result_ready_observed_at and unchanged kernel effect_transition; no new effect status or engine.",
+    "scope": "Add one Agent-owned consumer of existing kernel decisions and repair stale native launcher routing; no kernel/owned-boundary/queue/workflow, actor, topology, authority, permission or scheduler expansion.",
+    "source_guard_sha256": "017be950f84a7f3038d1d56efd7e6f84a5de529fb5638974287524e071954cc1",
+    "source_merge_sha": "8b849292e427f01685f3d63b487d2df5b212c80a",
+    "source_pr": "https://github.com/namelessdhamma/nameless-dhamma-vault/pull/82",
+    "stop_go": "Explicit Stop froze generation1 before production writes; later explicit Go authorized generation2 of the same objective. Old Stop stays retained; confirmed effects are never replayed.",
+    "tests": {
+      "exact_owned_faults": "18 PASS, exit0",
+      "exact_unchanged_queue_workflow": "34 PASS, exit0; prior exact-source qualification carried forward",
+      "final_continuation": "33 PASS, exit0",
+      "independent_targeted_recheck": "5 immutable R1 probes +7 distinct repair probes PASS, exit0",
+      "one_entry_semantic_work": "3 real file material/transform/verify-persist cycles; all artifact readbacks; zero intermediate final/Go"
+    },
+    "user_contract": "One authorized request remains active across safe subcycles; Anti-Hang must never impede autonomous useful continuation."
+  },
+  "songwriter_child_maintenance_20261011": {
+    "publication_id": "ND-SONGWRITER-CHILD-POSTADOPTION-TESTFIX-20261011-1",
+    "scope": "Fix stale preadoption test assertion and heading; remove generated URI boilerplate; no change to lyric methods or ownership.",
+    "previous_registry": "1.65.1",
+    "plugin_release": "pluginrel_6acb2c65fba08191be421d13a9032c78",
+    "software_tests": "17/17 PASS",
+    "parent": "TRUE_WRITER 0.9.3 EXACT_REUSE",
+    "orchestra": "1.0.6 EXACT_REUSE",
+    "audio": "NONE"
+  },
+  "songwriter_child_adoption_20261011": {
+    "publication_id": "ND-SONGWRITER-CHILD-ADOPTION-20261011-1",
+    "status": "CURRENT_ONLY_WHEN_STATEHEAD_BOUND",
+    "source_registry_version": "1.64.5",
+    "scope": "One new True Writer CHILD; songs/lyrics default routed Songwriter. Books Creator prose, Literary Critic mandatory, audio production untouched.",
+    "writer_plugin_release": "pluginrel_6acb1ee3301c8191bec0b558451ada24",
+    "songwriter_plugin_release": "pluginrel_6acb1ed15fb481918dca07457e034489",
+    "qualification": "17 local test controls and source-faithful lyric field check; musical/heard quality not claimed",
+    "authority": "NAM-143 -> CURRENT Registry -> exact component/launcher",
+    "git_development_pr": "https://github.com/namelessdhamma/nameless-dhamma-vault/pull/87"
+  },
+  "required_cold_gate": "ANTI_HANG_INSTALLATION_GATE.md"
+}
