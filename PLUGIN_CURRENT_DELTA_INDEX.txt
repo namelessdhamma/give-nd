@@ -1,3 +1,15 @@
+AUTHORITY: NAM-143 -> Registry 1.66.0; scoped transfer 32/23 and 23 plugin bundles. SOURCE CANDIDATE, TARGET NOT_RUN.
+UPDATED EXACT SOURCE:
+nd-automation-agent | 1.7.5 | pluginrel_6aca3e797a808191a714ae48f0a657e3 | 12 exact source files
+nd-anti-hang | 1.2.1 | pluginrel_6ac87d38fff481919a2403d7f536e08d | 6 exact source files
+nd-true-writer | 1.2.4 | pluginrel_6acb1ee3301c8191bec0b558451ada24 | 5 exact source files
+nd-songwriter | 0.2.3 | pluginrel_6acb2c65fba08191be421d13a9032c78 | 12 exact source files
+CANONICAL: Agent1.3.5, Anti-Hang1.7.0, True Writer0.9.3, Writer Orchestra1.0.6, Songwriter0.2.3.
+UNCHANGED other 19 source bundles are exact-reused. All 23 functional bundles under plugin-export-current/*.json.
+SOURCE REGISTRY includes 3 EXCLUDED audio roles True Sound/Studio Executor/Sound Critic. Transfer only 32 components/23 launchers.
+BEFORE TARGET AUTHORITY: target-owned binding readbacks; ANTI_HANG_INSTALLATION_GATE Stage06 PASS and Stage08 cold PASS. Do not confuse real target result with bundle presence.
+
+--- HISTORICAL PLUGIN SOURCING NOTES, superseded ---
 AUTHORITY: NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2
 CURRENT private plugin source provider: Plugin Creator current release; source-account plugin IDs are provenance/transfer-source identifiers and must not be reused as target account ownership.
 
