@@ -1,0 +1,16 @@
+name: Ksyusha source qualification
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-static-and-target-builder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit full transfer source and build 23 target bundles
+        run: python3 scripts/verify_transfer.py
