@@ -1,3 +1,11 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+> **CURRENT UPDATE MODE:** Existing target Research, PCPA/DAE/PAE, Critic and other unaffected qualified components must be reused. Compare their source Registry 1.66.0 component hashes with target readbacks, repair a proved mismatch only; do not rebuild the stack or call old 1.64.2 source CURRENT. This update does not change Research architecture. Greenfield installation steps below apply only to a separately authorized first-time install.
+
+---
+
+# HISTORICAL FIRST-INSTALL FALLBACK — NOT DEFAULT FOR THIS TRANSFER
+
 # Stage 04 — Research / Analysis Stack
 
 ROLE: TARGET BOOTSTRAP EXECUTOR  
