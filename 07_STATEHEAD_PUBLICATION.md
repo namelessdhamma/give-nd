@@ -9,7 +9,7 @@ Perform the single authority cutover only after the target clone is fully provis
 
 ## Preconditions
 
-Stage 06 receipt = PASS.  
+Stage 06 receipt = PASS, including `ANTI_HANG_INSTALLATION_GATE_STAGE06.json` = PASS with direct target readback. A source-side staged prompt or unverified claim is not PASS.  
 Target Registry has exact provider readback/hash.  
 No unresolved material target mutation remains.
 
@@ -19,7 +19,7 @@ No unresolved material target mutation remains.
 2. Re-run a compact precommit check:
    - exact target Registry readable;
    - exactly one intended target StateHead issue;
-   - 22/22 launchers present;
+   - 23/23 Ksyusha-scoped launchers present; excluded True Sound family absent;
    - External Connecting recovery skill present;
    - target NotebookLM semantic core ready;
    - no unresolved ambiguous write;
