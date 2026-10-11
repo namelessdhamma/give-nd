@@ -1,0 +1,41 @@
+{
+  "schema": "ND_KSYUSHA_SOURCE_CURRENT_SYNC_RECEIPT_v1",
+  "sync_id": "ND-KSYUSHA-SYNC-20261011-1",
+  "observed_source_authority": {
+    "statehead": "NAM-143",
+    "current_registry": "1.66.0",
+    "current_registry_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
+    "current_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c"
+  },
+  "transfer_selection": {
+    "registry": "1.65.2",
+    "id": "1brrS9gZkKoJc375FnicRpfACKfz97vIg",
+    "sha256": "2697a11697680f18bab9cd3d72d07b63d6baf5aa6ee4f0f0f785661c4bd59576",
+    "reason": "1.66.0 exact-reuses the 32/23 predecessor and only adds the deferred True Sound audio contour."
+  },
+  "exact_artifact_readbacks": {
+    "automation_agent": "1.3.5 / 4c2255cfc41df28054b892e077b7b8edb0119d05459491290278801855529993",
+    "anti_hang": "1.7.0 / 76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
+    "true_writer": "0.9.3 / 6336ffef4964cabe1a6772d18860ab437e71e6e4dc3379ff87ad9a92bfc05f0c",
+    "writer_orchestra": "1.0.6 / a21c0c0f6f5f3cfc16d2c2f3bba51472c16bf217187625a83141e7d453f79ea2",
+    "songwriter": "0.2.3 / 920ebc9daa21d754dffddad0eca28ee4c4c929c5fc794644e20e729ccdcda3ab"
+  },
+  "plugin_readbacks": {
+    "automation_agent": "1.7.5 / pluginrel_6aca3e797a808191a714ae48f0a657e3",
+    "anti_hang": "1.2.1 / pluginrel_6ac87d38fff481919a2403d7f536e08d",
+    "true_writer": "1.2.4 / pluginrel_6acb1ee3301c8191bec0b558451ada24",
+    "songwriter": "0.2.3 / pluginrel_6acb2c65fba08191be421d13a9032c78"
+  },
+  "source_qualification": {
+    "anti_hang": "PR82 continuation: 33 PASS; owned fault 18 PASS; unchanged queue/workflow 34 PASS; independent targeted recheck PASS; one-entry semantic work 3 cycles zero Go.",
+    "songwriter": "v0.2.3 package 17/17 software tests PASS; final cold routing qualification PASS; Literary Critic mandatory."
+  },
+  "controls": {
+    "upgrade_in_place": true,
+    "notebooklm_deferred": true,
+    "free_only": true,
+    "audio_contour_deferred": true
+  },
+  "target_installation_pass": "NOT_RUN_NOT_CLAIMED",
+  "verdict": "SOURCE_SYNC_CONTENT_COMPLETE_PENDING_FINAL_PUBLIC_PACKAGE_AUDIT"
+}

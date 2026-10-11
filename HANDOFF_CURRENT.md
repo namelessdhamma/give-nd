@@ -1,71 +1,34 @@
 # ND → Ksyusha — HANDOFF CURRENT
 
-STATUS: SOURCE HANDOFF COMPLETE / STAGED TARGET INSTALLATION REQUIRED
+STATUS: SOURCE CURRENT SYNC READY / TARGET IN-PLACE UPDATE REQUIRED
 
-## Current target installation path
+Human entrypoint: `START_HERE.md`. Installer MUST run `CURRENT_SYNC.md` before choosing/resuming a numbered stage.
 
-Use `START_HERE.md` as the human entrypoint. `INSTALLATION_INDEX.md` is the staged executor index.
+## Source transfer baseline
+- source StateHead: NAM-143;
+- fresh source CURRENT observed: Registry 1.66.0;
+- transfer profile: exact predecessor Registry **1.65.2**, Drive `1brrS9gZkKoJc375FnicRpfACKfz97vIg`, SHA-256 `2697a11697680f18bab9cd3d72d07b63d6baf5aa6ee4f0f0f785661c4bd59576`;
+- reason: 1.66.0 adds only TRUE_SOUND + STUDIO_EXECUTOR + SOUND_CRITIC. The user deferred Music Studio/audio, so the coupled audio contour is excluded rather than partially installed.
 
-The installer executes ND in bounded stages. Ksyusha normally does not invoke them manually:
+## Current transferred deltas
+- Automation Agent 1.3.5 / plugin 1.7.5;
+- Anti-Hang 1.7.0 / plugin 1.2.1;
+- True Writer 0.9.3 / plugin 1.2.4;
+- Writer Orchestra 1.0.6;
+- Songwriter 0.2.3 as True Writer Child;
+- 32 components / 23 launchers / separate External Connecting recovery skill;
+- 23 transferred private plugin bundles.
 
-1. `01_FOUNDATION_DRIVE_LINEAR.md`
-2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
-3. `03_NOTEBOOKLM_SEMANTIC_MEMORY.md`
-4. `04_RESEARCH_STACK.md`
-5. `05_WRITING_VISUAL_STACK.md`
-6. `06_REGISTRY_PREPUBLICATION.md`
-7. `07_STATEHEAD_PUBLICATION.md`
-8. NEW clean chat: `08_COLD_QUALIFICATION.md`
+## Target update rule
+This is an **upgrade**, not a reinstall. Recover Ksyusha's `TARGET_INSTALL_STATE.json` and provider readbacks. Update only changed target objects, preserve already-qualified unaffected work, supersede an old 1.64.2 Registry candidate if present, and resume the real current stage.
 
-Under `START_HERE.md`, PASS automatically advances to the next stage in the same chat. If authorization or context handoff is required, durable target readbacks/checkpoints are used; Stage 08 always runs in a fresh clean chat.
+NotebookLM is currently optional/deferred and NONSELECTABLE. Core Stage 06/07/08 may PASS without it. External routes default FREE_ONLY.
 
-## Source baseline
+## Mandatory target gates
+- Stage 06: `ANTI_HANG_INSTALLATION_GATE` PREPUBLICATION + Writer/Songwriter route.
+- Stage 08: independent COLD Anti-Hang gate + Writer/Songwriter route in a new target chat.
 
-- StateHead: NAM-143
-- Registry: ND_CAPABILITY_REGISTRY 1.64.2
-- Publication: ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1
-- Transfer mode: isomorphic CURRENT ND clone with target-owned provider bindings.
+Source tests do not establish target PASS.
 
-## Package contents
-
-The package contains:
-- exact CURRENT Registry snapshot and canonical system artifacts;
-- exact 22-launcher graph;
-- exact functional source for 21 private plugins backing those 22 launchers;
-- exact functional source for the separate CURRENT External Connecting recovery-skill plugin;
-- target binding template;
-- semantic-workspace map;
-- allowed-differences and project/personal exclusions;
-- full qualification matrix;
-- staged installation instructions.
-
-`PLUGIN_EXPORT_CURRENT_MANIFEST.json` is the plugin-source manifest.
-
-## NotebookLM sequencing
-
-Ksyusha does NOT need Gemini NotebookLM before installation begins.
-
-Stage 02 first installs target-owned Generation + External Connecting.  
-Stage 03 then uses External Connecting to connect/qualify Ksyusha's NotebookLM and creates target-owned semantic workspaces.
-
-This avoids making NotebookLM a prerequisite for bootstrapping the capability that is responsible for connecting missing external systems.
-
-## What is intentionally NOT transferred
-
-No Savva credentials, OAuth grants, cookies, API keys, private personal memory, Gmail/calendar/contacts, active personal/product projects, or source provider ownership.
-
-Generated binary caches such as `__pycache__/*.pyc` are intentionally excluded. They are not behavioral source.
-
-## Authority rules
-
-- Source CURRENT is selected only by `NAM-143 -> Registry 1.64.2`.
-- Target CURRENT does not exist until Stage 07 publishes Ksyusha's target StateHead LAST.
-- Before Stage 07, all target launchers are BOOTSTRAP/NONAUTHORITATIVE even if callable.
-- Historical `TARGET_BOOTSTRAP.md`, validation-a1/a2/a3, predecessor registries and stale plugin bundles are NONSELECTABLE provenance.
-- Source plugin IDs/releases are provenance only and must not become target ownership.
-- Target Drive/Linear/NotebookLM/GitHub/Supabase/runtime IDs and credentials are target-owned.
-- No production mutation to Savva's ND is part of this handoff.
-
-## Remaining gate
-
-The only intended remaining gate is target-account authorization/provisioning by Ksyusha while executing the staged files.
+## Authority
+Source IDs/releases are provenance only. Target authority becomes/changes CURRENT only when the target Registry is fully prequalified and Ksyusha's target StateHead is published LAST.

@@ -1,13 +1,15 @@
 {
-  "schema": "ND_KSYUSHA_SOURCE_STAGED_INSTALLATION_CLOSURE_v1",
-  "receipt_id": "ND-KSYUSHA-SOURCE-STAGED-INSTALL-COMPLETE-20261004",
-  "status": "SOURCE_STAGED_HANDOFF_COMPLETE_TARGET_AUTH_REQUIRED",
+  "schema": "ND_KSYUSHA_SOURCE_STAGED_INSTALLATION_CLOSURE_v2",
+  "receipt_id": "ND-KSYUSHA-SOURCE-CURRENT-SYNC-20261011",
+  "status": "SOURCE_CURRENT_SYNC_PREPARED_TARGET_IN_PLACE_UPGRADE_REQUIRED",
   "source_authority": {
     "statehead": "NAM-143",
-    "registry": "ND_CAPABILITY_REGISTRY 1.64.2",
-    "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1"
+    "observed_current": "Registry 1.66.0",
+    "transfer_registry": "Registry 1.65.2",
+    "transfer_registry_sha256": "2697a11697680f18bab9cd3d72d07b63d6baf5aa6ee4f0f0f785661c4bd59576",
+    "audio_successor_delta": "DEFERRED"
   },
-  "current_entry": "START_HERE.md -> INSTALLATION_INDEX.md",
+  "current_entry": "START_HERE.md -> CURRENT_SYNC.md -> recover TARGET_INSTALL_STATE/provider truth -> INSTALLATION_INDEX.md",
   "stages": [
     "01_FOUNDATION_DRIVE_LINEAR.md",
     "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
@@ -19,36 +21,44 @@
     "08_COLD_QUALIFICATION.md"
   ],
   "sequencing": {
-    "notebooklm": "DEFERRED_UNTIL_STAGE_03",
-    "external_connecting": "INSTALLED_STAGE_02_BEFORE_NOTEBOOKLM",
+    "current_sync": "MANDATORY_BEFORE_STAGE_SELECTION",
+    "notebooklm": "DEFERRED_OPTIONAL_SEPARATE_INSTALL",
     "statehead": "PUBLISHED_LAST_IN_STAGE_07",
-    "cold_qualification": "NEW_CHAT_STAGE_08"
+    "cold_qualification": "NEW_CHAT_STAGE_08",
+    "cost_policy": "FREE_ONLY"
   },
   "plugin_export": {
     "manifest": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
-    "transferred_private_plugins": 22,
-    "launcher_plugins": 21,
-    "launcher_count": 22,
+    "transferred_private_plugins": 23,
+    "launcher_plugins": 22,
+    "launcher_count": 23,
     "recovery_skill_plugins": 1,
-    "external_connecting_version": "1.2.2",
-    "external_connecting_release": "pluginrel_6ac0f52f96c08191a414e9599b05923d",
-    "secret_scan": "PASS_22_OF_22_HIGH_CONFIDENCE_CREDENTIAL_PATTERNS_ZERO_FINDINGS"
+    "changed": [
+      "nd-automation-agent 1.7.5",
+      "nd-anti-hang 1.2.1",
+      "nd-true-writer 1.2.4"
+    ],
+    "added": [
+      "nd-songwriter 0.2.3"
+    ],
+    "secret_scan": "PENDING_FINAL_PUBLIC_BRANCH_SCAN"
   },
   "source_side_closed": [
-    "CURRENT source baseline qualified",
-    "22-launcher graph captured",
-    "all launcher-plugin functional sources exported",
-    "External Connecting functional source exported separately",
-    "NotebookLM bootstrap dependency removed by staged sequencing",
-    "target binding template and semantic workspace map present",
-    "project/personal exclusions present",
-    "staged resumable installation files authored",
-    "monolithic bootstrap prompts retired from selectable CURRENT",
-    "Savva production ND not mutated"
+    "Fresh source authority resolved through NAM-143",
+    "Exact Registry 1.65.2 pre-audio profile captured: 32 components / 23 launchers",
+    "Exact Agent 1.3.5 and Anti-Hang 1.7.0 canonical artifacts captured",
+    "True Writer 0.9.3 / Writer Orchestra 1.0.6 / Songwriter 0.2.3 captured",
+    "23 functional plugin bundles exported",
+    "in-place resumable CURRENT_SYNC authored",
+    "Anti-Hang target gates embedded in Stage 06 and Stage 08",
+    "NotebookLM made optional/deferred; FREE_ONLY enforced",
+    "coherent audio contour explicitly excluded",
+    "target account not mutated by source-side run"
   ],
   "remaining_gate": {
-    "type": "TRUE_GATE_TARGET_AUTHORITY",
-    "action": "Ksyusha sends the single START_HERE.md installation request and authorizes only her target-owned provider connections when requested; installer executes Stages 01-07 automatically, then Stage 08 runs in a fresh chat.",
-    "source_side_runnable_frontier": "NONE"
+    "type": "TARGET_EXECUTION",
+    "action": "Ksyusha runs START_HERE.md; installer applies CURRENT_SYNC in place and executes target Stage 06/08 gates.",
+    "source_side_runnable_frontier": "FINAL_PUBLIC_PACKAGE_AUDIT_AND_MERGE",
+    "target_pass": "NOT_RUN_NOT_CLAIMED"
   }
 }

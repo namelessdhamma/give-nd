@@ -1,89 +1,49 @@
-# Nameless Dhamma — Ksyusha Installer
+# Nameless Dhamma — Ksyusha Installer / Updater
 
-This repository is a **public, self-contained installer snapshot** for creating an independent Ksyusha-owned Nameless Dhamma instance.
+Public source for creating **or updating in place** an independent Ksyusha-owned Nameless Dhamma.
 
-Source baseline:
+CURRENT sync epoch: `ND-KSYUSHA-SYNC-20261011-1`.
 
-- StateHead: `NAM-143`
-- Capability Registry: `ND_CAPABILITY_REGISTRY 1.64.2`
-- Publication: `ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1`
+## Самый простой запуск
 
-The source ND remains separate and is not modified by this installer.
+Отправить в обычный ChatGPT-чат одно сообщение:
 
-## Самая простая установка
+> Установи или обнови мою Nameless Dhamma из https://github.com/namelessdhamma/give-nd . Открой START_HERE.md, сначала выполни CURRENT_SYNC.md, восстанови существующий TARGET_INSTALL_STATE.json и продолжи автономно с последнего подтверждённого состояния. Ничего уже установленного не переустанавливай с нуля. NotebookLM пока не подключай. Работай FREE_ONLY, без TinyFish и других платных маршрутов. Не проси Go и не задавай рутинных вопросов. Остановись только на реальном Connect/Authorize, непреодолимом provider gate или обязательной границе нового чистого чата Stage 08.
 
-Ксюше не нужно вручную проходить восемь файлов.
+Human entrypoint: `START_HERE.md`.
 
-Открыть обычный новый чат ChatGPT и отправить одно сообщение:
+## Transfer baseline
 
-> Установи мне Nameless Dhamma из https://github.com/namelessdhamma/give-nd . Открой `START_HERE.md` и выполни установку автономно до конца. Не проси меня вручную запускать stage-файлы и не задавай рутинных вопросов. Останавливайся только если мне действительно нужно подключить приложение/дать доступ или когда потребуется новый чистый чат для финальной проверки.
+This sync transfers the exact source **Registry 1.65.2 pre-audio profile**:
+- 32 components;
+- 23 launchers;
+- 23 private plugin bundles;
+- Automation Agent 1.3.5 / plugin 1.7.5;
+- Anti-Hang 1.7.0 / plugin 1.2.1;
+- True Writer 0.9.3 / Writer Orchestra 1.0.6;
+- Songwriter 0.2.3.
 
-Дальше ChatGPT сам выполняет Stages 01–07. Если ему действительно нужен доступ к сервису, Ксюша нажимает Connect / Allow / Authorize и отвечает `Продолжай.`
+Fresh source CURRENT is later Registry 1.66.0, but its only structural additions are TRUE_SOUND + STUDIO_EXECUTOR + SOUND_CRITIC. That coupled audio/Music Studio contour is intentionally deferred from this sync.
 
-После Stage 07 ChatGPT сам даст одну готовую строку для нового чистого чата с финальной проверкой.
+## Existing installs
 
-**GitHub account connection is not required.** The repository is public.
+Installer runs `CURRENT_SYNC.md` first, recovers target provider truth, applies only changed deltas, and resumes the actual stage. It must not restart Stages 01–05 or recreate already-qualified objects merely because the public package was updated.
 
-**Gemini NotebookLM is not required before starting.** It is connected later through the installed External Connecting capability.
+## NotebookLM / cost
 
-Human entrypoint: **`START_HERE.md`**.
+NotebookLM is currently `DEFERRED_OPTIONAL_CAPABILITY_PENDING_SEPARATE_INSTALLATION`. Its absence is not a Stage 06/07/08 blocker.
 
-## Installation stages
+Default external-route policy: `FREE_ONLY`. No TinyFish, paid overage, paid credits or unknown-cost routes without separate explicit authorization.
 
-The numbered files remain bounded/resumable implementation transactions and are normally executed automatically by the installer:
+## Qualification
 
-1. `01_FOUNDATION_DRIVE_LINEAR.md`
-2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
-3. `03_NOTEBOOKLM_SEMANTIC_MEMORY.md`
-4. `04_RESEARCH_STACK.md`
-5. `05_WRITING_VISUAL_STACK.md`
-6. `06_REGISTRY_PREPUBLICATION.md`
-7. `07_STATEHEAD_PUBLICATION.md`
-8. **New clean chat:** `08_COLD_QUALIFICATION.md`
+Anti-Hang is behaviorally qualified on the target twice:
+1. Stage 06 PREPUBLICATION;
+2. Stage 08 COLD in a new chat.
 
-The target StateHead stays **BOOTSTRAP / NONAUTHORITATIVE** until Stage 07. It becomes target CURRENT only after the target Registry and all provider bindings have passed prepublication qualification.
+Song-writing qualification uses:
+`Automation Agent -> True Writer -> Songwriter -> True Writer -> Literary Critic -> True Writer -> Agent`.
 
-## What is included
+Source package publication never equals target installation PASS.
 
-This public repository contains only the minimum CURRENT installation set:
-
-- one-message human orchestration in `START_HERE.md`;
-- staged installation instructions;
-- exact CURRENT Capability Registry snapshot;
-- exact CURRENT canonical component/system artifacts needed for the clone;
-- 22 target-transfer plugin source bundles:
-  - 21 private plugins backing the 22-launcher graph;
-  - 1 separate External Connecting recovery-skill plugin;
-- target binding template;
-- target plugin builder;
-- qualification matrix;
-- project/personal exclusion rules.
-
-## What is not included
-
-This repository intentionally excludes:
-
-- Savva credentials, OAuth grants, cookies, API keys or provider secrets;
-- personal memory, Gmail, Calendar or Contacts;
-- active personal/product project payload;
-- predecessor registries and obsolete installation paths;
-- historical validation/provenance that is not required for installation;
-- source account ownership as target authority.
-
-## Authority rule
-
-The public repository is a **frozen installation source**, not Ksyusha's future authority.
-
-During installation:
-
-`public source -> target-owned Drive / Linear / NotebookLM / Plugin Creator -> target Registry -> target StateHead LAST`
-
-After Stage 07, Ksyusha's target CURRENT resolves only through:
-
-`Ksyusha target Linear StateHead -> bound target Capability Registry -> exact target components/launchers`
-
-Then Stage 08 performs fresh-chat cold qualification.
-
-## Normal use after PASS
-
-`@ND Automation Agent + ordinary goal`
+Normal use after target Stage 08 PASS: `@ND Automation Agent + ordinary goal`.
