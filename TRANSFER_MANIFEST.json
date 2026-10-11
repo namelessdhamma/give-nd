@@ -1,7 +1,7 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_SCOPED_CANDIDATE; TARGET_INSTALLATION_NOT_RUN",
+  "status": "SOURCE_VERIFIED_PASS_TARGET_INSTALLATION_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
@@ -67,7 +67,11 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification.",
   "source_qualification": {
-    "status": "NEW_SCOPE_CANDIDATE_SOURCE_PARITY_PENDING",
+    "status": "SOURCE_VERIFIED_PASS",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
+    "checks": 253,
+    "failures": 0,
+    "scope": "SOURCE_STATIC_AND_23_TARGET_STYLE_PLUGIN_BUILDS_ONLY",
     "predecessor_20261004": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json (HISTORICAL/NONSELECTABLE)",
     "current_gate": "ANTI_HANG_INSTALLATION_GATE.md",
     "target_stage06": "NOT_RUN",
@@ -101,9 +105,10 @@
   },
   "target_qualification": "NOT_RUN",
   "source_handoff_closure": {
-    "status": "PREDECESSOR_20261004_RECEIPT_ONLY",
-    "current_update": "SOURCE_CANDIDATE_PENDING_PARITY_AND_TARGET_GATES",
+    "status": "SOURCE_TRANSFER_COMPLETE_20261011",
     "source_plugin_bundles": 23,
-    "launcher_graph": 23
+    "launcher_graph": 23,
+    "target_installation": "NOT_RUN",
+    "remaining_gate": "Ksyusha-owned target authority+real Stage06/Stage08 verification"
   }
 }
