@@ -1,1 +1,4 @@
-CURRENT exclusions: Blue Sea active payload; Geny Gieny active payload; Nibbana-conditions research-project payload; other Savva personal/product project state unless separately authorized. Architecture/fault-tolerance references may remain provenance only.
+CURRENT exclusions: Blue Sea active payload; Geny Gieny active payload; Nibbana-conditions research-project payload; other Savva personal/product project state unless separately authorized.
+Transfer-specific exclusion 2026-10-11: coherent post-Registry-1.65.2 audio contour (TRUE_SOUND, STUDIO_EXECUTOR, SOUND_CRITIC and Music Studio production payload/routes) is deferred while Music Studio is under development; do not partially install it.
+NotebookLM is separately deferred/optional for Ksyusha and remains NONSELECTABLE until a later explicit install command.
+Architecture/fault-tolerance references may remain provenance only. Source secrets/OAuth/personal memory never transfer.

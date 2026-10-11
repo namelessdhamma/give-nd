@@ -1,7 +1,7 @@
 {
-  "schema": "ND_TARGET_BINDING_MAP_v3",
-  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
-  "rule": "Populate target fields only from target-provider creation/readback. No credential values belong in this file.",
+  "schema": "ND_TARGET_BINDING_MAP_v4",
+  "source_authority": "NAM-143 -> exact source Registry 1.65.2 pre-audio transfer profile",
+  "rule": "Populate target fields only from target-provider creation/readback. Existing Ksyusha bindings are preserved during CURRENT_SYNC unless the bound semantic object changed. Never store credentials.",
   "navigator_rebind": {
     "NAM-143": {
       "target_identifier": "${TARGET_STATEHEAD_IDENTIFIER}",
@@ -65,25 +65,30 @@
     }
   },
   "semantic_workspaces": {
-    "core": {
-      "source": "cbb71f68-48e3-439b-acb0-b52a655481ba",
-      "target": "${TARGET_SEMANTIC_CORE_NOTEBOOK_ID}"
-    },
-    "true_memory": {
-      "source": "057221db-3890-4875-bd19-19c2991771a1",
-      "target": "${TARGET_TRUE_MEMORY_NOTEBOOK_ID}"
-    },
-    "true_research": {
-      "source": "429bc77a-1cb4-4106-89d0-70e6bd0309be",
-      "target": "${TARGET_TRUE_RESEARCH_NOTEBOOK_ID}"
-    },
-    "gpt_skills": {
-      "source": "27333614-d532-46cb-9723-2832f66ba616",
-      "target": "${TARGET_GPT_SKILLS_NOTEBOOK_ID}"
-    },
-    "a1": {
-      "source": "6adc74f4-b8ef-4c1e-806c-1ffad71c5067",
-      "target": "${TARGET_A1_NOTEBOOK_ID}"
+    "state": "DEFERRED_OPTIONAL_CAPABILITY_PENDING_SEPARATE_INSTALLATION",
+    "authority": "NONAUTHORITATIVE",
+    "rule": "NotebookLM is not an installation gate. Source/old target notebook IDs remain NONSELECTABLE provenance until separate explicit LM installation.",
+    "source_provenance_only": {
+      "core": {
+        "source": "cbb71f68-48e3-439b-acb0-b52a655481ba",
+        "target": "${TARGET_SEMANTIC_CORE_NOTEBOOK_ID}"
+      },
+      "true_memory": {
+        "source": "057221db-3890-4875-bd19-19c2991771a1",
+        "target": "${TARGET_TRUE_MEMORY_NOTEBOOK_ID}"
+      },
+      "true_research": {
+        "source": "429bc77a-1cb4-4106-89d0-70e6bd0309be",
+        "target": "${TARGET_TRUE_RESEARCH_NOTEBOOK_ID}"
+      },
+      "gpt_skills": {
+        "source": "27333614-d532-46cb-9723-2832f66ba616",
+        "target": "${TARGET_GPT_SKILLS_NOTEBOOK_ID}"
+      },
+      "a1": {
+        "source": "6adc74f4-b8ef-4c1e-806c-1ffad71c5067",
+        "target": "${TARGET_A1_NOTEBOOK_ID}"
+      }
     }
   },
   "literal_replacements": [],
@@ -94,9 +99,10 @@
     "target_github_repo": "${TARGET_GITHUB_RUNTIME_REPO}"
   },
   "launcher_invariants": {
-    "count": 22,
+    "count": 23,
     "anti_hang": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
-    "developer_executor": "skills://plugins/nd-true-developer/nd-launch-developer-executor"
+    "developer_executor": "skills://plugins/nd-true-developer/nd-launch-developer-executor",
+    "songwriter": "skills://plugins/nd-songwriter/nd-launch-songwriter"
   },
   "predecessor_navigators_nonselectable": [
     "NAM-167",
@@ -213,11 +219,16 @@
       "source_bundle": "plugin-export-current/nd-true-smm.json",
       "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_SMM}",
       "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_SMM}"
+    },
+    "nd-songwriter": {
+      "source_bundle": "plugin-export-current/nd-songwriter.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_SONGWRITER}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_SONGWRITER}"
     }
   },
   "canonical_artifact_rebind": {
     "rule": "Populate only after target-owned canonical artifacts are created/read back in Stage 06. Source canonical IDs remain frozen source provenance.",
     "target_components": "${TARGET_CANONICAL_COMPONENT_BINDINGS}"
   },
-  "literal_replacements_rule": "Populate exact source-provider literal -> target-provider literal pairs only after the target object exists and has provider readback. Allowed provider-bound replacements include Linear navigator URLs/IDs, target Drive artifact IDs, NotebookLM IDs, GitHub/runtime coordinates and other fields explicitly allowed by ALLOWED_DIFFERENCES.json. Do not alter ND semantic identities, topology, role names, stable skill identities or behavioral contracts."
+  "literal_replacements_rule": "Populate source-provider -> target-provider literals only after target readback. Stable ND semantic identities and 23-launcher pre-audio topology are preserved. The post-1.65.2 audio contour is intentionally absent."
 }

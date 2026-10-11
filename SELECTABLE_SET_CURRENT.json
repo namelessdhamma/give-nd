@@ -1,10 +1,11 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_SELECTABLE_SET_v1",
-  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "source_authority": "NAM-143 -> exact source Registry 1.65.2 pre-audio transfer profile",
   "role": "FROZEN_PUBLIC_INSTALLATION_SOURCE_ONLY",
   "current_control": [
     "README.md",
     "START_HERE.md",
+    "CURRENT_SYNC.md",
     "INSTALLATION_INDEX.md",
     "01_FOUNDATION_DRIVE_LINEAR.md",
     "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
@@ -37,13 +38,20 @@
     "build_target_plugin.py"
   ],
   "current_source": [
-    "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json",
+    "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_65_2_SONGWRITER_CANONICAL_UTF8.json",
     "canonical-artifacts/COMPONENT_INVENTORY.json",
-    "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_2_TAIL_HARDENED_ROOT.md",
+    "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_5_AUTONOMOUS_CONTINUATION.md",
     "canonical-artifacts/system/ND_NORTH_STAR_FINAL_CANON_v1_0_0.md",
-    "canonical-artifacts/components/* entries listed in PUBLIC_PACKAGE_MANIFEST.json",
+    "canonical-artifacts/components/* selected by Registry 1.65.2",
     "plugin-export-current/*.json"
   ],
-  "nonselectable_provenance": [],
-  "resolution_rule": "This public repository is a frozen installation source, never target authority. Human bootstrap follows README.md -> START_HERE.md -> INSTALLATION_INDEX.md; the installer executes exact numbered stages automatically after each PASS. After Stage 07, target CURRENT resolves only through Ksyusha target Linear StateHead -> bound target Registry. Source NAM-143/source provider IDs remain provenance only."
+  "nonselectable_provenance": [
+    "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json",
+    "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_2_TAIL_HARDENED_ROOT.md",
+    "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_6_0_BEHAVIORAL_HOOK_KERNEL.json",
+    "canonical-artifacts/components/TRUE_WRITER/ND_True_Writer_v0_9_2_MANDATORY_HOOKS.md",
+    "canonical-artifacts/components/WRITER_ORCHESTRA_RUNTIME/ND_Writer_Orchestra_Runtime_v1_0_5_NAM354_ADOPTION_READY.md",
+    "source Registry 1.66.0 audio contour (deferred)"
+  ],
+  "resolution_rule": "Public repo is installer/update source only. START_HERE -> CURRENT_SYNC -> recover target state -> resume. After publication, target CURRENT resolves only through Ksyusha target StateHead -> target Registry."
 }

@@ -1,7 +1,7 @@
 {
   "transfer_id": "ND-KSYUSHA-CURRENT-CLONE",
-  "source_authority": "NAM-143 -> Registry 1.64.2",
-  "rule": "Any source/target difference not listed here is a migration defect until explicitly classified.",
+  "source_authority": "NAM-143 -> exact source Registry 1.65.2 pre-audio transfer profile",
+  "rule": "Any target/source difference outside this list is a migration defect. This transfer intentionally defers NotebookLM and the coherent post-1.65.2 audio contour.",
   "allowed": [
     [
       "LINEAR_PROVIDER_IDS",
@@ -10,10 +10,6 @@
     [
       "GOOGLE_DRIVE_IDS",
       "Target-owned file/folder/revision IDs; transferred system content/role preserved where in scope."
-    ],
-    [
-      "NOTEBOOKLM_IDS",
-      "Target-owned notebook/source/conversation IDs; lifecycle class and curated system semantics preserved."
     ],
     [
       "SUPABASE_INSTANCE",
@@ -46,15 +42,23 @@
     [
       "EXCLUDED_DHAMMA_PROJECT_PAYLOAD",
       "Nibbana-conditions/GRC project question content is not activated for Ksyusha; structurally required references may remain nonselectable provenance."
+    ],
+    [
+      "NOTEBOOKLM_DEFERRED_OPTIONAL_INSTALL",
+      "Core ND may complete without NotebookLM. LM IDs are NONSELECTABLE provenance until a later explicit installation/qualification command."
+    ],
+    [
+      "DEFERRED_AUDIO_CONTOUR",
+      "Registry 1.66.0 TRUE_SOUND + STUDIO_EXECUTOR + SOUND_CRITIC / Music Studio contour is intentionally not transferred in this sync. Partial installation is forbidden."
     ]
   ],
   "forbidden": [
     "ND role/module names and semantic identities",
     "CURRENT skills:// launcher identities except unavoidable platform namespace remap with proven semantic equivalence",
-    "22-launcher Supervisor/Child/Critic topology",
+    "23-launcher Supervisor/Child/Critic topology",
     "Launcher Contract v6 semantics",
     "Automation Agent root ownership",
-    "Anti-Hang 1.6.0 hook/effect/liveness/return semantics",
+    "Anti-Hang 1.7.0 hook/effect/liveness/return semantics",
     "True Memory TASK_MEMORY_GATE and TEMP_TASK lifecycle",
     "mandatory Child/helper and Critic/acceptance gates",
     "Generation SUPPORT-only and recovery-frontier role",
