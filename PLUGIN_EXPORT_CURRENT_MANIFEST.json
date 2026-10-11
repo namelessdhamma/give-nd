@@ -5,7 +5,7 @@
   "unique_plugin_count": 23,
   "expected_unique_plugin_count": 23,
   "launcher_count": 23,
-  "verdict": "PENDING_SOURCE_REGISTRY_PARITY_AND_TARGET_QUALIFICATION",
+  "verdict": "PASS_SOURCE_BUNDLE_AND_TARGET_BUILDER_23_OF_23__TARGET_ACCOUNT_NOT_RUN",
   "missing": [],
   "extra": [],
   "files": [
@@ -152,5 +152,11 @@
   "rule": "Transfer 22 launcher plugins backing Ksyusha's scoped 23-launcher graph plus one separate External Connecting recovery skill; FULL SOURCE CURRENT has 26 launchers including excluded True Sound audio family. Target does not install True Sound/Studio. Source releases are provenance, not target ownership. Do not accept Stage06 while exact 1.66.0 Registry-derived scoped projection/canonical readbacks are absent.",
   "launcher_plugin_count": 22,
   "recovery_skill_plugin_count": 1,
-  "recovery_skill_count": 1
+  "recovery_skill_count": 1,
+  "source_qualification": {
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
+    "checks": 253,
+    "failures": 0,
+    "scope": "SOURCE_ONLY"
+  }
 }
