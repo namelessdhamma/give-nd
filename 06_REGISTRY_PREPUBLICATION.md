@@ -1,3 +1,12 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+Already installed Ksyusha StateHead is **CURRENT**, not BOOTSTRAP. This stage prepares a **successor of the already active target Registry** from verified provider readbacks; keeps old target StateHead untouched until Stage07. Merge only changed in-scope component/plugin bindings; do not reset validated Ksyusha-owned state. Source projection 32/23 is NONAUTHORITATIVE; 35/26 full source adds 3 EXCLUDED audio roles, never install them. Do not mistake a source-provider artifact/release for target-owned authority. If NotebookLM is absent and truly unnecessary for this delta, mark `DEFERRED_OPTIONAL_CAPABILITY` and do not invent a TEMP_TASK PASS; a mandatory actual gate remains BLOCKED until satisfied.
+
+No Stage06 PASS without `ANTI_HANG_INSTALLATION_GATE_STAGE06.json` and verified, real target-owned readbacks for changed Agent/Anti-Hang/Writer/Orchestra/Songwriter. Evidence status NOT_RUN is not PASS.
+
+---
+# HISTORICAL GREENFIELD FALLBACK
+
 # Stage 06 — Target Registry + Prepublication Qualification
 
 ROLE: TARGET BOOTSTRAP EXECUTOR  
