@@ -1,25 +1,25 @@
 {
   "schema": "ND_PLUGIN_EXPORT_CURRENT_MANIFEST_v2",
-  "authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
-  "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
-  "unique_plugin_count": 22,
-  "expected_unique_plugin_count": 22,
-  "launcher_count": 22,
-  "verdict": "PASS",
+  "authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.66.0 (source authoritative; scoped target projection pending exact readback)",
+  "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (audio supervisor excluded from Ksyusha transfer)",
+  "unique_plugin_count": 23,
+  "expected_unique_plugin_count": 23,
+  "launcher_count": 23,
+  "verdict": "PENDING_SOURCE_REGISTRY_PARITY_AND_TARGET_QUALIFICATION",
   "missing": [],
   "extra": [],
   "files": [
     {
       "name": "nd-anti-hang.json",
-      "blob_sha": "3f7cdf4a4a0b2c111d7d97e89e42c6bede6b11cb",
-      "source_version": "1.2.0",
-      "source_release": "pluginrel_6ac1c89034e08191809b955f208fae84"
+      "blob_sha": "9d866f6f1803632e48070075773641a9d91822ba",
+      "source_version": "1.2.1",
+      "source_release": "pluginrel_6ac87d38fff481919a2403d7f536e08d"
     },
     {
       "name": "nd-automation-agent.json",
-      "blob_sha": "786737575655bcca95026b659ec4c7883fa86389",
-      "source_version": "1.7.3",
-      "source_release": "pluginrel_6ac1e3a0d86881918b711b5e8f561376"
+      "blob_sha": "189760b7fd24e5e830e884cd1b4fad85e03f0ac3",
+      "source_version": "1.7.5",
+      "source_release": "pluginrel_6aca3e797a808191a714ae48f0a657e3"
     },
     {
       "name": "nd-books-creator.json",
@@ -83,6 +83,12 @@
       "source_release": "pluginrel_6ac0f2baca288191bd4b82a22e9e9bc3"
     },
     {
+      "name": "nd-songwriter.json",
+      "blob_sha": "b329e7408df11e33fd4ab4ff7341da38e8da864f",
+      "source_version": "0.2.3",
+      "source_release": "pluginrel_6acb2c65fba08191be421d13a9032c78"
+    },
+    {
       "name": "nd-story-architect.json",
       "blob_sha": "513d8b0dac9a076d61a2a65a71c761d582e862f3",
       "source_version": "1.1.3",
@@ -132,9 +138,9 @@
     },
     {
       "name": "nd-true-writer.json",
-      "blob_sha": "dee4e4400ee85b387ecc601ee9364c71d63a67e6",
-      "source_version": "1.2.3",
-      "source_release": "pluginrel_6ac0f141b06c8191a7fb02fd395663b1"
+      "blob_sha": "2cea1a4ed535514fbbde1500a706524091c64794",
+      "source_version": "1.2.4",
+      "source_release": "pluginrel_6acb1ee3301c8191bec0b558451ada24"
     },
     {
       "name": "nd-visual-creator.json",
@@ -143,8 +149,8 @@
       "source_release": "pluginrel_6abf0b5482d48191adb2eda547a44f64"
     }
   ],
-  "rule": "Target recreates target-owned private plugins from these functional source bundles. 21 plugins back the 22-launcher graph; nd-external-connecting is the separate CURRENT recovery-skill plugin. Source plugin IDs/releases are provenance only. Generated binary caches are excluded as nonfunctional/regenerable artifacts.",
-  "launcher_plugin_count": 21,
+  "rule": "Transfer 22 launcher plugins backing Ksyusha's scoped 23-launcher graph plus one separate External Connecting recovery skill; FULL SOURCE CURRENT has 26 launchers including excluded True Sound audio family. Target does not install True Sound/Studio. Source releases are provenance, not target ownership. Do not accept Stage06 while exact 1.66.0 Registry-derived scoped projection/canonical readbacks are absent.",
+  "launcher_plugin_count": 22,
   "recovery_skill_plugin_count": 1,
   "recovery_skill_count": 1
 }
