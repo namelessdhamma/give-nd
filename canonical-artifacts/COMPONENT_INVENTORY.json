@@ -1,9 +1,10 @@
 {
-  "schema": "ND_TRANSFER_COMPONENT_INVENTORY_v2",
-  "registry_version": "1.64.2",
-  "registry_sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
-  "component_count": 31,
-  "launcher_count": 22,
+  "schema": "ND_TRANSFER_COMPONENT_INVENTORY_v3",
+  "registry_version": "1.65.2",
+  "registry_sha256": "2697a11697680f18bab9cd3d72d07b63d6baf5aa6ee4f0f0f785661c4bd59576",
+  "component_count": 32,
+  "launcher_count": 23,
+  "transfer_scope": "ALL_PRE_AUDIO_CURRENT_1_65_2; source 1.66.0 TRUE_SOUND/STUDIO_EXECUTOR/SOUND_CRITIC contour deferred while Music Studio is under development.",
   "components": [
     {
       "key": "GOVERNING_RESEARCH_CORE",
@@ -119,9 +120,9 @@
     },
     {
       "key": "TRUE_WRITER",
-      "version": "0.9.2",
-      "artifact_id": "1eWePl0sabKQiLs-xgKzffxh8U5N_eZo1",
-      "sha256": "1086604c481edbd8b0d35971c668577b8bafda63274071ed19109bd70030efa6",
+      "version": "0.9.3",
+      "artifact_id": "1yTUJii-SuoRgzI2iQFcw1xuUlHuVnOUZ",
+      "sha256": "6336ffef4964cabe1a6772d18860ab437e71e6e4dc3379ff87ad9a92bfc05f0c",
       "status": "CANONICAL WHEN NAM-143-BOUND — MANDATORY HOOK ENFORCEMENT"
     },
     {
@@ -147,9 +148,9 @@
     },
     {
       "key": "WRITER_ORCHESTRA_RUNTIME",
-      "version": "1.0.5",
-      "artifact_id": "1tFQmjnVFvHQPo42YVD9dOBmdriZCIctt",
-      "sha256": "ba7dd8936f7d5eae74e89dea8dfb1f6724f0a444f68c3e82c21272fda6501830",
+      "version": "1.0.6",
+      "artifact_id": "1_NPl0BFgqSZn0LvVcTDskVIgRYUyzf6b",
+      "sha256": "a21c0c0f6f5f3cfc16d2c2f3bba51472c16bf217187625a83141e7d453f79ea2",
       "status": "CANONICAL — SOLE CURRENT WRITER-ORCHESTRA RUNTIME PROTOCOL — NAM-143/NAM-140 RECOVERY — EXACT URI ENVELOPES"
     },
     {
@@ -203,9 +204,10 @@
     },
     {
       "key": "ANTI_HANG_RUNTIME",
-      "version": "1.6.0",
-      "artifact_id": "1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB",
-      "sha256": "61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15"
+      "version": "1.7.0",
+      "artifact_id": "19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH",
+      "sha256": "76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
+      "status": "CURRENT_ONLY_WHEN_NAM_143_BOUND / SCOPED_ADMISSION_OBSERVATION_STOP_REPAIRS_QUALIFIED"
     },
     {
       "key": "SEMANTIC_CORE_RUNTIME",
@@ -220,6 +222,13 @@
       "artifact_id": "1Q-nqGy66w4Cc-BuQNkHZYhQpWgBsVu49",
       "sha256": "0cb63d07c53ca38da8b5d427320d747dd46e97223a0848522e31a1e089d277b5",
       "status": "CANONICAL WHEN NAM-143-BOUND — ENGINEERING IMPLEMENTATION CHILD — FRESH_SESSION SKILL-CATALOG ACTIVATION QUALIFICATION PENDING"
+    },
+    {
+      "key": "SONGWRITER",
+      "version": "0.2.3",
+      "artifact_id": "1yGFk_lWh5bXtlZVPLUeDeGLMCx1IQ3IV",
+      "sha256": "920ebc9daa21d754dffddad0eca28ee4c4c929c5fc794644e20e729ccdcda3ab",
+      "status": "CANONICAL WHEN NAM-143-BOUND — SONG LYRIC CHILD — EXACT LAUNCHER URI V6"
     }
   ]
 }
