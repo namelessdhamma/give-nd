@@ -1,22 +1,28 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v4",
-  "status": "CANDIDATE_SOURCE_REVIEW_PENDING_TARGET_NOT_RUN",
+  "status": "FINAL_SOURCE_QUALIFICATION_PENDING_CI; TARGET_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.0",
   "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
   "target_repo": "namelessdhamma/give-nd",
   "branch": "handoff-anti-hang-songwriter-20261011",
   "policy": "INCREMENTAL_SCOPED_TRANSFER_SOURCE_ONLY; target must qualify itself",
   "counts": {
-    "total_files": 98,
-    "payload_files": 97,
+    "total_files": 100,
+    "payload_files": 99,
     "canonical_files": 41,
     "plugin_bundles": 23,
     "stage_files": 8,
     "anti_hang_installation_gates": 1
   },
-  "total_payload_bytes": 1291411,
+  "total_payload_bytes": 1382546,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash.",
   "files": [
+    {
+      "path": ".github/workflows/qualify-ksyusha.yml",
+      "blob_sha": "0a619dffeefe51cecf78073614ef5160d3477589",
+      "size_bytes": 390,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
     {
       "path": "01_FOUNDATION_DRIVE_LINEAR.md",
       "blob_sha": "23a195f27d1f2e8c3030ae2bc68d841c9a0def37",
@@ -223,8 +229,8 @@
     },
     {
       "path": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
-      "blob_sha": "79f896a27b1dfe3b8fadf1c901bd23a8224cc411",
-      "size_bytes": 103627,
+      "blob_sha": "e584de8f3d42c7646f7fa314c30c0378b694e0c2",
+      "size_bytes": 184132,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -597,6 +603,12 @@
       "path": "plugin-export-current/nd-visual-creator.json",
       "blob_sha": "3189df8b7021f2116e0114a21e399a8142e393ec",
       "size_bytes": 9934,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
+      "path": "scripts/verify_transfer.py",
+      "blob_sha": "48712f7d25bf69788d1ed554d2525902d2b95995",
+      "size_bytes": 10240,
       "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
