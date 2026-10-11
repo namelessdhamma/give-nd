@@ -1,3 +1,11 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+> **CURRENT UPDATE MODE — overriding old greenfield steps:** This task updates Ksyusha's **already existing** ND. Read her existing target-owned StateHead, Registry, Drive root, plugin release IDs and target install checkpoint first. DO NOT create a second StateHead, Drive root, new target notebook, or new migration lineage. If existing object is provider-verified, preserve it and write a scoped delta/checkpoint only when necessary. Bootstrap/create instructions below apply **only** to explicitly authorized true greenfield targets, which is NOT the current task. Existing target authority remains active until the final guarded Stage07 successor publication.
+
+---
+
+# HISTORICAL FIRST-INSTALL FALLBACK — NOT DEFAULT FOR THIS TRANSFER
+
 # Stage 01 — Target Foundation: Drive + Linear
 
 ROLE: TARGET BOOTSTRAP EXECUTOR  
