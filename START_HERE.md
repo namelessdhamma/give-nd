@@ -1,68 +1,35 @@
-# Nameless Dhamma — установка для Ксюши
+# Nameless Dhamma — Ксюша: обновление существующей установки
 
-## Что делать Ксюше
+**Тип операции:** инкрементальное обновление уже существующей ND, НЕ повторная установка с нуля.
 
-Никакие stage-файлы вручную запускать по очереди не нужно.
+**Источник:** [give-nd](https://github.com/namelessdhamma/give-nd), CURRENT источник `NAM-143 → Registry 1.66.0`. Целевая власть всегда принадлежит **твоему**, а не Savva, StateHead/Registry.
 
-Открой новый обычный чат ChatGPT и отправь **одно сообщение**:
+## Одно сообщение от Ксюши
 
-> Установи мне Nameless Dhamma из https://github.com/namelessdhamma/give-nd . Открой `START_HERE.md` и выполни установку автономно до конца. Не проси меня вручную запускать stage-файлы и не задавай рутинных вопросов. Останавливайся только если мне действительно нужно подключить приложение/дать доступ или когда потребуется новый чистый чат для финальной проверки.
+> @ND Automation Agent Обнови мою уже установленную Nameless Dhamma по https://github.com/namelessdhamma/give-nd/blob/main/START_HERE.md . Восстанови мой текущий StateHead, Registry и проверенные компоненты. Не устанавливай ND заново и не создавай дубликаты. Внеси лишь актуальные Anti-Hang 1.7.0 / Agent 1.3.5 и Songwriter 0.2.3 под True Writer, сохраняя всё рабочее. Пройди предусмотренные проверки, включая ANTI_HANG_INSTALLATION_GATE в Stage06 и новом чате Stage08. Не переноси музыкальную студию, мои или чужие секреты и личные данные. Продолжай внутренние циклы автономно без команды Go; запрашивай только реально необходимые Connect/Authorize.
 
-После этого делай только то, что ChatGPT действительно попросит сделать самой: обычно это нажатие **Connect / Allow / Authorize** для нужного приложения.
+## Обязательное поведение установщика
 
-GitHub подключать к аккаунту не нужно: репозиторий публичный.
+1. Сначала прочитай `INSTALLATION_INDEX.md`, `CURRENT_POINTER.txt`, `ANTI_HANG_INSTALLATION_GATE.md`, затем CURRENT источник. Пользуйся целевыми провайдерскими readbacks, а не памятью прежнего чата.
+2. Выясни существующий target-owned Linear StateHead, CURRENT Registry, Plugin Creator releases, target Drive и последний `migration/TARGET_INSTALL_STATE.json`. Это режим **UPDATE_EXISTING_TARGET**, а не `NEW_BOOTSTRAP`; ранее проверенные объекты сохраняются.
+3. Выполни стадии 01–07 **как внутренние идемпотентные проверки/дельта-операции**: `PASS_ALREADY_CURRENT` для уже совпадающих компонентов; `UPDATE_WITH_READBACK` только для отличающихся; `BLOCKED` при настоящем внешнем gate. Не считай `SKIP` без чтения доказательством PASS.
+4. В обновлении допускаются только нынешние root Agent + Anti-Hang + Writer/Songwriter и действительно необходимые зависимые контракты. Сохраняются прочие target-owned структуры. Никакого нового музыкального Studio и True Sound/Studio Executor/Sound Critic.
+5. Изолируй source и target: все source provider IDs/release IDs используются лишь для сравнения и provenance. Все целевые активные привязки должны принадлежать Ксюше. Не переносить Savva OAuth, токены, личную память, проекты и объекты.
+6. Stage06 выполняет `ANTI_HANG_INSTALLATION_GATE.md` как самостоятельную матрицу доказательств. Все требуемые вердикты должны быть PASS до target StateHead publication. Недоступный тест — NOT_RUN/BLOCKED, **не** фиктивный PASS.
+7. Stage07 публикует только одну связанную обновлённую target Registry через существующий target StateHead с guarded single-writer + provider readback; не создаёт конкурирующий корень. Stage08 — отдельный **чистый чат**.
+8. Выполняй безопасные внутренние подциклы без рутинных сообщений или Go. Переход между файлами Stage01→Stage07 автоматический после PASS; фразы «run next stage» в файлах — только fallback для самостоятельного запуска.
+9. Если прав доступа нет — сначала checkpoint/readback, затем одно точное действие Connect/Authorize для Ксюши. После авторизации продолжи из текущего доказанного состояния. Не утверждай успешность, пока фактический target readback не подтвердил.
 
-Gemini NotebookLM заранее подключать не нужно: он подключается позже, после установки ND External Connecting.
+## Только реальные паузы
 
-## Правила для установщика
+**AUTHORIZATION_GATE:** Ксюша подтверждает запрошенный доступ к своему провайдеру.
 
-This file is the human-facing orchestration layer. It simplifies installation choreography only. It does **not** change ND architecture, authority, topology, contracts, skills, qualification requirements, or target-isolation rules.
+**CONTEXT_HANDOFF:** продолжение из целевого `TARGET_INSTALL_STATE.json`, без пересоздания подтверждённых объектов. Текст нового запроса:
 
-1. Read `INSTALLATION_INDEX.md`.
-2. Recover existing target state first. If `migration/TARGET_INSTALL_STATE.json` exists, resume from its last verified provider readback. Never recreate already-qualified target objects blindly.
-3. Execute Stages 01 → 07 in order. Each numbered stage remains a bounded transaction with its own receipt and provider readback.
-4. When this `START_HERE.md` orchestration is active, any stage-level wording that says “stop this stage and instruct Ksyusha to run the next file” is a **standalone fallback only**. After a stage reaches PASS, automatically open/read the next numbered stage and continue in the same chat.
-5. Do not ask Ksyusha to paste stage filenames, say `Go`, or confirm routine operations.
-6. Visible execution may stop only for:
-   - **AUTHORIZATION_GATE** — Ksyusha must connect/authorize a target-owned service;
-   - **CONTEXT_HANDOFF** — the current chat cannot safely continue;
-   - **COLD_QUALIFICATION_BOUNDARY** — Stage 07 PASS; Stage 08 must run in a new clean chat.
+> Продолжи обновление моей существующей Nameless Dhamma по https://github.com/namelessdhamma/give-nd/blob/main/START_HERE.md и моему последнему проверенному TARGET_INSTALL_STATE.json. Не начинай установку заново.
 
-### Authorization gate
+**COLD_QUALIFICATION_BOUNDARY:** после Stage07 PASS в новом чате:
 
-If Google Drive, Linear, Plugin Creator, Gemini NotebookLM, or another actually required target capability is not connected:
+> @ND Automation Agent Проведи независимую cold qualification моего обновлённого ND по https://github.com/namelessdhamma/give-nd/blob/main/08_COLD_QUALIFICATION.md и ANTI_HANG_INSTALLATION_GATE.md. Источник CURRENT — исключительно мой target StateHead → Registry. Реально проверь Anti-Hang и True Writer → Songwriter → True Writer → Literary Critic → True Writer. Не выдавай NOT_RUN за PASS.
 
-- checkpoint and read back current install state first;
-- ask Ksyusha for **one exact action only**;
-- do not redesign ND or substitute another architecture;
-- after authorization, resume from provider truth and the durable checkpoint.
-
-Ksyusha may reply simply:
-
-> Продолжай.
-
-### Context handoff
-
-If the current chat cannot safely finish the remaining installation, first persist/read back the durable checkpoint and give Ksyusha exactly this continuation message for a new chat:
-
-> Продолжи установку Nameless Dhamma из https://github.com/namelessdhamma/give-nd по `START_HERE.md` с последнего проверенного `TARGET_INSTALL_STATE.json`. Не начинай заново и не переделывай уже подтверждённые этапы.
-
-Recover from Ksyusha-owned Drive/Linear/provider readbacks, not old chat memory.
-
-### Final clean-chat boundary
-
-After Stage 07 PASS, do **not** run Stage 08 in the migration chat.
-
-Tell Ksyusha to open a new clean chat and send exactly:
-
-> @ND Automation Agent Выполни финальную cold qualification моей установленной Nameless Dhamma по https://github.com/namelessdhamma/give-nd/blob/main/08_COLD_QUALIFICATION.md . Восстанови CURRENT только через мой target Linear StateHead → мой target Registry. Не используй Savva/source authority как target CURRENT. Исправь безопасные migration defects автономно и заверши до PASS либо одного точного внешнего blocker.
-
-After Stage 08 PASS, normal use is:
-
-`@ND Automation Agent + обычная задача`
-
-## Human effort target
-
-**одно стартовое сообщение → только реальные Connect/Authorize действия при необходимости → одно финальное сообщение в чистом чате.**
-
-Все numbered stage files — внутренние шаги установщика, а не ручной чек-лист для Ксюши.
+После подлинного Stage08 PASS: `@ND Automation Agent + обычная задача`.
