@@ -14,7 +14,7 @@
     "stage_files": 8,
     "anti_hang_installation_gates": 1
   },
-  "total_payload_bytes": 1382546,
+  "total_payload_bytes": 1382574,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash.",
   "files": [
     {
@@ -109,8 +109,8 @@
     },
     {
       "path": "CURRENT_TRANSFER_BASELINE.json",
-      "blob_sha": "f4f613ec378ecf5df01ed6864ac3a1099699f0e0",
-      "size_bytes": 2040,
+      "blob_sha": "89582df2633da11a4a1eb8bf12a121829481ea8b",
+      "size_bytes": 2275,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -121,14 +121,14 @@
     },
     {
       "path": "HANDOFF_CURRENT.md",
-      "blob_sha": "6185955f36bf489fc54e9ffe676d7a5f4609ef02",
-      "size_bytes": 4274,
+      "blob_sha": "029bdb279c4877ad89e40d749e37ea691893779d",
+      "size_bytes": 2276,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "INSTALLATION_INDEX.md",
-      "blob_sha": "004515a21ec0f15528f29e141ea17672df36cedb",
-      "size_bytes": 4875,
+      "blob_sha": "e5d7f873468d802bf714dfddb5a990de12807f59",
+      "size_bytes": 5086,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -151,8 +151,8 @@
     },
     {
       "path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
-      "blob_sha": "887a88a44a3d70018abe47e97567dbc8736671a5",
-      "size_bytes": 5994,
+      "blob_sha": "06f5898175ba8dcb59916c42d7c789666f31adee",
+      "size_bytes": 6191,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -163,8 +163,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "c98c0ff1cc9d67804c884eac5b7473d437fae033",
-      "size_bytes": 2907,
+      "blob_sha": "c3e3c2776460a72ed8663536ffe5216db6d13f02",
+      "size_bytes": 3648,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -175,14 +175,14 @@
     },
     {
       "path": "README.md",
-      "blob_sha": "e185789cb38f894e37b094b9faaf8562ba307c7b",
-      "size_bytes": 3412,
+      "blob_sha": "6564a5fa75b93376aac628e8de01bf83f26da15a",
+      "size_bytes": 3805,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "3bb11b9a00c27c03c4ad21976eb88e73c7b6310c",
-      "size_bytes": 2908,
+      "blob_sha": "02f653198a730431340c48d26dbc1a3271017871",
+      "size_bytes": 2918,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -211,8 +211,8 @@
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "b557e60877b70375b29b76116fd9a37ef8bbe629",
-      "size_bytes": 4659,
+      "blob_sha": "48d8767a18c7804c39e8b8a22cb23ca61e5077bf",
+      "size_bytes": 4879,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -607,8 +607,8 @@
     },
     {
       "path": "scripts/verify_transfer.py",
-      "blob_sha": "48712f7d25bf69788d1ed554d2525902d2b95995",
-      "size_bytes": 10240,
+      "blob_sha": "550c7b53109c88c026d18980c62335108014dc1c",
+      "size_bytes": 10259,
       "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
