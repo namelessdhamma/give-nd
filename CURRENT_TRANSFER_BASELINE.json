@@ -1,32 +1,61 @@
 {
-  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-CURRENT-20261004",
-  "status": "CURRENT_SOURCE_REBASED",
-  "authority": "NAM-143 -> bound CURRENT Registry -> exact component/launcher",
-  "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
+  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-CURRENT-20261011",
+  "status": "CURRENT_SOURCE_SYNCED_PRE_AUDIO_PROFILE",
+  "authority": "Fresh NAM-143 -> source CURRENT Registry 1.66.0; transfer selects exact predecessor Registry 1.65.2 because the sole later structural delta is the deferred audio contour.",
+  "publication": "ND-SONGWRITER-CHILD-POSTADOPTION-TESTFIX-20261011-1",
   "registry": {
-    "version": "1.64.2",
-    "drive_id": "1_EeblDc_mYey8DM19yMtpGXmFoeEjenn",
-    "sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
-    "snapshot": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json"
+    "version": "1.65.2",
+    "drive_id": "1brrS9gZkKoJc375FnicRpfACKfz97vIg",
+    "sha256": "2697a11697680f18bab9cd3d72d07b63d6baf5aa6ee4f0f0f785661c4bd59576",
+    "snapshot": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_65_2_SONGWRITER_CANONICAL_UTF8.json"
+  },
+  "source_successor_audit": {
+    "current_registry": "1.66.0",
+    "drive_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
+    "sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+    "delta": "adds only TRUE_SOUND + STUDIO_EXECUTOR + SOUND_CRITIC and exact-reuses all 32 predecessor components / 23 launchers",
+    "transfer_decision": "DEFER_COHERENT_AUDIO_CONTOUR"
   },
   "automation_agent": {
-    "canonical": "1.3.2",
-    "plugin": "1.7.3",
-    "release": "pluginrel_6ac1e3a0d86881918b711b5e8f561376"
+    "canonical": "1.3.5",
+    "drive_id": "1qYIxW6Zk-U4h94yz1dXw6oT1Nhk276qt",
+    "sha256": "4c2255cfc41df28054b892e077b7b8edb0119d05459491290278801855529993",
+    "plugin": "1.7.5",
+    "release": "pluginrel_6aca3e797a808191a714ae48f0a657e3"
   },
   "anti_hang": {
-    "version": "1.6.0",
-    "drive_id": "1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB",
-    "sha256": "61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
+    "version": "1.7.0",
+    "drive_id": "19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH",
+    "sha256": "76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
     "launcher": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
-    "plugin": "1.2.0",
-    "release": "pluginrel_6ac1c89034e08191809b955f208fae84"
+    "plugin": "1.2.1",
+    "release": "pluginrel_6ac87d38fff481919a2403d7f536e08d"
+  },
+  "writer": {
+    "true_writer": "0.9.3",
+    "writer_orchestra": "1.0.6",
+    "true_writer_plugin": "1.2.4",
+    "true_writer_release": "pluginrel_6acb1ee3301c8191bec0b558451ada24"
+  },
+  "songwriter": {
+    "version": "0.2.3",
+    "drive_id": "1yGFk_lWh5bXtlZVPLUeDeGLMCx1IQ3IV",
+    "sha256": "920ebc9daa21d754dffddad0eca28ee4c4c929c5fc794644e20e729ccdcda3ab",
+    "launcher": "skills://plugins/nd-songwriter/nd-launch-songwriter",
+    "plugin": "0.2.3",
+    "release": "pluginrel_6acb2c65fba08191be421d13a9032c78"
   },
   "counts": {
-    "components": 31,
-    "launchers": 22,
-    "recovery_skills": 1
+    "components": 32,
+    "launchers": 23,
+    "recovery_skills": 1,
+    "transferred_plugins": 23,
+    "launcher_plugins": 22
   },
-  "source_reuse_rule": "Unchanged Registry bindings are exact-reused. Changed bindings are replaced by their Registry 1.64.2 successors. Predecessors are provenance only.",
-  "blocked_duplication_note": "If platform safety blocks duplicating an exact executable/canonical file into the transfer branch, its CURRENT authoritative provider object plus exact hash/blob/release is retained as the transfer source; this is not a degraded semantic substitute."
+  "target_install_policy": {
+    "upgrade_in_place": true,
+    "notebooklm": "DEFERRED_OPTIONAL_CAPABILITY_PENDING_SEPARATE_INSTALLATION",
+    "cost_policy": "FREE_ONLY"
+  },
+  "source_reuse_rule": "Unchanged Registry 1.65.2 bindings are exact-reused. Existing Ksyusha target objects are updated/superseded from provider truth; unaffected stages are never reinstalled."
 }

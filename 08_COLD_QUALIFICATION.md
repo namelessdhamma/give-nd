@@ -1,49 +1,21 @@
-# Stage 08 — Fresh-Chat Cold Qualification
+# Stage 08 — Cold Qualification (NEW CLEAN TARGET CHAT)
 
-@ND Automation Agent
+Recover CURRENT only from Ksyusha target Linear StateHead -> bound target Registry. Source NAM-143/source IDs are provenance.
 
-ROLE: TARGET CURRENT ROOT  
-RUN THIS FILE IN A NEW CLEAN CHAT AFTER STAGE 07 PASS.
+Required checks:
+- Registry transfer profile: 32 components / 23 launchers + External Connecting;
+- target Agent1.3.5 and Anti-Hang1.7.0;
+- bounded `True Writer0.9.3 -> Songwriter0.2.3 -> True Writer -> Literary Critic -> True Writer` real lyric task;
+- one other substantive Supervisor/Child/Critic chain;
+- one target durable effect write/readback;
+- one injected route failure recovered without user provider-choice choreography;
+- FREE_ONLY;
+- NotebookLM may remain DEFERRED_OPTIONAL and is not a blocker;
+- deferred audio contour absent/nonselectable.
 
-## Authority recovery
+## ANTI_HANG_INSTALLATION_GATE — COLD
+Independently re-run all 14 target behavioral criteria from `CURRENT_SYNC.md` in this fresh chat. Stage 06 PASS and source historical evidence cannot substitute for this run.
 
-Do not use migration-chat memory or Savva's source authority.
+State: PASS / FAIL / BLOCKED / NOT_RUN. Repair safe migration defects autonomously and recheck. Do not redesign architecture.
 
-Recover target CURRENT independently only through:
-
-Ksyusha target Linear StateHead -> bound target CURRENT Capability Registry -> exact target components/launchers/routes.
-
-## Qualification
-
-Run the full target qualification matrix in `QUALIFICATION.md` and prove at minimum:
-
-1. Exactly one target authoritative StateHead and one target CURRENT Registry.
-2. 22/22 launcher graph callable with correct v6 topology.
-3. External Connecting recovery skill callable.
-4. Automation Agent is ROOT.
-5. Every task enters CURRENT Anti-Hang.
-6. Substantive task -> True Memory TASK_MEMORY_GATE -> exact Supervisor -> owned Child/helper -> Critic/acceptance -> root re-entry.
-7. TEMP_TASK creation in target NotebookLM and True Memory -> Inquisitor cleanup/absence verification.
-8. Developer -> Developer Executor -> Developer Critic; material finding -> Executor repair -> targeted Critic recheck.
-9. True Research -> owned Child -> Research Critic works.
-10. Writer and Visual representative chains work.
-11. One target durable effect writes and reads back.
-12. One safe injected route failure demonstrates recovery and `FAILED_ROUTE != FAILED_CAPABILITY`, using Generation and External Connecting only according to CURRENT recovery semantics.
-13. SILENT_CONTINUE/no routine Go.
-14. A1 is the sole self-evolution contour; old A1/A2/A3 predecessors are nonselectable.
-15. All target Registry canonical artifact bindings resolve to Ksyusha-owned Drive objects; frozen source-baseline/provenance artifacts cannot become target CURRENT.
-16. Target system NotebookLM sources resolve to Ksyusha-owned target canonical artifacts/workspaces rather than Savva-owned source objects.
-17. Savva credentials, personal memory and excluded project payload are not selectable/reachable as target state.
-18. A normal user goal succeeds from `@ND Automation Agent + goal` without migration instructions.
-
-Repair target migration defects autonomously when safe and authorized. Do not redesign the architecture.
-
-## Final operationalization
-
-Only after cold qualification PASS:
-- clean all qualification TEMP_TASK state through True Memory -> Inquisitor;
-- update target install projection/state to COMPLETE in a separate post-cutover maintenance transaction;
-- if a target A1 scheduler was provisioned disabled, enable it only after confirming the bound CURRENT A1 contract and scheduler semantics, then read back;
-- leave architecture in FREEZE / FIELD OBSERVATION.
-
-PASS means Ksyusha's ND is independent and normal use begins with `@ND Automation Agent + ordinary goal`.
+Installation COMPLETE only when the cold Anti-Hang gate and all required non-LM gates PASS.
