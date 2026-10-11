@@ -1,18 +1,25 @@
+# CURRENT UPDATE QUALIFICATION (overrides stale historical details below)
+
+Target evidence remains NOT_RUN until confirmed in Ksyusha-owned account. Every `PASS` below requires measured run and provider readback. Historical 2026-10-04 reports are NONSELECTABLE provenance. Source full Registry 1.66.0 has 35/26; transferred scoped 32/23 excludes audio.
+
 # ND → Ksyusha — CURRENT Qualification Matrix
 
 Authority for source comparison: `NAM-143 -> bound CURRENT Registry -> exact component/launcher`.
-Source baseline at this rebase: Registry `1.64.2`, publication `ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1`.
+Source baseline at this rebase: source Registry `1.66.0` scoped projection, publication `ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1`.
 
 Every gate is PASS/FAIL with provider/readback evidence. A historical transfer file, copied ID, successful tool call, or source prompt does not establish CURRENT.
 
 ## A. Source-package currentness
-- [ ] Registry 1.64.2 exact snapshot present and hash-matched.
-- [ ] 31 CURRENT components accounted for.
-- [ ] 22 CURRENT launchers accounted for.
+- [ ] Existing Ksyusha ND target currentness recovered before update; no recreation of target StateHead/Registry, no destructive rebootstrap.
+- [ ] Current source 1.66.0 full 35/26 reconciled against explicit Ksyusha in-scope 32/23 projection, excluding three True Sound audio roles.
+- [ ] All changed canonical bytes independently read back and verify source authority SHA; old 1.64.2 receipts cannot supply new current PASS.
+- [ ] scoped source Registry 1.66.0 (32/23 nonauthoritative candidate) exact snapshot present and hash-matched.
+- [ ] 32 Ksyusha-scoped components accounted for.
+- [ ] 23 Ksyusha-scoped launchers accounted for.
 - [ ] Explicit Anti-Hang launcher present.
-- [ ] Automation Agent 1.3.2 / plugin 1.7.3 selected.
-- [ ] Anti-Hang 1.6.0 / plugin 1.2.0 selected.
-- [ ] True Memory 0.4.2, True Research 1.8.2, True Developer 0.4.2, True Writer 0.9.2, True Visual 0.2.2, True Doctor 0.4.2, Generation 15.2 selected.
+- [ ] Automation Agent 1.3.5 / plugin 1.7.5 selected.
+- [ ] Anti-Hang 1.7.0 / plugin 1.2.1 selected.
+- [ ] True Memory 0.4.2, True Research 1.8.2, True Developer 0.4.2, True Writer 0.9.3, True Visual 0.2.2, True Doctor 0.4.2, Generation 15.2 selected.
 - [ ] Predecessor 1.60.x–1.64.1, Anti-Hang 1.2.x/1.5.0 and old Agent/message-policy artifacts are provenance only.
 - [ ] Runtime/bootstrap source differs from current main only where explicitly classified as provenance or target-specific rebind.
 - [ ] A1 current source is NAM-619; NAM-167/NAM-129/NAM-130 are predecessor provenance only.
@@ -28,7 +35,7 @@ Every gate is PASS/FAIL with provider/readback evidence. A historical transfer f
 - [ ] Cold recovery succeeds from target StateHead without this transfer prompt.
 
 ## C. Launcher graph
-- [ ] All 22 launchers are visible/callable.
+- [ ] All 23 scoped launchers are visible/callable.
 - [ ] `skills://plugins/nd-anti-hang/nd-launch-anti-hang` is explicit and callable.
 - [ ] Launcher Contract v6 relationships match source CURRENT.
 - [ ] Automation Agent remains root.
@@ -61,6 +68,8 @@ Every gate is PASS/FAIL with provider/readback evidence. A historical transfer f
 - [ ] Cold recovery does not resurrect retired TEMP_TASK.
 
 ## F. Supervisor chains
+- [ ] Physical True Writer -> Songwriter0.2.3 -> True Writer -> Literary Critic -> True Writer, with typed result/real correlation/readback; mere static prompt simulations are PARTIAL, not PASS.
+- [ ] No True Sound, Studio Executor, Sound Critic, or active Music Studio transfer to Ksyusha.
 - [ ] Research -> owned Child/helper -> Research Critic -> repair/recheck when material.
 - [ ] Developer -> Developer Executor -> Developer Critic -> Executor AGAIN after material finding -> targeted recheck.
 - [ ] Writer -> Writer Child -> Literary Critic -> repair/recheck when material.
@@ -68,7 +77,9 @@ Every gate is PASS/FAIL with provider/readback evidence. A historical transfer f
 - [ ] Doctor -> required CURRENT peer/helper service(s) -> verified incident closure.
 - [ ] Mandatory receipts/verdicts are present where CURRENT contracts require them.
 
-## G. Anti-Hang 1.6.0
+## G. Anti-Hang 1.7.0
+- [ ] Separate `ANTI_HANG_INSTALLATION_GATE.md` has observed PREPUBLICATION Stage06 AND new-chat Stage08 target-owned receipts, each all PASS; source-side fixture/test narrative is not equivalent.
+- [ ] Three safe material subcycles perform autonomous same-request root re-entry without intermediate user `Go` or per-cycle chat-output constraint.
 - [ ] Seven events supported: TASK_ENTRY, BEFORE_ACTION, AFTER_ACTION, AFTER_MATERIAL_RETURN, PRESSURE, BEFORE_USER_RETURN, USER_STOP.
 - [ ] Each external action has unique action_id.
 - [ ] BEFORE_ACTION(action_id=X) precedes matching AFTER_ACTION(action_id=X).
