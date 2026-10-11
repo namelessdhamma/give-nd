@@ -85,7 +85,7 @@ def run():
     check("nd-songwriter" in binds["plugin_bindings"], "target songwriter rebind")
     check("ANTI_HANG_INSTALLATION_GATE.md" in selectable["current_control"], "gate selected")
     check("SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json" in selectable["nonselectable_provenance"], "old receipt nonselectable")
-    check(str(qual["overall_verdict"]).startswith("SOURCE_CANDIDATE_"), "no false new-source PASS")
+    check(qual["overall_verdict"] == "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN", "source PASS with target clearly NOT_RUN")
     check(qual["checks"]["anti_hang_stage06_target"].startswith("NOT_RUN"), "stage06 not falsely passed")
     check(qual["checks"]["anti_hang_stage08_target"].startswith("NOT_RUN"), "stage08 not falsely passed")
 
