@@ -1,3 +1,14 @@
+# ND → Ksyusha — CURRENT INCREMENTAL HANDOFF
+
+STATUS: SOURCE DELTA CANDIDATE — TARGET UPDATE AND STAGE06/STAGE08 NOT_RUN.
+SOURCE: NAM-143 → Registry 1.66.0 (`9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`).
+TARGET SCOPE: 32 components / 23 launchers / 23 plugin bundles (22 launcher-backing + External Connecting).
+START: [START_HERE.md](START_HERE.md), preserving already installed Ksyusha StateHead/Registry. Stage01–07 are automatically resumed/updated; Stage08 is a new clean chat.
+FILES: current scoped Registry projection, exact updated Agent/Anti-Hang/True Writer/Orchestra/Songwriter canonical bodies and plugin sources, [ANTI_HANG_INSTALLATION_GATE.md](ANTI_HANG_INSTALLATION_GATE.md), [QUALIFICATION.md](QUALIFICATION.md).
+SOURCE FROZEN RECEIPTS from 2026-10-04: historical provenance only. Ksyusha owned providers and readbacks are necessary for Stage06/08 PASS. Exclude True Sound, Studio Executor, Sound Critic, ND Music Studio, credentials, personal memory and Savva active projects.
+
+## Historical installation notes (no longer CURRENT default)
+
 # ND → Ksyusha — HANDOFF CURRENT
 
 STATUS: SOURCE HANDOFF COMPLETE / STAGED TARGET INSTALLATION REQUIRED
