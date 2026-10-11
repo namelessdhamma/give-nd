@@ -1,32 +1,44 @@
 {
-  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-CURRENT-20261004",
-  "status": "CURRENT_SOURCE_REBASED",
-  "authority": "NAM-143 -> bound CURRENT Registry -> exact component/launcher",
-  "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
+  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-20261011-CANDIDATE",
+  "status": "SOURCE_SCOPED_PROJECTION_CANDIDATE; TARGET_UPDATE_NOT_RUN",
+  "authority": "NAM-143 -> bound CURRENT Registry 1.66.0; Ksyusha target authority remains separate",
+  "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (audio family excluded from transfer)",
   "registry": {
-    "version": "1.64.2",
-    "drive_id": "1_EeblDc_mYey8DM19yMtpGXmFoeEjenn",
-    "sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
-    "snapshot": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json"
+    "version": "1.66.0",
+    "drive_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
+    "sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+    "scope_projection": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
+    "status": "32/23 source-only NONAUTHORITATIVE; target rebind+verification required"
   },
   "automation_agent": {
-    "canonical": "1.3.2",
-    "plugin": "1.7.3",
-    "release": "pluginrel_6ac1e3a0d86881918b711b5e8f561376"
+    "canonical": "1.3.5",
+    "plugin": "1.7.5",
+    "release": "pluginrel_6aca3e797a808191a714ae48f0a657e3",
+    "source": "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_5_AUTONOMOUS_CONTINUATION.md"
   },
   "anti_hang": {
-    "version": "1.6.0",
-    "drive_id": "1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB",
-    "sha256": "61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
+    "version": "1.7.0",
+    "drive_id": "19ib5oIc3pDSlgZxYRhbsqKnbAodcB_KH",
+    "sha256": "76683264bda8c504f501ecdf93cf87f0267fb2fd220d58c3b7eb5ecb8823ae5f",
     "launcher": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
-    "plugin": "1.2.0",
-    "release": "pluginrel_6ac1c89034e08191809b955f208fae84"
+    "plugin": "1.2.1",
+    "release": "pluginrel_6ac87d38fff481919a2403d7f536e08d"
   },
   "counts": {
-    "components": 31,
-    "launchers": 22,
-    "recovery_skills": 1
+    "source_components": 35,
+    "source_launchers": 26,
+    "scope_components": 32,
+    "scope_launchers": 23,
+    "plugin_bundles": 23,
+    "launcher_backing_plugins": 22,
+    "recovery_plugins": 1
   },
-  "source_reuse_rule": "Unchanged Registry bindings are exact-reused. Changed bindings are replaced by their Registry 1.64.2 successors. Predecessors are provenance only.",
-  "blocked_duplication_note": "If platform safety blocks duplicating an exact executable/canonical file into the transfer branch, its CURRENT authoritative provider object plus exact hash/blob/release is retained as the transfer source; this is not a degraded semantic substitute."
+  "source_reuse_rule": "No target reset. Reuse verified existing target objects; delta-upgrade 1.66.0 scoped source with target-owned readbacks. Exclude True Sound audio family. Previous 1.64.2 installer is nonselectable provenance.",
+  "blocked_duplication_note": "Actual source canonical SHA/readbacks are required for any changed component. 1.64.2 historical receipts cannot justify PASS for 1.66.0.",
+  "true_writer": {
+    "canonical": "0.9.3",
+    "plugin": "1.2.4",
+    "writer_orchestra": "1.0.6",
+    "songwriter_child": "0.2.3"
+  }
 }

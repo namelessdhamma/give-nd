@@ -1,55 +1,52 @@
 {
-  "schema": "ND_KSYUSHA_PUBLIC_PACKAGE_QUALIFICATION_v1",
-  "date": "2026-10-04",
-  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
-  "package_scope": "MINIMUM_SELF_CONTAINED_CURRENT_INSTALLATION_SET",
-  "verdict": "PASS",
+  "schema": "ND_KSYUSHA_PUBLIC_PACKAGE_QUALIFICATION_v2",
+  "date": "2026-10-11",
+  "source_authority": "NAM-143 -> bound ND_CAPABILITY_REGISTRY 1.66.0",
+  "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+  "scope": "INCREMENTAL_TARGET_UPDATE_ONLY; 32/23 source projection",
+  "overall_verdict": "SOURCE_CANDIDATE_NOT_YET_FULL_PACKAGE_QUALIFIED_TARGET_NOT_RUN",
   "checks": {
-    "staged_installation": "PASS_8_STAGES",
-    "statehead_last": "PASS",
-    "notebooklm_after_external_connecting": "PASS",
-    "launcher_graph": "PASS_22_OF_22",
-    "external_connecting_recovery_skill": "PASS_SEPARATE_CURRENT_SKILL",
-    "plugin_exports": "PASS_22_TRANSFERRED_PRIVATE_PLUGINS",
-    "anti_hang_canonical_artifact": "PASS_EXACT_1_6_0_SHA256_61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
-    "target_plugin_builder": "PASS_CURRENT_SCHEMA_AND_STAGED_PARTIAL_BINDINGS",
-    "source_runtime_dependency": "NONE_REQUIRED_BY_PUBLIC_BOOTSTRAP",
-    "public_secret_scan": "PASS_90_OF_90_ZERO_HIGH_CONFIDENCE_CREDENTIAL_FINDINGS; prior 89-file package PASS plus new/modified installer-control surfaces rescanned",
-    "public_email_literal_scan": "PASS_90_OF_90_ZERO_EMAIL_LITERALS; new/modified installer-control surfaces rescanned",
-    "source_vault_isolation": "PASS_MINIMAL_FILESET_ONLY",
-    "optional_provider_placeholders": "MUST_CONVERGE_TO_TARGET_READBACK_OR_EXPLICIT_NOT_REQUIRED_BEFORE_STAGE_07",
-    "internal_reference_integrity": "PASS_AFTER_RECEIPT_REFERENCE_REPAIR",
-    "public_access_unauthenticated": "PASS_HTTP_200_LOGGED_OUT_BROWSER",
-    "registry_sha256": "PASS_MATCHES_NAM_143_BOUND_DRIVE_3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
-    "canonical_component_coverage": "PASS_31_OF_31",
-    "public_file_set": "PASS_90_OF_90_EXACT_MANIFEST_SET_AT_SIMPLE_INSTALLER_REAUDIT",
-    "canonical_exact_file_hashes": "PASS_29_OF_29_EXACT_FILE_BYTES_MATCH_REGISTRY",
-    "canonical_native_text_contracts": "2_OF_2_PRESENT_GRC_AND_VISUAL_CANON; TARGET_PROVIDER_READBACK_REQUIRED_STAGE_06",
-    "human_choreography": "PASS_ONE_INITIAL_MESSAGE_PLUS_REAL_AUTH_GATES_PLUS_ONE_FINAL_CLEAN_CHAT",
-    "simple_install_entrypoint": "PASS_START_HERE_PUBLIC_AND_SELECTABLE",
-    "public_manifest_consistency": "PASS_COUNTS_89_PAYLOAD_PLUS_MANIFEST_SELF_90_REPO_FILES_TARGET_REPO_GIVE_ND",
-    "public_bootstrap_self_contained": "PASS_NO_RUNTIME_SOURCE_OR_PRIVATE_PLUGIN_CURRENT_DEPENDENCY",
-    "active_control_consistency": "PASS_START_HERE_POINTERS_AND_SELF_CONTAINED_PLUGIN_SOURCE"
+    "source_registry_raw_sha256": "PASS_MATCHED_CURRENT_NAM143_AND_DRIVE_BYTES",
+    "source_projection": "PASS_SOURCE_DERIVATION_35_TO_32_COMPONENTS_26_TO_23_LAUNCHERS_AUDIO_EXCLUSIONS",
+    "changed_canonical_file_sha256": "PASS_5_OF_5_SOURCE_DRIVE_HASH_MATCH",
+    "changed_canonical_github_readback": "PASS_5_OF_5_GITHUB_EQUAL_TO_DRIVE",
+    "changed_plugin_export_parity": "PASS_4_OF_4_CURRENT_PLUGIN_CREATOR_RELEASES_FILE_CONTENTS_MATCH",
+    "unchanged_bundles": "REUSED_PREDECESSOR_SOURCE; FULL_19_OF_19_NEW_READBACK_NOT_RUN",
+    "public_secret_scan": "NOT_RUN_FULL_UPDATED_FILESET",
+    "full_public_manifest_integrity": "PENDING_FINAL_TREE_READBACK_BEFORE_PR",
+    "source_superset_absence": "PASS_TARGET_SCOPE_LIST_EXCLUDES_AUDIO_ROLES; HISTORICAL_FILES_MAY_REMAIN_NONSELECTABLE_PROVENANCE",
+    "anti_hang_stage06_target": "NOT_RUN_TARGET_OWNED_ACCOUNT",
+    "anti_hang_stage08_target": "NOT_RUN_FRESH_TARGET_CHAT",
+    "physical_songwriter_target_chain": "NOT_RUN_TARGET_ACCOUNT",
+    "target_installation_result": "NOT_RUN",
+    "source_prior_receipt_20261004": "HISTORICAL_PROVENANCE_ONLY",
+    "changed_diff_secret_scan": "PASS_36_GITHUB_COMPARE_PATCHES_PLUS_1_EXACT_SCOPED_PROJECTION_EXPLICIT_SECRET_PATTERN_SCAN; ZERO_HIGH_CONFIDENCE_MATCHES",
+    "scope_graph_integrity": "PASS_23_OF_23_EXACT_LAUNCHER_URIS; 32_COMPONENTS; 23_UNIQUE_PLUGIN_SOURCES"
+  },
+  "source_evidence": {
+    "exact_current_source_plugin_versions": {
+      "nd-automation-agent": "1.7.5",
+      "nd-anti-hang": "1.2.1",
+      "nd-true-writer": "1.2.4",
+      "nd-songwriter": "0.2.3"
+    },
+    "canonical_versions": {
+      "automation_agent": "1.3.5",
+      "anti_hang": "1.7.0",
+      "true_writer": "0.9.3",
+      "writer_orchestra": "1.0.6",
+      "songwriter": "0.2.3"
+    },
+    "checks_tool": "Drive native readback + GitHub fetch_file + Plugin Creator get_plugin_files",
+    "honesty_limit": "No target account execution, no Ksyusha authorization, no actual real-world anti-hang cancellation/host wake tests or physical songwriter runtime pass.",
+    "public_change_count": 37
   },
   "final_critic": {
-    "verdict": "PASS",
-    "repaired": [
-      "Added exact CURRENT Anti-Hang 1.6.0 canonical artifact to transfer source.",
-      "Repaired build_target_plugin.py for ND_PLUGIN_SOURCE_BUNDLE_v1.",
-      "Made plugin builder staged/plugin-local instead of requiring the entire future binding map.",
-      "Bound Research and Writing/Visual stages to the qualified plugin builder.",
-      "Made optional target provider bindings explicit before publication.",
-      "Removed public bootstrap dependency on private runtime-source/plugin-current surfaces.",
-      "Repaired public TRANSFER_MANIFEST receipt reference so every active public qualification reference resolves inside the repository.",
-      "Added PUBLIC_PACKAGE_QUALIFICATION.json to the public selectable control set and refreshed package-wide scan count to 89/89.",
-      "Repaired Anti-Hang canonical byte drift: restored the required final LF so the public/source artifact SHA-256 exactly matches Registry 1.64.2.",
-      "Added START_HERE.md orchestration so Ksyusha no longer has to manually launch Stages 01-07; bounded stage receipts and StateHead-last semantics remain unchanged.",
-      "Repaired stale public manifest counts/target repo metadata after START_HERE addition.",
-      "Restored PUBLIC_BOOTSTRAP_CURRENT as the published bootstrap so no private runtime-source/plugin-current paths are required.",
-      "Aligned CURRENT_POINTER.txt with START_HERE.md as the human entrypoint.",
-      "Aligned SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json with single-message installation choreography.",
-      "Removed stale plugin-current/* dependency wording from PLUGIN_CURRENT_DELTA_INDEX.txt; public plugin source is fully self-contained under plugin-export-current/*.json."
+    "verdict": "NOT_RUN_INDEPENDENT_CANDIDATE_REVIEW_REQUIRED",
+    "blockers": [
+      "Full updated package unrestricted secret/file audit if required independently of prior historical receipts",
+      "Physical Ksyusha-owned installation and both Stage06/Stage08 effect gates"
     ],
-    "unresolved_material_findings": 0
+    "predecessor_20261004_verdict": "PASS_HISTORICAL_ONLY_NOT_APPLICABLE_TO_NEW_SOURCE"
   }
 }

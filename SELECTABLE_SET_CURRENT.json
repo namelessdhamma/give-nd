@@ -1,7 +1,7 @@
 {
-  "schema": "ND_KSYUSHA_PUBLIC_SELECTABLE_SET_v1",
-  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
-  "role": "FROZEN_PUBLIC_INSTALLATION_SOURCE_ONLY",
+  "schema": "ND_KSYUSHA_PUBLIC_SELECTABLE_SET_v2",
+  "source_authority": "NAM-143 -> CURRENT Registry 1.66.0",
+  "role": "CANDIDATE_SCOPED_TRANSFER_SOURCE_ONLY",
   "current_control": [
     "README.md",
     "START_HERE.md",
@@ -30,20 +30,31 @@
     "QUALIFICATION.md",
     "SELF_EVOLUTION_CURRENT.txt",
     "SEMANTIC_WORKSPACES_CURRENT.txt",
-    "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
-    "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
     "PUBLIC_PACKAGE_MANIFEST.json",
     "PUBLIC_PACKAGE_QUALIFICATION.json",
-    "build_target_plugin.py"
+    "build_target_plugin.py",
+    "ANTI_HANG_INSTALLATION_GATE.md"
   ],
   "current_source": [
-    "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json",
     "canonical-artifacts/COMPONENT_INVENTORY.json",
-    "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_2_TAIL_HARDENED_ROOT.md",
     "canonical-artifacts/system/ND_NORTH_STAR_FINAL_CANON_v1_0_0.md",
-    "canonical-artifacts/components/* entries listed in PUBLIC_PACKAGE_MANIFEST.json",
-    "plugin-export-current/*.json"
+    "plugin-export-current/*.json",
+    "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
+    "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_5_AUTONOMOUS_CONTINUATION.md",
+    "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_7_0_SCOPED_OWNED_BOUNDARY.json",
+    "canonical-artifacts/components/TRUE_WRITER/ND_True_Writer_v0_9_3_SONGWRITER_CHILD_CANONICAL.md",
+    "canonical-artifacts/components/WRITER_ORCHESTRA_RUNTIME/ND_Writer_Orchestra_Runtime_v1_0_6_SONGWRITER.md",
+    "canonical-artifacts/components/SONGWRITER/ND_Songwriter_v0_2_3_CANONICAL_SKILL.md"
   ],
-  "nonselectable_provenance": [],
-  "resolution_rule": "This public repository is a frozen installation source, never target authority. Human bootstrap follows README.md -> START_HERE.md -> INSTALLATION_INDEX.md; the installer executes exact numbered stages automatically after each PASS. After Stage 07, target CURRENT resolves only through Ksyusha target Linear StateHead -> bound target Registry. Source NAM-143/source provider IDs remain provenance only."
+  "nonselectable_provenance": [
+    "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json",
+    "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_2_TAIL_HARDENED_ROOT.md",
+    "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_6_0_BEHAVIORAL_HOOK_KERNEL.json",
+    "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
+    "PUBLIC_PACKAGE_QUALIFICATION.json",
+    "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
+    "CURRENT_TRANSFER_BASELINE.json (pre-2026-10-11 old receipts only)"
+  ],
+  "resolution_rule": "Only source NAM-143->1.66.0 selects upstream; scoped 32/23 projection is NONAUTHORITATIVE transfer input. Target update must preserve existing Ksyusha-owned StateHead, rebind checked artifacts, pass Stage06 gate, update StateHead last, then cold PASS in new chat. Audio family excludes True Sound/Studio.",
+  "status": "PENDING_SOURCE_PARITY_AND_TARGET_GATES"
 }

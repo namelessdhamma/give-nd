@@ -1,71 +1,45 @@
-# ND → Ksyusha — Staged Installation Index
+# ND → Ksyusha — INCREMENTAL UPDATE INDEX
 
-STATUS: CURRENT TARGET INSTALLATION PATH  
-SOURCE BASELINE: NAM-143 → ND_CAPABILITY_REGISTRY 1.64.2  
-PUBLICATION: ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1
+MODE: **UPDATE_EXISTING_TARGET**, preserve Ksyusha's installed StateHead, verified target provider bindings and already-current components. Never rebuild an existing qualified target component merely because the source file changed.
+SOURCE: NAM-143 → Registry **1.66.0** / SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`.
+SCOPED SOURCE PROJECTION: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json); source-only, NONAUTHORITATIVE pending target rebind.
+SOURCE PLUGINS: 23 functional bundles (22 launcher-backing, plus External Connecting).
+GATE: [ANTI_HANG_INSTALLATION_GATE.md](ANTI_HANG_INSTALLATION_GATE.md), Stage06 and Stage08 only.
 
-## Why the installation is staged
+## Entry
 
-Ksyusha's ND is intentionally installed in bounded stages rather than one monolithic run. Each stage is independently resumable, ends with provider readback, and leaves a durable checkpoint for the next chat.
+Ksyusha sends only the message in [START_HERE.md](START_HERE.md). Stages are installer-internal transactions and auto-advance once accepted; no routine per-stage `Go` prompts.
 
-Ksyusha does NOT need Gemini NotebookLM before installation begins. NotebookLM is connected in Stage 03, after CURRENT Generation + External Connecting have already been installed in the target account.
+**Before any write**, discover her EXISTING root and target `migration/TARGET_INSTALL_STATE.json`, existing Plugin Creator packages and target provider truth. Build the smallest safe delta against the new in-scope source projection. Each old stage becomes an idempotent inspection, selective upgrade or readback:
+- `PASS_ALREADY_CURRENT` if actually evidenced equivalent;
+- `UPDATE_WITH_READBACK` only when target upgrade is necessary;
+- `BLOCKED` or `NOT_RUN` otherwise.
 
-Before final StateHead publication, the target instance is BOOTSTRAP / NONAUTHORITATIVE. Do not treat partially installed @ND launchers as target CURRENT.
+## The existing stage sequence (no ninth stage)
 
-## How Ksyusha uses these files
+| Internal stage | Delta work for existing target | Must preserve |
+| --- | --- | --- |
+| [01](01_FOUNDATION_DRIVE_LINEAR.md) | Locate target StateHead/Registry/Drive/receipts; verify ownership; checkpoint | Original target root and all already-qualified system objects |
+| [02](02_CORE_RUNTIME_EXTERNAL_CONNECTING.md) | Upgrade Agent 1.3.5/plugin1.7.5 and Anti-Hang1.7.0/plugin1.2.1 with exact source files/readback; retain Generation and External Connecting | Target provider account authority and live effect identities |
+| [03](03_NOTEBOOKLM_SEMANTIC_MEMORY.md) | Verify target memory route/current notebooks if needed; defer absent nonessential NotebookLM provision to separate authorized task without claiming a TEMP_TASK test PASS | No new competing semantic Core; no original notebook deletion |
+| [04](04_RESEARCH_STACK.md) | Verify/reuse existing Research and other unchanged Children; only repair proven mismatch | No unnecessary research/plugin recreation |
+| [05](05_WRITING_VISUAL_STACK.md) | True Writer0.9.3/plugin1.2.4, Writer Orchestra1.0.6, new Songwriter0.2.3 under Writer; retain Literary Critic | No True Sound or music Studio |
+| [06](06_REGISTRY_PREPUBLICATION.md) | Reconcile 32/23 scoped binding graph, all changed plugin and canonical sources, target-owned IDs, `ANTI_HANG_INSTALLATION_GATE` prepublication receipt | No false PASS; fail closed |
+| [07](07_STATEHEAD_PUBLICATION.md) | Guarded serialized update of **existing target StateHead** to exactly one verified target successor Registry LAST | No duplicate StateHead, no authority cutover on a failed gate |
+| [08](08_COLD_QUALIFICATION.md) | New clean-chat independently test root, Anti-Hang three subcycles and physical Songwriter→Critic chain; verify target-owned readbacks | Source-account secrets/projects and excluded audio remain absent |
 
-Human entrypoint: **`START_HERE.md`**.
+Only Stage08 must be in a separate new clean chat. Stage01–07 run automatically under one initial user authorization, across internal safe subcycles; confirmed external authorization is the only routine user action.
 
-Ksyusha normally sends one installation request and does **not** manually invoke numbered stage files. The installer executes these bounded stages internally and automatically continues after each PASS:
+## Required update-specific invariant
 
-1. `01_FOUNDATION_DRIVE_LINEAR.md`
-2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
-3. `03_NOTEBOOKLM_SEMANTIC_MEMORY.md`
-4. `04_RESEARCH_STACK.md`
-5. `05_WRITING_VISUAL_STACK.md`
-6. `06_REGISTRY_PREPUBLICATION.md`
-7. `07_STATEHEAD_PUBLICATION.md`
-8. In a NEW clean chat: `08_COLD_QUALIFICATION.md`
+A missing capability is recovered via the current reserve/Generation/External Connecting chain, not fake completion. Preserved healthy target CORE and ACTIVE_PROJECT may remain; no `TEMP_TASK` lifecycle PASS without real creation, actual Inquisitor cleanup, and provider-verified absence.
 
-Google Drive, Linear and Plugin Creator may already be connected, but this is not required choreography: if a required target-owned service is absent, the installer checkpoints first and requests only the exact authorization action. GitHub account connection is not required to read this public installer. Gemini NotebookLM is intentionally connected later in Stage 03.
+For changes to live StateHead, insist on exact old anchor and serialized single-writer; write all target artifacts and stage receipts before publication; statehead publication is the LAST authoritative write in that transaction. Reruns reconcile each existing effect rather than replaying consequences.
 
-If a fresh chat is required before Stage 07, the executor recovers from target provider readbacks and `TARGET_INSTALL_STATE.json`, not previous chat memory.
+## Evidence and freeze boundary
 
-When `START_HERE.md` orchestration is active, stage-level “stop and run the next file” wording is standalone fallback only; PASS automatically advances to the next stage.
+Source transfer files have provider-observed source IDs/hashes and functional plugin bundle content. Source `1.66.0` includes three excluded audio components; the target 32/23 graph is explicitly SCOPED, not a forged unchanged source Registry hash. Its successor MUST be generated with verified target-owned provider bindings.
 
-## Durable checkpoint contract
+Historical `SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json`, `CURRENT_TRANSFER_BASELINE.json` (prior versions) and previous publication receipts are provenance only unless a new actual qualification result says otherwise.
 
-Stage 01 creates a target Drive system root and:
-
-- `migration/TARGET_INSTALL_STATE.json`
-- `migration/receipts/`
-
-Every stage before StateHead publication updates `TARGET_INSTALL_STATE.json` and writes a stage receipt. Re-running a stage must first inspect its existing receipt and provider truth; never blindly duplicate already verified objects.
-
-The target Linear StateHead issue may be created in Stage 01, but it remains explicitly `BOOTSTRAP / NONAUTHORITATIVE` until Stage 07.
-
-## Source package rules
-
-Use:
-- `HANDOFF_CURRENT.md`
-- `BOOTSTRAP_CURRENT.txt`
-- `TRANSFER_MANIFEST.json`
-- `SELECTABLE_SET_CURRENT.json`
-- `ALLOWED_DIFFERENCES.json`
-- `PROJECT_EXCLUSIONS_CURRENT.txt`
-- `BINDING_MAP_TEMPLATE.json`
-- `LAUNCHER_GRAPH_CURRENT.txt`
-- `PLUGIN_EXPORT_CURRENT_MANIFEST.json`
-- `plugin-export-current/*.json`
-- `SEMANTIC_WORKSPACES_CURRENT.txt`
-- `QUALIFICATION.md`
-
-Do not select historical `TARGET_BOOTSTRAP.md`, validation-a1/a2/a3, predecessor registries, stale plugin bundles, or source-account provider ownership.
-
-Savva's credentials, personal memory, mail/calendar/contact data and excluded project payload never transfer.
-
-## Global invariant
-
-Target authority becomes real only after:
-
-target-owned provider objects → exact readbacks → target Registry → prepublication qualification PASS → target Linear StateHead published LAST → cold recovery in a fresh chat.
+**Source CANDIDATE ≠ Ksyusha target PASS.** Do not claim target Stage06/08 passed until the separate actual receipts exist.

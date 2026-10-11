@@ -1,0 +1,48 @@
+# ANTI_HANG_INSTALLATION_GATE — one gate, two checkpoints
+
+STATUS: TARGET EVIDENCE REQUIRED; NOT_RUN on the source-side transfer branch.
+Authority: Ksyusha-owned CURRENT after transfer; source comparison uses NAM-143 -> bound Registry 1.66.0.
+Scope: Agent 1.3.5 / plugin 1.7.5; Anti-Hang Runtime 1.7.0 / plugin 1.2.1; exact seven-hook interface. This is **not** a ninth installation stage.
+
+## Binding and provenance
+
+Source comparison: Registry 1.66.0, Drive ID `17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8`, SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`.
+Target must bind target-owned canonical artifacts, launcher packages, runtime scripts and effects. Source plugin release IDs and Drive IDs are **not** target authorities. The 1.64.2 snapshot is historical and must not be selected as CURRENT.
+
+## Stage 06 — PREPUBLICATION (BOOTSTRAP/NONAUTHORITATIVE)
+
+Record an evidence-backed verdict for EACH assertion:
+
+1. Target Agent and Anti-Hang source file hashes and target-owned package file readbacks match their selected source bundles; Registry-derived canonical Anti-Hang Runtime 1.7.0 and Agent 1.3.5 semantics match.
+2. Cross-cutting Anti-Hang is not a Controller/StateHead/scheduler/semantic Supervisor. Agent remains root; True Memory owns TEMP_TASK lifecycle.
+3. Exercise all seven event types: `TASK_ENTRY | BEFORE_ACTION | AFTER_ACTION | AFTER_MATERIAL_RETURN | PRESSURE | BEFORE_USER_RETURN | USER_STOP`; for every admitted external action preserve unique action_id with ordered matching BEFORE/AFTER and exact action/material-return/pressure counts.
+4. One authorized material goal runs **at least three sequential safe semantic subcycles** with root re-entry, Child/peer returns and a verified durable result, *without* requiring user `Go` or sending routine per-cycle text. No local phase boundary closes the whole objective.
+5. `OUTCOME_UNKNOWN` preserves effect identity; no blind consequential replay or reserve failover until owner readback/reconciliation. Pending effects block only dependent work, not independent frontiers.
+6. Explicit `USER_STOP` halts opening new work in that generation; do not fabricate `AFTER_ACTION`, do not presume remote cancellation, and retain old Stop across a separately authorized new generation. `GLOBAL_WAIT_EXTERNAL` requires a complete global runnable/reconcile/recovery/wake inventory, not a local provider wait.
+7. `BEFORE_USER_RETURN` is the final whole-task hook and is emitted only after validated ordered coverage, exact counts, true semantic completion or verified terminal gate. Pressure reshapes execution and never creates a routine Go gate.
+8. Proven external-effect enforcement must be real at the actual owned boundary. A timeout value in a prompt alone is not enforcement; healthy HOST_CONTROLLED calls cannot be counted as qualified host deadline tests.
+9. No assertion that ChatGPT UI/host transport, automatic wake, historical dead-chat recovery, or remote cancellation are proven without separately observed provider evidence.
+
+Write `migration/receipts/ANTI_HANG_INSTALLATION_GATE_STAGE06.json` with per-case verdict `PASS | FAIL | BLOCKED | NOT_RUN`, target refs, exact action/effect correlation IDs, observed timestamps, and links/hashes of real logs. Aggregate PASS only if every required case is PASS. Missing live evidence is NOT_RUN or BLOCKED, never PASS.
+
+Stage 07 MUST refuse StateHead publication unless this Stage06 gate and all other prepublication checks are PASS.
+
+## Stage 08 — COLD QUALIFICATION (NEW CLEAN CHAT)
+
+After independently recovering Ksyusha-owned StateHead/Registry, repeat the seven-hook trace/admission tests on a **new** real task and check:
+
+- actual source->target topology and package readbacks are still exact;
+- three internal material safe cycles without an intermediate Go; successful accepted result and final return gate;
+- real observed `OUTCOME_UNKNOWN`, `USER_STOP` and full-scan `GLOBAL_WAIT_EXTERNAL` using bounded non-destructive injected fixtures, not fabricated production effects; if not safely testable, mark NOT_RUN and block overall PASS;
+- no evidence-free claim about host-wide hang prevention.
+
+Write `migration/receipts/ANTI_HANG_INSTALLATION_GATE_STAGE08.json`; do not inherit Stage06 PASS as a fresh-chat PASS.
+
+## Songwriter acceptance (both checkpoints; physical cold flow required in Stage08)
+
+Registry-bound True Writer -> Songwriter Child `skills://plugins/nd-songwriter/nd-launch-songwriter` -> typed `LYRICS_CANDIDATE`/diagnostic RETURN to live True Writer -> separate Literary Critic judgment -> True Writer adjudication -> Automation Agent.
+Preserve real task/call/correlation IDs and a referenced observed response at every boundary. A text-only imitation or static launcher visibility is NOT a physical Child->Parent->Critic PASS. The Child produces lyrics only; never music, vocals or Studio effects.
+
+## Frozen boundaries
+
+Update an existing Ksyusha ND instance in place; do not recreate valid target-owned state or reinstall from zero. No True Sound, Studio Executor, Sound Critic, Music Studio data, source secrets, personal memory or project payload transfer. Preserve FREE_ONLY. Passes require target-owned provider readback.

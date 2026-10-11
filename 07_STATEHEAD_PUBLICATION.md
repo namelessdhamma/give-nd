@@ -1,49 +1,24 @@
-# Stage 07 — Publish Ksyusha StateHead LAST
+# Stage 07 — Publish verified target Registry successor LAST
 
-ROLE: TARGET AUTHORITY CUTOVER EXECUTOR  
-TARGET STATE TRANSITION: BOOTSTRAP/NONAUTHORITATIVE -> CURRENT/AUTHORITATIVE
+MODE: UPDATE_EXISTING_TARGET. Ksyusha already has a target authoritative StateHead. This stage MUST update **that exact issue** through a serialized guarded transaction, never create a second StateHead or reset provider ownership.
 
-## Objective
+## Preconditions (all actual provider evidence)
 
-Perform the single authority cutover only after the target clone is fully provisioned and prequalified.
-
-## Preconditions
-
-Stage 06 receipt = PASS.  
-Target Registry has exact provider readback/hash.  
-No unresolved material target mutation remains.
+- Recover currently active Ksyusha StateHead and old Registry, including exact preupdate head/token/anchor.
+- Stage06 receipt = PASS from real target providers, including `ANTI_HANG_INSTALLATION_GATE_STAGE06.json` all mandatory checks PASS and current target canonical/provider hashes.
+- 32 target-scoped components, 23 target-scoped launchers, 23 plugin bundles (22 launcher-backing plus recovery skill), target exact IDs and source/currentness isolation.
+- Excluded source audio family TRUE_SOUND, STUDIO_EXECUTOR, SOUND_CRITIC and active Studio project do not enter target authority.
+- No unresolved ambiguous effect and no concurrent writer whose expected old target StateHead anchor would be stale.
 
 ## Execution
 
-1. Recover Stage 06 from target Drive + direct provider readback. Do not trust chat memory.
-2. Re-run a compact precommit check:
-   - exact target Registry readable;
-   - exactly one intended target StateHead issue;
-   - 22/22 launchers present;
-   - External Connecting recovery skill present;
-   - target NotebookLM semantic core ready;
-   - no unresolved ambiguous write;
-   - no pending architecture/provider object creation.
-3. Before authority mutation, write any final precommit migration receipt/projection needed for resumability and set the install state to `PUBLICATION_PENDING`.
-4. Prepare the final target Linear StateHead content:
-   - CURRENT / AUTHORITATIVE;
-   - sole target currentness root;
-   - binds exactly one target CURRENT Registry;
-   - target-owned provider IDs only;
-   - source NAM-143 and source Registry identifiers are provenance, not target authority.
-5. Publish/update the target Linear StateHead LAST.
-6. Read back the Linear StateHead and verify exact target Registry binding and sole-authority semantics.
-7. After this successful StateHead readback, perform NO further underlying architecture/provider mutation in this convergence transaction.
+1. Verify exact old target StateHead and target Registry by provider readback. If absent, this task is not a license to rebootstrap; return a TRUE_GATE for separately authorized new installation.
+2. Reconcile unchanged verified target components; read back every new/changed source-correct target canonical/plugin artifact. Publish and verify successor target Registry in Ksyusha-owned Drive, with new own ID/hash and old-target provenance.
+3. Complete necessary checkpoints/receipts **before** authority mutation: `TARGET_INSTALL_STATE.json` = `PUBLICATION_PENDING`, exact old head, successor Registry ID/hash and Stage06 actual PASSES.
+4. Guard on exact OLD target StateHead anchor; no blind overwrite on conflicts. Update **existing** Linear target StateHead LAST to exactly the successor target Registry. No source NAM-143 provider IDs become target authority.
+5. Read back target StateHead and verify single authority and exact successor binding. Do no more underlying architectural mutations in this transaction. This is an UPDATE from target CURRENT to target CURRENT, not BOOTSTRAP-to-CURRENT.
+6. On conflict or uncertain commit, read back and reconcile the existing effect before any new attempt. Never bypass Stage06 gates.
 
-## Completion
+## Result
 
-Do not write another underlying provider checkpoint after the final StateHead commit. The verified StateHead itself is the completion anchor.
-
-Return only:
-- target StateHead identifier/URL;
-- target Registry ID/hash;
-- publication PASS/FAIL;
-- exact blocker if any;
-- instruction to open a NEW clean chat and run `08_COLD_QUALIFICATION.md`.
-
-Do not run cold qualification in this chat.
+Return target StateHead URL, successor target Registry ID/hash, actual publication verdict and only real blockers. After Stage07 PASS, Ksyusha must open a separate clean chat to run [08_COLD_QUALIFICATION.md](08_COLD_QUALIFICATION.md) with [ANTI_HANG_INSTALLATION_GATE.md](ANTI_HANG_INSTALLATION_GATE.md). No Stage08 PASS may be inherited from Stage06 or the source package.

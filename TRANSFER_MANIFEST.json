@@ -1,17 +1,17 @@
 {
-  "schema": "ND_TRANSFER_MANIFEST_v3",
-  "transfer_id": "ND-KSYUSHA-CURRENT-CLONE",
-  "status": "SOURCE_STAGED_HANDOFF_COMPLETE_TARGET_AUTH_REQUIRED",
+  "schema": "ND_TRANSFER_MANIFEST_v4",
+  "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
+  "status": "SOURCE_SCOPED_CANDIDATE; TARGET_INSTALLATION_NOT_RUN",
   "authority": {
-    "rule": "NAM-143 -> bound CURRENT Registry -> exact component/launcher",
-    "publication": "ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1",
-    "registry_version": "1.64.2",
-    "registry_drive_id": "1_EeblDc_mYey8DM19yMtpGXmFoeEjenn",
-    "registry_sha256": "3a723c7bec0ffb1e385cf23190a7b859b0c48d17dd7c033707cb5ab4d0be99f3",
-    "exact_registry_snapshot": "canonical-artifacts/ND_CAPABILITY_REGISTRY_v1_64_2_ANTI_HANG_TAIL_HARDENING.json"
+    "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
+    "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
+    "registry_version": "1.66.0",
+    "registry_drive_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
+    "registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+    "scope_source_projection": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json"
   },
   "scope": {
-    "mode": "ISOMORPHIC_CURRENT_ND_CLONE",
+    "mode": "INCREMENTAL_EXISTING_TARGET_UPDATE",
     "preserve": [
       "ND names",
       "topology",
@@ -23,7 +23,12 @@
       "Anti-Hang",
       "memory lifecycle",
       "Critic/acceptance gates",
-      "autonomy semantics"
+      "autonomy semantics",
+      "existing target StateHead/Registry IDs",
+      "existing target-owned provider bindings",
+      "already qualified target components and projects",
+      "TRUE_WRITER -> SONGWRITER -> LITERARY_CRITIC",
+      "ANTI_HANG_INSTALLATION_GATE Stage06 and Stage08"
     ],
     "rebind_only": [
       "Drive",
@@ -40,36 +45,33 @@
       "Savva personal secrets",
       "Blue Sea active project payload",
       "Gena Gieny active project payload",
-      "Nibbana-conditions research-project payload"
+      "Nibbana-conditions research-project payload",
+      "TRUE_SOUND",
+      "STUDIO_EXECUTOR",
+      "SOUND_CRITIC",
+      "ND Music Studio and audio project data",
+      "Savva personal memory, secrets and projects"
     ]
   },
   "current_deltas": {
-    "launcher_count": 22,
-    "anti_hang": "1.6.0 / explicit launcher skills://plugins/nd-anti-hang/nd-launch-anti-hang / plugin 1.2.0",
-    "automation_agent": "canonical 1.3.2 / plugin 1.7.3 / SILENT_CONTINUE default / ordered action-paired hook trace",
-    "true_memory": "0.4.2 / TASK_MEMORY_GATE + TEMP_TASK lifecycle + Inquisitor cleanup",
-    "true_research": "1.8.2 / mandatory Child + Research Critic receipts",
-    "true_developer": "0.4.2 / mandatory Developer Executor + Developer Critic / no direct implementation fallback",
-    "true_writer": "0.9.2 / mandatory Writer Child + Literary Critic",
-    "true_visual": "0.2.2 / mandatory Visual Creator + acceptance",
-    "true_doctor": "0.4.2 / mandatory helper-peer receipt",
-    "generation": "15.2 / mandatory recovery frontier"
+    "launcher_count": 23,
+    "component_count": 32,
+    "plugin_bundles": 23,
+    "anti_hang": "1.7.0 / plugin 1.2.1 / seven hooks / scoped owned-boundary admission",
+    "automation_agent": "canonical 1.3.5 / plugin 1.7.5 / same-request autonomous material-return continuation; no routine Go",
+    "true_writer": "0.9.3 / plugin 1.2.4 / Writer Orchestra 1.0.6",
+    "songwriter": "Child0.2.3 / own plugin0.2.3 / True Writer -> Child -> True Writer -> Literary Critic -> True Writer",
+    "true_memory": "0.4.2 / TASK_MEMORY_GATE and TEMP_TASK/Inquisitor lifecycle",
+    "generation": "15.2 / SUPPORT"
   },
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
-  "completion_rule": "Do not begin Ksyusha target bootstrap until source package currentness, launcher/plugin completeness, auxiliary runtime, memory/system instructions, exclusions, secret scan and behavioral qualification all PASS.",
+  "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification.",
   "source_qualification": {
-    "receipt": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
-    "verdict": "PASS",
-    "canonical_readback": "8/8 exact",
-    "launcher_graph": "22/22",
-    "stale_selector_scan": "PASS",
-    "secret_scan": "PASS",
-    "developer_critic_consistency_audit": "PASS",
-    "plugin_functional_source_export": "PASS_22_TRANSFERRED_PLUGINS_21_LAUNCHER_PLUGINS_PLUS_EXTERNAL_CONNECTING",
-    "plugin_export_secret_scan": "PASS_22_OF_22_HIGH_CONFIDENCE_CREDENTIAL_PATTERNS_ZERO_FINDINGS",
-    "final_developer_critic": "PASS_AFTER_STALE_ANTI_HANG_HANDOFF_WORDING_REPAIR",
-    "public_package_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json",
-    "historical_source_rebase_receipt": "NOT_SHIPPED_PUBLICLY_SUPERSEDED_BY_STAGED_CLOSURE_AND_PUBLIC_QUALIFICATION"
+    "status": "NEW_SCOPE_CANDIDATE_SOURCE_PARITY_PENDING",
+    "predecessor_20261004": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json (HISTORICAL/NONSELECTABLE)",
+    "current_gate": "ANTI_HANG_INSTALLATION_GATE.md",
+    "target_stage06": "NOT_RUN",
+    "target_stage08": "NOT_RUN"
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -93,20 +95,15 @@
     "start_here": "START_HERE.md"
   },
   "target_boundary": {
-    "verdict": "TRUE_GATE_TARGET_AUTHORITY",
-    "reason": "No authenticated Ksyusha target-owned Linear/Drive/NotebookLM/Supabase/GitHub/plugin-publication context is connected in this execution environment.",
-    "rule": "Do not create target authority inside source-account providers.",
-    "next_action": "Ksyusha sends the single START_HERE.md installation request from her ChatGPT account, authorizes target-owned services only when requested, lets the installer execute Stages 01-07 automatically, then runs Stage 08 in the required fresh chat."
+    "verdict": "TRUE_GATE_TARGET_OWNERSHIP",
+    "reason": "Only Ksyusha-owned target account may authorize or receive consequences of target mutations; Savva source providers are not target.",
+    "next_action": "Reconcile existing Ksyusha CURRENT; apply exact delta via START_HERE.md in her account; do not reinstall."
   },
-  "target_qualification": "NOT_RUN_NOT_CLAIMED",
+  "target_qualification": "NOT_RUN",
   "source_handoff_closure": {
-    "receipt": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
-    "verdict": "PASS",
-    "source_side_runnable_frontier": "NONE",
-    "transferred_private_plugins": 22,
-    "launcher_plugins": 21,
-    "launcher_graph": 22,
-    "recovery_skill_plugins": 1,
-    "recovery_skill": "skills://plugins/nd-external-connecting/connecting-external-capabilities"
+    "status": "PREDECESSOR_20261004_RECEIPT_ONLY",
+    "current_update": "SOURCE_CANDIDATE_PENDING_PARITY_AND_TARGET_GATES",
+    "source_plugin_bundles": 23,
+    "launcher_graph": 23
   }
 }

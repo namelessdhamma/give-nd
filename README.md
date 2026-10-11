@@ -1,89 +1,33 @@
-# Nameless Dhamma — Ksyusha Installer
+# Nameless Dhamma → Ксюша — инкрементальное обновление
 
-This repository is a **public, self-contained installer snapshot** for creating an independent Ksyusha-owned Nameless Dhamma instance.
+**Назначение:** обновить уже установленную у Ксюши ND, сохраняя имеющиеся проверенные компоненты, проекты, целевые доступы и StateHead. **Это не переустановка.**
 
-Source baseline:
+Источник: [NAM-143](https://linear.app/namelessdhamma/issue/NAM-143) → Current Registry `1.66.0`; точная доказательная SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`. Публичный репозиторий — только source/transfer, не authority.
 
-- StateHead: `NAM-143`
-- Capability Registry: `ND_CAPABILITY_REGISTRY 1.64.2`
-- Publication: `ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1`
+## Начать
 
-The source ND remains separate and is not modified by this installer.
+Открыть [START_HERE.md](START_HERE.md), отправить оттуда одно сообщение **в аккаунте Ксюши**. Installer восстанавливает существующую target-архитектуру, меняет только обоснованную дельту, сам проходит Stage01–07, при необходимости запрашивает одно конкретное целевое подключение. Stage08 — независимый холодный тест в новом чате.
 
-## Самая простая установка
+## Обновление
 
-Ксюше не нужно вручную проходить восемь файлов.
+- Automation Agent canonical `1.3.5` / launcher plugin `1.7.5`, autonomous material-return continuation, no routine `Go`.
+- Anti-Hang Runtime `1.7.0` / launcher plugin `1.2.1`, 7-hook trace, bounded owned-call semantics, Stop/effect safety.
+- True Writer canonical `0.9.3` / launcher plugin `1.2.4`, Writer Orchestra `1.0.6`.
+- Songwriter `0.2.3`, under True Writer; lyrics require a physical Child → parent → Literary Critic → parent return.
+- **No** musical Studio, True Sound, Studio Executor, Sound Critic, personal memory, source credentials, source active projects.
 
-Открыть обычный новый чат ChatGPT и отправить одно сообщение:
+Exact source scoped projection: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json), whose target-owned bindings require verification before becoming active. [Plugin bundles](plugin-export-current/) contain **23 unique** sources (22 launcher-backing plugins and one External Connecting recovery skill).
 
-> Установи мне Nameless Dhamma из https://github.com/namelessdhamma/give-nd . Открой `START_HERE.md` и выполни установку автономно до конца. Не проси меня вручную запускать stage-файлы и не задавай рутинных вопросов. Останавливайся только если мне действительно нужно подключить приложение/дать доступ или когда потребуется новый чистый чат для финальной проверки.
+## Stages and gates
 
-Дальше ChatGPT сам выполняет Stages 01–07. Если ему действительно нужен доступ к сервису, Ксюша нажимает Connect / Allow / Authorize и отвечает `Продолжай.`
+01 Foundation/existing target; 02 runtime/recovery; 03 semantic memory route; 04 research; 05 Writer/Songwriter/Visual; 06 scoped Registry and [ANTI_HANG_INSTALLATION_GATE](ANTI_HANG_INSTALLATION_GATE.md) Stage06; 07 guarded target StateHead publication LAST; 08 fresh-chat cold qualification.
 
-После Stage 07 ChatGPT сам даст одну готовую строку для нового чистого чата с финальной проверкой.
+The old Registry `1.64.2`, Anti-Hang `1.6.0` and previous closure receipts are **provenance**, not current selectors.
 
-**GitHub account connection is not required.** The repository is public.
+**Qualification status:** Source updates on an isolated working branch are CANDIDATE pending source package consistency and target readbacks. Stage06 and Stage08 in Ksyusha's account remain **NOT_RUN** unless evidenced by target-owned actual receipts. There is no claim of a successful installation yet.
 
-**Gemini NotebookLM is not required before starting.** It is connected later through the installed External Connecting capability.
+## Security and authority
 
-Human entrypoint: **`START_HERE.md`**.
+The only real target CURRENT is: **Ksyusha target Linear StateHead → Ksyusha target Registry → exact target artifacts/releases**. Do not create competing StateHead, use source account providers as target, or copy secrets. Target authorization cannot be fulfilled from Savva's account.
 
-## Installation stages
-
-The numbered files remain bounded/resumable implementation transactions and are normally executed automatically by the installer:
-
-1. `01_FOUNDATION_DRIVE_LINEAR.md`
-2. `02_CORE_RUNTIME_EXTERNAL_CONNECTING.md`
-3. `03_NOTEBOOKLM_SEMANTIC_MEMORY.md`
-4. `04_RESEARCH_STACK.md`
-5. `05_WRITING_VISUAL_STACK.md`
-6. `06_REGISTRY_PREPUBLICATION.md`
-7. `07_STATEHEAD_PUBLICATION.md`
-8. **New clean chat:** `08_COLD_QUALIFICATION.md`
-
-The target StateHead stays **BOOTSTRAP / NONAUTHORITATIVE** until Stage 07. It becomes target CURRENT only after the target Registry and all provider bindings have passed prepublication qualification.
-
-## What is included
-
-This public repository contains only the minimum CURRENT installation set:
-
-- one-message human orchestration in `START_HERE.md`;
-- staged installation instructions;
-- exact CURRENT Capability Registry snapshot;
-- exact CURRENT canonical component/system artifacts needed for the clone;
-- 22 target-transfer plugin source bundles:
-  - 21 private plugins backing the 22-launcher graph;
-  - 1 separate External Connecting recovery-skill plugin;
-- target binding template;
-- target plugin builder;
-- qualification matrix;
-- project/personal exclusion rules.
-
-## What is not included
-
-This repository intentionally excludes:
-
-- Savva credentials, OAuth grants, cookies, API keys or provider secrets;
-- personal memory, Gmail, Calendar or Contacts;
-- active personal/product project payload;
-- predecessor registries and obsolete installation paths;
-- historical validation/provenance that is not required for installation;
-- source account ownership as target authority.
-
-## Authority rule
-
-The public repository is a **frozen installation source**, not Ksyusha's future authority.
-
-During installation:
-
-`public source -> target-owned Drive / Linear / NotebookLM / Plugin Creator -> target Registry -> target StateHead LAST`
-
-After Stage 07, Ksyusha's target CURRENT resolves only through:
-
-`Ksyusha target Linear StateHead -> bound target Capability Registry -> exact target components/launchers`
-
-Then Stage 08 performs fresh-chat cold qualification.
-
-## Normal use after PASS
-
-`@ND Automation Agent + ordinary goal`
+See [INSTALLATION_INDEX.md](INSTALLATION_INDEX.md), [QUALIFICATION.md](QUALIFICATION.md), [HANDOFF_CURRENT.md](HANDOFF_CURRENT.md).

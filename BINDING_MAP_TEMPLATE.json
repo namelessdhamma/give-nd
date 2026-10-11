@@ -1,6 +1,6 @@
 {
   "schema": "ND_TARGET_BINDING_MAP_v3",
-  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.64.2",
+  "source_authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.66.0 (scope projection pending exact readback)",
   "rule": "Populate target fields only from target-provider creation/readback. No credential values belong in this file.",
   "navigator_rebind": {
     "NAM-143": {
@@ -94,9 +94,10 @@
     "target_github_repo": "${TARGET_GITHUB_RUNTIME_REPO}"
   },
   "launcher_invariants": {
-    "count": 22,
+    "count": 23,
     "anti_hang": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
-    "developer_executor": "skills://plugins/nd-true-developer/nd-launch-developer-executor"
+    "developer_executor": "skills://plugins/nd-true-developer/nd-launch-developer-executor",
+    "songwriter": "skills://plugins/nd-songwriter/nd-launch-songwriter"
   },
   "predecessor_navigators_nonselectable": [
     "NAM-167",
@@ -213,11 +214,22 @@
       "source_bundle": "plugin-export-current/nd-true-smm.json",
       "target_plugin_id": "${TARGET_PLUGIN_ID_ND_TRUE_SMM}",
       "target_release_id": "${TARGET_RELEASE_ID_ND_TRUE_SMM}"
+    },
+    "nd-songwriter": {
+      "source_bundle": "plugin-export-current/nd-songwriter.json",
+      "target_plugin_id": "${TARGET_PLUGIN_ID_ND_SONGWRITER}",
+      "target_release_id": "${TARGET_RELEASE_ID_ND_SONGWRITER}"
     }
   },
   "canonical_artifact_rebind": {
     "rule": "Populate only after target-owned canonical artifacts are created/read back in Stage 06. Source canonical IDs remain frozen source provenance.",
     "target_components": "${TARGET_CANONICAL_COMPONENT_BINDINGS}"
   },
-  "literal_replacements_rule": "Populate exact source-provider literal -> target-provider literal pairs only after the target object exists and has provider readback. Allowed provider-bound replacements include Linear navigator URLs/IDs, target Drive artifact IDs, NotebookLM IDs, GitHub/runtime coordinates and other fields explicitly allowed by ALLOWED_DIFFERENCES.json. Do not alter ND semantic identities, topology, role names, stable skill identities or behavioral contracts."
+  "literal_replacements_rule": "Populate exact source-provider literal -> target-provider literal pairs only after the target object exists and has provider readback. Allowed provider-bound replacements include Linear navigator URLs/IDs, target Drive artifact IDs, NotebookLM IDs, GitHub/runtime coordinates and other fields explicitly allowed by ALLOWED_DIFFERENCES.json. Do not alter ND semantic identities, topology, role names, stable skill identities or behavioral contracts.",
+  "target_scope_exclusions": [
+    "TRUE_SOUND",
+    "STUDIO_EXECUTOR",
+    "SOUND_CRITIC",
+    "ND Music Studio runtime/project payload"
+  ]
 }

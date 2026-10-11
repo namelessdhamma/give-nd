@@ -1,7 +1,7 @@
 {
-  "transfer_id": "ND-KSYUSHA-CURRENT-CLONE",
-  "source_authority": "NAM-143 -> Registry 1.64.2",
-  "rule": "Any source/target difference not listed here is a migration defect until explicitly classified.",
+  "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
+  "source_authority": "NAM-143 -> CURRENT Registry 1.66.0 (32/23 target scope candidate only)",
+  "rule": "Preserve verified target-owned existing objects. Provider ID replacements only when actually needed/read back. All semantic/ownership differences outside 3 authorized EXCLUDED audio roles are defects. The 32/23 scoped projection is source-only until target validation.",
   "allowed": [
     [
       "LINEAR_PROVIDER_IDS",
@@ -51,16 +51,20 @@
   "forbidden": [
     "ND role/module names and semantic identities",
     "CURRENT skills:// launcher identities except unavoidable platform namespace remap with proven semantic equivalence",
-    "22-launcher Supervisor/Child/Critic topology",
+    "23-launcher (Ksyusha-scoped) Supervisor/Child/Critic topology",
     "Launcher Contract v6 semantics",
     "Automation Agent root ownership",
-    "Anti-Hang 1.6.0 hook/effect/liveness/return semantics",
+    "Anti-Hang 1.7.0 hook/effect/liveness/return semantics",
     "True Memory TASK_MEMORY_GATE and TEMP_TASK lifecycle",
     "mandatory Child/helper and Critic/acceptance gates",
     "Generation SUPPORT-only and recovery-frontier role",
     "External Connecting route-creation/qualification role",
     "FAILED_ROUTE != FAILED_CAPABILITY",
     "SILENT_CONTINUE default",
-    "A1/NAM-619 sole self-evolution topology"
+    "A1/NAM-619 sole self-evolution topology",
+    "Songwriter Child0.2.3 must remain under True Writer; no music/audio generation or child-owned authority bypass",
+    "Anti-Hang Stage06 and Stage08 installation gates require actual target-owned observed PASS; never fake",
+    "No duplicate Ksyusha StateHead, Registry, or preexisting qualified target artifacts; no target rebootstrap",
+    "No source audio True Sound / Studio Executor / Sound Critic / ND Music Studio migration"
   ]
 }
