@@ -1,3 +1,11 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+> **CURRENT UPDATE MODE:** Existing qualified Generation, True Memory and External Connecting are reused; never reinstall them by default. Target only Agent canonical 1.3.5/plugin 1.7.5 and Anti-Hang canonical 1.7.0/plugin 1.2.1 where source-vs-target readback differs; preserve other runtime/credential objects. Anti-Hang is not a new Supervisor or controller. Import/verify Agent continuation consumer and seven-hook runtime exact source files. Stage06 and Stage08 provide the sole `ANTI_HANG_INSTALLATION_GATE.md`. Legacy versions 1.6.0/1.7.3/1.2.0 are provenance only. All old greenfield provisioning instructions below are conditional fallback, not authorization to recreate an installed target.
+
+---
+
+# HISTORICAL FIRST-INSTALL FALLBACK — NOT DEFAULT FOR THIS TRANSFER
+
 # Stage 02 — Core Runtime + External Connecting
 
 ROLE: TARGET BOOTSTRAP EXECUTOR  
