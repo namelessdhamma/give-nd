@@ -1,3 +1,11 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+> **CURRENT UPDATE MODE:** First inspect Ksyusha's already installed True Memory, semantic workspaces and route. Do not re-create healthy CORE or delete/replace existing target notebooks. If NotebookLM is absent but not required for this *scoped* incremental delta, record DEFERRED_OPTIONAL_CAPABILITY and continue independent qualified work; never claim `TASK_MEMORY_GATE`, TEMP_TASK creation, Inquisitor deletion or NotebookLM qualification PASS without actual evidence. If semantic memory is materially required and absent, use an exact Connect/Authorize gate for the target account. The greenfield instructions below are for explicitly authorized new installations only.
+
+---
+
+# HISTORICAL FIRST-INSTALL FALLBACK — NOT DEFAULT FOR THIS TRANSFER
+
 # Stage 03 — Connect NotebookLM + Build Semantic Memory
 
 ROLE: TARGET BOOTSTRAP EXECUTOR WITH INSTALLED EXTERNAL CONNECTING  
