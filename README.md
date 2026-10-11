@@ -24,7 +24,7 @@ Exact source scoped projection: [32 components / 23 launchers](canonical-artifac
 
 The old Registry `1.64.2`, Anti-Hang `1.6.0` and previous closure receipts are **provenance**, not current selectors.
 
-**Qualification status:** Source updates on an isolated working branch are CANDIDATE pending source package consistency and target readbacks. Stage06 and Stage08 in Ksyusha's account remain **NOT_RUN** unless evidenced by target-owned actual receipts. There is no claim of a successful installation yet.
+**Qualification status:** исходный пакет прошёл [автоматическую проверку](https://github.com/namelessdhamma/give-nd/actions/runs/38132059956): **253 проверки, 0 ошибок**, включая все 23 сборки плагинов, контрольные суммы, архитектурные инварианты и сканирование секретов. Источник готов к установке; Stage06 и Stage08 в аккаунте Ксюши — **NOT_RUN** до фактического выполнения. Нельзя считать исходный тест подтверждением установки у Ксюши.
 
 ## Security and authority
 
