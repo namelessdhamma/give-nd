@@ -1,0 +1,135 @@
+{
+  "semantic_id": "ND-RUNTIME-ANTI-HANG-1",
+  "version": "1.7.0",
+  "status": "CANONICAL_ONLY_WHEN_NAM_143_BOUND / SCOPED_ADMISSION_OBSERVATION_AND_STOP_REPAIRS",
+  "role": "CROSS_CUTTING_RUNTIME",
+  "owner": "Hook-level effect/replay safety, execution liveness and global-return gating only.",
+  "source": {
+    "github_merge": "ba39abb117926158f3980468e50e65dc05bcd744",
+    "executable_path": "true-memory/runtime/anti_hang_kernel.py",
+    "qualification": "ND-ANTI-HANG-OWNED-BOUNDARY-20261009",
+    "qualification_manifest_path": "true-memory/qualification/anti-hang-owned-boundary-2026-10-09/candidate-manifest.json",
+    "owned_adapter_path": "true-memory/runtime/owned_call_boundary.py",
+    "private_plugin_mirror": "scripts/runtime_kernel.py exact byte mirror of accepted main kernel; literal kwargs interface and scoped admission/Stop projection qualified",
+    "github_pr": "https://github.com/namelessdhamma/nameless-dhamma-vault/pull/78",
+    "executable_sha256": "2d6315a4e709b616e8fc2129651b8499194374bb638811bdf0a64aaa0a1cd00d",
+    "owned_adapter_sha256": "cdf04d44b3f878062caac507bf30621f5125e804b83c53b0e63b35bc28b10141",
+    "guard_sha256": "074b4fcb94c882cdccbe482e4b258f8e05407485a7533a76d75a7da877b3a4dc",
+    "qualification_manifest_sha256": "46b99e8085b57c3b9768a0d4db9e6929e98933e469fa150779807b2aa369c230"
+  },
+  "plugin": {
+    "id": "plugins_6ac1a94c1a1c8191acc305042d60d639",
+    "version": "1.2.1",
+    "release": "pluginrel_6ac87d38fff481919a2403d7f536e08d",
+    "launcher": "skills://plugins/nd-anti-hang/nd-launch-anti-hang",
+    "scope": "USER",
+    "discoverability": "PRIVATE"
+  },
+  "preferred_interface": "hook(event, **state)",
+  "hook_events": [
+    "TASK_ENTRY",
+    "BEFORE_ACTION",
+    "AFTER_ACTION",
+    "AFTER_MATERIAL_RETURN",
+    "PRESSURE",
+    "BEFORE_USER_RETURN",
+    "USER_STOP"
+  ],
+  "core_inputs": [
+    "EFFECT_STATE",
+    "FRONTIER_SNAPSHOT",
+    "WAKE_STATE",
+    "RETURN_INTENT",
+    "PRESSURE_STATE",
+    "ACTION_SHAPE",
+    "STOP_STATE",
+    "EXECUTION_PROFILE",
+    "EXECUTION_SCOPE"
+  ],
+  "core_primitives": [
+    "replay_gate",
+    "before_action_gate",
+    "effect_transition",
+    "runnable_scan",
+    "reconcile_eligibility",
+    "pressure_policy",
+    "return_gate",
+    "execution_admission",
+    "record_observation"
+  ],
+  "behavioral_invariants": [
+    "EVERY_USER_TASK -> TASK_ENTRY",
+    "EXTERNAL_ACTION -> UNIQUE_ACTION_ID + BEFORE_ACTION + AFTER_ACTION; OPEN_ACTION_ON_STOP -> INTERRUPTED_WITHOUT_FABRICATED_AFTER_ACTION",
+    "MATERIAL_RETURN -> AFTER_MATERIAL_RETURN -> ROOT_REENTRY",
+    "EXPLICIT_OR_DURABLE_STOP_DOMINATES_ALL_VALID_HOOKS_INCLUDING_PRESSURE; RETURN_WITH_COVERAGE_DIAGNOSTICS + NO_NEW_OPERATIONS; EXISTING_OWNER_PRESERVES_NONNULL_STOP_FOR_GENERATION; REMOTE_CANCEL_NOT_ASSUMED; LATE_RESULT_NEVER_REOPENS_STOPPED_GENERATION",
+    "AMBIGUOUS_CONSEQUENTIAL_EFFECT -> RECONCILE_BEFORE_REPLAY",
+    "OPAQUE_COMPOSITE_PREPARE_WRITE_READBACK -> ISOLATE_EFFECT",
+    "MULTIPLE_NONATOMIC_CONSEQUENTIAL_EFFECTS -> ISOLATE_EFFECT",
+    "NONTERMINAL_EFFECT_BLOCKS_ONLY_DEPENDENT_FRONTIER",
+    "STATUS_READ -> CONSUME_ONE_OBSERVATION_BOUND_TO_EFFECT_AND_GENERATION; REUSED_BOOLEAN_OR_TOKEN -> PARK_EFFECT_NO_POLL",
+    "RUNNABLE_SAFE_MATERIAL_WORK -> AUTO_CONTINUE",
+    "MATERIAL_OR_ACTION_RETURN -> ROOT_REENTRY",
+    "PRESSURE_ON_ACTIVE_BRANCH -> NARROW_COMPACT + SAFE_CYCLE_ROTATE + AUTO_CONTINUE; PRESSURE_ON_STOPPED_BRANCH -> RETURN_USER_STOP",
+    "BEFORE_USER_RETURN is the only whole-task return hook",
+    "GLOBAL_WAIT_EXTERNAL_REQUIRES_CURRENT_COMPLETE_SCAN + ZERO_RUNNABLE + ZERO_RECONCILE_DUE + ZERO_SAFE_RECOVERY + NO_AVAILABLE_WAKE",
+    "MISSING_SCAN_EVIDENCE -> AUTO_CONTINUE_REASSESS_FRONTS",
+    "NO_TIME_CALL_CYCLE_PHASE_CONTEXT_THRESHOLD_CREATES_ROUTINE_GO",
+    "PRE_DISPATCH_SCOPE -> HOST_CONTROLLED_LEGACY_CALL_USABLE_WITHOUT_HOST_DEADLINE_CLAIM; ND_OWNED_OR_ACTUALLY_QUALIFIED_BOUNDARY_REQUIRES_ENFORCED_REQUEST_PROFILE; EXPLICIT_OPAQUE_RISK_OR_INVALID_OWNED_EVIDENCE -> RECOVER_EXECUTION_ROUTE_WITHOUT_HOST_FALLBACK",
+    "ND_OWNED_OR_QUALIFIED_DURABLE_ASYNC -> BOUNDED_SUBMIT_ACK_SEPARATE_FROM_JOB_COMPLETION; MISSING_ACK -> OUTCOME_UNKNOWN_NO_BLIND_REPLAY",
+    "VERIFIED_RESULT_READY -> REENTER_ROOT_WITHOUT_WAIT_FOR_NONESSENTIAL_CLEANUP",
+    "PROFILE_EVIDENCE != TIMEOUT_ENFORCEMENT; CANDIDATE_OWNED_ADAPTER_TESTS != CHATGPT_HOST_LIVENESS"
+  ],
+  "global_return_states": [
+    "RETURN_COMPLETED",
+    "RETURN_USER_STOP",
+    "RETURN_TRUE_GATE",
+    "GLOBAL_WAIT_EXTERNAL"
+  ],
+  "non_ownership": [
+    "task decomposition",
+    "frontier value ranking",
+    "domain owner selection",
+    "True Memory lifecycle",
+    "Supervisor/Child/Critic topology",
+    "provider-route strategy",
+    "committed/visible message rendering",
+    "canonical currentness"
+  ],
+  "platform_boundary": "Existing healthy host-controlled ChatGPT calls/read/recovery remain usable without claiming an enforced/qualified host deadline. Owned/actually qualified boundaries require enforced profiles; explicit opaque-risk or invalid owned execution is recovered without host fallback. Owned adapter fault tests qualify only callers importing owned_call_boundary.py; residual detached I/O may continue/commit remotely. Pure Stop verdicts require the existing owner to preserve a nonnull Stop timestamp for the same generation. No platform-level liveness, client interruptibility, fresh outer-turn reset or autonomous wake is claimed.",
+  "qualification": {
+    "historical_predecessor": {
+      "version": "1.6.0",
+      "canonical_artifact_id": "1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB",
+      "canonical_hash": "61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15",
+      "source_merge": "2a5804c1eac045451a634920b5bd048e4ec1e2b8",
+      "status": "NONSELECTABLE_HISTORICAL_EVIDENCE; NOT_NEW_SOURCE_EXECUTION_RESULTS",
+      "results": {
+        "historical_core_regression": "25/25 PASS",
+        "adversarial_non_overblocking": "16/16 PASS",
+        "no_false_global_wait_stress": "20000/20000 PASS",
+        "stop_precedence_stress": "10000/10000 PASS",
+        "return_gate_oracle": "50000/50000 PASS",
+        "a7_exact": "PASS: P1 RUNNING leaves P1 blocked and selects P2",
+        "source_ownership_leak": "0",
+        "plugin_readback": "PASS"
+      }
+    },
+    "current_candidate": {
+      "status": "ACCEPTED_INDEPENDENT_SOURCE_QUALIFICATION_AND_EXACT_PROVIDER_PUBLICATION",
+      "engineering_acceptance_sha256": "a666999e9213ab78357e8fa0655951449815383501bf20478e88fe96cc09c458",
+      "independent_critic_verdict": "NO_MATERIAL_DEFECT",
+      "independent_critic_sha256": "5961db4758b4563b6c1634b3df78a6aec0fcf81861ed54e8446f16fccc74baed",
+      "manifest_sha256": "46b99e8085b57c3b9768a0d4db9e6929e98933e469fa150779807b2aa369c230",
+      "source_merge": "ba39abb117926158f3980468e50e65dc05bcd744",
+      "owned_fault_tests": "18/18 PASS",
+      "independent_rebound_tests": "11/11 PASS",
+      "exact_prior_regression": "PASS",
+      "qualification_receipt_sha256": "ab5ac40cfc09ee35b0381e1430c23d3d76c93db178b99c825eef8f3ea9761a74",
+      "private_plugin_exact_readback": "6/6 files PASS; USER/PRIVATE preserved",
+      "platform_transport": "NOT_WIRED_NOT_QUALIFIED",
+      "scope": "Tests execute the owned adapter and policy fixtures. Healthy HOST_CONTROLLED calls remain usable without a qualified host deadline; no ChatGPT MCP transport/interruptibility/wake/outer-turn guarantee.",
+      "detached_effect_limit": "Detached owned I/O may continue/commit remotely; existing owner must serialize/persist effect and Stop records and reconcile unknown outcome before replay."
+    }
+  },
+  "supersedes": "ND-RUNTIME-ANTI-HANG-1 v1.6.0 / 1I0jXLZOyHP0tVDo4h2J0CXbTZ5Qz76WB / 61c30a99a0ceb67f7989c2a60ea295980b93b094d9d5d0462a920ebc2dae2c15; qualified existing behavior retained except accepted field-defect repairs."
+}
