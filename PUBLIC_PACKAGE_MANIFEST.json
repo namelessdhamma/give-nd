@@ -14,7 +14,7 @@
     "stage_files": 8,
     "anti_hang_installation_gates": 1
   },
-  "total_payload_bytes": 1291132,
+  "total_payload_bytes": 1291411,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash.",
   "files": [
     {
@@ -93,7 +93,7 @@
       "path": "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
       "blob_sha": "6e20e7a3f7ac241bff44b6eba3a819dc35082e6b",
       "size_bytes": 1859,
-      "selection": "SOURCE_TRANSFER_FILE"
+      "selection": "NONSELECTABLE_PROVENANCE"
     },
     {
       "path": "CURRENT_POINTER.txt",
@@ -157,8 +157,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "3cb982de59e386bfca58f1e30f210b3a2e84cb1b",
-      "size_bytes": 2559,
+      "blob_sha": "c98c0ff1cc9d67804c884eac5b7473d437fae033",
+      "size_bytes": 2907,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -175,8 +175,8 @@
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "73a3e42920366b012c3f55c98cf877813e5aeb9a",
-      "size_bytes": 2977,
+      "blob_sha": "3bb11b9a00c27c03c4ad21976eb88e73c7b6310c",
+      "size_bytes": 2908,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
