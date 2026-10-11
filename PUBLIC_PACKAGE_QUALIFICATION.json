@@ -1,10 +1,10 @@
 {
-  "schema": "ND_KSYUSHA_PUBLIC_PACKAGE_QUALIFICATION_v2",
+  "schema": "ND_KSYUSHA_PUBLIC_PACKAGE_QUALIFICATION_v3",
   "date": "2026-10-11",
   "source_authority": "NAM-143 -> bound ND_CAPABILITY_REGISTRY 1.66.0",
   "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
   "scope": "INCREMENTAL_TARGET_UPDATE_ONLY; 32/23 source projection",
-  "overall_verdict": "SOURCE_CANDIDATE_NOT_YET_FULL_PACKAGE_QUALIFIED_TARGET_NOT_RUN",
+  "overall_verdict": "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN",
   "checks": {
     "source_registry_raw_sha256": "PASS_MATCHED_CURRENT_NAM143_AND_DRIVE_BYTES",
     "source_projection": "PASS_SOURCE_DERIVATION_35_TO_32_COMPONENTS_26_TO_23_LAUNCHERS_AUDIO_EXCLUSIONS",
@@ -12,16 +12,19 @@
     "changed_canonical_github_readback": "PASS_5_OF_5_GITHUB_EQUAL_TO_DRIVE",
     "changed_plugin_export_parity": "PASS_4_OF_4_CURRENT_PLUGIN_CREATOR_RELEASES_FILE_CONTENTS_MATCH",
     "unchanged_bundles": "REUSED_PREDECESSOR_SOURCE; FULL_19_OF_19_NEW_READBACK_NOT_RUN",
-    "public_secret_scan": "NOT_RUN_FULL_UPDATED_FILESET",
-    "full_public_manifest_integrity": "PENDING_FINAL_TREE_READBACK_BEFORE_PR",
+    "public_secret_scan": "PASS_COMPLETE_PAYLOAD_99_FILES_ZERO_HIGH_CONFIDENCE_SECRET_OR_EMAIL_FINDINGS_VERIFIER_SELF_EXCLUDED",
+    "full_public_manifest_integrity": "PASS_100_FILES_SELF_EXCLUDED_MANIFEST_GIT_BLOB_AND_BYTE_SIZE_PARITY",
     "source_superset_absence": "PASS_TARGET_SCOPE_LIST_EXCLUDES_AUDIO_ROLES; HISTORICAL_FILES_MAY_REMAIN_NONSELECTABLE_PROVENANCE",
     "anti_hang_stage06_target": "NOT_RUN_TARGET_OWNED_ACCOUNT",
-    "anti_hang_stage08_target": "NOT_RUN_FRESH_TARGET_CHAT",
-    "physical_songwriter_target_chain": "NOT_RUN_TARGET_ACCOUNT",
-    "target_installation_result": "NOT_RUN",
+    "anti_hang_stage08_target": "NOT_RUN_TARGET_OWNED_FRESH_CHAT",
+    "physical_songwriter_target_chain": "NOT_RUN_TARGET_OWNED_ACCOUNT",
+    "target_installation_result": "NOT_RUN_TARGET_OWNED_ACCOUNT",
     "source_prior_receipt_20261004": "HISTORICAL_PROVENANCE_ONLY",
     "changed_diff_secret_scan": "PASS_36_GITHUB_COMPARE_PATCHES_PLUS_1_EXACT_SCOPED_PROJECTION_EXPLICIT_SECRET_PATTERN_SCAN; ZERO_HIGH_CONFIDENCE_MATCHES",
-    "scope_graph_integrity": "PASS_23_OF_23_EXACT_LAUNCHER_URIS; 32_COMPONENTS; 23_UNIQUE_PLUGIN_SOURCES"
+    "scope_graph_integrity": "PASS_23_OF_23_EXACT_LAUNCHER_URIS; 32_COMPONENTS; 23_UNIQUE_PLUGIN_SOURCES",
+    "source_registry_parity": "PASS_FULL_NONAUDIO_SYSTEM_RULES_PRESERVED_35_KEYS_32_COMPONENTS_23_LAUNCHERS",
+    "plugin_source_builder": "PASS_23_OF_23_PROVIDER_REBOUND_BUILDS",
+    "source_ci_verification": "PASS_253_CHECKS_ZERO_FAILURES_20261011"
   },
   "source_evidence": {
     "exact_current_source_plugin_versions": {
@@ -39,14 +42,19 @@
     },
     "checks_tool": "Drive native readback + GitHub fetch_file + Plugin Creator get_plugin_files",
     "honesty_limit": "No target account execution, no Ksyusha authorization, no actual real-world anti-hang cancellation/host wake tests or physical songwriter runtime pass.",
-    "public_change_count": 37
+    "public_change_count": 37,
+    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
+    "qualification_job_id": 114448254947,
+    "qualification_checks": 253,
+    "qualification_failures": 0,
+    "verification_kind": "GitHub Actions runner executed full file/blob parity, high confidence credential/email scan, exact canonical SHA, all 23 plugin target-build smoke tests, graph and scope topology"
   },
   "final_critic": {
-    "verdict": "NOT_RUN_INDEPENDENT_CANDIDATE_REVIEW_REQUIRED",
-    "blockers": [
-      "Full updated package unrestricted secret/file audit if required independently of prior historical receipts",
-      "Physical Ksyusha-owned installation and both Stage06/Stage08 effect gates"
+    "verdict": "SOURCE_MACHINE_QUALIFICATION_PASS_INDEPENDENT_COGNITIVE_CRITIC_NOT_RUN",
+    "remaining_external_gate": [
+      "Ksyusha target account authority, ownership, and target-owned Stage06 Anti-Hang+Writer/Songwriter proofs",
+      "Ksyusha target Stage08 fresh-chat cold qualification"
     ],
-    "predecessor_20261004_verdict": "PASS_HISTORICAL_ONLY_NOT_APPLICABLE_TO_NEW_SOURCE"
+    "source_side_material_findings": 0
   }
 }

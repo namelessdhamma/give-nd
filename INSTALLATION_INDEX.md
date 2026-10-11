@@ -1,5 +1,7 @@
 # ND → Ksyusha — INCREMENTAL UPDATE INDEX
 
+SOURCE: **VERIFIED PASS (253 checks, 0 findings, [GitHub Actions](https://github.com/namelessdhamma/give-nd/actions/runs/38132059956))**. TARGET: **NOT_RUN** until owner-account Stage06 and fresh-chat Stage08.
+
 MODE: **UPDATE_EXISTING_TARGET**, preserve Ksyusha's installed StateHead, verified target provider bindings and already-current components. Never rebuild an existing qualified target component merely because the source file changed.
 SOURCE: NAM-143 → Registry **1.66.0** / SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`.
 SCOPED SOURCE PROJECTION: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json); source-only, NONAUTHORITATIVE pending target rebind.

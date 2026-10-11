@@ -1,6 +1,6 @@
 {
-  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-20261011-CANDIDATE",
-  "status": "SOURCE_SCOPED_PROJECTION_CANDIDATE; TARGET_UPDATE_NOT_RUN",
+  "receipt_id": "ND-KSYUSHA-TRANSFER-SOURCE-20261011-VERIFIED",
+  "status": "SOURCE_VERIFIED_PASS_TARGET_UPDATE_NOT_RUN",
   "authority": "NAM-143 -> bound CURRENT Registry 1.66.0; Ksyusha target authority remains separate",
   "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (audio family excluded from transfer)",
   "registry": {
@@ -8,7 +8,7 @@
     "drive_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
     "sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
     "scope_projection": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
-    "status": "32/23 source-only NONAUTHORITATIVE; target rebind+verification required"
+    "status": "32/23 source-only VERIFIED NONAUTHORITATIVE; target rebind+live Stage06/08 evidence still required"
   },
   "automation_agent": {
     "canonical": "1.3.5",
@@ -40,5 +40,11 @@
     "plugin": "1.2.4",
     "writer_orchestra": "1.0.6",
     "songwriter_child": "0.2.3"
+  },
+  "source_qualification": {
+    "result": "PASS_253_CHECKS_0_FAILURES",
+    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
+    "scope": "SOURCE_ONLY",
+    "target_qualification": "NOT_RUN"
   }
 }

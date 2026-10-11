@@ -1,7 +1,7 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_SELECTABLE_SET_v2",
   "source_authority": "NAM-143 -> CURRENT Registry 1.66.0",
-  "role": "CANDIDATE_SCOPED_TRANSFER_SOURCE_ONLY",
+  "role": "QUALIFIED_SCOPED_TRANSFER_SOURCE_ONLY",
   "current_control": [
     "README.md",
     "START_HERE.md",
@@ -56,5 +56,5 @@
     "CURRENT_TRANSFER_BASELINE.json (pre-2026-10-11 old receipts only)"
   ],
   "resolution_rule": "Only source NAM-143->1.66.0 selects upstream; scoped 32/23 projection is NONAUTHORITATIVE transfer input. Target update must preserve existing Ksyusha-owned StateHead, rebind checked artifacts, pass Stage06 gate, update StateHead last, then cold PASS in new chat. Audio family excludes True Sound/Studio.",
-  "status": "PENDING_SOURCE_PARITY_AND_TARGET_GATES"
+  "status": "SOURCE_VERIFIED_PASS_TARGET_INSTALLATION_NOT_RUN"
 }

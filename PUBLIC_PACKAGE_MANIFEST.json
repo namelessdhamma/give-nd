@@ -1,22 +1,28 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v4",
-  "status": "CANDIDATE_SOURCE_REVIEW_PENDING_TARGET_NOT_RUN",
+  "status": "SOURCE_STATIC_AND_23_BUNDLE_BUILD_VERIFIED_PASS; TARGET_STAGE06_STAGE08_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.0",
   "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
   "target_repo": "namelessdhamma/give-nd",
   "branch": "handoff-anti-hang-songwriter-20261011",
   "policy": "INCREMENTAL_SCOPED_TRANSFER_SOURCE_ONLY; target must qualify itself",
   "counts": {
-    "total_files": 98,
-    "payload_files": 97,
+    "total_files": 100,
+    "payload_files": 99,
     "canonical_files": 41,
     "plugin_bundles": 23,
     "stage_files": 8,
     "anti_hang_installation_gates": 1
   },
-  "total_payload_bytes": 1291411,
+  "total_payload_bytes": 1382574,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash.",
   "files": [
+    {
+      "path": ".github/workflows/qualify-ksyusha.yml",
+      "blob_sha": "0a619dffeefe51cecf78073614ef5160d3477589",
+      "size_bytes": 390,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
     {
       "path": "01_FOUNDATION_DRIVE_LINEAR.md",
       "blob_sha": "23a195f27d1f2e8c3030ae2bc68d841c9a0def37",
@@ -103,8 +109,8 @@
     },
     {
       "path": "CURRENT_TRANSFER_BASELINE.json",
-      "blob_sha": "f4f613ec378ecf5df01ed6864ac3a1099699f0e0",
-      "size_bytes": 2040,
+      "blob_sha": "89582df2633da11a4a1eb8bf12a121829481ea8b",
+      "size_bytes": 2275,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -115,14 +121,14 @@
     },
     {
       "path": "HANDOFF_CURRENT.md",
-      "blob_sha": "6185955f36bf489fc54e9ffe676d7a5f4609ef02",
-      "size_bytes": 4274,
+      "blob_sha": "029bdb279c4877ad89e40d749e37ea691893779d",
+      "size_bytes": 2276,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "INSTALLATION_INDEX.md",
-      "blob_sha": "004515a21ec0f15528f29e141ea17672df36cedb",
-      "size_bytes": 4875,
+      "blob_sha": "e5d7f873468d802bf714dfddb5a990de12807f59",
+      "size_bytes": 5086,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -145,8 +151,8 @@
     },
     {
       "path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
-      "blob_sha": "887a88a44a3d70018abe47e97567dbc8736671a5",
-      "size_bytes": 5994,
+      "blob_sha": "06f5898175ba8dcb59916c42d7c789666f31adee",
+      "size_bytes": 6191,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -157,8 +163,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "c98c0ff1cc9d67804c884eac5b7473d437fae033",
-      "size_bytes": 2907,
+      "blob_sha": "c3e3c2776460a72ed8663536ffe5216db6d13f02",
+      "size_bytes": 3648,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -169,14 +175,14 @@
     },
     {
       "path": "README.md",
-      "blob_sha": "e185789cb38f894e37b094b9faaf8562ba307c7b",
-      "size_bytes": 3412,
+      "blob_sha": "6564a5fa75b93376aac628e8de01bf83f26da15a",
+      "size_bytes": 3805,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "3bb11b9a00c27c03c4ad21976eb88e73c7b6310c",
-      "size_bytes": 2908,
+      "blob_sha": "02f653198a730431340c48d26dbc1a3271017871",
+      "size_bytes": 2918,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -205,8 +211,8 @@
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "b557e60877b70375b29b76116fd9a37ef8bbe629",
-      "size_bytes": 4659,
+      "blob_sha": "48d8767a18c7804c39e8b8a22cb23ca61e5077bf",
+      "size_bytes": 4879,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -223,8 +229,8 @@
     },
     {
       "path": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
-      "blob_sha": "79f896a27b1dfe3b8fadf1c901bd23a8224cc411",
-      "size_bytes": 103627,
+      "blob_sha": "e584de8f3d42c7646f7fa314c30c0378b694e0c2",
+      "size_bytes": 184132,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -598,8 +604,14 @@
       "blob_sha": "3189df8b7021f2116e0114a21e399a8142e393ec",
       "size_bytes": 9934,
       "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
+      "path": "scripts/verify_transfer.py",
+      "blob_sha": "550c7b53109c88c026d18980c62335108014dc1c",
+      "size_bytes": 10259,
+      "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
-  "source_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json (NOT FULL PASS YET)",
+  "source_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json: SOURCE_VERIFIED_PASS_TARGET_NOT_RUN; GitHub Actions 38132059956 253 checks",
   "target_qualification": "NOT_RUN"
 }
