@@ -1,3 +1,11 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+Preserve existing Ksyusha Writer, Literary Critic, Visual and SMM packages if provider-verified. Delta-upgrade only current True Writer 0.9.3/plugin1.2.4 + Writer Orchestra 1.0.6 + new/older Songwriter Child0.2.3. Record target-owned exact package readback, not just names. Do not rebuild otherwise healthy Writer siblings. Before any user-visible literary-output PASS, prove physical True Writer -> Songwriter -> True Writer -> Literary Critic -> True Writer with typed responses. No direct Songwriter root or musical/audio Studio.
+
+Greenfield stages below are HISTORICAL FALLBACK only. Do not run `recreate/install` on already qualified target components.
+
+---
+
 # Stage 05 — Writing + Visual + SMM Stack
 
 ROLE: TARGET BOOTSTRAP EXECUTOR  
