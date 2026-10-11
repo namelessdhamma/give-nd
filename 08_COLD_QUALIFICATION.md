@@ -1,3 +1,10 @@
+# UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
+
+This is a new clean chat **after** the existing Ksyusha StateHead has been updated via Stage07 (not a new installation). Recover its exact target Registry cold and verify it remains her own. Run `ANTI_HANG_INSTALLATION_GATE.md` Stage08 physically and confirm true Writer/Songwriter/Literary Critic typed chain, not just launchers listed. Mark unrun actual effects NOT_RUN; neither source tests nor prior 2026-10-04 cold qualification may be reused as a new PASS. Excluded audio remains absent. Any source/target personal leakage is FAIL, not acceptable fallback.
+
+---
+# Original cold matrix (applied with the override)
+
 # Stage 08 — Fresh-Chat Cold Qualification
 
 @ND Automation Agent
