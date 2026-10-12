@@ -1,7 +1,7 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_VERIFIED_PASS_HUMAN_OUTPUT_1_7_8_TARGET_NOT_RUN",
+  "status": "SOURCE_VERIFIED_PASS_STAGE_U_TARGET_INSTALL_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
@@ -70,18 +70,18 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "SOURCE_STAGE_U_NEW_CI_PENDING; HISTORICAL_SOURCE_399_PASS",
-    "ci_run": "PENDING_STAGE_U_CI",
-    "source_static_and_bundles": 262,
+    "status": "SOURCE_VERIFIED_PASS_454_TESTS",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
+    "source_static_and_bundles": 272,
     "human_output_isolated_clean_build": 137,
-    "checks": 399,
+    "checks": 454,
     "failures": 0,
     "scope": "SOURCE_ONLY",
     "target_stage06": "NOT_RUN",
     "target_stage08": "NOT_RUN",
     "older_run": "HISTORICAL_2026_10_11",
     "previous_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
-    "stage_u_fixture_tests": "PENDING"
+    "stage_u_fixture_tests": 45
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -117,7 +117,7 @@
   },
   "target_qualification": "NOT_RUN_KSYUSHA_STAGE_U_PREPUBLICATION_AND_COLD_AND_FULL_STAGE08",
   "source_handoff_closure": {
-    "status": "SOURCE_TRANSFER_HUMAN_OUTPUT_1_7_8_COMPLETE_20261012",
+    "status": "SOURCE_TRANSFER_STAGE_U_COMPLETE_20261012",
     "source_plugin_bundles": 23,
     "launcher_graph": 23,
     "target_installation": "NOT_RUN",
