@@ -1,3 +1,5 @@
+**ADDITIONAL PRECONDITION (2026-10-12):** Both target Stage06 receipts ANTI_HANG_INSTALLATION_GATE_STAGE06.json AND HUMAN_OUTPUT_INSTALLATION_GATE_STAGE06.json must be PASS. Only the verified target candidate Agent presentation package 1.7.8 may be promoted, with target-owned hashes and unchanged canonical Agent/Anti-Hang contracts. Upstream Registry's prior Agent release is not evidence of target adoption.
+
 # Stage 07 — Publish verified target Registry successor LAST
 
 MODE: UPDATE_EXISTING_TARGET. Ksyusha already has a target authoritative StateHead. This stage MUST update **that exact issue** through a serialized guarded transaction, never create a second StateHead or reset provider ownership.
