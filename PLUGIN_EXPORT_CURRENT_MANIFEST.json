@@ -5,7 +5,7 @@
   "unique_plugin_count": 23,
   "expected_unique_plugin_count": 23,
   "launcher_count": 23,
-  "verdict": "SOURCE_23_BUNDLES_PRESENT_NEW_AGENT_1_7_8_CI_PENDING_TARGET_NOT_RUN",
+  "verdict": "PASS_SOURCE_23_BUNDLES_AGENT_1_7_8_CLEAN_INSTALL_EXECUTED_TARGET_NOT_RUN",
   "missing": [],
   "extra": [],
   "files": [
@@ -154,11 +154,12 @@
   "recovery_skill_plugin_count": 1,
   "recovery_skill_count": 1,
   "source_qualification": {
-    "ci_run": "PENDING_NEW_GITHUB_ACTIONS_RUN",
-    "checks": 253,
+    "status": "PASS_SOURCE_ONLY",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "source_static_and_builds": 262,
+    "human_output_clean_install_executable": 137,
     "failures": 0,
-    "scope": "SOURCE_ONLY",
-    "previous_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
-    "status": "PRIOR_CI_HISTORICAL_NEW_HUMAN_OUTPUT_TEST_NOT_YET_RUN"
+    "scope": "SOURCE_ONLY_TARGET_STAGE06_STAGE08_NOT_RUN",
+    "note": "source Registry1.66.1 still binds Agent plugin1.7.5; new1.7.8 transfer candidate needs target qualification"
   }
 }
