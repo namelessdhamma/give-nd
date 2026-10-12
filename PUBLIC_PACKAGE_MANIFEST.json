@@ -1,6 +1,6 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v5",
-  "status": "SOURCE_HUMAN_OUTPUT_1_7_8_CANDIDATE_PENDING_NEW_ACTIONS_RUN_TARGET_STAGE06_STAGE08_NOT_RUN",
+  "status": "SOURCE_399_CHECKS_PASS_20261012_TARGET_STAGE06_AND_STAGE08_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.1 (Agent bound older 1.7.5; 1.7.8 presentation-only delta)",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "target_repo": "namelessdhamma/give-nd",
@@ -9,13 +9,13 @@
   "counts": {
     "total_files": 103,
     "payload_files": 102,
-    "canonical_files": 41,
+    "canonical_files": 42,
     "plugin_bundles": 23,
     "stage_files": 8,
     "anti_hang_installation_gates": 1,
     "human_output_installation_gates": 1
   },
-  "total_payload_bytes": 1589547,
+  "total_payload_bytes": 1590715,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten.",
   "files": [
     {
@@ -104,8 +104,8 @@
     },
     {
       "path": "CURRENT_POINTER.txt",
-      "blob_sha": "eb10d9f5096323ab954a562121dcf45ec7cf424f",
-      "size_bytes": 1475,
+      "blob_sha": "29e9ee38ddb64c37f1d38aef891db9e92f25b20f",
+      "size_bytes": 1560,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -122,8 +122,8 @@
     },
     {
       "path": "HANDOFF_CURRENT.md",
-      "blob_sha": "b64d133efa9cc46a3f85345cf0f214253e3cbbd2",
-      "size_bytes": 2740,
+      "blob_sha": "5750602bdccaf4423b7e9bcbe209eebec9e69213",
+      "size_bytes": 3097,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -134,8 +134,8 @@
     },
     {
       "path": "INSTALLATION_INDEX.md",
-      "blob_sha": "1d48818a4a19238a38e45ee818702f284f41a04e",
-      "size_bytes": 5602,
+      "blob_sha": "918e7b04cc71d2bda25c74ff7be01225f7f9ee48",
+      "size_bytes": 5959,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -158,8 +158,8 @@
     },
     {
       "path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
-      "blob_sha": "edbb05997dd32c07ebe01ad90403f1903dc65cc9",
-      "size_bytes": 6378,
+      "blob_sha": "759c3680b92f9e7fb168631add10047d60b3d989",
+      "size_bytes": 6511,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -170,8 +170,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "2c80d82cfb33e33392e09e6d3a64ad62c8259380",
-      "size_bytes": 4192,
+      "blob_sha": "996963a4b716b07055d2bf0021556ec7b70473f6",
+      "size_bytes": 4220,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -182,14 +182,14 @@
     },
     {
       "path": "README.md",
-      "blob_sha": "ce32e6cf6615cbf63780ab78ba25e571c3d2ae78",
-      "size_bytes": 4268,
+      "blob_sha": "c201b25c9a61cc6e6751b6b55c04377a277bc3dc",
+      "size_bytes": 4625,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "d849ebad4273f2bd3eb7fd52bb4b44a9e65944d9",
-      "size_bytes": 3352,
+      "blob_sha": "c365941dfc48f2eec5aa352112a5714e04306cea",
+      "size_bytes": 3360,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -218,8 +218,8 @@
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "ac9480632b6306934acf27b775496db460e1acee",
-      "size_bytes": 5515,
+      "blob_sha": "c6e017c5f22db34225502d3d1417eff5743ce251",
+      "size_bytes": 5358,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -631,6 +631,13 @@
       "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
-  "source_qualification": "PUBLIC_PACKAGE_QUALIFICATION.json: SOURCE_VERIFIED_PASS_TARGET_NOT_RUN; GitHub Actions 38132059956 253 checks",
+  "source_qualification": {
+    "status": "PASS",
+    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "integrity_and_plugin_builds": 262,
+    "clean_installed_human_output_checks": 137,
+    "failures": 0,
+    "scope": "SOURCE_ONLY"
+  },
   "target_qualification": "NOT_RUN"
 }
