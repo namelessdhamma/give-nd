@@ -4,7 +4,7 @@ Ksyusha scope: 32 system components / 23 launchers / 23 plugin bundles (22 launc
 Source 1.66.0 has 35 components / 26 launchers. TRUE_SOUND, STUDIO_EXECUTOR and SOUND_CRITIC plus music Studio data are excluded.
 Agent canonical 1.3.5, plugin 1.7.8; Anti-Hang Runtime 1.7.0, plugin 1.2.1; True Writer 0.9.3, plugin 1.2.4; Songwriter Child 0.2.3.
 Installer is INCREMENTAL/IDEMPOTENT. NO reinstall; NO authority cutover until target evidence PASS; Stage 06 & Stage 08 run ANTI_HANG_INSTALLATION_GATE.md.
-Source branch is CANDIDATE_UNTIL_QUALIFIED; target installation/cold qualification NOT_RUN.
+Source transfer CI PASSED 262 source-integrity/builder + 137 Human Output clean-build execution checks (399 total, zero errors). Target installation/cold qualification NOT_RUN.
 ENTRY: START_HERE.md -> INSTALLATION_INDEX.md. Stage 01-07 are internal RESUME/UPDATE subphases; Stage 08 is fresh-chat.
 Registry 1.64.2, agent1.3.2 and Anti-Hang1.6.0 are NONSELECTABLE_PROVENANCE.
 Target CURRENT only via Ksyusha-owned StateHead -> target Registry AFTER verified serial publication.
