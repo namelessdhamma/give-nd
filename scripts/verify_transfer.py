@@ -92,11 +92,14 @@ def run():
     check("scripts/test_stage_u.py" in selectable["current_control"], "Stage U offline regression selected")
     check("scripts/test_human_output_install.py" in selectable["current_control"], "Human Output executable selected")
     check("SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json" in selectable["nonselectable_provenance"], "old receipt nonselectable")
-    check(qual["overall_verdict"] in ("SOURCE_VERIFIED_PASS_TARGET_NOT_RUN","SOURCE_CANDIDATE_PENDING_NEW_RUN_TARGET_NOT_RUN"), "source honestly scoped; target NOT_RUN")
+    check(qual["overall_verdict"] in ("SOURCE_VERIFIED_PASS_TARGET_NOT_RUN","SOURCE_CANDIDATE_PENDING_NEW_RUN_TARGET_NOT_RUN","SOURCE_CANDIDATE_PENDING_STAGE_U_CI_TARGET_NOT_RUN"), "source honestly scoped; target NOT_RUN")
     check(qual["checks"]["anti_hang_stage06_target"].startswith("NOT_RUN"), "stage06 not falsely passed")
     check(qual["checks"]["anti_hang_stage08_target"].startswith("NOT_RUN"), "stage08 not falsely passed")
     check(qual["checks"].get("human_output_stage06_target")=="NOT_RUN", "Human Output Stage06 not falsely passed")
     check(qual["checks"].get("human_output_stage08_target")=="NOT_RUN", "Human Output Stage08 not falsely passed")
+    check(qual["checks"].get("stage_u_target_prepublication")=="NOT_RUN", "Stage U prepublication not falsely passed")
+    check(qual["checks"].get("stage_u_target_publication")=="NOT_RUN", "Stage U target XEN-5 cutover not falsely passed")
+    check(qual["checks"].get("stage_u_target_cold")=="NOT_RUN", "Stage U cold not falsely passed")
     check(qual["source_evidence"]["exact_current_source_plugin_versions"]["nd-automation-agent"]=="1.7.8", "installed 1.7.8 selected")
 
     for f in files:
