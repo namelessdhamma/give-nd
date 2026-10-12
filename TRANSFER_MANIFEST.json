@@ -1,14 +1,14 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_VERIFIED_PASS_TARGET_INSTALLATION_NOT_RUN",
+  "status": "SOURCE_CANDIDATE_HUMAN_OUTPUT_1_7_8_PENDING_NEW_CI_TARGET_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
-    "registry_version": "1.66.0",
-    "registry_drive_id": "17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8",
-    "registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
-    "scope_source_projection": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json"
+    "registry_version": "1.66.1",
+    "registry_drive_id": "1-kPtZ7vltEz09akCULqMVHroTeDqzBj0",
+    "registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
+    "scope_source_projection": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_1.json"
   },
   "scope": {
     "mode": "INCREMENTAL_EXISTING_TARGET_UPDATE",
@@ -28,7 +28,9 @@
       "existing target-owned provider bindings",
       "already qualified target components and projects",
       "TRUE_WRITER -> SONGWRITER -> LITERARY_CRITIC",
-      "ANTI_HANG_INSTALLATION_GATE Stage06 and Stage08"
+      "ANTI_HANG_INSTALLATION_GATE Stage06 and Stage08",
+      "Human Output factual integrity and optional Writer PEER_SERVICE (no topology change)",
+      "HUMAN_OUTPUT_INSTALLATION_GATE Stage06 and Stage08"
     ],
     "rebind_only": [
       "Drive",
@@ -58,16 +60,16 @@
     "component_count": 32,
     "plugin_bundles": 23,
     "anti_hang": "1.7.0 / plugin 1.2.1 / seven hooks / scoped owned-boundary admission",
-    "automation_agent": "canonical 1.3.5 / plugin 1.7.5 / same-request autonomous material-return continuation; no routine Go",
+    "automation_agent": "canonical1.3.5 / exact installed plugin1.7.8 / presentation-only optional Writer peer; source Registry launcher still binds prior1.7.5 pending explicit qualified target adoption",
     "true_writer": "0.9.3 / plugin 1.2.4 / Writer Orchestra 1.0.6",
     "songwriter": "Child0.2.3 / own plugin0.2.3 / True Writer -> Child -> True Writer -> Literary Critic -> True Writer",
     "true_memory": "0.4.2 / TASK_MEMORY_GATE and TEMP_TASK/Inquisitor lifecycle",
     "generation": "15.2 / SUPPORT"
   },
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
-  "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification.",
+  "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "SOURCE_VERIFIED_PASS",
+    "status": "NEW_SOURCE_CI_PENDING_OLD_RUN_HISTORICAL",
     "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
     "checks": 253,
     "failures": 0,
@@ -75,7 +77,9 @@
     "predecessor_20261004": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json (HISTORICAL/NONSELECTABLE)",
     "current_gate": "ANTI_HANG_INSTALLATION_GATE.md",
     "target_stage06": "NOT_RUN",
-    "target_stage08": "NOT_RUN"
+    "target_stage08": "NOT_RUN",
+    "new_ci": "PENDING",
+    "human_output_clean_install": "PENDING"
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -96,14 +100,16 @@
     "plugin_functional_source": "plugin-export-current/*.json",
     "selectable_set": "SELECTABLE_SET_CURRENT.json",
     "qualification": "QUALIFICATION.md",
-    "start_here": "START_HERE.md"
+    "start_here": "START_HERE.md",
+    "human_output_gate": "HUMAN_OUTPUT_INSTALLATION_GATE.md",
+    "human_output_test": "scripts/test_human_output_install.py"
   },
   "target_boundary": {
     "verdict": "TRUE_GATE_TARGET_OWNERSHIP",
     "reason": "Only Ksyusha-owned target account may authorize or receive consequences of target mutations; Savva source providers are not target.",
-    "next_action": "Reconcile existing Ksyusha CURRENT; apply exact delta via START_HERE.md in her account; do not reinstall."
+    "next_action": "Reconcile existing Ksyusha CURRENT; apply exact delta via START_HERE.md in her account; do not reinstall. Human Output Stage06/08 target gates obligatory."
   },
-  "target_qualification": "NOT_RUN",
+  "target_qualification": "NOT_RUN_HUMAN_OUTPUT_AND_ANTI_HANG_STAGE06_STAGE08",
   "source_handoff_closure": {
     "status": "SOURCE_TRANSFER_COMPLETE_20261011",
     "source_plugin_bundles": 23,
