@@ -64,13 +64,14 @@
     "true_writer": "0.9.3 / plugin 1.2.4 / Writer Orchestra 1.0.6",
     "songwriter": "Child0.2.3 / own plugin0.2.3 / True Writer -> Child -> True Writer -> Literary Critic -> True Writer",
     "true_memory": "0.4.2 / TASK_MEMORY_GATE and TEMP_TASK/Inquisitor lifecycle",
-    "generation": "15.2 / SUPPORT"
+    "generation": "15.2 / SUPPORT",
+    "stage_u_scope": "One cumulative 2026-10-12 targeted update: Anti-Hang, Agent Human Output, True Writer/Songwriter, then guarded XEN-5 publication and separate delta cold; no rebuild of existing qualified components"
   },
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "SOURCE_VERIFIED_PASS",
-    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "status": "SOURCE_STAGE_U_NEW_CI_PENDING; HISTORICAL_SOURCE_399_PASS",
+    "ci_run": "PENDING_STAGE_U_CI",
     "source_static_and_bundles": 262,
     "human_output_isolated_clean_build": 137,
     "checks": 399,
@@ -78,7 +79,9 @@
     "scope": "SOURCE_ONLY",
     "target_stage06": "NOT_RUN",
     "target_stage08": "NOT_RUN",
-    "older_run": "HISTORICAL_2026_10_11"
+    "older_run": "HISTORICAL_2026_10_11",
+    "previous_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "stage_u_fixture_tests": "PENDING"
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -101,14 +104,18 @@
     "qualification": "QUALIFICATION.md",
     "start_here": "START_HERE.md",
     "human_output_gate": "HUMAN_OUTPUT_INSTALLATION_GATE.md",
-    "human_output_test": "scripts/test_human_output_install.py"
+    "human_output_test": "scripts/test_human_output_install.py",
+    "partial_target_upgrade": "UPDATE_IN_PROGRESS.md",
+    "stage_u_planner": "scripts/plan_stage_u.py",
+    "stage_u_regression": "scripts/test_stage_u.py"
   },
   "target_boundary": {
     "verdict": "TRUE_GATE_TARGET_OWNERSHIP",
     "reason": "Only Ksyusha-owned target account may authorize or receive consequences of target mutations; Savva source providers are not target.",
-    "next_action": "Reconcile existing Ksyusha CURRENT; apply exact delta via START_HERE.md in her account; do not reinstall. Human Output Stage06/08 target gates obligatory."
+    "next_action": "Ksyusha Stage U install+qualify existing partial target; not repeat Stage08 against old XEN-5. Then full Stage08 from new target CURRENT.",
+    "reported_existing_target": "USER_REPORTED_XEN-5_REGISTRY_1_64_2_31_COMPONENTS_22_LAUNCHERS_SONGWRITER_MISSING_STAGE08_BLOCKED__NOT_INDEPENDENTLY_READ_BACK"
   },
-  "target_qualification": "NOT_RUN_HUMAN_OUTPUT_AND_ANTI_HANG_STAGE06_STAGE08",
+  "target_qualification": "NOT_RUN_KSYUSHA_STAGE_U_PREPUBLICATION_AND_COLD_AND_FULL_STAGE08",
   "source_handoff_closure": {
     "status": "SOURCE_TRANSFER_HUMAN_OUTPUT_1_7_8_COMPLETE_20261012",
     "source_plugin_bundles": 23,
