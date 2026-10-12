@@ -4,7 +4,7 @@
   "source_authority": "NAM-143 -> Registry 1.66.1; Agent source Registry launcher1.7.5 vs installed plugin1.7.8 presentation-only delta",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "scope": "INCREMENTAL_TARGET_UPDATE_ONLY; 32/23 source projection",
-  "overall_verdict": "SOURCE_CANDIDATE_PENDING_STAGE_U_CI_TARGET_NOT_RUN",
+  "overall_verdict": "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN",
   "checks": {
     "source_registry_raw_sha256": "PASS_CURRENT_1_66_1_DRIVE_BYTES_AND_STATEHEAD",
     "source_projection": "PASS_CURRENT_1_66_1_AUDIO_EXCLUDED_35_26_TO_32_23",
@@ -28,12 +28,13 @@
     "human_output_stage06_target": "NOT_RUN",
     "human_output_stage08_target": "NOT_RUN",
     "human_output_source_executable": "PASS_137_EXECUTED_CLEAN_BUILD_AND_ACTUAL_PLUGIN_SCRIPT",
-    "stage_u_readonly_recovery_plan": "PENDING_NEW_CI",
-    "stage_u_31_to_32_fixture": "PENDING_NEW_CI",
+    "stage_u_readonly_recovery_plan": "PASS_45_OFFLINE_STAGE_U_FIXTURE_SUITE_INCLUDING_PLANNER_AND_NEGATIVE_GUARDS",
+    "stage_u_31_to_32_fixture": "PASS_31_COMPONENT_22_LAUNCHER_TO_32_23_SONGWRITER_DETECT",
     "stage_u_target_prepublication": "NOT_RUN",
     "stage_u_target_publication": "NOT_RUN",
     "stage_u_target_cold": "NOT_RUN",
-    "stage_u_full_stage08": "NOT_RUN"
+    "stage_u_full_stage08": "NOT_RUN",
+    "stage_u_ci": "PASS_272_SOURCE_137_HUMAN_OUTPUT_45_STAGE_U_ZERO_ERRORS"
   },
   "source_evidence": {
     "exact_current_source_plugin_versions": {
@@ -52,19 +53,21 @@
     "checks_tool": "Drive native readback + GitHub fetch_file + Plugin Creator get_plugin_files",
     "honesty_limit": "No target account execution, no Ksyusha authorization, no actual real-world anti-hang cancellation/host wake tests or physical songwriter runtime pass.",
     "public_change_count": "SEE_SOURCE_PR_3",
-    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
-    "qualification_job_id": 114741929625,
-    "qualification_checks": 399,
+    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
+    "qualification_job_id": 114749160200,
+    "qualification_checks": 454,
     "qualification_failures": 0,
     "verification_kind": "GITHUB_ACTIONS_262_STATIC_BUNDLE_BUILDS_AND_137_ACTUAL_CLEAN_INSTALLED_HUMAN_OUTPUT_EXECUTIONS",
     "source_registry_agent_launcher_qualified_plugin_version": "1.7.5",
     "message_policy_path": "skills/nd-launch-automation-agent/references/MESSAGE_POLICY.md",
     "new_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
     "historical_human_output_399_ci": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
-    "stage_u_ci_run": "PENDING_NEW_CI"
+    "stage_u_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
+    "stage_u_ci_checks": 454,
+    "stage_u_ci_failures": 0
   },
   "final_critic": {
-    "verdict": "SOURCE_MACHINE_QUALIFICATION_PASS_INDEPENDENT_COGNITIVE_CRITIC_NOT_RUN",
+    "verdict": "SOURCE_MACHINE_QUALIFICATION_PASS_INDEPENDENT_TARGET_COLD_AND_COGNITIVE_CRITIC_NOT_RUN",
     "remaining_external_gate": [
       "Ksyusha target account authority, ownership, and target-owned Stage06 Anti-Hang+Writer/Songwriter proofs",
       "Ksyusha target Stage08 fresh-chat cold qualification",
