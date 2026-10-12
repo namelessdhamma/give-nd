@@ -1,3 +1,5 @@
+**ADDITIONAL clean-chat Stage08 Human Output gate:** Execute HUMAN_OUTPUT_INSTALLATION_GATE.md independently after re-reading the Ksyusha-owned target StateHead, installed Agent MESSAGE_POLICY.md and message_policy.py. Verify short factual output without Writer, optional complex synthesis with substantive owner truth check and only justified editorial PEER_SERVICE, and honest blocker/uncertainty output. Record HUMAN_OUTPUT_INSTALLATION_GATE_STAGE08.json. Anti-Hang and Songwriter physical tests remain separately mandatory.
+
 # UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
 
 This is a new clean chat **after** the existing Ksyusha StateHead has been updated via Stage07 (not a new installation). Recover its exact target Registry cold and verify it remains her own. Run `ANTI_HANG_INSTALLATION_GATE.md` Stage08 physically and confirm true Writer/Songwriter/Literary Critic typed chain, not just launchers listed. Mark unrun actual effects NOT_RUN; neither source tests nor prior 2026-10-04 cold qualification may be reused as a new PASS. Excluded audio remains absent. Any source/target personal leakage is FAIL, not acceptable fallback.
