@@ -1,3 +1,9 @@
+## Если установка Ксюши уже начата и Stage08 = BLOCKED
+
+**Используй единый [Stage U — Update In Progress](UPDATE_IN_PROGRESS.md)**, а НЕ заново Stage01–07 и НЕ повторяй Stage08 на старом Registry. Последний предоставленный отчёт: XEN-5 → target Registry1.64.2 (31 компонент/22 launcher), отсутствует Songwriter; эти значения должны быть проверены ещё раз напрямую в целевом аккаунте. Stage U объединяет Anti-Hang, Songwriter и Human Output в одно обновление с отдельной квалификацией. После Stage U publication и нового cold test возобнови полный Stage08. Точное сообщение для Ксюши — в `UPDATE_IN_PROGRESS.md`.
+
+--- 
+
 **HUMAN OUTPUT update (2026-10-12):** Target install must select the exported exact Agent plugin 1.7.8 and execute [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md) Stage06 and Stage08. The upstream source Registry still binds an older Agent launcher release; reconcile this explicit presentation-only delta in target-owned candidate Registry after exact package readback. No mandatory Writer call and no loss of uncertainty.
 
 # Nameless Dhamma — Ксюша: обновление существующей установки

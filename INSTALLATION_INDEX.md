@@ -1,3 +1,7 @@
+## EXISTING PARTIAL INSTALL — USE STAGE U FIRST
+
+Если у Ксюши уже существует XEN-5 с Registry1.64.2 (31/22) и Stage08 BLOCKED без Songwriter, **не запускай повторный первоначальный Stage01–07 или Stage08 без обновления**. Следуй самостоятельному [UPDATE_IN_PROGRESS.md](UPDATE_IN_PROGRESS.md): Stage U1–U5 — одна возобновляемая дельта-операция плюс целевая квалификация с отдельными квитанциями. Это НЕ девятый этап первоначальной установки. После фактической целевой публикации и холодного теста обновления вернись к полному Stage08 и его нерешённым тестам.
+
 **Human Output source qualification PASS (2026-10-12):** [GitHub Actions](https://github.com/namelessdhamma/give-nd/actions/runs/38228524520) — 262 integrity/builder checks + 137 clean-install executable Human Output checks; **0 failures**. Previous 253-check link elsewhere in this document is historical. Ksyusha target Stage06/Stage08 remain NOT_RUN.
 
 **2026-10-12 UPDATE:** New Human Output gate [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md) is mandatory in existing Stage06 and fresh Stage08 alongside, not instead of, Anti-Hang. Transfer the exact installed Agent plugin 1.7.8 package and script; upstream Registry 1.66.1 is the source authority and retains an older 1.7.5 launcher binding. Ksyusha's target candidate must explicitly adopt the reconciled 1.7.8 delta after readback; never downgrade a target-owned newer qualified package.

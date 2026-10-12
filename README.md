@@ -1,3 +1,7 @@
+## Ксюша уже начала установку? Основной маршрут — Stage U
+
+Отдельный единый **[Stage U: UPDATE_IN_PROGRESS.md](UPDATE_IN_PROGRESS.md)** обновляет уже существующую ND, даже если её полный Stage08 пока BLOCKED. Он объединяет Anti-Hang1.7.0, Automation Agent1.3.5/plugin1.7.8 (Human Output), True Writer0.9.3/Writer Orchestra1.0.6 и Songwriter0.2.3. Сохраняет XEN-5 и все проверенные прежние объекты, использует Stage U prepublication gate и защищённо публикует дельту только после PASS. Затем отдельно выполняется Stage U cold и оставшаяся Stage08. **Источник в GitHub готовит пакет, но не подтверждает установку в аккаунте Ксюши.**
+
 **Human Output source qualification PASS (2026-10-12):** [GitHub Actions](https://github.com/namelessdhamma/give-nd/actions/runs/38228524520) — 262 integrity/builder checks + 137 clean-install executable Human Output checks; **0 failures**. Previous 253-check link elsewhere in this document is historical. Ksyusha target Stage06/Stage08 remain NOT_RUN.
 
 **2026-10-12 NEW HUMAN OUTPUT GATE:** Exact Automation Agent plugin1.7.8 source bundle; concise factual Human Output, SILENT_CONTINUE and optional editorial True Writer PEER_SERVICE. See [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md). This is an additional Stage06/Stage08 target gate, not a new stage or changed Anti-Hang. Source Registry1.66.1 retains old Agent launcher1.7.5 until separately adopted; target checks cannot be bypassed.
