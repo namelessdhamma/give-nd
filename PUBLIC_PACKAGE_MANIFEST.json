@@ -1,6 +1,6 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v6",
-  "status": "STAGE_U_SOURCE_CANDIDATE_PENDING_NEW_CI__TARGET_INSTALL_NOT_RUN",
+  "status": "SOURCE_STAGE_U_454_TESTS_PASS_20261012_TARGET_XEN5_INSTALL_AND_COLD_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.1 (Agent bound older 1.7.5; 1.7.8 presentation-only delta)",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "target_repo": "namelessdhamma/give-nd",
@@ -16,7 +16,7 @@
     "human_output_installation_gates": 1,
     "standalone_update_stage_u": 1
   },
-  "total_payload_bytes": 1625422,
+  "total_payload_bytes": 1625727,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten. For an already partially installed XEN-5, use UPDATE_IN_PROGRESS.md Stage U rather than rerunning blocked full Stage08. Source CI is only preflight.",
   "files": [
     {
@@ -171,8 +171,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "b79c0dba57d07337160f00f9f44952802acce4e1",
-      "size_bytes": 4835,
+      "blob_sha": "81d605c1273f481286284c396e9d16fa49762697",
+      "size_bytes": 5128,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -189,8 +189,8 @@
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "b790b0d85e50873e46ddf7414f7c5c219b25274e",
-      "size_bytes": 3654,
+      "blob_sha": "25a7bd2de5916f73b009ab148e655f8eaa28b082",
+      "size_bytes": 3666,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "4818841590a6f6e9769ac5276ac82d8732c8492a",
+      "blob_sha": "6da6f22e2be9fcba1582140da064b6e41ed759c0",
       "size_bytes": 6019,
       "selection": "SOURCE_TRANSFER_FILE"
     },
@@ -651,9 +651,14 @@
     }
   ],
   "source_qualification": {
-    "status": "PENDING_STAGE_U_NEW_CI",
-    "prior_source_ci": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
-    "scope": "SOURCE_ONLY_NO_TARGET_ACCESS"
+    "status": "PASS",
+    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
+    "source_static_and_23_plugin_builds": 272,
+    "human_output_clean_install_executable": 137,
+    "stage_u_offline_fixture": 45,
+    "checks": 454,
+    "failures": 0,
+    "scope": "SOURCE_ONLY; TARGET XEN-5 INSTALL/QUALIFICATION NOT_RUN"
   },
   "target_qualification": "NOT_RUN"
 }
