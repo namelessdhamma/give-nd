@@ -1,26 +1,27 @@
 {
-  "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v4",
-  "status": "SOURCE_STATIC_AND_23_BUNDLE_BUILD_VERIFIED_PASS; TARGET_STAGE06_STAGE08_NOT_RUN",
-  "source_registry_authority": "NAM-143 -> Registry 1.66.0",
-  "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+  "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v5",
+  "status": "SOURCE_HUMAN_OUTPUT_1_7_8_CANDIDATE_PENDING_NEW_ACTIONS_RUN_TARGET_STAGE06_STAGE08_NOT_RUN",
+  "source_registry_authority": "NAM-143 -> Registry 1.66.1 (Agent bound older 1.7.5; 1.7.8 presentation-only delta)",
+  "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "target_repo": "namelessdhamma/give-nd",
-  "branch": "handoff-anti-hang-songwriter-20261011",
+  "branch": "main",
   "policy": "INCREMENTAL_SCOPED_TRANSFER_SOURCE_ONLY; target must qualify itself",
   "counts": {
-    "total_files": 100,
-    "payload_files": 99,
+    "total_files": 103,
+    "payload_files": 102,
     "canonical_files": 41,
     "plugin_bundles": 23,
     "stage_files": 8,
-    "anti_hang_installation_gates": 1
+    "anti_hang_installation_gates": 1,
+    "human_output_installation_gates": 1
   },
-  "total_payload_bytes": 1382574,
-  "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash.",
+  "total_payload_bytes": 1589547,
+  "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten.",
   "files": [
     {
       "path": ".github/workflows/qualify-ksyusha.yml",
-      "blob_sha": "0a619dffeefe51cecf78073614ef5160d3477589",
-      "size_bytes": 390,
+      "blob_sha": "9d77833f2606c088a2a0719cc949ae33d445355d",
+      "size_bytes": 535,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -31,8 +32,8 @@
     },
     {
       "path": "02_CORE_RUNTIME_EXTERNAL_CONNECTING.md",
-      "blob_sha": "3ec3c14603075b54cb7e90821fad5bf7607d4f6f",
-      "size_bytes": 5344,
+      "blob_sha": "d2323787811803c9947290ad00c9ba479c4775d8",
+      "size_bytes": 5704,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -55,20 +56,20 @@
     },
     {
       "path": "06_REGISTRY_PREPUBLICATION.md",
-      "blob_sha": "f5ffdf9ad6d99024a16c7dc0ffcadf8698294886",
-      "size_bytes": 5338,
+      "blob_sha": "61be53874b1a6ce1dce28022b0409df695a264f1",
+      "size_bytes": 5866,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "07_STATEHEAD_PUBLICATION.md",
-      "blob_sha": "4c4e9ad0dc830e84871b4195c5b1d2f6f139d303",
-      "size_bytes": 2685,
+      "blob_sha": "bb35015ec3fe3c8ddfc679fba82e2740afff2174",
+      "size_bytes": 3097,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "08_COLD_QUALIFICATION.md",
-      "blob_sha": "47cc4024f0ed5cb649cdfb5da672faa6133348f9",
-      "size_bytes": 3959,
+      "blob_sha": "0e2ca62e1f3a4674008c5024e880b7c46a31fcb7",
+      "size_bytes": 4488,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -103,8 +104,8 @@
     },
     {
       "path": "CURRENT_POINTER.txt",
-      "blob_sha": "54dc1a094284ffe430d99e8b36b7e45d8c218ec6",
-      "size_bytes": 1198,
+      "blob_sha": "eb10d9f5096323ab954a562121dcf45ec7cf424f",
+      "size_bytes": 1475,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -121,14 +122,20 @@
     },
     {
       "path": "HANDOFF_CURRENT.md",
-      "blob_sha": "029bdb279c4877ad89e40d749e37ea691893779d",
-      "size_bytes": 2276,
+      "blob_sha": "b64d133efa9cc46a3f85345cf0f214253e3cbbd2",
+      "size_bytes": 2740,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
+      "path": "HUMAN_OUTPUT_INSTALLATION_GATE.md",
+      "blob_sha": "ebb6190b9af23473031a5d9f0d9983ddd07b6b24",
+      "size_bytes": 5976,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "INSTALLATION_INDEX.md",
-      "blob_sha": "e5d7f873468d802bf714dfddb5a990de12807f59",
-      "size_bytes": 5086,
+      "blob_sha": "1d48818a4a19238a38e45ee818702f284f41a04e",
+      "size_bytes": 5602,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -145,14 +152,14 @@
     },
     {
       "path": "PLUGIN_CURRENT_DELTA_INDEX.txt",
-      "blob_sha": "bd626d6b5ddf4b2aebc53783430f9151052bbfaa",
-      "size_bytes": 3776,
+      "blob_sha": "144c38d01e75849bf5b2c15b343bf156cd8ddbdb",
+      "size_bytes": 3991,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "PLUGIN_EXPORT_CURRENT_MANIFEST.json",
-      "blob_sha": "06f5898175ba8dcb59916c42d7c789666f31adee",
-      "size_bytes": 6191,
+      "blob_sha": "edbb05997dd32c07ebe01ad90403f1903dc65cc9",
+      "size_bytes": 6378,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -163,26 +170,26 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "c3e3c2776460a72ed8663536ffe5216db6d13f02",
-      "size_bytes": 3648,
+      "blob_sha": "2c80d82cfb33e33392e09e6d3a64ad62c8259380",
+      "size_bytes": 4192,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "QUALIFICATION.md",
-      "blob_sha": "566bc425db507b6dda5dcae3cd8786f866108262",
-      "size_bytes": 10020,
+      "blob_sha": "78907ba52a56a0f986f32a62de1836e2c4add1c6",
+      "size_bytes": 10552,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "README.md",
-      "blob_sha": "6564a5fa75b93376aac628e8de01bf83f26da15a",
-      "size_bytes": 3805,
+      "blob_sha": "ce32e6cf6615cbf63780ab78ba25e571c3d2ae78",
+      "size_bytes": 4268,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "02f653198a730431340c48d26dbc1a3271017871",
-      "size_bytes": 2918,
+      "blob_sha": "d849ebad4273f2bd3eb7fd52bb4b44a9e65944d9",
+      "size_bytes": 3352,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -205,14 +212,14 @@
     },
     {
       "path": "START_HERE.md",
-      "blob_sha": "e61470e34161d26fe500cb0224593d8baf0a160b",
-      "size_bytes": 6248,
+      "blob_sha": "8e9555b58289bcebab487b83c47249862ac077c8",
+      "size_bytes": 6696,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "48d8767a18c7804c39e8b8a22cb23ca61e5077bf",
-      "size_bytes": 4879,
+      "blob_sha": "ac9480632b6306934acf27b775496db460e1acee",
+      "size_bytes": 5515,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -231,6 +238,12 @@
       "path": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
       "blob_sha": "e584de8f3d42c7646f7fa314c30c0378b694e0c2",
       "size_bytes": 184132,
+      "selection": "NONSELECTABLE_PROVENANCE"
+    },
+    {
+      "path": "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_1.json",
+      "blob_sha": "128c29a3568a9dc4d09263e8ef91e1a573a386f2",
+      "size_bytes": 184283,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -475,8 +488,8 @@
     },
     {
       "path": "plugin-export-current/nd-automation-agent.json",
-      "blob_sha": "189760b7fd24e5e830e884cd1b4fad85e03f0ac3",
-      "size_bytes": 42740,
+      "blob_sha": "696a14441fd7a469b10b2971e5fc882ae72a6069",
+      "size_bytes": 44366,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -606,9 +619,15 @@
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
+      "path": "scripts/test_human_output_install.py",
+      "blob_sha": "1a5b46aa44d61b6943bc71537bd63577e5cf45f7",
+      "size_bytes": 7645,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
       "path": "scripts/verify_transfer.py",
-      "blob_sha": "550c7b53109c88c026d18980c62335108014dc1c",
-      "size_bytes": 10259,
+      "blob_sha": "bf8b92e532763335f1cf8f19f7d94c70a402e3c3",
+      "size_bytes": 11012,
       "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
