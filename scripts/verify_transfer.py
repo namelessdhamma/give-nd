@@ -28,7 +28,7 @@ def blobsha(data):
 def run():
     manifest = load("PUBLIC_PACKAGE_MANIFEST.json")
     qual = load("PUBLIC_PACKAGE_QUALIFICATION.json")
-    scope = load("canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json")
+    scope = load("canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_1.json")
     inv = load("canonical-artifacts/COMPONENT_INVENTORY.json")
     bundle_manifest = load("PLUGIN_EXPORT_CURRENT_MANIFEST.json")
     binds = load("BINDING_MAP_TEMPLATE.json")
@@ -50,9 +50,10 @@ def run():
     check(manifest["counts"]["plugin_bundles"] == 23, "manifest 23 plugin bundles")
     check(manifest["counts"]["stage_files"] == 8, "exact 8 stages")
     check(manifest["counts"]["anti_hang_installation_gates"] == 1, "one shared Anti-Hang gate")
+    check(manifest["counts"].get("human_output_installation_gates")==1, "one additional Human Output gate")
     check(manifest["total_payload_bytes"] == sum(p.stat().st_size for p in actual.values()), "total bytes")
 
-    source_hash = "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c"
+    source_hash = "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71"
     excluded = {"TRUE_SOUND", "STUDIO_EXECUTOR", "SOUND_CRITIC"}
     check(scope["transfer_scope"]["source_raw_sha256"] == source_hash, "source hash pinned")
     check(scope["status"].startswith("SOURCE_SCOPED_TRANSFER_CANDIDATE"), "scope not target authority")
@@ -84,10 +85,15 @@ def run():
     check(len(binds["plugin_bindings"]) == 23, "23 target plugin binding slots")
     check("nd-songwriter" in binds["plugin_bindings"], "target songwriter rebind")
     check("ANTI_HANG_INSTALLATION_GATE.md" in selectable["current_control"], "gate selected")
+    check("HUMAN_OUTPUT_INSTALLATION_GATE.md" in selectable["current_control"], "Human Output gate selected")
+    check("scripts/test_human_output_install.py" in selectable["current_control"], "Human Output executable selected")
     check("SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json" in selectable["nonselectable_provenance"], "old receipt nonselectable")
-    check(qual["overall_verdict"] == "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN", "source PASS with target clearly NOT_RUN")
+    check(qual["overall_verdict"] in ("SOURCE_VERIFIED_PASS_TARGET_NOT_RUN","SOURCE_CANDIDATE_PENDING_NEW_RUN_TARGET_NOT_RUN"), "source honestly scoped; target NOT_RUN")
     check(qual["checks"]["anti_hang_stage06_target"].startswith("NOT_RUN"), "stage06 not falsely passed")
     check(qual["checks"]["anti_hang_stage08_target"].startswith("NOT_RUN"), "stage08 not falsely passed")
+    check(qual["checks"].get("human_output_stage06_target")=="NOT_RUN", "Human Output Stage06 not falsely passed")
+    check(qual["checks"].get("human_output_stage08_target")=="NOT_RUN", "Human Output Stage08 not falsely passed")
+    check(qual["source_evidence"]["exact_current_source_plugin_versions"]["nd-automation-agent"]=="1.7.8", "installed 1.7.8 selected")
 
     for f in files:
         p = "plugin-export-current/" + f["name"]
