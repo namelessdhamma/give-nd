@@ -1,7 +1,7 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_CANDIDATE_HUMAN_OUTPUT_1_7_8_PENDING_NEW_CI_TARGET_NOT_RUN",
+  "status": "SOURCE_VERIFIED_PASS_HUMAN_OUTPUT_1_7_8_TARGET_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
@@ -69,17 +69,16 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "NEW_SOURCE_CI_PENDING_OLD_RUN_HISTORICAL",
-    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
-    "checks": 253,
+    "status": "SOURCE_VERIFIED_PASS",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "source_static_and_bundles": 262,
+    "human_output_isolated_clean_build": 137,
+    "checks": 399,
     "failures": 0,
-    "scope": "SOURCE_STATIC_AND_23_TARGET_STYLE_PLUGIN_BUILDS_ONLY",
-    "predecessor_20261004": "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json (HISTORICAL/NONSELECTABLE)",
-    "current_gate": "ANTI_HANG_INSTALLATION_GATE.md",
+    "scope": "SOURCE_ONLY",
     "target_stage06": "NOT_RUN",
     "target_stage08": "NOT_RUN",
-    "new_ci": "PENDING",
-    "human_output_clean_install": "PENDING"
+    "older_run": "HISTORICAL_2026_10_11"
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -111,7 +110,7 @@
   },
   "target_qualification": "NOT_RUN_HUMAN_OUTPUT_AND_ANTI_HANG_STAGE06_STAGE08",
   "source_handoff_closure": {
-    "status": "SOURCE_TRANSFER_COMPLETE_20261011",
+    "status": "SOURCE_TRANSFER_HUMAN_OUTPUT_1_7_8_COMPLETE_20261012",
     "source_plugin_bundles": 23,
     "launcher_graph": 23,
     "target_installation": "NOT_RUN",
