@@ -1,8 +1,10 @@
+**2026-10-12 NEW HUMAN OUTPUT GATE:** Exact Automation Agent plugin1.7.8 source bundle; concise factual Human Output, SILENT_CONTINUE and optional editorial True Writer PEER_SERVICE. See [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md). This is an additional Stage06/Stage08 target gate, not a new stage or changed Anti-Hang. Source Registry1.66.1 retains old Agent launcher1.7.5 until separately adopted; target checks cannot be bypassed.
+
 # Nameless Dhamma → Ксюша — инкрементальное обновление
 
 **Назначение:** обновить уже установленную у Ксюши ND, сохраняя имеющиеся проверенные компоненты, проекты, целевые доступы и StateHead. **Это не переустановка.**
 
-Источник: [NAM-143](https://linear.app/namelessdhamma/issue/NAM-143) → Current Registry `1.66.0`; точная доказательная SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`. Публичный репозиторий — только source/transfer, не authority.
+Источник: [NAM-143](https://linear.app/namelessdhamma/issue/NAM-143) → Current Registry `1.66.0`; точная доказательная SHA-256 `1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71`. Публичный репозиторий — только source/transfer, не authority.
 
 ## Начать
 
@@ -16,7 +18,7 @@
 - Songwriter `0.2.3`, under True Writer; lyrics require a physical Child → parent → Literary Critic → parent return.
 - **No** musical Studio, True Sound, Studio Executor, Sound Critic, personal memory, source credentials, source active projects.
 
-Exact source scoped projection: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json), whose target-owned bindings require verification before becoming active. [Plugin bundles](plugin-export-current/) contain **23 unique** sources (22 launcher-backing plugins and one External Connecting recovery skill).
+Exact source scoped projection: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_1.json), whose target-owned bindings require verification before becoming active. [Plugin bundles](plugin-export-current/) contain **23 unique** sources (22 launcher-backing plugins and one External Connecting recovery skill).
 
 ## Stages and gates
 
