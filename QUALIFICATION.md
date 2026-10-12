@@ -1,3 +1,5 @@
+**Partial existing Ksyusha target:** For XEN-5 Registry1.64.2 without Songwriter, perform [Stage U](UPDATE_IN_PROGRESS.md) prepublication and protected publication first. Existing Stage08 BLOCKED receipts are accurate and must not be overwritten. Stage U delta tests are separate from remaining full Stage08; pass only each actually observed target case.
+
 **Human Output addendum (2026-10-12):** In addition to Anti-Hang Stage06/08 gates, require HUMAN_OUTPUT_INSTALLATION_GATE.md both checkpoints. Verify installed Agent plugin 1.7.8 files/scripts, 100 ordinary SILENT_CONTINUE cycles, no fixed output length, preserved evidence/uncertainty, no Go, optional bounded CURRENT True Writer PEER_SERVICE for complex accepted results, no Writer solely for brevity, and owner validation after Writer Child→Literary Critic→Writer. These new target checks are NOT_RUN until target evidence.
 
 # CURRENT UPDATE QUALIFICATION (overrides stale historical details below)
