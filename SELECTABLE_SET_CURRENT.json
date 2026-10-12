@@ -62,5 +62,5 @@
     "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json (historical source projection)"
   ],
   "resolution_rule": "Only source NAM-143->1.66.1 selects upstream; scoped 32/23 projection is NONAUTHORITATIVE transfer input. Target update must preserve existing Ksyusha-owned StateHead, rebind checked artifacts, pass Stage06 gate, update StateHead last, then cold PASS in new chat. Audio family excludes True Sound/Studio. Stage06 and Stage08 also require Human Output gate; source Registry still binds plugin1.7.5, target preview selects tested package1.7.8 only after readback. Existing Ksyusha partial XEN-5 Registry1.64.2 with Songwriter missing MUST use Stage U prior to full Stage08; Stage U includes installation and a separate cold delta qualification, does not automatically qualify full Stage08.",
-  "status": "SOURCE_STAGE_U_NEW_CI_PENDING_TARGET_NOT_RUN"
+  "status": "SOURCE_VERIFIED_PASS_STAGE_U_TARGET_INSTALLATION_NOT_RUN"
 }
