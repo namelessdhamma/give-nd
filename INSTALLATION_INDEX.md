@@ -1,3 +1,5 @@
+**Human Output source qualification PASS (2026-10-12):** [GitHub Actions](https://github.com/namelessdhamma/give-nd/actions/runs/38228524520) — 262 integrity/builder checks + 137 clean-install executable Human Output checks; **0 failures**. Previous 253-check link elsewhere in this document is historical. Ksyusha target Stage06/Stage08 remain NOT_RUN.
+
 **2026-10-12 UPDATE:** New Human Output gate [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md) is mandatory in existing Stage06 and fresh Stage08 alongside, not instead of, Anti-Hang. Transfer the exact installed Agent plugin 1.7.8 package and script; upstream Registry 1.66.1 is the source authority and retains an older 1.7.5 launcher binding. Ksyusha's target candidate must explicitly adopt the reconciled 1.7.8 delta after readback; never downgrade a target-owned newer qualified package.
 
 # ND → Ksyusha — INCREMENTAL UPDATE INDEX
