@@ -1,6 +1,8 @@
+**Human Output addendum (2026-10-12):** In addition to Anti-Hang Stage06/08 gates, require HUMAN_OUTPUT_INSTALLATION_GATE.md both checkpoints. Verify installed Agent plugin 1.7.8 files/scripts, 100 ordinary SILENT_CONTINUE cycles, no fixed output length, preserved evidence/uncertainty, no Go, optional bounded CURRENT True Writer PEER_SERVICE for complex accepted results, no Writer solely for brevity, and owner validation after Writer Child→Literary Critic→Writer. These new target checks are NOT_RUN until target evidence.
+
 # CURRENT UPDATE QUALIFICATION (overrides stale historical details below)
 
-Target evidence remains NOT_RUN until confirmed in Ksyusha-owned account. Every `PASS` below requires measured run and provider readback. Historical 2026-10-04 reports are NONSELECTABLE provenance. Source full Registry 1.66.0 has 35/26; transferred scoped 32/23 excludes audio.
+Target evidence remains NOT_RUN until confirmed in Ksyusha-owned account. Every `PASS` below requires measured run and provider readback. Historical 2026-10-04 reports are NONSELECTABLE provenance. Source full Registry 1.66.1 has 35/26; transferred scoped 32/23 excludes audio.
 
 # ND → Ksyusha — CURRENT Qualification Matrix
 
@@ -13,11 +15,11 @@ Every gate is PASS/FAIL with provider/readback evidence. A historical transfer f
 - [ ] Existing Ksyusha ND target currentness recovered before update; no recreation of target StateHead/Registry, no destructive rebootstrap.
 - [ ] Current source 1.66.0 full 35/26 reconciled against explicit Ksyusha in-scope 32/23 projection, excluding three True Sound audio roles.
 - [ ] All changed canonical bytes independently read back and verify source authority SHA; old 1.64.2 receipts cannot supply new current PASS.
-- [ ] scoped source Registry 1.66.0 (32/23 nonauthoritative candidate) exact snapshot present and hash-matched.
+- [ ] scoped source Registry 1.66.1 (32/23 nonauthoritative candidate) exact snapshot present and hash-matched.
 - [ ] 32 Ksyusha-scoped components accounted for.
 - [ ] 23 Ksyusha-scoped launchers accounted for.
 - [ ] Explicit Anti-Hang launcher present.
-- [ ] Automation Agent 1.3.5 / plugin 1.7.5 selected.
+- [ ] Automation Agent 1.3.5 / plugin 1.7.8 selected.
 - [ ] Anti-Hang 1.7.0 / plugin 1.2.1 selected.
 - [ ] True Memory 0.4.2, True Research 1.8.2, True Developer 0.4.2, True Writer 0.9.3, True Visual 0.2.2, True Doctor 0.4.2, Generation 15.2 selected.
 - [ ] Predecessor 1.60.x–1.64.1, Anti-Hang 1.2.x/1.5.0 and old Agent/message-policy artifacts are provenance only.

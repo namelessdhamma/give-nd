@@ -1,10 +1,14 @@
+**Human Output source qualification PASS (2026-10-12):** [GitHub Actions](https://github.com/namelessdhamma/give-nd/actions/runs/38228524520) — 262 integrity/builder checks + 137 clean-install executable Human Output checks; **0 failures**. Previous 253-check link elsewhere in this document is historical. Ksyusha target Stage06/Stage08 remain NOT_RUN.
+
+**2026-10-12 UPDATE:** New Human Output gate [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md) is mandatory in existing Stage06 and fresh Stage08 alongside, not instead of, Anti-Hang. Transfer the exact installed Agent plugin 1.7.8 package and script; upstream Registry 1.66.1 is the source authority and retains an older 1.7.5 launcher binding. Ksyusha's target candidate must explicitly adopt the reconciled 1.7.8 delta after readback; never downgrade a target-owned newer qualified package.
+
 # ND → Ksyusha — INCREMENTAL UPDATE INDEX
 
 SOURCE: **VERIFIED PASS (253 checks, 0 findings, [GitHub Actions](https://github.com/namelessdhamma/give-nd/actions/runs/38132059956))**. TARGET: **NOT_RUN** until owner-account Stage06 and fresh-chat Stage08.
 
 MODE: **UPDATE_EXISTING_TARGET**, preserve Ksyusha's installed StateHead, verified target provider bindings and already-current components. Never rebuild an existing qualified target component merely because the source file changed.
-SOURCE: NAM-143 → Registry **1.66.0** / SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`.
-SCOPED SOURCE PROJECTION: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json); source-only, NONAUTHORITATIVE pending target rebind.
+SOURCE: NAM-143 → Registry **1.66.1** / SHA-256 `1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71`.
+SCOPED SOURCE PROJECTION: [32 components / 23 launchers](canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_1.json); source-only, NONAUTHORITATIVE pending target rebind.
 SOURCE PLUGINS: 23 functional bundles (22 launcher-backing, plus External Connecting).
 GATE: [ANTI_HANG_INSTALLATION_GATE.md](ANTI_HANG_INSTALLATION_GATE.md), Stage06 and Stage08 only.
 
@@ -22,7 +26,7 @@ Ksyusha sends only the message in [START_HERE.md](START_HERE.md). Stages are ins
 | Internal stage | Delta work for existing target | Must preserve |
 | --- | --- | --- |
 | [01](01_FOUNDATION_DRIVE_LINEAR.md) | Locate target StateHead/Registry/Drive/receipts; verify ownership; checkpoint | Original target root and all already-qualified system objects |
-| [02](02_CORE_RUNTIME_EXTERNAL_CONNECTING.md) | Upgrade Agent 1.3.5/plugin1.7.5 and Anti-Hang1.7.0/plugin1.2.1 with exact source files/readback; retain Generation and External Connecting | Target provider account authority and live effect identities |
+| [02](02_CORE_RUNTIME_EXTERNAL_CONNECTING.md) | Upgrade Agent 1.3.5/plugin1.7.8 and Anti-Hang1.7.0/plugin1.2.1 with exact source files/readback; retain Generation and External Connecting | Target provider account authority and live effect identities |
 | [03](03_NOTEBOOKLM_SEMANTIC_MEMORY.md) | Verify target memory route/current notebooks if needed; defer absent nonessential NotebookLM provision to separate authorized task without claiming a TEMP_TASK test PASS | No new competing semantic Core; no original notebook deletion |
 | [04](04_RESEARCH_STACK.md) | Verify/reuse existing Research and other unchanged Children; only repair proven mismatch | No unnecessary research/plugin recreation |
 | [05](05_WRITING_VISUAL_STACK.md) | True Writer0.9.3/plugin1.2.4, Writer Orchestra1.0.6, new Songwriter0.2.3 under Writer; retain Literary Critic | No True Sound or music Studio |

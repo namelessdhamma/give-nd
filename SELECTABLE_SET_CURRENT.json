@@ -1,6 +1,6 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_SELECTABLE_SET_v2",
-  "source_authority": "NAM-143 -> CURRENT Registry 1.66.0",
+  "source_authority": "NAM-143 -> CURRENT Registry 1.66.1, plugin1.7.8 presentation candidate not yet source-Registry-adopted",
   "role": "QUALIFIED_SCOPED_TRANSFER_SOURCE_ONLY",
   "current_control": [
     "README.md",
@@ -33,13 +33,15 @@
     "PUBLIC_PACKAGE_MANIFEST.json",
     "PUBLIC_PACKAGE_QUALIFICATION.json",
     "build_target_plugin.py",
-    "ANTI_HANG_INSTALLATION_GATE.md"
+    "ANTI_HANG_INSTALLATION_GATE.md",
+    "HUMAN_OUTPUT_INSTALLATION_GATE.md",
+    "scripts/test_human_output_install.py"
   ],
   "current_source": [
     "canonical-artifacts/COMPONENT_INVENTORY.json",
     "canonical-artifacts/system/ND_NORTH_STAR_FINAL_CANON_v1_0_0.md",
     "plugin-export-current/*.json",
-    "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json",
+    "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_1.json",
     "canonical-artifacts/system/ND_AUTOMATION_AGENT_v1_3_5_AUTONOMOUS_CONTINUATION.md",
     "canonical-artifacts/components/ANTI_HANG_RUNTIME/ND_ANTI_HANG_RUNTIME_v1_7_0_SCOPED_OWNED_BOUNDARY.json",
     "canonical-artifacts/components/TRUE_WRITER/ND_True_Writer_v0_9_3_SONGWRITER_CHILD_CANONICAL.md",
@@ -53,8 +55,9 @@
     "SOURCE_STAGED_INSTALLATION_CLOSURE_RECEIPT.json",
     "PUBLIC_PACKAGE_QUALIFICATION.json",
     "BUILD_TARGET_PLUGIN_TEST_RECEIPT.json",
-    "CURRENT_TRANSFER_BASELINE.json (pre-2026-10-11 old receipts only)"
+    "CURRENT_TRANSFER_BASELINE.json (pre-2026-10-11 old receipts only)",
+    "canonical-artifacts/ND_CAPABILITY_REGISTRY_KSYUSHA_SCOPE_FROM_v1_66_0.json (historical source projection)"
   ],
-  "resolution_rule": "Only source NAM-143->1.66.0 selects upstream; scoped 32/23 projection is NONAUTHORITATIVE transfer input. Target update must preserve existing Ksyusha-owned StateHead, rebind checked artifacts, pass Stage06 gate, update StateHead last, then cold PASS in new chat. Audio family excludes True Sound/Studio.",
-  "status": "SOURCE_VERIFIED_PASS_TARGET_INSTALLATION_NOT_RUN"
+  "resolution_rule": "Only source NAM-143->1.66.1 selects upstream; scoped 32/23 projection is NONAUTHORITATIVE transfer input. Target update must preserve existing Ksyusha-owned StateHead, rebind checked artifacts, pass Stage06 gate, update StateHead last, then cold PASS in new chat. Audio family excludes True Sound/Studio. Stage06 and Stage08 also require Human Output gate; source Registry still binds plugin1.7.5, target preview selects tested package1.7.8 only after readback.",
+  "status": "SOURCE_VERIFIED_PASS_HUMAN_OUTPUT_1_7_8_TARGET_INSTALLATION_NOT_RUN"
 }

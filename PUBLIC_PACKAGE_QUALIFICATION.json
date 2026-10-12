@@ -1,20 +1,20 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_PACKAGE_QUALIFICATION_v3",
-  "date": "2026-10-11",
-  "source_authority": "NAM-143 -> bound ND_CAPABILITY_REGISTRY 1.66.0",
-  "source_registry_sha256": "9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c",
+  "date": "2026-10-12",
+  "source_authority": "NAM-143 -> Registry 1.66.1; Agent source Registry launcher1.7.5 vs installed plugin1.7.8 presentation-only delta",
+  "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "scope": "INCREMENTAL_TARGET_UPDATE_ONLY; 32/23 source projection",
   "overall_verdict": "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN",
   "checks": {
-    "source_registry_raw_sha256": "PASS_MATCHED_CURRENT_NAM143_AND_DRIVE_BYTES",
-    "source_projection": "PASS_SOURCE_DERIVATION_35_TO_32_COMPONENTS_26_TO_23_LAUNCHERS_AUDIO_EXCLUSIONS",
+    "source_registry_raw_sha256": "PASS_CURRENT_1_66_1_DRIVE_BYTES_AND_STATEHEAD",
+    "source_projection": "PASS_CURRENT_1_66_1_AUDIO_EXCLUDED_35_26_TO_32_23",
     "changed_canonical_file_sha256": "PASS_5_OF_5_SOURCE_DRIVE_HASH_MATCH",
     "changed_canonical_github_readback": "PASS_5_OF_5_GITHUB_EQUAL_TO_DRIVE",
-    "changed_plugin_export_parity": "PASS_4_OF_4_CURRENT_PLUGIN_CREATOR_RELEASES_FILE_CONTENTS_MATCH",
+    "changed_plugin_export_parity": "PASS_INSTALLED_1_7_8_AGENT_12_OF_12_FILES_PROVIDER_READBACK; PRIOR_OTHER_RELEASE_PARITY_PROVENANCE",
     "unchanged_bundles": "REUSED_PREDECESSOR_SOURCE; FULL_19_OF_19_NEW_READBACK_NOT_RUN",
     "public_secret_scan": "PASS_COMPLETE_PAYLOAD_99_FILES_ZERO_HIGH_CONFIDENCE_SECRET_OR_EMAIL_FINDINGS_VERIFIER_SELF_EXCLUDED",
     "full_public_manifest_integrity": "PASS_100_FILES_SELF_EXCLUDED_MANIFEST_GIT_BLOB_AND_BYTE_SIZE_PARITY",
-    "source_superset_absence": "PASS_TARGET_SCOPE_LIST_EXCLUDES_AUDIO_ROLES; HISTORICAL_FILES_MAY_REMAIN_NONSELECTABLE_PROVENANCE",
+    "source_superset_absence": "PASS_1_66_1_NONAUDIO_SCOPE; NONSELECTABLE_HISTORICAL_AUDIO_PROVENANCE_EXCLUDED",
     "anti_hang_stage06_target": "NOT_RUN_TARGET_OWNED_ACCOUNT",
     "anti_hang_stage08_target": "NOT_RUN_TARGET_OWNED_FRESH_CHAT",
     "physical_songwriter_target_chain": "NOT_RUN_TARGET_OWNED_ACCOUNT",
@@ -24,11 +24,14 @@
     "scope_graph_integrity": "PASS_23_OF_23_EXACT_LAUNCHER_URIS; 32_COMPONENTS; 23_UNIQUE_PLUGIN_SOURCES",
     "source_registry_parity": "PASS_FULL_NONAUDIO_SYSTEM_RULES_PRESERVED_35_KEYS_32_COMPONENTS_23_LAUNCHERS",
     "plugin_source_builder": "PASS_23_OF_23_PROVIDER_REBOUND_BUILDS",
-    "source_ci_verification": "PASS_253_CHECKS_ZERO_FAILURES_20261011"
+    "source_ci_verification": "PASS_262_SOURCE_CHECKS_PLUS_137_HUMAN_OUTPUT_EXECUTION_ZERO_FAILURES_20261012",
+    "human_output_stage06_target": "NOT_RUN",
+    "human_output_stage08_target": "NOT_RUN",
+    "human_output_source_executable": "PASS_137_EXECUTED_CLEAN_BUILD_AND_ACTUAL_PLUGIN_SCRIPT"
   },
   "source_evidence": {
     "exact_current_source_plugin_versions": {
-      "nd-automation-agent": "1.7.5",
+      "nd-automation-agent": "1.7.8",
       "nd-anti-hang": "1.2.1",
       "nd-true-writer": "1.2.4",
       "nd-songwriter": "0.2.3"
@@ -42,18 +45,22 @@
     },
     "checks_tool": "Drive native readback + GitHub fetch_file + Plugin Creator get_plugin_files",
     "honesty_limit": "No target account execution, no Ksyusha authorization, no actual real-world anti-hang cancellation/host wake tests or physical songwriter runtime pass.",
-    "public_change_count": 37,
-    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
-    "qualification_job_id": 114448254947,
-    "qualification_checks": 253,
+    "public_change_count": "SEE_SOURCE_PR_3",
+    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "qualification_job_id": 114741929625,
+    "qualification_checks": 399,
     "qualification_failures": 0,
-    "verification_kind": "GitHub Actions runner executed full file/blob parity, high confidence credential/email scan, exact canonical SHA, all 23 plugin target-build smoke tests, graph and scope topology"
+    "verification_kind": "GITHUB_ACTIONS_262_STATIC_BUNDLE_BUILDS_AND_137_ACTUAL_CLEAN_INSTALLED_HUMAN_OUTPUT_EXECUTIONS",
+    "source_registry_agent_launcher_qualified_plugin_version": "1.7.5",
+    "message_policy_path": "skills/nd-launch-automation-agent/references/MESSAGE_POLICY.md",
+    "new_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520"
   },
   "final_critic": {
     "verdict": "SOURCE_MACHINE_QUALIFICATION_PASS_INDEPENDENT_COGNITIVE_CRITIC_NOT_RUN",
     "remaining_external_gate": [
       "Ksyusha target account authority, ownership, and target-owned Stage06 Anti-Hang+Writer/Songwriter proofs",
-      "Ksyusha target Stage08 fresh-chat cold qualification"
+      "Ksyusha target Stage08 fresh-chat cold qualification",
+      "Human Output Stage06 and Stage08 observed target tests and Editor PEER_SERVICE traces if invoked"
     ],
     "source_side_material_findings": 0
   }

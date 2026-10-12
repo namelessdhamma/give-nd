@@ -1,8 +1,10 @@
+**HUMAN OUTPUT update (2026-10-12):** Target install must select the exported exact Agent plugin 1.7.8 and execute [HUMAN_OUTPUT_INSTALLATION_GATE.md](HUMAN_OUTPUT_INSTALLATION_GATE.md) Stage06 and Stage08. The upstream source Registry still binds an older Agent launcher release; reconcile this explicit presentation-only delta in target-owned candidate Registry after exact package readback. No mandatory Writer call and no loss of uncertainty.
+
 # Nameless Dhamma — Ксюша: обновление существующей установки
 
 **Тип операции:** инкрементальное обновление уже существующей ND, НЕ повторная установка с нуля.
 
-**Источник:** [give-nd](https://github.com/namelessdhamma/give-nd), CURRENT источник `NAM-143 → Registry 1.66.0`. Целевая власть всегда принадлежит **твоему**, а не Savva, StateHead/Registry.
+**Источник:** [give-nd](https://github.com/namelessdhamma/give-nd), CURRENT источник `NAM-143 → Registry 1.66.1`. Целевая власть всегда принадлежит **твоему**, а не Savva, StateHead/Registry.
 
 ## Одно сообщение от Ксюши
 

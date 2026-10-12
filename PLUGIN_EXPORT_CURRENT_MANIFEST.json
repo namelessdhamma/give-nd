@@ -1,11 +1,11 @@
 {
   "schema": "ND_PLUGIN_EXPORT_CURRENT_MANIFEST_v2",
-  "authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.66.0 (source authoritative; scoped target projection pending exact readback)",
+  "authority": "NAM-143 -> ND_CAPABILITY_REGISTRY 1.66.1 (source authority, scoped target projection pending readback); Agent 1.7.8 presentation-only delta beyond source Registry bound 1.7.5",
   "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (audio supervisor excluded from Ksyusha transfer)",
   "unique_plugin_count": 23,
   "expected_unique_plugin_count": 23,
   "launcher_count": 23,
-  "verdict": "PASS_SOURCE_BUNDLE_AND_TARGET_BUILDER_23_OF_23__TARGET_ACCOUNT_NOT_RUN",
+  "verdict": "PASS_SOURCE_23_BUNDLES_AGENT_1_7_8_CLEAN_INSTALL_EXECUTED_TARGET_NOT_RUN",
   "missing": [],
   "extra": [],
   "files": [
@@ -17,9 +17,9 @@
     },
     {
       "name": "nd-automation-agent.json",
-      "blob_sha": "189760b7fd24e5e830e884cd1b4fad85e03f0ac3",
-      "source_version": "1.7.5",
-      "source_release": "pluginrel_6aca3e797a808191a714ae48f0a657e3"
+      "blob_sha": "696a14441fd7a469b10b2971e5fc882ae72a6069",
+      "source_version": "1.7.8",
+      "source_release": "pluginrel_6acc996feb988191b8a499ac681b2828"
     },
     {
       "name": "nd-books-creator.json",
@@ -154,9 +154,12 @@
   "recovery_skill_plugin_count": 1,
   "recovery_skill_count": 1,
   "source_qualification": {
-    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38132059956",
-    "checks": 253,
+    "status": "PASS_SOURCE_ONLY",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
+    "source_static_and_builds": 262,
+    "human_output_clean_install_executable": 137,
     "failures": 0,
-    "scope": "SOURCE_ONLY"
+    "scope": "SOURCE_ONLY_TARGET_STAGE06_STAGE08_NOT_RUN",
+    "note": "source Registry1.66.1 still binds Agent plugin1.7.5; new1.7.8 transfer candidate needs target qualification"
   }
 }
