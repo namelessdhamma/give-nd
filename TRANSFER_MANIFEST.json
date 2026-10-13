@@ -1,7 +1,7 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_RUNTIME_RECOVERY_CANDIDATE_PENDING_CI_TARGET_RUNTIME_BLOCKED",
+  "status": "SOURCE_RUNTIME_RECOVERY_QUALIFIED_PASS_TARGET_RUNTIME_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
@@ -70,11 +70,11 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "SOURCE_RUNTIME_RECOVERY_CI_PENDING",
-    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
-    "source_static_and_bundles": 272,
+    "status": "SOURCE_VERIFIED_PASS_491_CHECKS",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
+    "source_static_and_bundles": 283,
     "human_output_isolated_clean_build": 137,
-    "checks": 454,
+    "checks": 491,
     "failures": 0,
     "scope": "SOURCE_ONLY",
     "target_stage06": "NOT_RUN",
@@ -83,7 +83,7 @@
     "previous_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
     "stage_u_fixture_tests": 45,
     "predecessor_pass_checks": 454,
-    "runtime_recovery_checks": "PENDING"
+    "runtime_recovery_checks": 26
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -124,7 +124,7 @@
   },
   "target_qualification": "Ksyusha Plugin Creator packages PASS per her report; actual host/StageU/Stage08 NOT_RUN",
   "source_handoff_closure": {
-    "status": "SOURCE_TRANSFER_STAGE_U_COMPLETE_20261012",
+    "status": "SOURCE_RUNTIME_RECOVERY_TRANSFER_READY_20261013_TARGET_HOST_GATE_PENDING",
     "source_plugin_bundles": 23,
     "launcher_graph": 23,
     "target_installation": "NOT_RUN",
