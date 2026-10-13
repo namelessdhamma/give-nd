@@ -149,7 +149,7 @@
       "source_release": "pluginrel_6abf0b5482d48191adb2eda547a44f64"
     }
   ],
-  "rule": "Transfer 22 launcher plugins backing Ksyusha's scoped 23-launcher graph plus one separate External Connecting recovery skill; FULL SOURCE CURRENT has 26 launchers including excluded True Sound audio family. Target does not install True Sound/Studio. Source releases are provenance, not target ownership. Do not accept Stage06 while exact 1.66.0 Registry-derived scoped projection/canonical readbacks are absent.",
+  "rule": "Transfer 22 launcher plugins backing Ksyusha's scoped 23-launcher graph plus one separate External Connecting recovery skill; FULL SOURCE CURRENT has 26 launchers including excluded True Sound audio family. Target does not install True Sound/Studio. Source releases are provenance, not target ownership. Do not accept Stage06 while exact 1.66.1 Registry-derived scoped projection/canonical readbacks are absent.",
   "launcher_plugin_count": 22,
   "recovery_skill_plugin_count": 1,
   "recovery_skill_count": 1,
@@ -161,5 +161,9 @@
     "failures": 0,
     "scope": "SOURCE_ONLY_TARGET_STAGE06_STAGE08_NOT_RUN",
     "note": "source Registry1.66.1 still binds Agent plugin1.7.5; new1.7.8 transfer candidate needs target qualification"
-  }
+  },
+  "full_roles_target_inventory_gate": "ALL_PLUGIN_LAUNCHERS_GATE.md",
+  "all_plugin_launcher_source_ci": "scripts/test_all_plugin_launchers.py",
+  "target_plugin_creator_receipt": "migration/receipts/ALL_PLUGIN_LAUNCHERS_TARGET_INVENTORY.json",
+  "target_runtime_actual": "NOT_RUN"
 }
