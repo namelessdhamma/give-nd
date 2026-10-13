@@ -1,7 +1,7 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_RUNTIME_RECOVERY_QUALIFIED_PASS_TARGET_RUNTIME_NOT_RUN",
+  "status": "SOURCE_ALL_ND_ROLES_PLUGIN_GATE_PENDING_NEW_CI__TARGET_RUNTIME_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
@@ -70,7 +70,7 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "SOURCE_VERIFIED_PASS_491_CHECKS",
+    "status": "SOURCE_ALL_LAUNCHER_ROLE_CI_PENDING",
     "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
     "source_static_and_bundles": 283,
     "human_output_isolated_clean_build": 137,
@@ -83,7 +83,8 @@
     "previous_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
     "stage_u_fixture_tests": 45,
     "predecessor_pass_checks": 454,
-    "runtime_recovery_checks": 26
+    "runtime_recovery_checks": 26,
+    "all_role_plugin_checks": "PENDING"
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
@@ -112,7 +113,9 @@
     "stage_u_regression": "scripts/test_stage_u.py",
     "final_after_existing_install": "KSYUSHA_FINISH_INSTALL.md",
     "runtime_visibility_recovery": "KSYUSHA_RUNTIME_RECOVERY.md",
-    "runtime_regression": "scripts/test_runtime_recovery_contract.py"
+    "runtime_regression": "scripts/test_runtime_recovery_contract.py",
+    "all_plugin_roles_target_gate": "ALL_PLUGIN_LAUNCHERS_GATE.md",
+    "all_plugin_source_audit": "scripts/test_all_plugin_launchers.py"
   },
   "target_boundary": {
     "verdict": "TRUE_GATE_TARGET_OWNERSHIP",
@@ -120,9 +123,10 @@
     "next_action": "Ksyusha Stage U install+qualify existing partial target; not repeat Stage08 against old XEN-5. Then full Stage08 from new target CURRENT.",
     "reported_existing_target": "USER_REPORTED_XEN-5_REGISTRY_1_64_2_31_COMPONENTS_22_LAUNCHERS_SONGWRITER_MISSING_STAGE08_BLOCKED__NOT_INDEPENDENTLY_READ_BACK",
     "field_status_2026_10_13": "USER_REPORTED_FOUR_TARGET_PLUGIN_CREATOR_PACKAGE_INSTALLED__CHATGPT_SKILLS_UNAVAILABLE_IN_REPORTING_SESSION__NO_PHYSICAL_HOST_TRACE__XEN5_1_64_2",
-    "current_unresolved_gate": "HOST_SKILL_VISIBILITY_AND_U3_PREPUBLICATION_CANDIDATE_PROOFS_BEFORE_XEN5; U5_PHYSICAL_SONGWRITER_AFTER_PUBLICATION"
+    "current_unresolved_gate": "HOST_SKILL_VISIBILITY_AND_U3_PREPUBLICATION_CANDIDATE_PROOFS_BEFORE_XEN5; U5_PHYSICAL_SONGWRITER_AFTER_PUBLICATION",
+    "full_plugin_roster": "23 scoped launcher URI in 22 plugin bundles plus 1 External Connecting recovery plugin; target inventory not yet verified"
   },
-  "target_qualification": "Ksyusha Plugin Creator packages PASS per her report; actual host/StageU/Stage08 NOT_RUN",
+  "target_qualification": "ALL_23_TARGET_PLUGIN_BUNDLE_READBACK_NOT_RUN; four package versions user-reported installed; actual Child/Critic host trace NOT_RUN",
   "source_handoff_closure": {
     "status": "SOURCE_RUNTIME_RECOVERY_TRANSFER_READY_20261013_TARGET_HOST_GATE_PENDING",
     "source_plugin_bundles": 23,
