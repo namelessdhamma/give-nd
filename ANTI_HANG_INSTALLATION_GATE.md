@@ -38,7 +38,9 @@ After independently recovering Ksyusha-owned StateHead/Registry, repeat the seve
 
 Write `migration/receipts/ANTI_HANG_INSTALLATION_GATE_STAGE08.json`; do not inherit Stage06 PASS as a fresh-chat PASS.
 
-## Songwriter acceptance (both checkpoints; physical cold flow required in Stage08)
+## Songwriter acceptance (candidate Stage06; physical CURRENT route required in Stage08)
+
+**Stage06:** only candidate package/artifact/ownership/rebinding readbacks and isolated executable acceptance are possible while target Registry1.64.2 excludes Songwriter. Test existing current host routes independently. If host Skills remain absent, Stage06 BLOCKED. **Stage08 after verified XEN-5 cutover:** physical adopted Songwriter->True Writer->Literary Critic chain required. No manual imitation or fictitious CURRENT before publication.
 
 Registry-bound True Writer -> Songwriter Child `skills://plugins/nd-songwriter/nd-launch-songwriter` -> typed `LYRICS_CANDIDATE`/diagnostic RETURN to live True Writer -> separate Literary Critic judgment -> True Writer adjudication -> Automation Agent.
 Preserve real task/call/correlation IDs and a referenced observed response at every boundary. A text-only imitation or static launcher visibility is NOT a physical Child->Parent->Critic PASS. The Child produces lyrics only; never music, vocals or Studio effects.
