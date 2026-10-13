@@ -20,3 +20,6 @@ jobs:
 
       - name: Stage U cumulative 31/22 to 32/23 read-only installer plan and source safeguards
         run: python3 scripts/test_stage_u.py
+
+      - name: Qualify corrected launcher authority and runtime visibility handoff source contract
+        run: python3 scripts/test_runtime_recovery_contract.py
