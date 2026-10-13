@@ -1,12 +1,12 @@
 # ANTI_HANG_INSTALLATION_GATE — one gate, two checkpoints
 
 STATUS: TARGET EVIDENCE REQUIRED; NOT_RUN on the source-side transfer branch.
-Authority: Ksyusha-owned CURRENT after transfer; source comparison uses NAM-143 -> bound Registry 1.66.0.
-Scope: Agent 1.3.5 / plugin 1.7.5; Anti-Hang Runtime 1.7.0 / plugin 1.2.1; exact seven-hook interface. This is **not** a ninth installation stage.
+Authority: Ksyusha-owned CURRENT after transfer; source comparison NAM-143 -> bound Registry 1.66.1. See KSYUSHA_RUNTIME_RECOVERY.md to distinguish current host routes from noncurrent Songwriter candidate.
+Scope: Agent canonical1.3.5 / source Registry bound plugin1.7.5; target-selected presentation plugin1.7.8 only after exact provider readback. Anti-Hang Runtime1.7.0 / plugin1.2.1; seven-hook interface. This is **not** a ninth installation stage.
 
 ## Binding and provenance
 
-Source comparison: Registry 1.66.0, Drive ID `17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8`, SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`.
+Source comparison: Registry 1.66.1, Drive ID `1-kPtZ7vltEz09akCULqMVHroTeDqzBj0`, SHA-256 `1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71`.
 Target must bind target-owned canonical artifacts, launcher packages, runtime scripts and effects. Source plugin release IDs and Drive IDs are **not** target authorities. The 1.64.2 snapshot is historical and must not be selected as CURRENT.
 
 ## Stage 06 — PREPUBLICATION (BOOTSTRAP/NONAUTHORITATIVE)
