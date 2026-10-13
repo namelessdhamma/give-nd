@@ -4,7 +4,7 @@
   "source_authority": "NAM-143 -> Registry 1.66.1; Agent source Registry launcher1.7.5 vs installed plugin1.7.8 presentation-only delta",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "scope": "INCREMENTAL_TARGET_UPDATE_ONLY; 32/23 source projection",
-  "overall_verdict": "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN",
+  "overall_verdict": "SOURCE_CANDIDATE_PENDING_NEW_RUN_TARGET_NOT_RUN",
   "checks": {
     "source_registry_raw_sha256": "PASS_CURRENT_1_66_1_DRIVE_BYTES_AND_STATEHEAD",
     "source_projection": "PASS_CURRENT_1_66_1_AUDIO_EXCLUDED_35_26_TO_32_23",
@@ -42,7 +42,11 @@
     "k_target_stageu_candidate": "NOT_RUN",
     "k_target_stageu_runtime_gate": "BLOCKED_SKILLS_NOT_EXPOSED_IN_KSYUSHA_REPORT",
     "k_target_statehead_publication": "NOT_RUN",
-    "k_target_cold_stage08": "NOT_RUN"
+    "k_target_cold_stage08": "NOT_RUN",
+    "all_plugin_launcher_source_manifest": "PENDING_NEW_CI",
+    "k_target_all_23_plugin_bundles": "NOT_RUN__FOUR_NEW_PACKAGES_TARGET_USER_REPORTED_READBACK_ONLY",
+    "k_target_all_supervisor_child_critic_at_selection": "NOT_RUN",
+    "k_target_all_role_physical_handoffs": "NOT_RUN"
   },
   "source_evidence": {
     "exact_current_source_plugin_versions": {
@@ -79,7 +83,9 @@
       "human_output_source": 137,
       "stage_u_plan": 45,
       "runtime_handoff_static": 26
-    }
+    },
+    "full_plugin_gate": "ALL_PLUGIN_LAUNCHERS_GATE.md",
+    "all_plugin_launcher_ci": "PENDING"
   },
   "final_critic": {
     "verdict": "SOURCE_MACHINE_QUALIFICATION_PASS_INDEPENDENT_TARGET_COLD_AND_COGNITIVE_CRITIC_NOT_RUN",
