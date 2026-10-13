@@ -1,6 +1,6 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v7",
-  "status": "SOURCE_RUNTIME_RECOVERY_PENDING_NEW_CI__TARGET_HOST_SKILLS_NOT_VISIBLE_IN_FIELD_REPORT_STAGE08_NOT_RUN",
+  "status": "SOURCE_RUNTIME_RECOVERY_491_TESTS_PASS_20261013__TARGET_HOST_PHYSICAL_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.1 (Agent bound older 1.7.5; 1.7.8 presentation-only delta)",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "target_repo": "namelessdhamma/give-nd",
@@ -18,7 +18,7 @@
     "runtime_exposure_recovery_docs": 2,
     "runtime_recovery_executable_tests": 1
   },
-  "total_payload_bytes": 1653964,
+  "total_payload_bytes": 1654374,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten. For an already partially installed XEN-5, use UPDATE_IN_PROGRESS.md Stage U rather than rerunning blocked full Stage08. Source CI is only preflight. 2026-10-13 source addon KSYUSHA_FINISH_INSTALL.md and KSYUSHA_RUNTIME_RECOVERY.md: field-reported target 4 plugins installed but ChatGPT Skill visibility absent; do not reinstall. Source tests cannot replace host real calls. Candidate Songwriter prepublication vs CURRENT Songwriter U5.",
   "files": [
     {
@@ -107,8 +107,8 @@
     },
     {
       "path": "CURRENT_POINTER.txt",
-      "blob_sha": "a78d41d0fa8c1611bb07e837858be32f3d44e348",
-      "size_bytes": 2236,
+      "blob_sha": "271eeb44bf82088b12b84108a409b249a3531feb",
+      "size_bytes": 2423,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -185,8 +185,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "5ad72f42c95c510b1cef73f2c7c804ad576d474b",
-      "size_bytes": 5947,
+      "blob_sha": "6e7d0233cf164e350e48537d82a8a4d5d342820f",
+      "size_bytes": 6117,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -203,8 +203,8 @@
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "2b3655840ef3be8f7b772dd5c3cd36b6d3b92c7e",
-      "size_bytes": 4061,
+      "blob_sha": "c1b91429e8ccb09d83caf98eb6709e3a07e3ca20",
+      "size_bytes": 4099,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -233,8 +233,8 @@
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "856a001f1a5eb5da72a3bd03f3ac70e57cc291b5",
-      "size_bytes": 6670,
+      "blob_sha": "863133f1be21ee28a85dad12e87d2a1378752cd6",
+      "size_bytes": 6685,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -671,16 +671,15 @@
     }
   ],
   "source_qualification": {
-    "status": "PENDING_2026_10_13_RUNTIME_FIX_CI",
-    "run": "PENDING",
-    "source_static_and_23_plugin_builds": 272,
+    "status": "PASS",
+    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
+    "source_static_and_23_plugin_builds": 283,
     "human_output_clean_install_executable": 137,
     "stage_u_offline_fixture": 45,
-    "checks": 454,
+    "runtime_handoff_source_invariants": 26,
+    "checks": 491,
     "failures": 0,
-    "scope": "SOURCE_ONLY; TARGET XEN-5 INSTALL/QUALIFICATION NOT_RUN",
-    "previous_source_pass_454": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
-    "host_target_runtime": "NOT_RUN"
+    "scope": "SOURCE_ONLY__CHATGPT_KSYUSHA_TARGET_HOST_SKILLS_AND_STAGE08_NOT_RUN"
   },
-  "target_qualification": "NOT_RUN"
+  "target_qualification": "FIELD_REPORTED_KSYUSHA_FOUR_PLUGIN_CREATOR_PACKAGES_INSTALLED__CHATGPT_HOST_SKILLS_NOT_EXPOSED_IN_REPORTING_SESSION__PHYSICAL_STAGEU_STAGE08_NOT_RUN"
 }
