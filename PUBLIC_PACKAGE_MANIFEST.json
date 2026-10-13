@@ -1,6 +1,6 @@
 {
   "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v7",
-  "status": "SOURCE_ALL_PLUGIN_ROLES_PENDING_CI__TARGET_23_PLUGIN_HOST_INVENTORY_NOT_RUN",
+  "status": "SOURCE_785_TESTS_PASS_20261013__KSYUSHA_TARGET_ALL_PLUGIN_RUNTIME_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.1 (Agent bound older 1.7.5; 1.7.8 presentation-only delta)",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "target_repo": "namelessdhamma/give-nd",
@@ -20,7 +20,7 @@
     "full_plugin_role_gates": 1,
     "full_plugin_role_source_tests": 1
   },
-  "total_payload_bytes": 1680872,
+  "total_payload_bytes": 1681159,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten. For an already partially installed XEN-5, use UPDATE_IN_PROGRESS.md Stage U rather than rerunning blocked full Stage08. Source CI is only preflight. 2026-10-13 source addon KSYUSHA_FINISH_INSTALL.md and KSYUSHA_RUNTIME_RECOVERY.md: field-reported target 4 plugins installed but ChatGPT Skill visibility absent; do not reinstall. Source tests cannot replace host real calls. Candidate Songwriter prepublication vs CURRENT Songwriter U5. Explicit @Plugin Creator packaging and @ND plugin user-facing selected invocation are documented; logical skills:// URI is not an invocable API. Testing @mention autocomplete must differentiate chosen installed app from plain text.",
   "files": [
     {
@@ -115,8 +115,8 @@
     },
     {
       "path": "CURRENT_POINTER.txt",
-      "blob_sha": "9edcfbedc8627447fe330ddb7f956f2e35ed95fa",
-      "size_bytes": 2852,
+      "blob_sha": "4f47eaf23324b3d18f36b5274a7647ded5ff7294",
+      "size_bytes": 3061,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -193,8 +193,8 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "0af2ebe9a14b710073ded62b3a6050aa8693c8fc",
-      "size_bytes": 6512,
+      "blob_sha": "eeca2bea6938134aadb2f182c7af61b49101c7a2",
+      "size_bytes": 6615,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -211,8 +211,8 @@
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "61fbd5fe3f6eb63e453f2ce5ba59af2c32ffc391",
-      "size_bytes": 4149,
+      "blob_sha": "584c3e8353806257cdd261713cafbafdde220128",
+      "size_bytes": 4139,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -241,8 +241,8 @@
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "dceb817115b4d94dd3731f996ecdffeccfdee465",
-      "size_bytes": 7073,
+      "blob_sha": "e8d3d091f812b80d5c4857aca416a9439fcfd412",
+      "size_bytes": 7058,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -685,15 +685,16 @@
     }
   ],
   "source_qualification": {
-    "status": "PENDING_2026_10_13_ALL_PLUGIN_ROLES_CI",
-    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
-    "source_static_and_23_plugin_builds": 283,
+    "status": "PASS",
+    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38389659275",
+    "source_static_and_23_plugin_builds": 287,
     "human_output_clean_install_executable": 137,
     "stage_u_offline_fixture": 45,
-    "runtime_handoff_source_invariants": 26,
-    "checks": "PENDING",
-    "failures": "NOT_RUN",
-    "scope": "SOURCE_ONLY__CHATGPT_KSYUSHA_TARGET_HOST_SKILLS_AND_STAGE08_NOT_RUN"
+    "runtime_handoff_source_invariants": 29,
+    "all_23_plugin_bundles_and_23_launcher_uris": 287,
+    "checks": 785,
+    "failures": 0,
+    "scope": "SOURCE_ONLY__TARGET_KSYUSHA_23_PLUGIN_CREATOR_READBACK_AND_CHATGPT_HOST_NOT_RUN"
   },
-  "target_qualification": "FOUR_TARGET_PLUGIN_CREATOR_RELEASES_USER_REPORTED_INSTALLED__ALL_23_PLUGIN_BUNDLES_HOST_INVENTORY_NOT_RUN__STAGEU_STAGE08_NOT_RUN"
+  "target_qualification": "TARGET_4_RECENT_PLUGIN_PACKAGES_USER_REPORTED_READBACK__ALL_23_PLUGIN_BUNDLES_FULL_TARGET_PROVIDER_AND_HOST_GATE_NOT_RUN__STAGE08_NOT_RUN"
 }
