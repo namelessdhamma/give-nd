@@ -1,3 +1,5 @@
+**FULL ARCHITECTURE CORRECTION:** Inspect [ALL_PLUGIN_LAUNCHERS_GATE.md](ALL_PLUGIN_LAUNCHERS_GATE.md) first. The source transfer includes **23 source plugin bundles**, **23 launcher URIs across 22 launcher-backed plugins**, plus one separate External Connecting recovery plugin. Do NOT reduce recovery to four recently updated packages, or search for new generic skill executor. Check all Supervisors, Children and Critics through target-owned Plugin Creator readbacks and ChatGPT @selection/skill loading, preserving exact ownership; do not reinstall verified packages.
+
 # KSYUSHA_RUNTIME_RECOVERY — source-to-target handoff, no invented ChatGPT skill executor
 
 **STATUS:** SOURCE DOCUMENTATION / TARGET PROVIDER SKILL VISIBILITY UNKNOWN. This is a scoped adjunct to `UPDATE_IN_PROGRESS.md`, **not** a replacement runtime, new ninth install stage, or claim that target Stage06/08 passed.
