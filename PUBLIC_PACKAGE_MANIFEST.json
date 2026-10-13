@@ -1,28 +1,30 @@
 {
-  "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v6",
-  "status": "SOURCE_STAGE_U_454_TESTS_PASS_20261012_TARGET_XEN5_INSTALL_AND_COLD_NOT_RUN",
+  "schema": "ND_KSYUSHA_PUBLIC_REPO_FILESET_v7",
+  "status": "SOURCE_RUNTIME_RECOVERY_PENDING_NEW_CI__TARGET_HOST_SKILLS_NOT_VISIBLE_IN_FIELD_REPORT_STAGE08_NOT_RUN",
   "source_registry_authority": "NAM-143 -> Registry 1.66.1 (Agent bound older 1.7.5; 1.7.8 presentation-only delta)",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "target_repo": "namelessdhamma/give-nd",
   "branch": "main",
   "policy": "INCREMENTAL_SCOPED_TRANSFER_SOURCE_ONLY; target must qualify itself",
   "counts": {
-    "total_files": 106,
-    "payload_files": 105,
+    "total_files": 109,
+    "payload_files": 108,
     "canonical_files": 42,
     "plugin_bundles": 23,
     "stage_files": 8,
     "anti_hang_installation_gates": 1,
     "human_output_installation_gates": 1,
-    "standalone_update_stage_u": 1
+    "standalone_update_stage_u": 1,
+    "runtime_exposure_recovery_docs": 2,
+    "runtime_recovery_executable_tests": 1
   },
-  "total_payload_bytes": 1625727,
-  "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten. For an already partially installed XEN-5, use UPDATE_IN_PROGRESS.md Stage U rather than rerunning blocked full Stage08. Source CI is only preflight.",
+  "total_payload_bytes": 1653795,
+  "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten. For an already partially installed XEN-5, use UPDATE_IN_PROGRESS.md Stage U rather than rerunning blocked full Stage08. Source CI is only preflight. 2026-10-13 source addon KSYUSHA_FINISH_INSTALL.md and KSYUSHA_RUNTIME_RECOVERY.md: field-reported target 4 plugins installed but ChatGPT Skill visibility absent; do not reinstall. Source tests cannot replace host real calls. Candidate Songwriter prepublication vs CURRENT Songwriter U5.",
   "files": [
     {
       "path": ".github/workflows/qualify-ksyusha.yml",
-      "blob_sha": "09423b837b4a7be27e12b93cb3ef854367df293f",
-      "size_bytes": 676,
+      "blob_sha": "4d258c743291eace2ae3c5e17b40a068b2ce0b66",
+      "size_bytes": 838,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -57,20 +59,20 @@
     },
     {
       "path": "06_REGISTRY_PREPUBLICATION.md",
-      "blob_sha": "61be53874b1a6ce1dce28022b0409df695a264f1",
-      "size_bytes": 5866,
+      "blob_sha": "68f3fa81357063730e83db68ebe4b1e0d8976e3b",
+      "size_bytes": 6911,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "07_STATEHEAD_PUBLICATION.md",
-      "blob_sha": "bb35015ec3fe3c8ddfc679fba82e2740afff2174",
-      "size_bytes": 3097,
+      "blob_sha": "a8a1efca8d99cee2a70dcd49a4f545b8011926e7",
+      "size_bytes": 3635,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "08_COLD_QUALIFICATION.md",
-      "blob_sha": "5a4ea5cd95eb1569969139c2d4885acda8c8fc23",
-      "size_bytes": 4951,
+      "blob_sha": "48fc89690f7c2652bd4fb224b60884d4a6c12713",
+      "size_bytes": 5359,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -81,8 +83,8 @@
     },
     {
       "path": "ANTI_HANG_INSTALLATION_GATE.md",
-      "blob_sha": "c79bac4b98f6cb14209d6c0946c8d8ad371513ea",
-      "size_bytes": 5202,
+      "blob_sha": "040ebdc1a724141bd856286881a7e1adb11f6d74",
+      "size_bytes": 5853,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -105,8 +107,8 @@
     },
     {
       "path": "CURRENT_POINTER.txt",
-      "blob_sha": "29e9ee38ddb64c37f1d38aef891db9e92f25b20f",
-      "size_bytes": 1560,
+      "blob_sha": "a78d41d0fa8c1611bb07e837858be32f3d44e348",
+      "size_bytes": 2236,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -123,26 +125,38 @@
     },
     {
       "path": "HANDOFF_CURRENT.md",
-      "blob_sha": "4e5f4a2c50038b625867ae6076603ba5a45b19d6",
-      "size_bytes": 3579,
+      "blob_sha": "6eb66f0cfd60f2d1cbb01cc53dff6640170b1852",
+      "size_bytes": 4012,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "HUMAN_OUTPUT_INSTALLATION_GATE.md",
-      "blob_sha": "ebb6190b9af23473031a5d9f0d9983ddd07b6b24",
-      "size_bytes": 5976,
+      "blob_sha": "f119180f99a3b9604db6eaaa9e1923ead4c1e6f2",
+      "size_bytes": 6447,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "INSTALLATION_INDEX.md",
-      "blob_sha": "e6c3f684b2fbc17fb57ecde86a4065b110642f8b",
-      "size_bytes": 6835,
+      "blob_sha": "8a64b3bc3c9cd60caa45e3dfa9531653b879f4b8",
+      "size_bytes": 7575,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
+      "path": "KSYUSHA_FINISH_INSTALL.md",
+      "blob_sha": "c67f4c586715ef19ea7672ceedcac64aebdc7ee8",
+      "size_bytes": 4609,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
+      "path": "KSYUSHA_RUNTIME_RECOVERY.md",
+      "blob_sha": "75e305b66344574060b2895286e5a6af57a3db45",
+      "size_bytes": 8457,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "LAUNCHER_GRAPH_CURRENT.txt",
-      "blob_sha": "3b8612fd741725521bcc7dd5189ba9a364720a56",
-      "size_bytes": 6872,
+      "blob_sha": "3585fa217b83dd17cf29be5032cf54555cb4f34f",
+      "size_bytes": 7391,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -171,14 +185,14 @@
     },
     {
       "path": "PUBLIC_PACKAGE_QUALIFICATION.json",
-      "blob_sha": "81d605c1273f481286284c396e9d16fa49762697",
-      "size_bytes": 5128,
+      "blob_sha": "5ad72f42c95c510b1cef73f2c7c804ad576d474b",
+      "size_bytes": 5947,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "QUALIFICATION.md",
-      "blob_sha": "5a97f21348056f322cdeaca2c0ba605033576e1b",
-      "size_bytes": 10908,
+      "blob_sha": "8dadeb5be2f82ed3fbda4a8b0f08e72f4952e164",
+      "size_bytes": 11445,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -189,8 +203,8 @@
     },
     {
       "path": "SELECTABLE_SET_CURRENT.json",
-      "blob_sha": "25a7bd2de5916f73b009ab148e655f8eaa28b082",
-      "size_bytes": 3666,
+      "blob_sha": "2b3655840ef3be8f7b772dd5c3cd36b6d3b92c7e",
+      "size_bytes": 4061,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -213,20 +227,20 @@
     },
     {
       "path": "START_HERE.md",
-      "blob_sha": "1ca7646aea53c93df15fdfe7cf3ac6f9c45a8404",
-      "size_bytes": 7603,
+      "blob_sha": "945232ec7554c1691fdc3c05edac2190456263c3",
+      "size_bytes": 8859,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "TRANSFER_MANIFEST.json",
-      "blob_sha": "6da6f22e2be9fcba1582140da064b6e41ed759c0",
-      "size_bytes": 6019,
+      "blob_sha": "856a001f1a5eb5da72a3bd03f3ac70e57cc291b5",
+      "size_bytes": 6670,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
       "path": "UPDATE_IN_PROGRESS.md",
-      "blob_sha": "fc91623f07cac176b7f0fb74d2ea3836c831d5b0",
-      "size_bytes": 16642,
+      "blob_sha": "18c683a3a715e0be8ca30b8d67a444e1462eed63",
+      "size_bytes": 17688,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
@@ -638,6 +652,12 @@
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
+      "path": "scripts/test_runtime_recovery_contract.py",
+      "blob_sha": "dbc31f52c352a4b9fa5dbb10306506a3b80c8714",
+      "size_bytes": 3688,
+      "selection": "SOURCE_TRANSFER_FILE"
+    },
+    {
       "path": "scripts/test_stage_u.py",
       "blob_sha": "33c12fc7f6e2f1adf943ad047db574f0c954266c",
       "size_bytes": 5407,
@@ -645,20 +665,22 @@
     },
     {
       "path": "scripts/verify_transfer.py",
-      "blob_sha": "96e7ee2eb5b02d739dc132d29b7c37903399b76b",
-      "size_bytes": 11827,
+      "blob_sha": "28565da1aa6b965136987b56dccafd7f6075b3f5",
+      "size_bytes": 12794,
       "selection": "SOURCE_TRANSFER_FILE"
     }
   ],
   "source_qualification": {
-    "status": "PASS",
-    "run": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
+    "status": "PENDING_2026_10_13_RUNTIME_FIX_CI",
+    "run": "PENDING",
     "source_static_and_23_plugin_builds": 272,
     "human_output_clean_install_executable": 137,
     "stage_u_offline_fixture": 45,
     "checks": 454,
     "failures": 0,
-    "scope": "SOURCE_ONLY; TARGET XEN-5 INSTALL/QUALIFICATION NOT_RUN"
+    "scope": "SOURCE_ONLY; TARGET XEN-5 INSTALL/QUALIFICATION NOT_RUN",
+    "previous_source_pass_454": "https://github.com/namelessdhamma/give-nd/actions/runs/38230698884",
+    "host_target_runtime": "NOT_RUN"
   },
   "target_qualification": "NOT_RUN"
 }
