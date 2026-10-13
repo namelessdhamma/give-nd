@@ -51,14 +51,14 @@ Converge all target-owned IDs into one target Capability Registry and prove the 
    - External Connecting recovery-skill visibility;
    - Supervisor/Child/Critic topology;
    - mandatory `ANTI_HANG_INSTALLATION_GATE.md` Stage06 PREPUBLICATION, recorded separately with observed evidence and PASS/FAIL/BLOCKED/NOT_RUN, and no promotion on missing proof;
-   - real True Writer -> Songwriter -> True Writer -> Literary Critic -> True Writer ownership/return evidence;
+   - PREPUBLICATION ONLY: real target-owned **NONCURRENT candidate** Songwriter source/package/parent/artifact checks; physical CURRENT True Writer -> Songwriter -> Literary Critic route is **POSTPUBLICATION U5** and must then be independently evidenced;
    - Anti-Hang seven-hook semantics;
    - True Memory + target NotebookLM lifecycle capability;
    - FAILED_ROUTE != FAILED_CAPABILITY;
    - isolation and exclusions;
    - A1 sole self-evolution contour.
 11. Repair any target migration defect and repeat the affected qualification. Do not redesign architecture.
-12. Verify the target bootstrap StateHead still says BOOTSTRAP/NONAUTHORITATIVE and points to no competing CURRENT Registry.
+12. INCREMENTAL TARGET: verify Ksyusha's existing XEN-5 remains CURRENT and unchanged, binding predecessor Registry until accepted Stage07; historical greenfield BOOTSTRAP applies ONLY to a new installation explicitly authorized as such.
 13. Update `TARGET_INSTALL_STATE.json` to `PREPUBLICATION_PASS` only after every required check, including `ANTI_HANG_INSTALLATION_GATE_STAGE06.json`, is evidenced PASS.
 
 ## Completion
