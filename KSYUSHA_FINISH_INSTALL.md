@@ -1,3 +1,5 @@
+**2026-10-13 COMPLETE ARCHITECTURE RECOVERY:** Before asserting ChatGPT host invisibility or attempting StageU publication, follow [ALL_PLUGIN_LAUNCHERS_GATE.md](ALL_PLUGIN_LAUNCHERS_GATE.md). Check **ALL 23 plugin bundles** (22 launcher-backed plugins for 23 URI + External Connecting), not merely the four recently updated packages. 23 logical launcher skills cover ROOT, all Supervisors, their Children/Critics, Generation and Anti-Hang; Developer Executor is a second Skill inside the True Developer plugin. Preserve verified packages; repair only absent/misbound ones. The root @ND Automation Agent is user-selected; Child routes are owner-gated. Record independent per-plugin Plugin Creator provider readback, actual @mention selection, SKILL load and physical returns. Lack of the last layer is not package absence. No simulated cross-plugin dispatch.
+
 # KSYUSHA_FINISH_INSTALL — one final source-controlled continuation
 
 > **Copy this whole short prompt to the already-open Ksyusha installation chat:** 
