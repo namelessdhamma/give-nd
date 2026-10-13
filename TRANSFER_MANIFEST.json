@@ -1,7 +1,7 @@
 {
   "schema": "ND_TRANSFER_MANIFEST_v4",
   "transfer_id": "ND-KSYUSHA-INCREMENTAL-ANTI_HANG-SONGWRITER-20261011",
-  "status": "SOURCE_ALL_ND_ROLES_PLUGIN_GATE_PENDING_NEW_CI__TARGET_RUNTIME_NOT_RUN",
+  "status": "SOURCE_VERIFIED_PASS_785_CHECKS__KSYUSHA_FULL_PLUGIN_HOST_NOT_RUN",
   "authority": {
     "rule": "NAM-143 -> CURRENT Registry source only; Ksyusha target remains authoritative in her account",
     "publication": "ND-TRUE-SOUND-V1-ADOPTION-20261011-1 (exclude audio)",
@@ -70,11 +70,11 @@
   "predecessor_rule": "All previous transfer manifests/registries/runtime versions remain NONSELECTABLE provenance only.",
   "completion_rule": "Prepublication and cold gates need target readbacks, accurate scoped canonical source, 23/23 target launchers, full Anti-Hang installation gate and observed physical Songwriter return/critic; source packet alone is never qualification. Both Human Output Stage06 and Stage08 real target execution receipts required.",
   "source_qualification": {
-    "status": "SOURCE_ALL_LAUNCHER_ROLE_CI_PENDING",
-    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
-    "source_static_and_bundles": 283,
+    "status": "SOURCE_VERIFIED_PASS_785_CHECKS",
+    "ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38389659275",
+    "source_static_and_bundles": 287,
     "human_output_isolated_clean_build": 137,
-    "checks": 491,
+    "checks": 785,
     "failures": 0,
     "scope": "SOURCE_ONLY",
     "target_stage06": "NOT_RUN",
@@ -83,8 +83,8 @@
     "previous_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38228524520",
     "stage_u_fixture_tests": 45,
     "predecessor_pass_checks": 454,
-    "runtime_recovery_checks": 26,
-    "all_role_plugin_checks": "PENDING"
+    "runtime_recovery_checks": 29,
+    "all_role_plugin_checks": 287
   },
   "current_entrypoints": {
     "handoff": "HANDOFF_CURRENT.md",
