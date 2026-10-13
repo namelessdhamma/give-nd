@@ -18,7 +18,7 @@
     "runtime_exposure_recovery_docs": 2,
     "runtime_recovery_executable_tests": 1
   },
-  "total_payload_bytes": 1653809,
+  "total_payload_bytes": 1653964,
   "selection_rule": "Use SELECTABLE_SET_CURRENT.json and CURRENT_POINTER.txt. Old 1.64.2 canonical/snapshot and source receipts remain nonselectable provenance; 3 audio roles never reach Ksyusha active. Self-manifest is excluded from blob list to avoid recursive self-hash. Human Output 1.7.8 exact installed plugin requires separate Stage06 and Stage08 gates; source Registry 1.66.1 bound Agent 1.7.5 is not silently rewritten. For an already partially installed XEN-5, use UPDATE_IN_PROGRESS.md Stage U rather than rerunning blocked full Stage08. Source CI is only preflight. 2026-10-13 source addon KSYUSHA_FINISH_INSTALL.md and KSYUSHA_RUNTIME_RECOVERY.md: field-reported target 4 plugins installed but ChatGPT Skill visibility absent; do not reinstall. Source tests cannot replace host real calls. Candidate Songwriter prepublication vs CURRENT Songwriter U5.",
   "files": [
     {
@@ -653,8 +653,8 @@
     },
     {
       "path": "scripts/test_runtime_recovery_contract.py",
-      "blob_sha": "dbc31f52c352a4b9fa5dbb10306506a3b80c8714",
-      "size_bytes": 3688,
+      "blob_sha": "4d651813d27d7ac2a761553a90efa1353db3d3ed",
+      "size_bytes": 3843,
       "selection": "SOURCE_TRANSFER_FILE"
     },
     {
