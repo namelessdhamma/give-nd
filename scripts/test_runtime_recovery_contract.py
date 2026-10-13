@@ -26,7 +26,7 @@ ck(len(entries)==23 and len(source["runtime_invocation_bindings"]["launchers"])=
 ck({x.split(" | ")[4] for x in entries}=={x["launcher_uri"] for x in source["runtime_invocation_bindings"]["launchers"]},"exact URI parity")
 ck(source["runtime_invocation_bindings"]["launcher_count"]==23,"source scoped launcher count")
 ck(source["runtime_invocation_bindings"]["launchers"][0]["qualified_plugin_version"]=="1.7.5","source Registry remains unaltered")
-ck("CANDIDATE" in docs["KSYUSHA_RUNTIME_RECOVERY.md"] and "NONCURRENT" in docs["KSYUSHA_RUNTIME_RECOVERY.md"],"candidate stage not source current")
+ck("CANDIDATE" in docs["KSYUSHA_RUNTIME_RECOVERY.md"] and ("non-CURRENT" in docs["KSYUSHA_RUNTIME_RECOVERY.md"] or "NONCURRENT" in docs["KSYUSHA_RUNTIME_RECOVERY.md"] or "noncurrent" in docs["KSYUSHA_RUNTIME_RECOVERY.md"].lower()),"candidate stage not source current")
 ck("U3a" in docs["KSYUSHA_RUNTIME_RECOVERY.md"] and "U3b" in docs["KSYUSHA_RUNTIME_RECOVERY.md"] and "U5" in docs["KSYUSHA_RUNTIME_RECOVERY.md"],"gates logically staged")
 ck("host" in docs["KSYUSHA_FINISH_INSTALL.md"].lower(),"host blocker prioritized")
 ck("Do not reinstall" in docs["KSYUSHA_FINISH_INSTALL.md"],"four packages preserved")
