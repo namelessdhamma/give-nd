@@ -1,6 +1,8 @@
-AUTHORITY: NAM-143 -> ND_CAPABILITY_REGISTRY 1.66.0 (Ksyusha in-scope projection; SOURCE_PARITY_PENDING)
+SOURCE_AUTHORITY: NAM-143 -> bound ND_CAPABILITY_REGISTRY 1.66.1 (35/26); 32/23 Ksyusha-scoped projection is NONAUTHORITATIVE until target XEN-5 guarded publication.
+TARGET_PRESENTATION_DELTA: Agent plugin 1.7.8 installed release source export, selected for target after exact package/provider readback; source Registry1.66.1 still binds qualified Agent1.7.5.
+TARGET_NOTE: provider plugin IDs/releases on all rows are SOURCE provenance only, not Ksyusha's target ownership or callable-host evidence.
 LAUNCHER_COUNT: 23
-01 | nd-launch-automation-agent | AUTOMATION_AGENT | ROOT | skills://plugins/nd-automation-agent/nd-launch-automation-agent | plugins_6ab731c8ad7481919f12b489273757fb | plugin=1.7.5 | release=pluginrel_6aca3e797a808191a714ae48f0a657e3 | parent=-
+01 | nd-launch-automation-agent | AUTOMATION_AGENT | ROOT | skills://plugins/nd-automation-agent/nd-launch-automation-agent | plugins_6ab731c8ad7481919f12b489273757fb | plugin=1.7.8_TARGET_CANDIDATE_NOT_SOURCE_BOUND | release=pluginrel_6acc996feb988191b8a499ac681b2828 | parent=-
 02 | nd-launch-true-memory | TRUE_MEMORY | SUPERVISOR | skills://plugins/nd-true-memory/nd-launch-true-memory | plugins_6ab73897614881919133e97e70ae8d84 | plugin=1.3.3 | release=pluginrel_6ac0f4263c4c8191a7c3bb4018fe9776 | parent=skills://plugins/nd-automation-agent/nd-launch-automation-agent
 03 | nd-launch-inquisitor | INQUISITOR | CHILD | skills://plugins/nd-inquisitor/nd-launch-inquisitor | plugins_6abb2844050c81918f47b8c892912fc7 | plugin=0.1.1 | release=pluginrel_6abb3826fc588191b779a76cc3a66f77 | parent=skills://plugins/nd-true-memory/nd-launch-true-memory
 04 | nd-launch-true-developer | TRUE_DEVELOPER | SUPERVISOR | skills://plugins/nd-true-developer/nd-launch-true-developer | plugins_6ab738a9c8a08191a051720695bd94e9 | plugin=1.2.6 | release=pluginrel_6ac0f4ab6abc81919811ec360818486f | parent=skills://plugins/nd-automation-agent/nd-launch-automation-agent
@@ -24,4 +26,4 @@ LAUNCHER_COUNT: 23
 22 | nd-launch-developer-executor | DEVELOPER_EXECUTOR | CHILD | skills://plugins/nd-true-developer/nd-launch-developer-executor | plugins_6ab738a9c8a08191a051720695bd94e9 | plugin=1.2.6 | release=pluginrel_6ac0f4ab6abc81919811ec360818486f | parent=skills://plugins/nd-true-developer/nd-launch-true-developer
 23 | nd-launch-anti-hang | ANTI_HANG_RUNTIME | CROSS_CUTTING_RUNTIME | skills://plugins/nd-anti-hang/nd-launch-anti-hang | plugins_6ac1a94c1a1c8191acc305042d60d639 | plugin=1.2.1 | release=pluginrel_6ac87d38fff481919a2403d7f536e08d | parent=skills://plugins/nd-automation-agent/nd-launch-automation-agent
 
-TRANSFER_SCOPE: excludes TRUE_SOUND, STUDIO_EXECUTOR, SOUND_CRITIC and active Music Studio. Full CURRENT Registry has 26 launcher bindings; this projected 23 is pending exact source-parity readback.
+TRANSFER_SCOPE: excludes TRUE_SOUND, STUDIO_EXECUTOR, SOUND_CRITIC and active Music Studio. Source Registry1.66.1 has 26 launcher bindings (35 components); Ksyusha scope 23/32 exact URI parity is SOURCE verified, target host visibility/CURRENT selection remains independently unqualified.

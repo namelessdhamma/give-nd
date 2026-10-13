@@ -1,3 +1,5 @@
+**2026-10-13 qualification sequencing:** Stage U U3a: target-owned nonCURRENT Songwriter candidate static/executable + exact package. U3b: actual host runtime proof for already-CURRENT routes; host-absent means BLOCKED, not qualified. Stage U U5 AFTER guarded XEN-5 publication: mandatory physical **CURRENT** Songwriter→Writer→Literary Critic chain. Do not require a nonexistent preadoption CURRENT Songwriter physical call. See KSYUSHA_RUNTIME_RECOVERY.md.
+
 **Partial existing Ksyusha target:** For XEN-5 Registry1.64.2 without Songwriter, perform [Stage U](UPDATE_IN_PROGRESS.md) prepublication and protected publication first. Existing Stage08 BLOCKED receipts are accurate and must not be overwritten. Stage U delta tests are separate from remaining full Stage08; pass only each actually observed target case.
 
 **Human Output addendum (2026-10-12):** In addition to Anti-Hang Stage06/08 gates, require HUMAN_OUTPUT_INSTALLATION_GATE.md both checkpoints. Verify installed Agent plugin 1.7.8 files/scripts, 100 ordinary SILENT_CONTINUE cycles, no fixed output length, preserved evidence/uncertainty, no Go, optional bounded CURRENT True Writer PEER_SERVICE for complex accepted results, no Writer solely for brevity, and owner validation after Writer Child→Literary Critic→Writer. These new target checks are NOT_RUN until target evidence.
@@ -9,13 +11,13 @@ Target evidence remains NOT_RUN until confirmed in Ksyusha-owned account. Every 
 # ND → Ksyusha — CURRENT Qualification Matrix
 
 Authority for source comparison: `NAM-143 -> bound CURRENT Registry -> exact component/launcher`.
-Source baseline at this rebase: source Registry `1.66.0` scoped projection, publication `ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1`.
+Source baseline at this rebase: source Registry `1.66.1` scoped projection, publication `ND-ANTI-HANG-TAIL-HARDENING-FINAL-20261004-1`.
 
 Every gate is PASS/FAIL with provider/readback evidence. A historical transfer file, copied ID, successful tool call, or source prompt does not establish CURRENT.
 
 ## A. Source-package currentness
 - [ ] Existing Ksyusha ND target currentness recovered before update; no recreation of target StateHead/Registry, no destructive rebootstrap.
-- [ ] Current source 1.66.0 full 35/26 reconciled against explicit Ksyusha in-scope 32/23 projection, excluding three True Sound audio roles.
+- [ ] Current source 1.66.1 full 35/26 reconciled against explicit Ksyusha in-scope 32/23 projection, excluding three True Sound audio roles.
 - [ ] All changed canonical bytes independently read back and verify source authority SHA; old 1.64.2 receipts cannot supply new current PASS.
 - [ ] scoped source Registry 1.66.1 (32/23 nonauthoritative candidate) exact snapshot present and hash-matched.
 - [ ] 32 Ksyusha-scoped components accounted for.
@@ -72,7 +74,7 @@ Every gate is PASS/FAIL with provider/readback evidence. A historical transfer f
 - [ ] Cold recovery does not resurrect retired TEMP_TASK.
 
 ## F. Supervisor chains
-- [ ] Physical True Writer -> Songwriter0.2.3 -> True Writer -> Literary Critic -> True Writer, with typed result/real correlation/readback; mere static prompt simulations are PARTIAL, not PASS.
+- [ ] Prepublication nonCURRENT Songwriter candidate exact package & execution checks. Postpublication U5: physical CURRENT True Writer -> Songwriter0.2.3 -> True Writer -> Literary Critic -> True Writer, typed real correlation/readback; static simulation is PARTIAL.
 - [ ] No True Sound, Studio Executor, Sound Critic, or active Music Studio transfer to Ksyusha.
 - [ ] Research -> owned Child/helper -> Research Critic -> repair/recheck when material.
 - [ ] Developer -> Developer Executor -> Developer Critic -> Executor AGAIN after material finding -> targeted recheck.

@@ -1,3 +1,6 @@
+## 2026-10-13 FINAL RUNTIME-EXPOSURE RECOVERY
+Ksyusha target reports all four Plugin Creator packages installed; in reporting ChatGPT session the ND Skills were not exposed. Source isolated 6/6 compile and 5/5 script checks are NOT physical Host Child/Critic trace. **Do not reinstall**. Entry: [KSYUSHA_FINISH_INSTALL.md](KSYUSHA_FINISH_INSTALL.md) and [KSYUSHA_RUNTIME_RECOVERY.md](KSYUSHA_RUNTIME_RECOVERY.md), then Stage U. Keep source and target authority separate; candidate Songwriter is not CURRENT until XEN-5 guarded publication. Physical CURRENT Songwriter chain is a required U5 postpublication cold gate, not a logical prepublication prerequisite. Until existing CURRENT host routes genuinely execute, prepublication BLOCKED.
+
 ## EXISTING PARTIAL INSTALL — USE STAGE U FIRST
 
 Если у Ксюши уже существует XEN-5 с Registry1.64.2 (31/22) и Stage08 BLOCKED без Songwriter, **не запускай повторный первоначальный Stage01–07 или Stage08 без обновления**. Следуй самостоятельному [UPDATE_IN_PROGRESS.md](UPDATE_IN_PROGRESS.md): Stage U1–U5 — одна возобновляемая дельта-операция плюс целевая квалификация с отдельными квитанциями. Это НЕ девятый этап первоначальной установки. После фактической целевой публикации и холодного теста обновления вернись к полному Stage08 и его нерешённым тестам.

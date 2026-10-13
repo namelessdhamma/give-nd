@@ -1,3 +1,5 @@
+**2026-10-13 EVIDENCE CLASSIFICATION:** See [KSYUSHA_RUNTIME_RECOVERY.md](KSYUSHA_RUNTIME_RECOVERY.md). Current Ksyusha account reports four Plugin Creator installed packages; do not reinstall. Source compilation 6/6 and isolated tests 5/5 are not host physical invocations. Prepublication Songwriter is NONCURRENT candidate until target XEN-5 selects successor Registry: do not demand a CURRENT Songwriter typed call **before** publication. U3 candidate runnable/target-owned checks are mandatory; physical Songwriter CURRENT flow is mandatory **after** U4 in new-chat U5. Physical checks of all already-CURRENT host paths remain mandatory before publication. If the chat cannot access installed Skills or honest host-action observations, Stage06 BLOCKED, XEN-5 unchanged. No mock PASS.
+
 **ADDITIONAL Stage06 gate:** Require a separate HUMAN_OUTPUT_INSTALLATION_GATE_STAGE06.json with actual target-installed 1.7.8 package/MESSAGE_POLICY.md/script readback, executable clean-build policy tests, and three user-output scenarios as detailed in HUMAN_OUTPUT_INSTALLATION_GATE.md. Do not publish while either Anti-Hang or Human Output gate is NOT_RUN. Source Registry 1.66.1 still binds Agent plugin 1.7.5; a target candidate selection of 1.7.8 is deliberate and needs evidence, not a silent source-Registry overwrite.
 
 # UPDATE_EXISTING_TARGET — CURRENT OVERRIDE
@@ -49,14 +51,14 @@ Converge all target-owned IDs into one target Capability Registry and prove the 
    - External Connecting recovery-skill visibility;
    - Supervisor/Child/Critic topology;
    - mandatory `ANTI_HANG_INSTALLATION_GATE.md` Stage06 PREPUBLICATION, recorded separately with observed evidence and PASS/FAIL/BLOCKED/NOT_RUN, and no promotion on missing proof;
-   - real True Writer -> Songwriter -> True Writer -> Literary Critic -> True Writer ownership/return evidence;
+   - PREPUBLICATION ONLY: real target-owned **NONCURRENT candidate** Songwriter source/package/parent/artifact checks; physical CURRENT True Writer -> Songwriter -> Literary Critic route is **POSTPUBLICATION U5** and must then be independently evidenced;
    - Anti-Hang seven-hook semantics;
    - True Memory + target NotebookLM lifecycle capability;
    - FAILED_ROUTE != FAILED_CAPABILITY;
    - isolation and exclusions;
    - A1 sole self-evolution contour.
 11. Repair any target migration defect and repeat the affected qualification. Do not redesign architecture.
-12. Verify the target bootstrap StateHead still says BOOTSTRAP/NONAUTHORITATIVE and points to no competing CURRENT Registry.
+12. INCREMENTAL TARGET: verify Ksyusha's existing XEN-5 remains CURRENT and unchanged, binding predecessor Registry until accepted Stage07; historical greenfield BOOTSTRAP applies ONLY to a new installation explicitly authorized as such.
 13. Update `TARGET_INSTALL_STATE.json` to `PREPUBLICATION_PASS` only after every required check, including `ANTI_HANG_INSTALLATION_GATE_STAGE06.json`, is evidenced PASS.
 
 ## Completion

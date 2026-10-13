@@ -1,3 +1,5 @@
+**2026-10-13 U3/U5 DISTINCTION:** Candidate Songwriter cannot legitimately act as CURRENT while XEN-5 still binds Registry1.64.2. Prepublication acceptance requires real target readbacks, candidacy tests, and already-current host routes; AFTER guarded XEN-5 publication the actual Songwriter→Writer→Critic chain is a U5 gate. Absence of target ChatGPT Skills from installed inventory remains a genuine prepublication BLOCKER and does not grant authority to publish. Review [KSYUSHA_RUNTIME_RECOVERY.md](KSYUSHA_RUNTIME_RECOVERY.md).
+
 **ADDITIONAL PRECONDITION (2026-10-12):** Both target Stage06 receipts ANTI_HANG_INSTALLATION_GATE_STAGE06.json AND HUMAN_OUTPUT_INSTALLATION_GATE_STAGE06.json must be PASS. Only the verified target candidate Agent presentation package 1.7.8 may be promoted, with target-owned hashes and unchanged canonical Agent/Anti-Hang contracts. Upstream Registry's prior Agent release is not evidence of target adoption.
 
 # Stage 07 — Publish verified target Registry successor LAST

@@ -1,12 +1,12 @@
 # ANTI_HANG_INSTALLATION_GATE — one gate, two checkpoints
 
 STATUS: TARGET EVIDENCE REQUIRED; NOT_RUN on the source-side transfer branch.
-Authority: Ksyusha-owned CURRENT after transfer; source comparison uses NAM-143 -> bound Registry 1.66.0.
-Scope: Agent 1.3.5 / plugin 1.7.5; Anti-Hang Runtime 1.7.0 / plugin 1.2.1; exact seven-hook interface. This is **not** a ninth installation stage.
+Authority: Ksyusha-owned CURRENT after transfer; source comparison NAM-143 -> bound Registry 1.66.1. See KSYUSHA_RUNTIME_RECOVERY.md to distinguish current host routes from noncurrent Songwriter candidate.
+Scope: Agent canonical1.3.5 / source Registry bound plugin1.7.5; target-selected presentation plugin1.7.8 only after exact provider readback. Anti-Hang Runtime1.7.0 / plugin1.2.1; seven-hook interface. This is **not** a ninth installation stage.
 
 ## Binding and provenance
 
-Source comparison: Registry 1.66.0, Drive ID `17QYTHlAml__Mtuq6mrxj5NNOAlGc2ZQ8`, SHA-256 `9c4cbf67ab4a391d443e8711e184a1e1cb921bb15cc4aea1944c74cb4a89cd5c`.
+Source comparison: Registry 1.66.1, Drive ID `1-kPtZ7vltEz09akCULqMVHroTeDqzBj0`, SHA-256 `1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71`.
 Target must bind target-owned canonical artifacts, launcher packages, runtime scripts and effects. Source plugin release IDs and Drive IDs are **not** target authorities. The 1.64.2 snapshot is historical and must not be selected as CURRENT.
 
 ## Stage 06 — PREPUBLICATION (BOOTSTRAP/NONAUTHORITATIVE)
@@ -38,7 +38,9 @@ After independently recovering Ksyusha-owned StateHead/Registry, repeat the seve
 
 Write `migration/receipts/ANTI_HANG_INSTALLATION_GATE_STAGE08.json`; do not inherit Stage06 PASS as a fresh-chat PASS.
 
-## Songwriter acceptance (both checkpoints; physical cold flow required in Stage08)
+## Songwriter acceptance (candidate Stage06; physical CURRENT route required in Stage08)
+
+**Stage06:** only candidate package/artifact/ownership/rebinding readbacks and isolated executable acceptance are possible while target Registry1.64.2 excludes Songwriter. Test existing current host routes independently. If host Skills remain absent, Stage06 BLOCKED. **Stage08 after verified XEN-5 cutover:** physical adopted Songwriter->True Writer->Literary Critic chain required. No manual imitation or fictitious CURRENT before publication.
 
 Registry-bound True Writer -> Songwriter Child `skills://plugins/nd-songwriter/nd-launch-songwriter` -> typed `LYRICS_CANDIDATE`/diagnostic RETURN to live True Writer -> separate Literary Critic judgment -> True Writer adjudication -> Automation Agent.
 Preserve real task/call/correlation IDs and a referenced observed response at every boundary. A text-only imitation or static launcher visibility is NOT a physical Child->Parent->Critic PASS. The Child produces lyrics only; never music, vocals or Studio effects.
