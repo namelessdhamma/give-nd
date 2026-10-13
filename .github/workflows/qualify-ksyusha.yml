@@ -23,3 +23,6 @@ jobs:
 
       - name: Qualify corrected launcher authority and runtime visibility handoff source contract
         run: python3 scripts/test_runtime_recovery_contract.py
+
+      - name: Verify all 23 Supervisor Child Critic launcher URIs and @plugin source manifests
+        run: python3 scripts/test_all_plugin_launchers.py
