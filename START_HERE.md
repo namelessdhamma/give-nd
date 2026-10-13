@@ -1,3 +1,5 @@
+**2026-10-13 FIELD RESUME:** All four packages reportedly installed in Ksyusha's Plugin Creator; target ChatGPT skill surface was NOT exposed. Prior prompts were already sent. **Next:** [KSYUSHA_FINISH_INSTALL.md](KSYUSHA_FINISH_INSTALL.md) and [KSYUSHA_RUNTIME_RECOVERY.md](KSYUSHA_RUNTIME_RECOVERY.md). Do not reinstall or repeat unchanged Python fixture tests; solve actual plugin host exposure first, then StageU U3a/U3b and XEN-5 cutover only on verified mandatory PASS.
+
 ## Если четыре пакета уже установлены, но ChatGPT Skills не видны
 
 **Следующий вход:** [KSYUSHA_FINISH_INSTALL.md](KSYUSHA_FINISH_INSTALL.md) → [KSYUSHA_RUNTIME_RECOVERY.md](KSYUSHA_RUNTIME_RECOVERY.md). Plugin Creator source readback ≠ доступный навыковый маршрут. Не устанавливать четыре пакета повторно; сначала установить, почему они не появились в рабочей поверхности ChatGPT. Самостоятельный Python-тест не доказывает физическое исполнение Child/Critic. XEN-5 не менять без применимых предпубликационных PASS.
