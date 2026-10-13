@@ -72,6 +72,11 @@ def run():
              if re.match(r"^\d{2} \| ", x)]
     listed_uris = [x.split(" | ")[4] for x in graph]
     bound_uris = [x["launcher_uri"] for x in scope["runtime_invocation_bindings"]["launchers"]]
+    check("Registry 1.66.1" in (ROOT/"CURRENT_POINTER.txt").read_text(), "current source pointer is 1.66.1")
+    check("Registry 1.66.0" not in (ROOT/"CURRENT_POINTER.txt").read_text(), "no stale 1.66.0 pointer")
+    check("1.66.1" in (ROOT/"LAUNCHER_GRAPH_CURRENT.txt").read_text().splitlines()[0], "launcher graph source authority 1.66.1")
+    check("1.7.8_TARGET_CANDIDATE_NOT_SOURCE_BOUND" in (ROOT/"LAUNCHER_GRAPH_CURRENT.txt").read_text(), "source bound 1.7.5 vs new target candidate 1.7.8")
+    check("KSYUSHA_RUNTIME_RECOVERY.md" in selectable["current_control"], "target runtime gate recovery is current")
     check(len(graph) == len(set(listed_uris)) == 23 and set(listed_uris) == set(bound_uris),
           "23/23 exact launcher URI parity")
     check([int(x.split(" | ")[0]) for x in graph] == list(range(1,24)), "graph ordinals 01-23")
