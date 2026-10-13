@@ -77,6 +77,8 @@ def run():
     check("1.66.1" in (ROOT/"LAUNCHER_GRAPH_CURRENT.txt").read_text().splitlines()[0], "launcher graph source authority 1.66.1")
     check("1.7.8_TARGET_CANDIDATE_NOT_SOURCE_BOUND" in (ROOT/"LAUNCHER_GRAPH_CURRENT.txt").read_text(), "source bound 1.7.5 vs new target candidate 1.7.8")
     check("KSYUSHA_RUNTIME_RECOVERY.md" in selectable["current_control"], "target runtime gate recovery is current")
+    check("ALL_PLUGIN_LAUNCHERS_GATE.md" in selectable["current_control"], "all ND role plugins target gate selected")
+    check("scripts/test_all_plugin_launchers.py" in selectable["current_control"], "all launcher build audit selected")
     check(len(graph) == len(set(listed_uris)) == 23 and set(listed_uris) == set(bound_uris),
           "23/23 exact launcher URI parity")
     check([int(x.split(" | ")[0]) for x in graph] == list(range(1,24)), "graph ordinals 01-23")
