@@ -4,7 +4,7 @@
   "source_authority": "NAM-143 -> Registry 1.66.1; Agent source Registry launcher1.7.5 vs installed plugin1.7.8 presentation-only delta",
   "source_registry_sha256": "1da459ac1027e234b5d1860625e3b79fb7ca8b0d574ffbc0b739941fa438cc71",
   "scope": "INCREMENTAL_TARGET_UPDATE_ONLY; 32/23 source projection",
-  "overall_verdict": "SOURCE_CANDIDATE_PENDING_NEW_RUN_TARGET_NOT_RUN",
+  "overall_verdict": "SOURCE_VERIFIED_PASS_TARGET_NOT_RUN",
   "checks": {
     "source_registry_raw_sha256": "PASS_CURRENT_1_66_1_DRIVE_BYTES_AND_STATEHEAD",
     "source_projection": "PASS_CURRENT_1_66_1_AUDIO_EXCLUDED_35_26_TO_32_23",
@@ -24,7 +24,7 @@
     "scope_graph_integrity": "PASS_23_OF_23_EXACT_LAUNCHER_URIS; 32_COMPONENTS; 23_UNIQUE_PLUGIN_SOURCES",
     "source_registry_parity": "PASS_FULL_NONAUDIO_SYSTEM_RULES_PRESERVED_35_KEYS_32_COMPONENTS_23_LAUNCHERS",
     "plugin_source_builder": "PASS_23_OF_23_PROVIDER_REBOUND_BUILDS",
-    "source_ci_verification": "PASS_491_TESTS_ZERO_ERRORS",
+    "source_ci_verification": "PASS_785_TESTS_ZERO_ERRORS_SOURCE_ONLY",
     "human_output_stage06_target": "NOT_RUN",
     "human_output_stage08_target": "NOT_RUN",
     "human_output_source_executable": "PASS_137_EXECUTED_CLEAN_BUILD_AND_ACTUAL_PLUGIN_SCRIPT",
@@ -43,7 +43,7 @@
     "k_target_stageu_runtime_gate": "BLOCKED_SKILLS_NOT_EXPOSED_IN_KSYUSHA_REPORT",
     "k_target_statehead_publication": "NOT_RUN",
     "k_target_cold_stage08": "NOT_RUN",
-    "all_plugin_launcher_source_manifest": "PENDING_NEW_CI",
+    "all_plugin_launcher_source_manifest": "PASS_287_CHECKS_23_BUNDLES_23_URIS_SOURCE_ONLY",
     "k_target_all_23_plugin_bundles": "NOT_RUN__FOUR_NEW_PACKAGES_TARGET_USER_REPORTED_READBACK_ONLY",
     "k_target_all_supervisor_child_critic_at_selection": "NOT_RUN",
     "k_target_all_role_physical_handoffs": "NOT_RUN"
@@ -65,9 +65,9 @@
     "checks_tool": "Drive native readback + GitHub fetch_file + Plugin Creator get_plugin_files",
     "honesty_limit": "No target account execution, no Ksyusha authorization, no actual real-world anti-hang cancellation/host wake tests or physical songwriter runtime pass.",
     "public_change_count": "SEE_SOURCE_PR_3",
-    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
-    "qualification_job_id": 115261641413,
-    "qualification_checks": 491,
+    "qualification_run_url": "https://github.com/namelessdhamma/give-nd/actions/runs/38389659275",
+    "qualification_job_id": 115270014674,
+    "qualification_checks": 785,
     "qualification_failures": 0,
     "verification_kind": "GITHUB_ACTIONS_262_STATIC_BUNDLE_BUILDS_AND_137_ACTUAL_CLEAN_INSTALLED_HUMAN_OUTPUT_EXECUTIONS",
     "source_registry_agent_launcher_qualified_plugin_version": "1.7.5",
@@ -79,13 +79,14 @@
     "stage_u_ci_failures": 0,
     "runtime_recovery_ci_run": "https://github.com/namelessdhamma/give-nd/actions/runs/38387150118",
     "source_test_breakdown": {
-      "integrity_and_builder": 283,
-      "human_output_source": 137,
-      "stage_u_plan": 45,
-      "runtime_handoff_static": 26
+      "transfer_builder": 287,
+      "human_output": 137,
+      "stage_u": 45,
+      "runtime_handoff": 29,
+      "full_launcher_plugins": 287
     },
     "full_plugin_gate": "ALL_PLUGIN_LAUNCHERS_GATE.md",
-    "all_plugin_launcher_ci": "PENDING"
+    "all_plugin_launcher_ci": "https://github.com/namelessdhamma/give-nd/actions/runs/38389659275"
   },
   "final_critic": {
     "verdict": "SOURCE_MACHINE_QUALIFICATION_PASS_INDEPENDENT_TARGET_COLD_AND_COGNITIVE_CRITIC_NOT_RUN",
