@@ -1,3 +1,5 @@
+**2026-10-13 TARGET FIELD:** Plugin Creator package1.7.8 reportedly installed with 12 files; if target source/installed provider readback already exists, do not reinstall. Host skill exposure was NOT visible in target reporting chat; isolated Python script PASS is not production host call/Child PEER_SERVICE evidence. See KSYUSHA_RUNTIME_RECOVERY.md. Original requirement for 3 observed user output scenarios remains subject to actual ChatGPT ability; don't fake them.
+
 # HUMAN_OUTPUT_INSTALLATION_GATE — one additional gate, two checkpoints
 
 STATUS: SOURCE-INSTALLED-RELEASE-RECONCILIATION; TARGET Stage06/Stage08 NOT_RUN.
